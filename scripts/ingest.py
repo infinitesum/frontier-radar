@@ -357,7 +357,7 @@ def ingest(since_days=14, max_per_source=250, backfill_days=0):
                 filters += f",from-index-date:{lookback}"
             query = {
                 "filter": filters, "rows": max_per_source, "sort": "published", "order": "desc",
-                "select": "DOI,title,author,abstract,language,published-online,published,published-print,issued,type",
+                "select": "DOI,title,author,abstract,published-online,published,published-print,issued,type",
             }
             if os.environ.get("RADAR_CONTACT_EMAIL"):
                 query["mailto"] = os.environ["RADAR_CONTACT_EMAIL"]
