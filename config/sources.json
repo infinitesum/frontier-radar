@@ -163,7 +163,7 @@
     {
       "id": "efa",
       "name": "European Finance Association",
-      "url": "https://efa2026.efa-finance.org/",
+      "url": "https://www.efa-finance.org/efa-annual-meeting/",
       "mode": "manual-program-verification"
     },
     {
@@ -199,7 +199,7 @@
     {
       "id": "aea",
       "name": "AEA Annual Meetings",
-      "url": "https://www.aeaweb.org/conference/",
+      "url": "https://benny.aeaweb.org/conference/",
       "mode": "manual-program-verification"
     }
   ],

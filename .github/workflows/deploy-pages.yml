@@ -7,6 +7,7 @@ on:
     paths-ignore:
       - '.github/workflows/briefings.yml'
       - '.github/workflows/refresh-manual.yml'
+      - 'config/sources.json'
       - 'data/reports.json'
       - 'data/editions/**'
   workflow_dispatch:
