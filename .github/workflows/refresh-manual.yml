@@ -1,7 +1,13 @@
-name: Refresh papers (manual only)
+name: Refresh papers (daily + manual)
 
-# IMPORTANT: no schedule is enabled by design.
+# The first push of this file runs the initial backfill; later scheduled runs are incremental.
 on:
+  push:
+    paths:
+      - '.github/workflows/refresh-manual.yml'
+  schedule:
+    - cron: '17 9 * * *'
+      timezone: 'Asia/Shanghai'
   workflow_dispatch:
     inputs:
       since_days:
@@ -42,9 +48,9 @@ jobs:
       - name: Collect source metadata
         env:
           RADAR_CONTACT_EMAIL: ${{ vars.RADAR_CONTACT_EMAIL }}
-          SINCE_DAYS: ${{ inputs.since_days }}
-          MAX_PER_SOURCE: ${{ inputs.max_per_source }}
-          BACKFILL_DAYS: ${{ inputs.backfill_days }}
+          SINCE_DAYS: ${{ inputs.since_days || '21' }}
+          MAX_PER_SOURCE: ${{ inputs.max_per_source || '250' }}
+          BACKFILL_DAYS: ${{ inputs.backfill_days || (github.event_name == 'push' && '90' || '0') }}
         run: python scripts/ingest.py --since-days "$SINCE_DAYS" --backfill-days "$BACKFILL_DAYS" --max-per-source "$MAX_PER_SOURCE"
       - name: Validate and test
         run: |
