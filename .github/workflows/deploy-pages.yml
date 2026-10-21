@@ -4,6 +4,10 @@ name: Build and publish dashboard
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - '.github/workflows/briefings.yml'
+      - 'data/reports.json'
+      - 'data/editions/**'
   workflow_dispatch:
 
 permissions:
