@@ -5,6 +5,8 @@ on:
   push:
     paths:
       - '.github/workflows/refresh-manual.yml'
+      - 'scripts/ingest.py'
+      - 'config/sources.json'
   schedule:
     - cron: '17 9 * * *'
       timezone: 'Asia/Shanghai'
