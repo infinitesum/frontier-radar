@@ -5,15 +5,16 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class RepositoryPolicyTests(unittest.TestCase):
-    def test_no_recurring_actions_schedule(self):
-        files = list((ROOT / '.github/workflows').glob('*.yml'))
-        self.assertTrue(files)
-        for path in files:
-            content = path.read_text(encoding='utf-8')
-            # Ignore comment lines: the schedule must never be active.
-            active = '\n'.join(x for x in content.splitlines() if not x.lstrip().startswith('#'))
-            self.assertNotIn('  schedule:', active, path.name)
-            self.assertNotIn('cron:', active, path.name)
+    def test_refresh_schedule_and_manual_fallback(self):
+        refresh = (ROOT / '.github/workflows/refresh-manual.yml').read_text('utf-8')
+        deploy = (ROOT / '.github/workflows/deploy-pages.yml').read_text('utf-8')
+        self.assertIn('  workflow_dispatch:', refresh)
+        self.assertIn('  schedule:', refresh)
+        self.assertIn("cron: '17 9 * * *'", refresh)
+        self.assertIn("timezone: 'Asia/Shanghai'", refresh)
+        self.assertIn('BACKFILL_DAYS:', refresh)
+        self.assertNotIn('  schedule:', deploy)
+        self.assertNotIn('cron:', deploy)
 
     def test_public_site_contains_no_credentials(self):
         site = ROOT / 'site'
