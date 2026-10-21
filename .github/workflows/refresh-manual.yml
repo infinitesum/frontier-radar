@@ -76,3 +76,5 @@ jobs:
       - name: Deploy refreshed site
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Verify source completeness
+        run: python scripts/source_health.py
