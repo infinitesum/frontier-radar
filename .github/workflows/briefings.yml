@@ -1,0 +1,80 @@
+name: Generate academic daily weekly and monthly briefings
+
+# GitHub Pages is the delivery channel. This job never schedules a ChatGPT task.
+on:
+  push:
+    paths:
+      - '.github/workflows/briefings.yml'
+  schedule:
+    - cron: '43 11 * * *'
+      timezone: 'Asia/Shanghai'
+    - cron: '13 20 * * 0'
+      timezone: 'Asia/Shanghai'
+    - cron: '31 20 1 * *'
+      timezone: 'Asia/Shanghai'
+  workflow_dispatch:
+    inputs:
+      kind:
+        description: 'Which report to generate (all for a one-off bootstrap)'
+        required: true
+        type: choice
+        default: daily
+        options:
+          - daily
+          - weekly
+          - monthly
+          - all
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: frontier-radar-pages
+  cancel-in-progress: false
+
+jobs:
+  author-and-archive:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+      - name: Generate research editions (source-backed)
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.RADAR_LLM_MODEL || 'gpt-4.1-mini' }}
+          KIND: ${{ inputs.kind || (github.event_name == 'push' && 'all' || (github.event.schedule == '13 20 * * 0' && 'weekly' || github.event.schedule == '31 20 1 * *' && 'monthly' || 'daily')) }}
+        run: python scripts/generate_reports.py --kind "$KIND"
+      - name: Test and validate reports
+        run: |
+          python -m unittest discover -s tests -v
+          python scripts/validate.py
+          python scripts/validate_reports.py
+      - name: Version research briefing archive
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/reports.json data/editions/
+          if ! git diff --cached --quiet; then
+            git commit -m "reports: refresh academic reading editions"
+            git push
+          fi
+      # GITHUB_TOKEN commits do not trigger ordinary on:push workflows.
+      # Deploy the just-generated reports in this same job.
+      - name: Build updated website
+        run: python scripts/build_site.py
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+      - name: Deploy updated research briefings
+        id: deployment
+        uses: actions/deploy-pages@v4

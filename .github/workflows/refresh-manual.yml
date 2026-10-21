@@ -1,6 +1,7 @@
 name: Refresh papers (daily + manual)
 
-# The first push of this file runs the initial backfill; later scheduled runs are incremental.
+# UTC+8 ingestion at 09:17; intentionally earlier than the 12:00 briefing.
+# Push on changes to THIS workflow triggers initial bootstrap exactly once.
 on:
   push:
     paths:
@@ -54,6 +55,8 @@ jobs:
           MAX_PER_SOURCE: ${{ inputs.max_per_source || '250' }}
           BACKFILL_DAYS: ${{ inputs.backfill_days || (github.event_name == 'push' && '90' || '0') }}
         run: python scripts/ingest.py --since-days "$SINCE_DAYS" --backfill-days "$BACKFILL_DAYS" --max-per-source "$MAX_PER_SOURCE"
+      - name: Monitor official conference-program links
+        run: python scripts/conference_watch.py
       - name: Validate and test
         run: |
           python -m unittest discover -s tests -v
@@ -62,7 +65,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/papers.json data/runs.json
+          git add data/papers.json data/runs.json data/conference_status.json
           if ! git diff --cached --quiet; then
             git commit -m "data: update academic paper registry"
             git push
