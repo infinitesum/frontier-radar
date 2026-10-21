@@ -8,7 +8,7 @@
 4. Track the set of sources successfully fetched on each scan. Never label planned sources as scanned.
 5. Paper records persist across refreshes. Deduplication updates a record; it does not erase provenance or prior events.
 6. Public repository files contain public information only. Personal annotations must remain in local browser storage unless a private authenticated store is introduced.
-7. No unattended schedule runs until the user approves and configures a schedule.
+7. Daily bibliographic ingestion has been explicitly authorized and runs via GitHub Actions. Editorial ChatGPT push remains separate and is not yet enabled.
 
 ## Source adapters (implemented)
 
@@ -16,7 +16,7 @@
 - CEPR discussion-paper RSS: `https://cepr.org/rss/discussion-paper`
 - Crossref by journal ISSN: `/journals/{ISSN}/works?filter=from-index-date:...,from-pub-date:...`
 
-Crossref indexing dates are used as metadata-change detection, with a publication lookback floor. This can still miss early-accepted papers, delayed deposits, and publishers with incomplete metadata. A rolling extended lookback and periodic official-list audits are needed before any comprehensive coverage claim.
+Crossref indexing dates are used as metadata-change detection, with a publication lookback floor. Econometrica deposits sometimes provide a publication year without month/day; the adapter extends its lookback and preserves year-only precision instead of pretending these were published on January 1. This can still miss early-accepted papers, delayed deposits, and publishers with incomplete metadata. A rolling extended lookback and periodic official-list audits are needed before any comprehensive coverage claim.
 
 ## Source adapters (planned, not implemented)
 
@@ -41,7 +41,7 @@ No algorithm can perfectly deduplicate rewritten titles or team-author variants;
 - The frontend escapes all displayed input and restricts outbound links to HTTP(S).
 - Browser state uses `localStorage`; export is an explicit action. No analytics or third-party trackers are included.
 - API queries and collection run results are visible in code and JSON. No private API key is committed.
-- A source failure is recorded; other sources still update. No source failure deletes an existing paper.
+- A source failure is recorded; other sources still update. No source failure deletes an existing paper. Source-health checks warn about zero results and truncated sources; if under 75% of configured journals respond successfully, the post-publish audit fails the workflow so a partially successful collection is not silently marked healthy.
 - CSV export escapes spreadsheet-formula-prefixed cells.
 
 ## Narrative review contract
