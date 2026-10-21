@@ -84,7 +84,7 @@
     {
       "id": "ectr",
       "name": "Econometrica",
-      "issn": "0012-9682",
+      "issn": "1468-0262",
       "discipline": "economics",
       "enabled": true
     },
@@ -142,7 +142,8 @@
       "name": "Management Science",
       "issn": "0025-1909",
       "discipline": "cross-field",
-      "enabled": true
+      "enabled": true,
+      "max_per_source": 1000
     }
   ],
   "conference_watchlist": [

@@ -28,6 +28,7 @@ import xml.etree.ElementTree as ET
 BASE = Path(__file__).resolve().parents[1]
 TODAY = datetime.now(timezone.utc).date()
 USER_AGENT = "FrontierRadar/0.1 (+https://github.com; public bibliographic metadata)"
+CROSSREF_SELECT_FIELDS = "DOI,title,author,abstract,published-online,published,published-print,issued,type"
 
 
 class TextParser(HTMLParser):
@@ -356,8 +357,8 @@ def ingest(since_days=14, max_per_source=250, backfill_days=0):
             if backfill_days == 0:
                 filters += f",from-index-date:{lookback}"
             query = {
-                "filter": filters, "rows": max_per_source, "sort": "published", "order": "desc",
-                "select": "DOI,title,author,abstract,published-online,published,published-print,issued,type",
+                "filter": filters, "rows": min(1000, int(source.get("max_per_source", max_per_source))), "sort": "published", "order": "desc",
+                "select": CROSSREF_SELECT_FIELDS,
             }
             if os.environ.get("RADAR_CONTACT_EMAIL"):
                 query["mailto"] = os.environ["RADAR_CONTACT_EMAIL"]
@@ -366,7 +367,7 @@ def ingest(since_days=14, max_per_source=250, backfill_days=0):
             payload = get_json(url)
             items = payload.get("message", {}).get("items", [])
             parsed = [crossref_item(raw, source) for raw in items]
-            return [p for p in parsed if p is not None], len(items) >= max_per_source
+            return [p for p in parsed if p is not None], len(items) >= query["rows"]
         collect(source, crossref_loader)
 
     papers.sort(key=lambda p: (p.get("discovered_at", ""), p.get("first_public_date", "")), reverse=True)

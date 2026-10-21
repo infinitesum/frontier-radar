@@ -4,7 +4,7 @@ import unittest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 from ingest import (normalize_title, normalize_doi, clean_html, is_chinese_title,
-                    parse_rss, crossref_item, upsert)
+                    parse_rss, crossref_item, upsert, CROSSREF_SELECT_FIELDS)
 
 
 class IngestTests(unittest.TestCase):
@@ -35,6 +35,17 @@ class IngestTests(unittest.TestCase):
         self.assertIn("nber:w35684", out[0]["aliases"])
         self.assertEqual(out[0]["first_public_date"], "2026-10-20")
         self.assertEqual(out[0]["doi"], "10.3386/w35684")
+
+    def test_crossref_select_fields(self):
+        self.assertNotIn("language", CROSSREF_SELECT_FIELDS.split(","))
+        self.assertIn("DOI", CROSSREF_SELECT_FIELDS.split(","))
+
+    def test_essential_source_config(self):
+        import json
+        cfg = json.loads((Path(__file__).resolve().parents[1] / "config/sources.json").read_text("utf-8"))
+        by_id = {row["id"]: row for row in cfg["journals"]}
+        self.assertEqual(by_id["ectr"]["issn"], "1468-0262")
+        self.assertGreater(by_id["ms"]["max_per_source"], 250)
 
     def test_crossref_parsing(self):
         source = {"id": "qje", "name": "QJE"}
