@@ -1,6 +1,7 @@
 name: Generate academic daily weekly and monthly briefings
 
 # GitHub Pages is the delivery channel. This job never schedules a ChatGPT task.
+# Push of this workflow file builds the first daily, weekly, and monthly editions.
 on:
   push:
     paths:
