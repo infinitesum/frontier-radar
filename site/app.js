@@ -56,7 +56,7 @@ const state = {
 };
 const escapeHtml = input => String(input ?? '').replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const safeUrl = input => {try{const u=new URL(String(input));return ['https:','http:'].includes(u.protocol)?u.href:'#'}catch{return '#'}};
-const fmtDate = input => {if(!input)return 'Date unavailable';if(/^\d{4}-\d{2}$/.test(input))return input.slice(0,4)+' / '+input.slice(5,7)+' (month only)';return new Date(`${input.slice(0,10)}T12:00:00Z`).toLocaleDateString('zh-CN',{year:'numeric',month:'short',day:'numeric',timeZone:'UTC'});};
+const fmtDate = input => {if(!input)return 'Date unavailable';if(/^\d{4}$/.test(input))return input+'（仅知年份）';if(/^\d{4}-\d{2}$/.test(input))return input.slice(0,4)+' / '+input.slice(5,7)+' (month only)';return new Date(`${input.slice(0,10)}T12:00:00Z`).toLocaleDateString('zh-CN',{year:'numeric',month:'short',day:'numeric',timeZone:'UTC'});};
 const countDays = (iso,days) => /^\d{4}-\d{2}-\d{2}$/.test(iso||'') && new Date(`${iso}T00:00:00Z`).getTime() >= (Date.now() - days*86400000);
 const latestRun = () => state.runs.at(-1) || null;
 const sourceName = p => p.sources?.[0]?.name || 'Other source';

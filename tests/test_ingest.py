@@ -44,8 +44,19 @@ class IngestTests(unittest.TestCase):
         import json
         cfg = json.loads((Path(__file__).resolve().parents[1] / "config/sources.json").read_text("utf-8"))
         by_id = {row["id"]: row for row in cfg["journals"]}
-        self.assertEqual(by_id["ectr"]["issn"], "1468-0262")
+        self.assertEqual(by_id["ectr"]["issn"], "0012-9682")
+        self.assertEqual(by_id["ectr"]["crossref_pub_precision"], "year")
         self.assertGreater(by_id["ms"]["max_per_source"], 250)
+
+    def test_year_only_publication_date_remains_year_only(self):
+        source = {"id": "ectr", "name": "Econometrica"}
+        record = {
+            "type": "journal-article",
+            "title": ["A New Approach to Economic Dynamics"],
+            "DOI": "10.3982/ECTA00000",
+            "published": {"date-parts": [[2026]]}
+        }
+        self.assertEqual(crossref_item(record, source)["first_public_date"], "2026")
 
     def test_crossref_parsing(self):
         source = {"id": "qje", "name": "QJE"}

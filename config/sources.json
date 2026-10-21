@@ -84,9 +84,10 @@
     {
       "id": "ectr",
       "name": "Econometrica",
-      "issn": "1468-0262",
+      "issn": "0012-9682",
       "discipline": "economics",
-      "enabled": true
+      "enabled": true,
+      "crossref_pub_precision": "year"
     },
     {
       "id": "restud",

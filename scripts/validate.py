@@ -15,7 +15,7 @@ for row in rows:
     ids.add(row["id"])
     assert row["title"] and row["source_url"].startswith("https://")
     for f in ["first_public_date", "discovered_at"]:
-        assert (f == "first_public_date" and row.get(f) == "") or re.fullmatch(r"\d{4}-\d{2}(-\d{2})?", row[f]), f"Invalid {f}: {row['id']}"
+        assert (f == "first_public_date" and row.get(f) == "") or re.fullmatch(r"\d{4}(-\d{2}(-\d{2})?)?", row[f]), f"Invalid {f}: {row['id']}"
     for alias in row.get("aliases", []):
         assert alias not in aliases, f"Duplicate alias {alias}"
         aliases.add(alias)

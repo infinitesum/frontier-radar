@@ -77,10 +77,16 @@ def parse_date_parts(item):
     parts = (item or {}).get("date-parts", [])
     if not parts or not parts[0]:
         return ""
-    chunk = list(parts[0]) + [1, 1]
+    chunk = list(parts[0])
     try:
-        return datetime(int(chunk[0]), int(chunk[1]), int(chunk[2])).date().isoformat()
-    except (ValueError, TypeError):
+        year = int(chunk[0])
+        if len(chunk) == 1:
+            return f"{year:04d}"
+        month = int(chunk[1])
+        if len(chunk) == 2:
+            return f"{year:04d}-{month:02d}"
+        return datetime(year, month, int(chunk[2])).date().isoformat()
+    except (ValueError, TypeError, IndexError):
         return ""
 
 
@@ -354,6 +360,11 @@ def ingest(since_days=14, max_per_source=250, backfill_days=0):
             # Query by index date for changes, AND recent publication date to
             # prevent ancient correction records dominating the discovery feed.
             filters = f"from-pub-date:{publication_floor}"
+            # Some publishers register publication years without month/day.
+            # A date filter after January 1 would silently exclude those works.
+            # Recheck the prior year too to catch revisions around New Year.
+            if source.get("crossref_pub_precision") == "year":
+                filters = f"from-pub-date:{TODAY.year - 1}-01-01"
             if backfill_days == 0:
                 filters += f",from-index-date:{lookback}"
             query = {
