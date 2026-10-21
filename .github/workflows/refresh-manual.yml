@@ -1,6 +1,7 @@
 name: Refresh papers (daily + manual)
 
 # UTC+8 ingestion at 09:17; intentionally earlier than the 12:00 briefing.
+# A one-off source refresh validates official conference-program link monitoring.
 # Push on changes to THIS workflow triggers initial bootstrap exactly once.
 on:
   push:
