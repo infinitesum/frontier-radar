@@ -1,8 +1,106 @@
 {
   "schema_version": 1,
-  "snapshot": "curated-bootstrap",
-  "updated_at": "2026-10-22T00:00:00Z",
+  "snapshot": "incremental-ingestion",
+  "updated_at": "2026-10-21T20:13:13+00:00",
   "papers": [
+    {
+      "id": "seed-qje-qjag040",
+      "title": "Clause and Effect: Theory and Field Experimental Evidence on Noncompete Clauses",
+      "authors": [
+        "Bo Cowgill"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1093/qje/qjag040",
+      "doi": "10.1093/qje/qjag040",
+      "aliases": [
+        "doi:10.1093/qje/qjag040"
+      ],
+      "first_public_date": "2026-08-07",
+      "discovered_at": "2026-10-22",
+      "stage": "journal",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "qje",
+          "name": "The Quarterly Journal of Economics",
+          "url": "https://doi.org/10.1093/qje/qjag040"
+        }
+      ],
+      "events": [
+        {
+          "kind": "manual-bootstrap",
+          "date": "2026-10-22",
+          "source_id": "qje",
+          "note": "Oxford Academic advance articles list, 2026-08-07; coauthors not retrieved"
+        }
+      ]
+    },
+    {
+      "id": "seed-rfs-hhag054",
+      "title": "International Arbitrage Premia",
+      "authors": [
+        "Mirela Sandulescu",
+        "Paul Schneider"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1093/rfs/hhag054",
+      "doi": "10.1093/rfs/hhag054",
+      "aliases": [
+        "doi:10.1093/rfs/hhag054"
+      ],
+      "first_public_date": "2026-08-06",
+      "discovered_at": "2026-10-22",
+      "stage": "journal",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "rfs",
+          "name": "The Review of Financial Studies",
+          "url": "https://doi.org/10.1093/rfs/hhag054"
+        }
+      ],
+      "events": [
+        {
+          "kind": "manual-bootstrap",
+          "date": "2026-10-22",
+          "source_id": "rfs",
+          "note": "Oxford Academic advance articles list"
+        }
+      ]
+    },
+    {
+      "id": "seed-rfs-hhag071",
+      "title": "Size-Based Regulation and Bank Fragility: Evidence from the Wells Fargo Asset Cap",
+      "authors": [
+        "Tianyue Ruan",
+        "Siddharth Vij"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1093/rfs/hhag071",
+      "doi": "10.1093/rfs/hhag071",
+      "aliases": [
+        "doi:10.1093/rfs/hhag071"
+      ],
+      "first_public_date": "2026-08-03",
+      "discovered_at": "2026-10-22",
+      "stage": "journal",
+      "discipline": "banking",
+      "sources": [
+        {
+          "id": "rfs",
+          "name": "The Review of Financial Studies",
+          "url": "https://doi.org/10.1093/rfs/hhag071"
+        }
+      ],
+      "events": [
+        {
+          "kind": "manual-bootstrap",
+          "date": "2026-10-22",
+          "source_id": "rfs",
+          "note": "Oxford Academic advance articles list"
+        }
+      ]
+    },
     {
       "id": "seed-nber-35684",
       "title": "Canaries in the Gold Mine: Early Productivity Gains from Artificial Intelligence Creating Organization Capital",
@@ -44,38 +142,6 @@
       }
     },
     {
-      "id": "seed-qje-qjag040",
-      "title": "Clause and Effect: Theory and Field Experimental Evidence on Noncompete Clauses",
-      "authors": [
-        "Bo Cowgill"
-      ],
-      "abstract": "",
-      "source_url": "https://doi.org/10.1093/qje/qjag040",
-      "doi": "10.1093/qje/qjag040",
-      "aliases": [
-        "doi:10.1093/qje/qjag040"
-      ],
-      "first_public_date": "2026-08-07",
-      "discovered_at": "2026-10-22",
-      "stage": "journal",
-      "discipline": "labor",
-      "sources": [
-        {
-          "id": "qje",
-          "name": "The Quarterly Journal of Economics",
-          "url": "https://doi.org/10.1093/qje/qjag040"
-        }
-      ],
-      "events": [
-        {
-          "kind": "manual-bootstrap",
-          "date": "2026-10-22",
-          "source_id": "qje",
-          "note": "Oxford Academic advance articles list, 2026-08-07; coauthors not retrieved"
-        }
-      ]
-    },
-    {
       "id": "seed-qje-qjag041",
       "title": "Capital Services in Global Value Chains",
       "authors": [
@@ -103,72 +169,6 @@
           "kind": "manual-bootstrap",
           "date": "2026-10-22",
           "source_id": "qje",
-          "note": "Oxford Academic advance articles list"
-        }
-      ]
-    },
-    {
-      "id": "seed-rfs-hhag071",
-      "title": "Size-Based Regulation and Bank Fragility: Evidence from the Wells Fargo Asset Cap",
-      "authors": [
-        "Tianyue Ruan",
-        "Siddharth Vij"
-      ],
-      "abstract": "",
-      "source_url": "https://doi.org/10.1093/rfs/hhag071",
-      "doi": "10.1093/rfs/hhag071",
-      "aliases": [
-        "doi:10.1093/rfs/hhag071"
-      ],
-      "first_public_date": "2026-08-03",
-      "discovered_at": "2026-10-22",
-      "stage": "journal",
-      "discipline": "banking",
-      "sources": [
-        {
-          "id": "rfs",
-          "name": "The Review of Financial Studies",
-          "url": "https://doi.org/10.1093/rfs/hhag071"
-        }
-      ],
-      "events": [
-        {
-          "kind": "manual-bootstrap",
-          "date": "2026-10-22",
-          "source_id": "rfs",
-          "note": "Oxford Academic advance articles list"
-        }
-      ]
-    },
-    {
-      "id": "seed-rfs-hhag054",
-      "title": "International Arbitrage Premia",
-      "authors": [
-        "Mirela Sandulescu",
-        "Paul Schneider"
-      ],
-      "abstract": "",
-      "source_url": "https://doi.org/10.1093/rfs/hhag054",
-      "doi": "10.1093/rfs/hhag054",
-      "aliases": [
-        "doi:10.1093/rfs/hhag054"
-      ],
-      "first_public_date": "2026-08-06",
-      "discovered_at": "2026-10-22",
-      "stage": "journal",
-      "discipline": "finance",
-      "sources": [
-        {
-          "id": "rfs",
-          "name": "The Review of Financial Studies",
-          "url": "https://doi.org/10.1093/rfs/hhag054"
-        }
-      ],
-      "events": [
-        {
-          "kind": "manual-bootstrap",
-          "date": "2026-10-22",
-          "source_id": "rfs",
           "note": "Oxford Academic advance articles list"
         }
       ]
@@ -212,6 +212,2426 @@
         "migration_zh": "可将企业 AI 投资分为替代型与赋能型，而非只使用是否采用 AI 的二元变量。",
         "evidence": "publisher-abstract"
       }
+    },
+    {
+      "title": "DP22073 Losing grip? The Quantity Theory of Money under Currency Competition",
+      "authors": [
+        "Jasmina Arifovic, Isabelle Salle, Linda Schilling"
+      ],
+      "abstract": "This study examines monetary policy under competition between a centrally managed currency (the “Dollar”) and a fixed-supply alternative (the “Peso”). Theory and laboratory evidence reveal two equilibrium types. In the pass-through equilibrium, Dollar inflation is high and trade effects are limited. In the substitution equilibrium, Dollar dominance rises and velocity falls, muting Dollar inflation while generating inflation spillovers to Peso despite its fixed supply. Which equilibrium prevails depends on self-fulfilling inflation beliefs, not policy alone, and Dollar trade shares reveal these",
+      "source_url": "https://cepr.org/publications/dp22073",
+      "doi": "",
+      "aliases": [
+        "cepr:22073"
+      ],
+      "first_public_date": "2026-10-21",
+      "stage": "working-paper",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22073"
+        }
+      ],
+      "id": "p_e05ca39fdf7bfd",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22072 Dynamic Test Design",
+      "authors": [
+        "Francesc Dilme, Doruk Cetemen"
+      ],
+      "abstract": "We study dynamic test design under the threat of manipulation. At each instant, a principal who cannot commit to future actions chooses whether to hire an agent, fire him, or continue costly probation by designing a test. The test provides information about the agent’s persistent type, which is either good or bad. After observing the test choice, the bad type can exert costly effort to manipulate the evidence and mimic the good type. Deterring manipulation imposes an endogenous information budget that limits how intensively the principal can test. We show that, except at beliefs that remain un",
+      "source_url": "https://cepr.org/publications/dp22072",
+      "doi": "",
+      "aliases": [
+        "cepr:22072"
+      ],
+      "first_public_date": "2026-10-20",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22072"
+        }
+      ],
+      "id": "p_fa835aa48fbabf",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22071 Entry, Exit, and Technological Progress in Markov-Perfect Duopoly",
+      "authors": [
+        "Jaap Abbring, Jeffrey Campbell, Nan Yang"
+      ],
+      "abstract": "This paper establishes the existence and essential uniqueness of an intuitively refined Markov-perfect equilibrium in a duopoly game with sunk costs, barriers to entry, firm-specific technological progress, and irreversible exit. We develop an algorithm that quickly computes the equilibrium by solving for fixed points of a finite sequence of auxiliary contraction mappings, which we label Fake Backward Induction. We illustrate the game’s practical value with a quantitative analysis of competition policy in a stochastically growing market with firms idiosyncratically learning by aging. Computing",
+      "source_url": "https://cepr.org/publications/dp22071",
+      "doi": "",
+      "aliases": [
+        "cepr:22071"
+      ],
+      "first_public_date": "2026-10-20",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22071"
+        }
+      ],
+      "id": "p_a7f4ab24bb620a",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22064 Austerity and Productivity: Evidence from Euro Area Regions",
+      "authors": [
+        "Yao Chen, Ricardo Duque Gabriel, Mathias Klein, Ana Sofia Pessoa"
+      ],
+      "abstract": "We find that fiscal consolidations raise productivity significantly and persistently. In our data, a consolidation that lowers regional public spending by 1% on impact raises TFP by about 1% on impact and about 2% after two years, even as economic activity contracts. We document this using two innovations. First, we build a novel regional utilization-adjusted TFP series for Europe, covering 139 NUTS 2 regions in ten euro area countries over 1999– 2019, which corrects the Solow residual for cyclical variation in capital utilization and labor effort. Second, we isolate plausibly exogenous spendi",
+      "source_url": "https://cepr.org/publications/dp22064",
+      "doi": "",
+      "aliases": [
+        "cepr:22064"
+      ],
+      "first_public_date": "2026-10-19",
+      "stage": "working-paper",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22064"
+        }
+      ],
+      "id": "p_2529e173348662",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22065 Does Easy Money Win Elections?",
+      "authors": [
+        "Yao Chen, Florian van Genderen, Felix Ward"
+      ],
+      "abstract": "Governments press central banks for lower interest rates on the premise that easy money wins elections. We test this premise for 385 elections in 18 countries, 1900–2020, using exogenous interest rate changes. We find no evidence that monetary easing helps incumbents. At the point estimate, a typical easing leaves the incumbent’s vote share unchanged; the one-sided 95 percent confidence bound on the gain is 0.90 percentage points. Of 104 incumbent defeats, such an easing would have reversed none at the point estimate and 15 at the bound, all in close races. Easy money offers incumbents no reli",
+      "source_url": "https://cepr.org/publications/dp22065",
+      "doi": "",
+      "aliases": [
+        "cepr:22065"
+      ],
+      "first_public_date": "2026-10-19",
+      "stage": "working-paper",
+      "discipline": "banking",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22065"
+        }
+      ],
+      "id": "p_bbd45e99fc3d5e",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22068 Inside Central Bankers’ Calendars: How Do Fed Chairs Allocate Their Time?",
+      "authors": [
+        "Thomas Drechsel, Dali Tsakadze"
+      ],
+      "abstract": "How leaders allocate their limited time and attention is an important question in economics. This paper constructs and analyzes a novel data set covering the daily calendars of three Federal Reserve Chairs, Ben Bernanke, Janet Yellen, and Jerome Powell, containing more than 20,000 calendar entries. We document several patterns. First, all Fed Chairs spend more than 30% of their documented meetings with Fed staff, highlighting the crucial role of economists in the Fed's decision process. Second, interactions with the media became more frequent during Bernanke's tenure and remained important unt",
+      "source_url": "https://cepr.org/publications/dp22068",
+      "doi": "",
+      "aliases": [
+        "cepr:22068"
+      ],
+      "first_public_date": "2026-10-19",
+      "stage": "working-paper",
+      "discipline": "banking",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22068"
+        }
+      ],
+      "id": "p_167168f4966485",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22067 Competitive Search for Bundles",
+      "authors": [
+        "Xiaoming Cai, Pieter Gautier"
+      ],
+      "abstract": "How does buyers’ search for bundles generate sorting among heterogeneous sellers? We study competitive search in which buyers assemble bundles through separate transactions, where prices direct search and determine congestion. With two seller types, buyers choose only same-type bundles below a single threshold in cross-type value and cross-type bundles above it. The threshold lies strictly between geometric and arithmetic means of same-type values, so search produces cross-type matching even when types are complements. With a continuum of types, log-supermodularity and submodularity yield uniq",
+      "source_url": "https://cepr.org/publications/dp22067",
+      "doi": "",
+      "aliases": [
+        "cepr:22067"
+      ],
+      "first_public_date": "2026-10-19",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22067"
+        }
+      ],
+      "id": "p_dde19e1e277f0b",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22069 Foreign Ownership and Occupational Safety: Evidence from France",
+      "authors": [
+        "Beata Javorcik, Alessia Lo Turco, Daniela Maggioni, Gianluca Santoni"
+      ],
+      "abstract": "This paper examines whether and how foreign acquisitions improve occupational safety. Using linked administrative data on French manufacturing plants over 2003–2017 and event studies on a matched sample, we find that foreign acquisitions reduce accident rates and workdays lost. Safety gains coincide with expanded managerial hierarchies, greater technical-manager presence, foreign manager hiring, and worker training. We find little evidence supporting automation, task reallocation, or outsourcing as alternative explanations. Moreover, domestic acquisitions do not generate comparable improvement",
+      "source_url": "https://cepr.org/publications/dp22069",
+      "doi": "",
+      "aliases": [
+        "cepr:22069"
+      ],
+      "first_public_date": "2026-10-19",
+      "stage": "working-paper",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22069"
+        }
+      ],
+      "id": "p_6059d8f2af1342",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22062 The Depositary of Last Resort",
+      "authors": [
+        "Pamfili Antipa, Kilian Rieder"
+      ],
+      "abstract": "What are the consequences of making central bank deposits accessible to actors beyond the banking sector? We collect novel micro data on deposit accounts historically held with the Bank of England by individuals and firms other than banks to study their role in the financial panic of 1866. We document that the use of deposit accounts at the central bank soared during the crisis, while commercial banks permanently lost funding. The expansion in the number of active accounts was fueled by individuals, but the intensive margin increase in balances came almost entirely from firms. Recourse to cent",
+      "source_url": "https://cepr.org/publications/dp22062",
+      "doi": "",
+      "aliases": [
+        "cepr:22062"
+      ],
+      "first_public_date": "2026-10-19",
+      "stage": "working-paper",
+      "discipline": "banking",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22062"
+        }
+      ],
+      "id": "p_73202a0b4db11a",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22070 The Battle over Knowledge: Multinationals, Diffusion, and Governance",
+      "authors": [
+        "Laura Alfaro, Maggie Chen, Beata Javorcik"
+      ],
+      "abstract": "Multinational corporations (MNCs) create and transfer knowledge across countries. Economists have focused on how these flows affect productivity and growth. Policymakers, however, increasingly emphasize a geopolitical externality: knowledge that strengthens a rival state's strategic capabilities imposes on the home country costs the transferring firm does not internalize. Distinguishing between codified, tacit, and organizational knowledge, which differ in transmission channels and governability, we examine how each is created within MNCs, diffused within and across firm boundaries, and restri",
+      "source_url": "https://cepr.org/publications/dp22070",
+      "doi": "",
+      "aliases": [
+        "cepr:22070"
+      ],
+      "first_public_date": "2026-10-19",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22070"
+        }
+      ],
+      "id": "p_bf59e1ed49eb0b",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22066 Fiscal-Monetary Interactions: The Role of Debt Maturity",
+      "authors": [
+        "Luca Bettarelli, Davide Furceri, Francesco Frangiamore, Anh Dinh Minh Nguyen, Francesco Scianna"
+      ],
+      "abstract": "This paper examines how the maturity structure of sovereign debt shapes fiscal–monetary interactions in the United States. Using exogenous monetary policy shocks and nonlinear local projections, we show that debt maturity influences both the fiscal consequences of monetary tightening and its macroeconomic transmission. When the government relies more heavily on short-term debt, contractionary monetary policy shocks lead to large and persistent increases in public debt, more pronounced deteriorations in fiscal and financial conditions, and significantly larger declines in output, inflation, and",
+      "source_url": "https://cepr.org/publications/dp22066",
+      "doi": "",
+      "aliases": [
+        "cepr:22066"
+      ],
+      "first_public_date": "2026-10-19",
+      "stage": "working-paper",
+      "discipline": "public-econ",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22066"
+        }
+      ],
+      "id": "p_b93a524781dd2f",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22061 Importers, Market Power and Optimal Tariffs",
+      "authors": [
+        "Jonathan Becker, Corina Boar, Virgiliu Midrigan"
+      ],
+      "abstract": "Importers are few and large, have higher labor productivity and pass through cost changes to prices incompletely. We study optimal tariffs in a model consistent with these facts. Firms pay a fixed cost to import and charge markups that increase with size. Market power implies that importers are too few and too small relative to the efficient allocations. Tariffs amplify this distortion. We derive a formula that relates the optimal tariff not only to the foreign export supply elasticity but also to how much distortions amplify the effect of trade costs on welfare. In our calibrated economy the ",
+      "source_url": "https://cepr.org/publications/dp22061",
+      "doi": "",
+      "aliases": [
+        "cepr:22061"
+      ],
+      "first_public_date": "2026-10-19",
+      "stage": "working-paper",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22061"
+        }
+      ],
+      "id": "p_23eb2fb3ce61ed",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22063 Committee Deliberation and Gender Differences in Influence",
+      "authors": [
+        "Jonas Radbruch, Amelie Schiprowski"
+      ],
+      "abstract": "This paper provides empirical evidence on the aggregation of information in hiring committees. We use data from the hiring process of a large company in which committee members first conduct independent one-on-one interviews and then deliberate to reach a collective hiring decision. Results show that the mapping of committee members' initial assessments to final decisions is not deterministic, leaving scope for deliberation and individual influence. Committee decisions are systematically less aligned with recommendations made by women than with those made by men, despite similar qualifications",
+      "source_url": "https://cepr.org/publications/dp22063",
+      "doi": "",
+      "aliases": [
+        "cepr:22063"
+      ],
+      "first_public_date": "2026-10-19",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22063"
+        }
+      ],
+      "id": "p_21759b1c5159e4",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22058 The Great Game: A Model of Geoeconomic Competition",
+      "authors": [
+        "Christopher Clayton, Matteo Maggiori, Jesse Schreger"
+      ],
+      "abstract": "We build a model of two hegemons that have valuable trading relationships with each other and at the same time compete in exerting geoeconomic power over countries in the rest of the world. When the hegemons trade with each other, their optimal policy is shaped both by classic economic considerations - the profitability of that specific trade - and by geoeconomic competition - how the trade affects the power of each hegemon vis-a-vis the rest of the world. We show that containment, a policy mix in which a hegemon limits sales of its inputs to the rival hegemon and uses its power to demand that",
+      "source_url": "https://cepr.org/publications/dp22058",
+      "doi": "",
+      "aliases": [
+        "cepr:22058"
+      ],
+      "first_public_date": "2026-10-18",
+      "stage": "working-paper",
+      "discipline": "trade",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22058"
+        }
+      ],
+      "id": "p_0c45359d50a321",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22060 Artificial Intelligence and Climate Change: Balancing Innovation and Sustainability",
+      "authors": [
+        "Leonardo Gambacorta, Salvatore Polizzi"
+      ],
+      "abstract": "Artificial intelligence (AI) is becoming an increasingly important factor in the climate transition. AI can improve energy efficiency, optimise resource use, accelerate climate innovation and strengthen climate forecasting, adaptation and risk management. At the same time, the development and deployment of AI require substantial computational resources, increasing electricity demand and, depending on the carbon intensity and timing of electricity use, associated emissions. We examine AI’s direct environmental footprint, its contribution to climate mitigation and adaptation, and rebound effects",
+      "source_url": "https://cepr.org/publications/dp22060",
+      "doi": "",
+      "aliases": [
+        "cepr:22060"
+      ],
+      "first_public_date": "2026-10-18",
+      "stage": "working-paper",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22060"
+        }
+      ],
+      "id": "p_bd4534d475c1c4",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22059 Transition Risk in Emerging Economies",
+      "authors": [
+        "Stefano Carattini, Giseong Kim, Givi Melkadze, Aude Pommeret"
+      ],
+      "abstract": "Many emerging economies tend to rely considerably on carbon-intensive sectors, exposing themselves to potential transition risk. This paper quantifies the impact of this risk and the role of various policies and policy designs in mitigating it. It does so with a two-country two-sector environmental dynamic stochastic general equilibrium model, where each “country” represents a bloc of advanced or emerging economies, respectively. The model includes real-world features such as financial frictions and financial and trade linkages across blocs. With it, we simulate climate policy in advanced econ",
+      "source_url": "https://cepr.org/publications/dp22059",
+      "doi": "",
+      "aliases": [
+        "cepr:22059"
+      ],
+      "first_public_date": "2026-10-18",
+      "stage": "working-paper",
+      "discipline": "trade",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22059"
+        }
+      ],
+      "id": "p_cbb925484188dd",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22055 Do Equity Markets Spur Corporate Detox?",
+      "authors": [
+        "Ali Ataullah, Hang Le, Alexander F. Wagner"
+      ],
+      "abstract": "This paper provides archival and experimental evidence that equity market feedback influences firms' environmental behavior. Following the publication of U.S. Reports on Carcinogens, firms using newly identified carcinogens that experience particularly negative stock-price reactions reduce toxic waste more, especially when their worker exposure is high. Cross-sectional tests show stronger effects where market signals are likely to be more informative, and peer-firm evidence suggests that firms also learn from affected firms' stock-price reactions. We complement the archival evidence with an in",
+      "source_url": "https://cepr.org/publications/dp22055",
+      "doi": "",
+      "aliases": [
+        "cepr:22055"
+      ],
+      "first_public_date": "2026-10-17",
+      "stage": "working-paper",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22055"
+        }
+      ],
+      "id": "p_fba5f736a7c6b5",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22054 The Foreign Currency Risk of International Remittances",
+      "authors": [
+        "Leonardo Flori, Nicola Limodio"
+      ],
+      "abstract": "We study the role of foreign currency risk in remittance markets, and its consequences for fees and market structure. Because operators quote fees before settling transfers, exchange rate risk that is costly to hedge in thin currency markets enters their marginal cost, keeping fees high even in competitive corridors. We test this using 34,680 cash-to-cash products across 339 corridors between 2011 and 2024. We find that fees rise with currency risk, both in conditional variation across corridors and after a volatility shock originating outside the corridor, exploiting the Swiss National Bank's",
+      "source_url": "https://cepr.org/publications/dp22054",
+      "doi": "",
+      "aliases": [
+        "cepr:22054"
+      ],
+      "first_public_date": "2026-10-17",
+      "stage": "working-paper",
+      "discipline": "banking",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22054"
+        }
+      ],
+      "id": "p_1a2afeed94e947",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22053 When Cash Flows Turn Negative: Liquidity-Driven Selling by Pension Funds",
+      "authors": [
+        "Aleksandar Andonov, Kristy Jansen, Joshua Rauh"
+      ],
+      "abstract": "Pension funds are long-horizon investors with predictable liability structures. As such, they are often perceived as investors who can provide liquidity and stabilize markets. However, pension funds increasingly face negative operating cash flows as benefit payments exceed contributions. Using aggregate data on U.S. public pension funds combined with granular holdings obtained through public records requests, we document three findings that challenge the conventional view of pension funds as stabilizing investors. First, pension funds with more negative cash flows do not adjust their target as",
+      "source_url": "https://cepr.org/publications/dp22053",
+      "doi": "",
+      "aliases": [
+        "cepr:22053"
+      ],
+      "first_public_date": "2026-10-17",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22053"
+        }
+      ],
+      "id": "p_49e30e04822f3a",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22057 Measuring Common Ownership: An Axiomatic Approach",
+      "authors": [
+        "Thomas Gehrig, Klaus Ritzberger"
+      ],
+      "abstract": "This paper proposes three basic axioms for measuring common ownership based purely on the ownership distributions: symmetry, normalization, and orthogonality. Combining a fourth, structural axiom with normalization yields a characterization of cosine similarity as the only commonality measure that satisfies all axioms. The paper also discusses how the basic axioms relate to measures of common ownership used in empirical research.",
+      "source_url": "https://cepr.org/publications/dp22057",
+      "doi": "",
+      "aliases": [
+        "cepr:22057"
+      ],
+      "first_public_date": "2026-10-17",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22057"
+        }
+      ],
+      "id": "p_1458110ce99d55",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22051 Who Controls the Defence Industry?",
+      "authors": [
+        "Marco Becht, Juan Mejino-López, Guntram B. Wolff"
+      ],
+      "abstract": "Defence markets exhibit extreme asset specificity and bilateral monopoly. Transaction-cost economics predicts state ownership or control in such circumstances. This paper examines what governments actually do. Ownership alone does not determine control. A state with zero equity can still have influence through governance provisions and legal tools. Using large language model extraction from annual reports, supplemented by hand-coding, we compile a leximetric dataset on corporate governance and state control for 107 of the world's largest defence companies, drawn from the SIPRI Top 100 for 2022",
+      "source_url": "https://cepr.org/publications/dp22051",
+      "doi": "",
+      "aliases": [
+        "cepr:22051"
+      ],
+      "first_public_date": "2026-10-17",
+      "stage": "working-paper",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22051"
+        }
+      ],
+      "id": "p_7d9499fc2462e5",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22052 The Price of Position: Spatial Equilibrium in the Geostationary Arc",
+      "authors": [
+        "Alexander F. Wagner"
+      ],
+      "abstract": "How costly is uniform congestion pricing when locations differ in value? I study the geostationary orbit, where satellites serve different markets from recorded positions and supported $77 billion in satellite television revenues in 2023. I estimate a spatial model of commercial entry in which efficient charges rise with demand. In the baseline estimates, the optimal uniform charge captures 66 percent of the attainable welfare gain, or 79 percent when income replaces population as the demand measure. It reduces congestion but ends entry at positions accounting for less than a tenth of modeled ",
+      "source_url": "https://cepr.org/publications/dp22052",
+      "doi": "",
+      "aliases": [
+        "cepr:22052"
+      ],
+      "first_public_date": "2026-10-17",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22052"
+        }
+      ],
+      "id": "p_2b9201468a88a7",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22050 Monetary Policy Uncertainty and Bank Credit Allocation",
+      "authors": [
+        "Fatih Altunok, Yavuz Arslan, Steven Ongena"
+      ],
+      "abstract": "We analyze how monetary policy uncertainty (MPU) affects bank credit allocation. First, we develop a theoretical model in which MPU consumes banks’ risk-bearing capacity. Higher MPU therefore curbs risky lending, most strongly at less capitalized banks. Second, we test this prediction across U.S. credit markets using FOMC-announcement changes in option implied rate uncertainty, controlling for the monetary policy stance. In syndicated lending, a one standard deviation increase in MPU widens the gap between high- and low-capital banks in lending to riskier relative to safer borrowers by 1.65 pe",
+      "source_url": "https://cepr.org/publications/dp22050",
+      "doi": "",
+      "aliases": [
+        "cepr:22050"
+      ],
+      "first_public_date": "2026-10-17",
+      "stage": "working-paper",
+      "discipline": "banking",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22050"
+        }
+      ],
+      "id": "p_ccfa1bcc860db1",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22056 Political Ideology and Durable Spending",
+      "authors": [
+        "Yongqiang Chu, Francesco D'Acunto, Janet Geo, Roman Wang, Yichen Wang"
+      ],
+      "abstract": "Research in psychology suggests that conservatives should focus more on the investment value of durables, whereas liberals on consumption value. We test this hypothesis by examining the differential housing transaction motives of conservative and liberal households. Similar to other durable goods, housing assets embody both consumption and investment values and represent the largest assets of U.S. households. We show that conservative households transact more frequently than observationally similar liberal households, especially in secondary properties. Conditional on transacting, conservative",
+      "source_url": "https://cepr.org/publications/dp22056",
+      "doi": "",
+      "aliases": [
+        "cepr:22056"
+      ],
+      "first_public_date": "2026-10-17",
+      "stage": "working-paper",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22056"
+        }
+      ],
+      "id": "p_17a57026ce4c8e",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22049 Geopolitics and Rule-Based Trade",
+      "authors": [
+        "Thomas Gehrig, Rune Stenbacka"
+      ],
+      "abstract": "We analyze the stability of rule-based trade when trading partners differ in their geopolitical objectives. We show that asymmetric gains from trade and geopolitical benefits can generate asymmetric equilibria in which one country infringes and the other tolerates the violation even though there is repeated trade. Crucially, cooperation cannot be sustained when retaliation is more costly to the injured country than tolerating the infringement. Rule-based trade, therefore, requires not only sufficiently patient partners but also sufficiently severe losses from infringement relative to the gains",
+      "source_url": "https://cepr.org/publications/dp22049",
+      "doi": "",
+      "aliases": [
+        "cepr:22049"
+      ],
+      "first_public_date": "2026-10-16",
+      "stage": "working-paper",
+      "discipline": "trade",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22049"
+        }
+      ],
+      "id": "p_065b5b050e2086",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22045 The Role of Organization in Firm-Sponsored Training",
+      "authors": [
+        "David Deming, Raffaella Sadun, Christopher Stanton"
+      ],
+      "abstract": "Some firms are more likely than others to invest in workers’ skills. We document this phenomenon and discuss its implications in light of models of firm-sponsored skills training. The data show that better managed firms, even in the same industries and labor markets, are more likely to train, while training clusters around either managerial or frontline worker development. We argue that organizational differences provide incentives for firms to train beyond traditional explanations that focus on labor market frictions. We illustrate how organizational heterogeneity can generate training invest",
+      "source_url": "https://cepr.org/publications/dp22045",
+      "doi": "",
+      "aliases": [
+        "cepr:22045"
+      ],
+      "first_public_date": "2026-10-16",
+      "stage": "working-paper",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22045"
+        }
+      ],
+      "id": "p_56dd0156fcc068",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22046 The Distribution of Automation Rents with Centralized Bargaining",
+      "authors": [
+        "Pietro Reichlin"
+      ],
+      "abstract": "When technical progress arises from the decreasing cost of machines performing tasks that are highly substitutable with some type of labor, perfect competition may exacerbate wage inequality and concentrate the benefits of economic growth on the workers who are performing less routine tasks. I study how centralized efficient bargaining reallocates automation-generated surplus across technologically heterogeneous worker groups (performing \"routine\" and \"non-routine\" tasks) and show that this redistribution can reverse the sign of the relationship between routine workers' productivity and their ",
+      "source_url": "https://cepr.org/publications/dp22046",
+      "doi": "",
+      "aliases": [
+        "cepr:22046"
+      ],
+      "first_public_date": "2026-10-16",
+      "stage": "working-paper",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22046"
+        }
+      ],
+      "id": "p_7c10e413c9fcdd",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22047 Understanding Migration Responses to Local Shocks",
+      "authors": [
+        "Kirill Borusyak, Rafael Dix-Carneiro, Brian Kovak"
+      ],
+      "abstract": "A commonly used migration regression relates population changes to local labor demand shocks, often yielding small or statistically insignificant coefficients despite sizable effects on labor market outcomes. We argue that such findings need not imply that mobility is unresponsive to local economic conditions. Rather, conventional migration regressions can be biased, as they do not reflect how workers choose among competing locations. In a parsimonious equilibrium model, local population growth depends on differences between local shocks and those in relevant destinations; when these shocks ar",
+      "source_url": "https://cepr.org/publications/dp22047",
+      "doi": "",
+      "aliases": [
+        "cepr:22047"
+      ],
+      "first_public_date": "2026-10-16",
+      "stage": "working-paper",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22047"
+        }
+      ],
+      "id": "p_30f7f92f22feef",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22048 A Network Approach to Geopolitics",
+      "authors": [
+        "Ernest Liu, Stephen Redding, Bennett Smith-Worthington, David Yang"
+      ],
+      "abstract": "We develop a tractable framework for analyzing geopolitics as a network of coordination and strategic influence. Countries choose geopolitical actions that trade off domestic interests against incentives to align with connected countries. They can exert costly bilateral influence to affect one another's actions. We characterize equilibrium actions and bilateral influence in closed form. Cross-country differences in domestic interests decompose into latent geopolitical cleavages, each of which the network transmits into geopolitical actions independently of the others. The cross-country covaria",
+      "source_url": "https://cepr.org/publications/dp22048",
+      "doi": "",
+      "aliases": [
+        "cepr:22048"
+      ],
+      "first_public_date": "2026-10-16",
+      "stage": "working-paper",
+      "discipline": "trade",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22048"
+        }
+      ],
+      "id": "p_848f68960f9342",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22041 Non-Academic Criteria for Admission to Israeli Medical Schools: Recommendations for Change",
+      "authors": [
+        "Neil Gandal"
+      ],
+      "abstract": "Three of the top medical schools in Israel (Hebrew University, Tel Aviv University, and the Technion) use the so-called \"MOR—MIRKAM\" exam as the non-academic criterion in their medical school admissions. Candidates who clear the demanding cognitive thresholds at these three universities are then evaluated at a second stage by one of two assessment centers (MOR or MIRKAM) administered by the National Institute for Testing and Evaluation (NITE). In the final admission score, the Hebrew University places a 60% weight on the MOR—MIRKAM exam and 40% on the cognitive scores, while Tel Aviv Universit",
+      "source_url": "https://cepr.org/publications/dp22041",
+      "doi": "",
+      "aliases": [
+        "cepr:22041"
+      ],
+      "first_public_date": "2026-10-15",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22041"
+        }
+      ],
+      "id": "p_3b53255687f07d",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22042 The Labor Market Effects of GLP-1s: Evidence from Weight Management and Diabetes Cohorts",
+      "authors": [
+        "Christian Aleman, Fane Groes, Veda Narasimhan, Raül Santaeulàlia-Llopis, Tanya Surovtseva"
+      ],
+      "abstract": "Using population-wide administrative microdata from Denmark, we provide the first comprehensive empirical evaluation contrasting the causal labor market effects of GLP-1 receptor agonists across their dual therapeutic tracks: a subsidized diabetic cohort (Ozempic) subject to public reimbursement, and a weight-management cohort (Wegovy) paying entirely out-of-pocket. Exploiting variation in individual prescription timing among eventual users, and validated by a battery of robustness checks leveraging treatment dropouts, alternative insulin baselines, and matched stacked designs, we find robust ",
+      "source_url": "https://cepr.org/publications/dp22042",
+      "doi": "",
+      "aliases": [
+        "cepr:22042"
+      ],
+      "first_public_date": "2026-10-15",
+      "stage": "working-paper",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22042"
+        }
+      ],
+      "id": "p_061bdfca7f5c2c",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22043 Tax Productivity and Economic Development: A Quantitative Macroeconomic Analysis",
+      "authors": [
+        "Radhika Goyal, Anders Jensen, David Lagakos, Abdoulaye Ndiaye, Yuntian Zhao"
+      ],
+      "abstract": "This paper examines the role of government capacity to collect taxes in driving economic development. We first draw on a new macro-historical database to document that tax collections relative to tax administration expenditures rise sharply with GDP per capita. We then interpret this finding in a neoclassical growth model with a tax administration sector in which labor inputs are required to raise tax revenues. Countries differ in their levels of tax productivity, capturing how effectively labor is used to raise taxes, as well as their levels of productivity in creating consumption and investm",
+      "source_url": "https://cepr.org/publications/dp22043",
+      "doi": "",
+      "aliases": [
+        "cepr:22043"
+      ],
+      "first_public_date": "2026-10-15",
+      "stage": "working-paper",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22043"
+        }
+      ],
+      "id": "p_604c5ca9ce3342",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22044 Competitive Centrality: Equilibrium and Comparative Statics in Networks",
+      "authors": [
+        "Jian Li, Yves Zenou, Junjie Zhou"
+      ],
+      "abstract": "We study equilibrium behavior and the propagation of local shocks in networked competition. We introduce competitive centrality, a nonlinear centrality measure that is uniquely determined by network primitives and provides a sufficient statistic for equilibrium behavior. It determines players’ effort allocations and winning probabilities in each bilateral competition. We then use competitive centrality to derive exact expressions for equilibrium responses to local shocks and characterize their signs. Local shocks propagate along network paths according to players’ relative competitive position",
+      "source_url": "https://cepr.org/publications/dp22044",
+      "doi": "",
+      "aliases": [
+        "cepr:22044"
+      ],
+      "first_public_date": "2026-10-15",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22044"
+        }
+      ],
+      "id": "p_acc148b773cda8",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22040 Improved Optimal Investment and Consumption Strategies under Inflation Risk with Stochastic Volatility",
+      "authors": [
+        "Wouter Honig, Michel Vellekoop, Roel Beetsma, Bart Diris"
+      ],
+      "abstract": "This paper develops and calibrates a financial market model that incorporates stochastic volatility in inflation, interest rate and equity dynamics. Traditional models typically assume constant inflation volatility, which limits investors’ responsiveness to economic shifts as a result of geopolitical tensions and events such as the COVID-19 pandemic. Our multidimensional affine model structure therefore extends the classical Brennan and Xia (2002) framework with a macroeconomic stochastic variance component that allows the model to capture the interdependence of asset price returns and inflati",
+      "source_url": "https://cepr.org/publications/dp22040",
+      "doi": "",
+      "aliases": [
+        "cepr:22040"
+      ],
+      "first_public_date": "2026-10-15",
+      "stage": "working-paper",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22040"
+        }
+      ],
+      "id": "p_2b681ef545be33",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22039 Multimarket Contact and the Southwest Effect: Twenty-Five Years of Evolving Rivalry in the US Airline Industry",
+      "authors": [
+        "Maria Carballido Cerqueiro, Jesus Carro, Georges Siotis"
+      ],
+      "abstract": "This paper aims to better understand competitive rivalry in the US airline industry over the last 25 years. First, it contributes to a better understanding of the procompetitive \"Southwest effect\" over the period 2000-2025. We show that this effect can clearly be identified during the first part of our sample period, but disappears circa 2016, when Southwest culminated a process of strategic re-orientation and appears to have started behaving like legacy carriers. Second, we find that Southwest presence on a route flattened the relationship between air fares and Multimarket Contact (MMC) until",
+      "source_url": "https://cepr.org/publications/dp22039",
+      "doi": "",
+      "aliases": [
+        "cepr:22039"
+      ],
+      "first_public_date": "2026-10-13",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22039"
+        }
+      ],
+      "id": "p_c218aae3671a61",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22038 Personalized Pricing and the Value of Past Purchase Histories: An Empirical Perspective",
+      "authors": [
+        "Isis Durrmeyer, Jean-François Fournel, Mario Samano"
+      ],
+      "abstract": "Grocery loyalty programs record purchase histories that retailers do not use to personalize prices. We measure how much they forgo with a structural model of demand and pricing in which a Bayesian seller learns preferences from past purchases and personalizes prices. Profits rise by 7.1\\% with one-year histories, capturing two thirds of the gains under perfect knowledge of preferences. Most consumers (84.1\\%) gain, but the losses of the minority outweigh these gains, and aggregate consumer surplus falls. An optimal loyalty program charges a membership fee, yet most consumers enroll, because op",
+      "source_url": "https://cepr.org/publications/dp22038",
+      "doi": "",
+      "aliases": [
+        "cepr:22038"
+      ],
+      "first_public_date": "2026-10-12",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22038"
+        }
+      ],
+      "id": "p_c190136dcb8289",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22037 Dynamic Factor Models and Cointegration",
+      "authors": [
+        "Marco Brianti, Mario Forni, Luca Gambetti, Antonio Granese"
+      ],
+      "abstract": "The factors of a stationary Dynamic Factor Model (DFM) are the first differences of singular I(1) processes. Being singular, such processes are always cointegrated. This however does not prevent the existence of a VAR for their first differences, so that the standard estimation procedure of the stationary DFM remains valid. Problems arise only when there is a linear combination of the shocks that has transitory effects on all the variables of the panel. We argue that this case is implausible for macroeconomic data and show that in fact it does not occur for two widely used US data sets — the F",
+      "source_url": "https://cepr.org/publications/dp22037",
+      "doi": "",
+      "aliases": [
+        "cepr:22037"
+      ],
+      "first_public_date": "2026-10-11",
+      "stage": "working-paper",
+      "discipline": "methods",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22037"
+        }
+      ],
+      "id": "p_b947d8886f4204",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22036 Beyond Digital Rights: An Institutional Architecture for Consumer Empowerment",
+      "authors": [
+        "Dennis Snower, Paul Twomey, Vicente Arias"
+      ],
+      "abstract": "Digital governance has substantially expanded consumers' formal rights over personal data, yet these rights often fail to translate into effective agency in digital markets. We identify this as an institutional capability gap: individual consumers lack the information, expertise, accountability mechanisms, and bargaining capacity required to exercise legal rights continuously and economically effectively. We develop the Innovation in the Digital Economy Architecture (IDEA) as an institutional response. Rather than proposing additional substantive rights, IDEA integrates four mutually reinforci",
+      "source_url": "https://cepr.org/publications/dp22036",
+      "doi": "",
+      "aliases": [
+        "cepr:22036"
+      ],
+      "first_public_date": "2026-10-11",
+      "stage": "working-paper",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22036"
+        }
+      ],
+      "id": "p_6d039aff05de2e",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22034 Foreign Giants' Broad Shoulders: The Causal Effect of Foreign Ideas on U.S. Innovation",
+      "authors": [
+        "Tarek Hassan, Aakash Kalyani, Juan Cruz Lopez Del Valle"
+      ],
+      "abstract": "We study the role of foreign ideas in U.S. innovation by constructing a directed “genealogy” of technologies from the full text of 13 million patents filed between 1894 and 2024. By tracing which earlier technologies appear in the founding patents of new ones, we recover a large-scale input–output network of technological recombination that identifies the foreign technologies that serve as inputs into innovation in the United States. We report four main findings. First, foreign ideas are pervasive: 56% ofU.S.technologies build on at least one foreign input, and the most fertile U.S. technologi",
+      "source_url": "https://cepr.org/publications/dp22034",
+      "doi": "",
+      "aliases": [
+        "cepr:22034"
+      ],
+      "first_public_date": "2026-10-10",
+      "stage": "working-paper",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22034"
+        }
+      ],
+      "id": "p_4e6025fd9ca547",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22035 Divisive by Design: Shaping Values in Optimal Mechanisms",
+      "authors": [
+        "Anja Prummer, Francesco Nava"
+      ],
+      "abstract": "We study a principal who allocates a good to agents with private, independently distributed values through an optimal mechanism. The principal can strategically shape these value distributions by modifying the good’s features, which affect agents’ valuations. Our analysis reveals that optimal designs are frequently divisive – creating goods that appeal strongly to specific agents or agent types while being less valued by others. These divisive designs reduce information rents and increase total surplus, even though they reduce competition. Even when total surplus is constrained, some divisiven",
+      "source_url": "https://cepr.org/publications/dp22035",
+      "doi": "",
+      "aliases": [
+        "cepr:22035"
+      ],
+      "first_public_date": "2026-10-10",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22035"
+        }
+      ],
+      "id": "p_5d205b82af45d9",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22033 This Time It's Different: The Role of Women's Employment in Recessions",
+      "authors": [
+        "Titan Alon, Matthias Doepke, Jane Olmstead-Rumsey, James Symons-Hicks, Michèle Tertilt"
+      ],
+      "abstract": "We study the transmission of macroeconomic shocks in a model of the household sector featuring single and married households, joint labor-supply decisions of women and men, and childcare needs that interact with the availability of remote work. Recessions concentrated among women are deeper and more persistent than those concentrated among men, reflecting weaker within-family insurance and a new empirical finding that women re-enter employment more slowly after job loss. Yet recovery from the pandemic recession, which had a disproportionate impact on working women due to school closures and th",
+      "source_url": "https://cepr.org/publications/dp22033",
+      "doi": "",
+      "aliases": [
+        "cepr:22033"
+      ],
+      "first_public_date": "2026-10-10",
+      "stage": "working-paper",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22033"
+        }
+      ],
+      "id": "p_16847277ae1ef8",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22031 Infinite Factor Structure in Conditional Asset Pricing",
+      "authors": [
+        "Mikhail Chernov, Bryan Kelly, Semyon Malamud, Johannes Schwab"
+      ],
+      "abstract": "The return covariance matrix is widely assumed to have an eigenvalue cliff: a few large eigenvalues, then a bounded bulk, as in the approximate factor structure of Chamberlain and Rothschild (1983). This premise underlies factor tests, principal-component methods, and large-covariance estimation. These methods estimate moments from returns pooled across states, so they necessarily view a conditional world unconditionally. We show that, generically, this view removes the cliff: a conditional model with a few factors is, unconditionally, an infinite-factor model in which infinitely many eigenval",
+      "source_url": "https://cepr.org/publications/dp22031",
+      "doi": "",
+      "aliases": [
+        "cepr:22031"
+      ],
+      "first_public_date": "2026-10-09",
+      "stage": "working-paper",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22031"
+        }
+      ],
+      "id": "p_aa54bd53813867",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22032 Risk Management in Monetary Policy: A Review with Asset Pricing Implications",
+      "authors": [
+        "Anna Cieslak, Stephen Hansen, Hao Pang"
+      ],
+      "abstract": "We review recent research on how the Fed's risk-management approach shapes the overall policy stance and how it affects financial market conditions. The evidence shows that the policy stance contains a forward-looking, conditional component that has long been an integral part of the Fed's policymaking toolkit. Asymmetric forward-looking policy tilts — motivated by risk-management considerations and revealed via the Fed's communication — complement and extend beyond the effects of direct policy actions. Drawing on the transcripts of FOMC meetings between 1976 and 2019, we provide an institution",
+      "source_url": "https://cepr.org/publications/dp22032",
+      "doi": "",
+      "aliases": [
+        "cepr:22032"
+      ],
+      "first_public_date": "2026-10-09",
+      "stage": "working-paper",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22032"
+        }
+      ],
+      "id": "p_3b6917a7e86aaf",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22028 At-Risk or Responsive? Targeting in Unemployment Policy",
+      "authors": [
+        "Sebastian Ernst, Andreas I. Mueller, Johannes Spinnewijn, Joost Bollens"
+      ],
+      "abstract": "This paper evaluates the use of algorithmic risk profiling to direct job search support toward individuals most at risk of long-term unemployment. Using three regression discontinuity designs and rich administrative data from the Flemish Public Employment Service (VDAB) in Belgium, we address two key dimensions: whom and when to target. First, job search counseling raises employment on average, but treatment effects decline sharply with predicted risk. This reveals a fundamental trade-off between targeting those most at risk and those most responsive to intervention. Second, we find no evidenc",
+      "source_url": "https://cepr.org/publications/dp22028",
+      "doi": "",
+      "aliases": [
+        "cepr:22028"
+      ],
+      "first_public_date": "2026-10-08",
+      "stage": "working-paper",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22028"
+        }
+      ],
+      "id": "p_f6d9df696be8c3",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22026 Who Can Produce What? Firm Capabilities and Product Entry",
+      "authors": [
+        "Luca Macedoni, John Morrow, Vladimir Tyazhelnikov"
+      ],
+      "abstract": "Which firms supply which products? Modeling multi-product firms under heterogeneous markups, we recover firms’ costs for produced products and develop an algorithm inspired by recommender systems to predict costs for unproduced products. Lower predicted costs imply increased product adoption and identify which firms enter when export demand rises, including firms crossing broad product classifications. We use these counterfactual costs to quantify how reductions in fixed and marginal costs induce product entry and lower price indices. In a price-stabilization exercise following a cost shock, e",
+      "source_url": "https://cepr.org/publications/dp22026",
+      "doi": "",
+      "aliases": [
+        "cepr:22026"
+      ],
+      "first_public_date": "2026-10-08",
+      "stage": "working-paper",
+      "discipline": "trade",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22026"
+        }
+      ],
+      "id": "p_5aa695bc634697",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22030 Female Jobs and Fertility: Long-term Experimental Evidence from Ethiopian Factories",
+      "authors": [
+        "Andreas Kotsadam, Janneke Pieters, Pauline Rossi, Espen Villanger, Celine Zipfel, Tigabu Getahun"
+      ],
+      "abstract": "We conducted an experiment with multiple factories in Ethiopia to test the widespread hypothesis that formal employment among women reduces fertility. Tracking respondents over eight years, we find that women who were randomly offered a job had more children than the control group. The effect on fertility emerged once the effect on wage employment faded away, around three years after baseline. There are clear effects on household income and savings, but not on bargaining power or marriage. These patterns are consistent with a Beckerian model in which the income effect dominates the substitutio",
+      "source_url": "https://cepr.org/publications/dp22030",
+      "doi": "",
+      "aliases": [
+        "cepr:22030"
+      ],
+      "first_public_date": "2026-10-08",
+      "stage": "working-paper",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22030"
+        }
+      ],
+      "id": "p_21ba623a095d38",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22029 Central Bank Losses and Inflation: 350 Years of Evidence",
+      "authors": [
+        "Anna Grodecka-Messi, Martin Kliem, Gernot Müller"
+      ],
+      "abstract": "Are central bank losses inflationary? We show in a simple model that, absent fiscal support, large losses can create a trade-off between stabilizing inflation and stabilizing central bank net worth. We then provide evidence that central bank net worth matters for monetary policy in practice, drawing on a new historical data set with more than 350 years of annual data for Sweden and its central bank, the Riksbank. Using a narrative approach, we identify large adverse shocks to the Riksbank's profitability and trace their dynamic effects. They raise inflation persistently under fiat but not unde",
+      "source_url": "https://cepr.org/publications/dp22029",
+      "doi": "",
+      "aliases": [
+        "cepr:22029"
+      ],
+      "first_public_date": "2026-10-08",
+      "stage": "working-paper",
+      "discipline": "banking",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22029"
+        }
+      ],
+      "id": "p_60363a0f2da187",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22021 Valuing Cryptocurrencies: Three Easy Pieces",
+      "authors": [
+        "Michael Burda"
+      ],
+      "abstract": "Can simple, off-the-shelf models explain positive, persistent, and volatile market valuations of privately issued digital assets? I review ”three easy pieces” - models in which cryptocurrencies can serve as a medium of exchange, a vehicle for saving, and a means of overcoming search and matching frictions in conditional payments. Each functionality imparts positive value, yet interferes with the others. Until these features can be separated, their mutual interference seems likely to inhibit widespread adoption of cryptocurrencies as money.",
+      "source_url": "https://cepr.org/publications/dp22021",
+      "doi": "",
+      "aliases": [
+        "cepr:22021"
+      ],
+      "first_public_date": "2026-10-08",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22021"
+        }
+      ],
+      "id": "p_017bdf23e50de4",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22025 Who Benefits from Market Concentration? The Effects of Hospital Mergers on Physician Income.",
+      "authors": [
+        "Jan Boone, Martin Salm, Sofia Santin"
+      ],
+      "abstract": "We examine the effect of hospital mergers on the income of medical specialists, with a specific focus on how this effect varies across different contractual arrangements between hospitals and medical specialists. We analyze the effects of 17 mergers that occurred in the Netherlands between 2011 and 2018. Using administrative data and employing a difference-in-differences empirical approach, we find that hospital mergers increase the income of self-employed medical specialists by 3.86\\% and do not affect the income of salaried medical specialists. Among the self-employed, mergers lead to signif",
+      "source_url": "https://cepr.org/publications/dp22025",
+      "doi": "",
+      "aliases": [
+        "cepr:22025"
+      ],
+      "first_public_date": "2026-10-08",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22025"
+        }
+      ],
+      "id": "p_e1b3878aa0d78e",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22022 Bayesian Inference for Heteroskedastic Proxy-SVARs",
+      "authors": [
+        "Andrea Carriero, Todd Clark, Massimiliano Marcellino, Tommaso Tornese"
+      ],
+      "abstract": "We develop a Bayesian posterior simulation method for SVAR models characterized by conditionally heteroskedastic shocks and nontriangular zero restrictions, a class that includes Proxy-SVARs as a special case. The method embeds a conditional Sequential Monte Carlo (SMC) step within a Gibbs sampler. The SMC step exploits an auxiliary homoskedastic model to construct a proposal density and progressively adapts the corresponding particle distribution to incorporate heteroskedasticity, moving through a sequence of intermediate densities. In Monte Carlo experiments, the sampler recovers the structu",
+      "source_url": "https://cepr.org/publications/dp22022",
+      "doi": "",
+      "aliases": [
+        "cepr:22022"
+      ],
+      "first_public_date": "2026-10-08",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22022"
+        }
+      ],
+      "id": "p_d58c8cd8713885",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "Export Controls and the Economics of National Security -- by Jingting Fan, Kyle Handley, Nuno Limão",
+      "authors": [],
+      "abstract": "Export controls restrict trade to limit adversaries’ access to goods that contribute to military capability, but their effectiveness depends on how trade and production adjust across countries. We combine new data on U.S. export control classifications and licensing outcomes with a quantitative general equilibrium model featuring dual-use production, input-output linkages, and separate civilian and military final expenditure. We estimate large export and entry frictions from these controls. These effects are substantially smaller for U.S. exports to members of multilateral export control regim",
+      "source_url": "https://www.nber.org/papers/w35898#fromrss",
+      "doi": "10.3386/w35898",
+      "aliases": [
+        "doi:10.3386/w35898",
+        "nber:w35898"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "trade",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35898#fromrss"
+        }
+      ],
+      "id": "p_f4643417e7b48c",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "The Net Present Value of the California Billionaire Tax Act -- by Benjamin Jaros, Joshua Rauh",
+      "authors": [],
+      "abstract": "This paper examines the revenue and migration impact of the 2026 California Billionaire Tax Act, a one-time 5 percent tax on the worldwide net worth of individuals exceeding $1 billion. Using data from the Forbes Billionaire List, news reports detailing the residential real estate holdings of California billionaires, and public announcements of billionaire departures from the state, we estimate the behavioral response and associated revenue loss to this new tax using several different methodologies. Even before accounting for reductions in other tax bases such as the income tax, we estimate th",
+      "source_url": "https://www.nber.org/papers/w35899#fromrss",
+      "doi": "10.3386/w35899",
+      "aliases": [
+        "doi:10.3386/w35899",
+        "nber:w35899"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35899#fromrss"
+        }
+      ],
+      "id": "p_a93b7b61a6db27",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Foreign Giants' Broad Shoulders: The Causal Effect of Foreign Ideas on U.S. Innovation -- by Tarek Alexander Hassan, Aakash Kalyani, Juan Cruz Lopez Del Valle",
+      "authors": [],
+      "abstract": "We study the role of foreign ideas in U.S. innovation by constructing a directed “genealogy” of technologies from the full text of 13 million patents filed between 1887 and 2024. By tracing which earlier technologies appear in the founding patents of new ones, we recover a large-scale input–output network of technological recombination that identifies the foreign technologies that serve as inputs into innovation in the United States. We report four main findings. First, foreign ideas are pervasive: 54% of U.S. technologies build on at least one foreign input, and the most fertile U.S. technolo",
+      "source_url": "https://www.nber.org/papers/w35900#fromrss",
+      "doi": "10.3386/w35900",
+      "aliases": [
+        "doi:10.3386/w35900",
+        "nber:w35900"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35900#fromrss"
+        }
+      ],
+      "id": "p_0f2dfa06674bc2",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Modeling and Evaluating the Labor Market and Fiscal Effects of Immigration -- by Michele Battisti, Giovanni Peri, Eleonora Romano",
+      "authors": [],
+      "abstract": "Immigration affects natives through both labor markets and public budgets, yet these channels are usually studied separately. We combine them in a general-equilibrium model with search-and-matching frictions, skill-specific progressive labor taxes, capital taxation and public goods, calibrated to 17 OECD countries over 2015-2019. The welfare effect on natives of a one-percentage-point increase in immigrant inflows varies in sign and size across countries, hinging on immigrants' skill mix, immigrant-native wage gaps, resident unemployment, and tax progressivity. For inflows matching the skill c",
+      "source_url": "https://www.nber.org/papers/w35901#fromrss",
+      "doi": "10.3386/w35901",
+      "aliases": [
+        "doi:10.3386/w35901",
+        "nber:w35901"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35901#fromrss"
+        }
+      ],
+      "id": "p_fdc90d96f5d81f",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "A Model of U.S. Monetary Policy and the Global Financial Cycle -- by Rohan Kekre, Moritz Lenel",
+      "authors": [],
+      "abstract": "We propose a general equilibrium model in which U.S. monetary policy affects global risk premia by revaluing the wealth of currency-mismatched arbitrageurs. Assuming their portfolios are mean-variance efficient, arbitrageurs must be short the dollar. A U.S. tightening thus erodes arbitrageurs' net worth and raises the global price of risk. We discipline this mechanism to rationalize the effects of U.S. monetary policy on international asset prices, and we quantify the associated macroeconomic spillovers and role of policy responses abroad. In a potential future with higher dollar interest rate",
+      "source_url": "https://www.nber.org/papers/w35902#fromrss",
+      "doi": "10.3386/w35902",
+      "aliases": [
+        "doi:10.3386/w35902",
+        "nber:w35902"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35902#fromrss"
+        }
+      ],
+      "id": "p_a30d1cdeb8fe8f",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "From Politics to Process: Evidence from Progressive Era Naturalizations -- by Abhay Aneja, Guo Xu",
+      "authors": [],
+      "abstract": "States that delegate governance to local officials face a trade-off between the benefits of local knowledge and the costs of biased administrators. Can imposing federal standards discipline bias and improve uniformity? We study this question by examining the introduction of federal standards to apply for citizenship under the 1906 Naturalization Act. Using newly-digitized census records covering over five million immigrants and a 30-year period, we show that standardizing adjudication of citizenship applications resulted in rapid convergence of naturalization practices across cities. While nat",
+      "source_url": "https://www.nber.org/papers/w35903#fromrss",
+      "doi": "10.3386/w35903",
+      "aliases": [
+        "doi:10.3386/w35903",
+        "nber:w35903"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "trade",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35903#fromrss"
+        }
+      ],
+      "id": "p_bd201af05da4b5",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Are We Consuming Too Much Groundwater? -- by Brian Greaney, Joseph S. Shapiro, Katherine R.H. Wagner",
+      "authors": [],
+      "abstract": "We study the optimality of human groundwater extraction from many of the world's 3,400 aquifers, where institutional or market failures may produce non-optimal extraction decisions. We use remote sensing and economic data to estimate a dynamic model of water extraction for each aquifer, recover the discount factor that rationalizes observed groundwater extraction, and compare it against Ramsey and market benchmarks. Three- to four-fifths of aquifers are extracted more rapidly than is optimal, decreasing aquifer present value by several percent, and creating trillions of dollars in present valu",
+      "source_url": "https://www.nber.org/papers/w35904#fromrss",
+      "doi": "10.3386/w35904",
+      "aliases": [
+        "doi:10.3386/w35904",
+        "nber:w35904"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35904#fromrss"
+        }
+      ],
+      "id": "p_0b7fa67e46a956",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Credit Markets with New Screening Technologies -- by Maryam Farboodi, Péter Kondor, Pablo Kurlat",
+      "authors": [],
+      "abstract": "We study equilibrium market structure in a model of credit-market competition with correlated or uncorrelated screening errors and endogenous screening technologies. A pool externality arises because rejected borrowers reapply elsewhere, so lenders’ screening and pricing choices affect competitors’ applicant pools. With independent errors, a single market segment emerges, with rates rising smoothly as lenders who choose better technologies lend to more adversely selected borrowers. With correlated screening errors, potentially stemming from similar AI systems and overlapping financial-sector d",
+      "source_url": "https://www.nber.org/papers/w35905#fromrss",
+      "doi": "10.3386/w35905",
+      "aliases": [
+        "doi:10.3386/w35905",
+        "nber:w35905"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35905#fromrss"
+        }
+      ],
+      "id": "p_ac69770d2eb58c",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Home-Foreign Elasticity Functions and the Gains from Trade -- by Jonathan Vogel",
+      "authors": [],
+      "abstract": "Gains from trade are typically calculated using a constant trade elasticity estimated from substitution across foreign countries. For general homothetic preferences, we show how to calculate these gains from the initial domestic expenditure share and the home-foreign elasticity function along a price path to autarky. While this function generally depends on the specific price path, under weak separability it does not. We provide conditions for its nonparametric identification and estimate sector-level elasticity functions using tariff changes implied by trade agreements. Across WIOD and OECD I",
+      "source_url": "https://www.nber.org/papers/w35906#fromrss",
+      "doi": "10.3386/w35906",
+      "aliases": [
+        "doi:10.3386/w35906",
+        "nber:w35906"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "trade",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35906#fromrss"
+        }
+      ],
+      "id": "p_2695ed7bd1b30d",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Pricing Power in the Mortgage Market: Evidence from GSE Fee Waivers -- by Neil Bhutta, Benjamin J. Keys, Adithya Raajkumar",
+      "authors": [],
+      "abstract": "Market power may arise not only from firms, but also from individual salespeople who can exploit informational advantages over consumers. We explore this phenomenon in the mortgage market by examining a Fannie Mae/Freddie Mac fee waiver targeted at lower-income first-time homebuyers. We estimate that mortgage intermediaries capture over 60% of $1.5 billion in total fee waivers during 2023–2024, rather than fully passing these savings through to borrowers. Pass-through varies substantially across loan officers: those with a track record of originating expensive mortgages (independent of lender ",
+      "source_url": "https://www.nber.org/papers/w35907#fromrss",
+      "doi": "10.3386/w35907",
+      "aliases": [
+        "doi:10.3386/w35907",
+        "nber:w35907"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35907#fromrss"
+        }
+      ],
+      "id": "p_53a70b15c57a50",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "The Impact of Social Insurance on Household Debt -- by Gideon Bornstein, Sasha Indarte",
+      "authors": [],
+      "abstract": "This paper investigates how the expansion of social insurance affects households’ accumulation of debt. Insurance can reduce reliance on debt by lessening the financial impact of adverse events such as illness and job loss. But it can also weaken the motive to self-insure through savings, and households’ improved financial resilience can increase access to credit. Using data on 10 million people and a quasi-experimental research design, we estimate the causal effect of expanded insurance on household debt, exploiting ZIP-level heterogeneity in exposure to the staggered expansions of one of the",
+      "source_url": "https://www.nber.org/papers/w35908#fromrss",
+      "doi": "10.3386/w35908",
+      "aliases": [
+        "doi:10.3386/w35908",
+        "nber:w35908"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35908#fromrss"
+        }
+      ],
+      "id": "p_347d312cf797ae",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "The Robust Properties of Economies with Endogenous Production Networks -- by Simone Cerreia-Vioglio, Roberto Corrao, Joel P. Flynn, Giacomo Lanzani",
+      "authors": [],
+      "abstract": "We characterize equilibria in a canonical class of economies with endogenous production networks, showing that log-prices equal a min-max over networks of a primitive affine function of log-productivities. This formula captures how resilience and fragility interact: the \"min\" reflects resilience from substituting suppliers, while the \"max\" reflects fragility from complementarity-induced rigidity. Applying these results, we generalize Hulten's theorem, finding that local Domar weights are generally insufficient to describe propagation of even small shocks. Moreover, we characterize how microeco",
+      "source_url": "https://www.nber.org/papers/w35909#fromrss",
+      "doi": "10.3386/w35909",
+      "aliases": [
+        "doi:10.3386/w35909",
+        "nber:w35909"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35909#fromrss"
+        }
+      ],
+      "id": "p_8fe91d2e8bab52",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Infinite Factor Structure in Conditional Asset Pricing -- by Mikhail Chernov, Bryan T. Kelly, Semyon Malamud, Johannes Schwab",
+      "authors": [],
+      "abstract": "The return covariance matrix is widely assumed to have an eigenvalue cliff: a few large eigenvalues, then a bounded bulk, as in the approximate factor structure of Chamberlain and Rothschild (1983). This premise underlies factor tests, principal-component methods, and large-covariance estimation. These methods estimate moments from returns pooled across states, so they necessarily view a conditional world unconditionally. We show that, generically, this view removes the cliff: a conditional model with a few factors is, unconditionally, an infinite-factor model in which infinitely many eigenval",
+      "source_url": "https://www.nber.org/papers/w35910#fromrss",
+      "doi": "10.3386/w35910",
+      "aliases": [
+        "doi:10.3386/w35910",
+        "nber:w35910"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35910#fromrss"
+        }
+      ],
+      "id": "p_8c14624b55deee",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Green Subsidies with Demand Distortions -- by Susanna B. Berkouwer, Joshua T. Dean",
+      "authors": [],
+      "abstract": "Credit constraints and other demand distortions are pervasive in lower-income contexts. A model of clean technology adoption shows that demand distortions can increase the welfare gains from green subsidies. This arises through two channels: shifting the marginal adopter toward higher private and social benefits, and increasing demand elasticity. We test this by cross-randomizing purchase price subsidies, usage subsidies, and access to an interest-free loan for a US$84 induction stove among 2,134 charcoal users in Kenya. Usage subsidies of 75% have a precise zero effect on adoption and usage. ",
+      "source_url": "https://www.nber.org/papers/w35911#fromrss",
+      "doi": "10.3386/w35911",
+      "aliases": [
+        "doi:10.3386/w35911",
+        "nber:w35911"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35911#fromrss"
+        }
+      ],
+      "id": "p_c8bdaff86b5eca",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Upgrading Financial Markets -- by Francis Annan, Seth Garz",
+      "authors": [],
+      "abstract": "Expanding access to financial services may not be enough to develop markets in low-income settings: providers also need to be held accountable to consumers. We test this in a field experiment across 195 rural Sierra Leonean communities, upgrading Village Savings and Loan Associations (VSLAs) into mobile money and bank agents, cross-randomized with a monthly consumer feedback mechanism. Upgrading expands access, but feedback drives large operational improvements (+20.5 pp, 85%), particularly in privacy and consumer protection, raising usage and revenues. Upgraded VSLAs also show higher savings ",
+      "source_url": "https://www.nber.org/papers/w35912#fromrss",
+      "doi": "10.3386/w35912",
+      "aliases": [
+        "doi:10.3386/w35912",
+        "nber:w35912"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "banking",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35912#fromrss"
+        }
+      ],
+      "id": "p_84092fcbb3f853",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Inside Central Bankers’ Calendars: How Do Fed Chairs Allocate Their Time? -- by Thomas Drechsel, Dali Tsakadze",
+      "authors": [],
+      "abstract": "How leaders allocate their limited time and attention is an important question in economics. This paper constructs and analyzes a novel data set covering the daily calendars of three Federal Reserve Chairs, Ben Bernanke, Janet Yellen, and Jerome Powell, containing more than 20,000 calendar entries. We document several patterns. First, all Fed Chairs spend more than 30% of their documented meetings with Fed staff, highlighting the crucial role of economists in the Fed's decision process. Second, interactions with the media became more frequent during Bernanke's tenure and remained important unt",
+      "source_url": "https://www.nber.org/papers/w35913#fromrss",
+      "doi": "10.3386/w35913",
+      "aliases": [
+        "doi:10.3386/w35913",
+        "nber:w35913"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "banking",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35913#fromrss"
+        }
+      ],
+      "id": "p_07bf50162fce2f",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "The Impact of the Great Recession on Mortality: A Dynamic Factor Analysis -- by Amy Finkelstein, Matthew J. Notowidigdo, Enzo Profili",
+      "authors": [],
+      "abstract": "We use a dynamic factor time series model to estimate the national mortality impact of the Great Recession. In aggregate, the Great Recession reduced the average annual, age-adjusted mortality rate by about 2 percent, with effects persisting for at least a decade. In a calibrated model of the welfare effects of the estimated impacts of the Great Recession on consumption and mortality, we find that the welfare gain from the estimated mortality decline is quantitatively significant relative to the welfare loss from the estimated consumption decline. The estimated mortality decline is also quanti",
+      "source_url": "https://www.nber.org/papers/w35914#fromrss",
+      "doi": "10.3386/w35914",
+      "aliases": [
+        "doi:10.3386/w35914",
+        "nber:w35914"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35914#fromrss"
+        }
+      ],
+      "id": "p_d44b893c7ef85f",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Transportation as a Barrier to Education Access: Evidence from Chicago Public Schools -- by Cecilia H. Moreira, Steven L. Puller, Ini Umosen",
+      "authors": [],
+      "abstract": "School choice can weaken the link between residential neighborhood and educational opportunity only if students can reach the schools available to them. We study school choice in Chicago, where high schoolers can choose among schools throughout the city but generally rely on public transit, making the structure of the transit network a key determinant of opportunity. Using student-level rankings and public transit travel times, we document two systematic patterns: Black students are less likely to rank top-rated schools first and face longer public transit times to such schools. We estimate a ",
+      "source_url": "https://www.nber.org/papers/w35915#fromrss",
+      "doi": "10.3386/w35915",
+      "aliases": [
+        "doi:10.3386/w35915",
+        "nber:w35915"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35915#fromrss"
+        }
+      ],
+      "id": "p_12c4961b56412c",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "The Long March to Innovation: R&D and Competitive Evolution in the Indian Pharmaceutical Industry -- by Chirantan Chatterjee, Aniruddh Bhaskaran, Matthew J. Higgins",
+      "authors": [],
+      "abstract": "TRIPS (1995) has played a major role in shaping the Indian pharmaceutical industry. Conventional theory suggests that strong intellectual property rights (IPR) frameworks should strengthen innovation incentives. Yet, two decades after TRIPS, growth in India’s novel innovation pipeline has stalled. This chapter challenges the assumption that stronger IPR alone would catalyze discovery-based R&D. We utilize trial phase transition data from the Biomedtracker database, finding that the Indian pipeline faces a bottleneck in transitioning clinical trials specifically from Phase 1 to Phase 2, support",
+      "source_url": "https://www.nber.org/papers/w35916#fromrss",
+      "doi": "10.3386/w35916",
+      "aliases": [
+        "doi:10.3386/w35916",
+        "nber:w35916"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35916#fromrss"
+        }
+      ],
+      "id": "p_b0630384d8c67c",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "The Effects of a Shorter Workweek on Employment, Output, and Productivity -- by Pauline Carry, Claire Montialoux, Elio Nimier-David, Alexandra Roulet, Nina Roussille",
+      "authors": [],
+      "abstract": "Do shorter workweeks generate work-sharing and productivity gains, as intended by policymakers? We study France’s pay-preserving reduction in the workweek from 39 to 35 hours, bundled with employer payroll tax cuts. We first exploit the staggered implementation by firm size to identify the impact of the reform package. We then use differential exposure to the hours cut and tax cut to separate their effects. We combine matched employer-employee, balance-sheet, and survey data to study worker, firm, and local labor market effects. The reform package left employment unchanged. This zero masks lar",
+      "source_url": "https://www.nber.org/papers/w35917#fromrss",
+      "doi": "10.3386/w35917",
+      "aliases": [
+        "doi:10.3386/w35917",
+        "nber:w35917"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35917#fromrss"
+        }
+      ],
+      "id": "p_92b760a45e3a0b",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Firms' Investment and the Real Transmission of the Global Financial Cycle -- by Caitlin Hegarty, Matias Moretti, Pablo Ottonello, Diego J. Perez",
+      "authors": [],
+      "abstract": "We study how global financial conditions transmit to firms’ investment. We document that increases in risk premia are followed by large investment contractions, particularly among firms with higher default risk. We develop a quantitative heterogeneous-firm open-economy model where firms finance investment with defaultable debt priced by risk-averse global investors. We identify a strong risk channel linking changes in the global price of risk to financing costs through firms’ quantity of risk—the sensitivity of debt repayment to global shocks. This introduces a risk dimension to stabilization ",
+      "source_url": "https://www.nber.org/papers/w35918#fromrss",
+      "doi": "10.3386/w35918",
+      "aliases": [
+        "doi:10.3386/w35918",
+        "nber:w35918"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35918#fromrss"
+        }
+      ],
+      "id": "p_865b8ef5a465eb",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Venture Capital and Customer Capital -- by Martin Aragoneses, Young Soo Jang, Amir Sufi",
+      "authors": [],
+      "abstract": "Venture capital specializes in the financing of customer capital intensive firms—firms with higher sales and marketing expense to revenue ratios, a higher wage bill for sales and marketing employees, and a higher tendency to apply for trademarks—and they do so more than other financial intermediaries. Venture capitalists target high customer capital industries with low knowledge capital but avoid high knowledge capital industries that lack customer capital. Firms tilt investment toward customer capital leading up to the initial venture capital investment, after which their scale accelerates ra",
+      "source_url": "https://www.nber.org/papers/w35919#fromrss",
+      "doi": "10.3386/w35919",
+      "aliases": [
+        "doi:10.3386/w35919",
+        "nber:w35919"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35919#fromrss"
+        }
+      ],
+      "id": "p_af660e4e84d070",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "The Role of Organization in Firm-Sponsored Training -- by David J. Deming, Raffaella Sadun, Christopher T. Stanton",
+      "authors": [],
+      "abstract": "Some firms are more likely than others to invest in workers’ skills. We document this phenomenon and discuss its implications in light of models of firm-sponsored skills training. The data show that better managed firms, even in the same industries and labor markets, are more likely to train, while training clusters around either managerial or frontline worker development. We argue that organizational differences provide incentives for firms to train beyond traditional explanations that focus on labor market frictions. We illustrate how organizational heterogeneity can generate training invest",
+      "source_url": "https://www.nber.org/papers/w35920#fromrss",
+      "doi": "10.3386/w35920",
+      "aliases": [
+        "doi:10.3386/w35920",
+        "nber:w35920"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35920#fromrss"
+        }
+      ],
+      "id": "p_eb3bdd8efcc0ae",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Understanding Migration Responses to Local Shocks -- by Kirill Borusyak, Rafael Dix-Carneiro, Brian K. Kovak",
+      "authors": [],
+      "abstract": "A commonly used migration regression relates population changes to local labor demand shocks, often yielding small or statistically insignificant coefficients despite sizable effects on labor market outcomes. We argue that such findings need not imply that mobility is unresponsive to local economic conditions. Rather, conventional migration regressions can be biased, as they do not reflect how workers choose among competing locations. In a parsimonious equilibrium model, local population growth depends on differences between local shocks and those in relevant destinations; when these shocks ar",
+      "source_url": "https://www.nber.org/papers/w35921#fromrss",
+      "doi": "10.3386/w35921",
+      "aliases": [
+        "doi:10.3386/w35921",
+        "nber:w35921"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35921#fromrss"
+        }
+      ],
+      "id": "p_6c1eaa9ea9bb4f",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Will Medical Care Strangle or Save the Federal Budget? -- by David M. Cutler",
+      "authors": [],
+      "abstract": "Forecasts of the federal budget depend greatly on trends in medical spending. Since 1970, medical spending has nearly tripled as a share of gross domestic product (GDP). However, spending growth has barely exceeded GDP growth since 2010. This difference in growth rates makes forecasting spending difficult. I present scenarios for future spending derived from considering the sources of spending increase, ranging from rapid increases in new, expensive treatments to a reduction in spending due to cost-reducing technology. Even modest increases in spending relative to GDP are likely to overwhelm t",
+      "source_url": "https://www.nber.org/papers/w35922#fromrss",
+      "doi": "10.3386/w35922",
+      "aliases": [
+        "doi:10.3386/w35922",
+        "nber:w35922"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35922#fromrss"
+        }
+      ],
+      "id": "p_9646a6f82eda69",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Staying Connected: Experimental Effects of Coach-Delivered Text Messages in an Adult High School -- by Alberto Ortega, Pietro Pellerito, Patrick S. Turner",
+      "authors": [],
+      "abstract": "More than 23 million adults in the United States lack a high school diploma, and most who return to school drop out before graduating. We evaluate a randomized intervention of adult high school students in which coaches delivered text messages that encouraged persistence. We find that assignment to treatment increased graduation by 4.9 percentage points, and the effect of message receipt among compliers is 9.3 percentage points, a 41 percent increase relative to the control mean. The intervention operated on the intensive margin by increasing the number of courses completed, but did not affect",
+      "source_url": "https://www.nber.org/papers/w35923#fromrss",
+      "doi": "10.3386/w35923",
+      "aliases": [
+        "doi:10.3386/w35923",
+        "nber:w35923"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35923#fromrss"
+        }
+      ],
+      "id": "p_93010ea36fb3c8",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Too Little too Late? Nationwide Carbon Trading in China -- by Shuang Zhang, Douglas Almond",
+      "authors": [],
+      "abstract": "China launched a nationwide, rate-based carbon market in 2021. Covering the world’s top CO2 emitter, compliance depends on the intensity of carbon emissions rather than an absolute cap. We draw on the theoretical literature of rate-based systems to provide the first empirical evidence on an early adopter. Using plant-level data from satellite imagery and machine learning methods, we find that high-efficiency power plants increased electricity generation and CO2 emissions by approximately 5% relative to low-efficiency plants. Because its carbon market regulates nearly all coal plants in China, ",
+      "source_url": "https://www.nber.org/papers/w35924#fromrss",
+      "doi": "10.3386/w35924",
+      "aliases": [
+        "doi:10.3386/w35924",
+        "nber:w35924"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35924#fromrss"
+        }
+      ],
+      "id": "p_704607fa2031b3",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Correcting for Heterogeneity in the Use of Subjective Scales -- by Daniel J. Benjamin, Kristen B. Cooper, Ori Heffetz, Miles S. Kimball, Jiannan Zhou",
+      "authors": [],
+      "abstract": "Analyses of survey data may be confounded if people use response scales differently. We formalize and generalize the theory behind using “calibration questions,” such as vignettes, to correct for scale-use heterogeneity. Finding, in our (N ≈ 10,000) and existing data, that the mapping between respondents’ scales is approximately linear, we develop a simple estimator for scale-use-corrected regressions. We validate it using subjective-scale ratings of height and weight and illustrate it with life satisfaction regressions, where correction leaves the main qualitative findings intact but can subs",
+      "source_url": "https://www.nber.org/papers/w35925#fromrss",
+      "doi": "10.3386/w35925",
+      "aliases": [
+        "doi:10.3386/w35925",
+        "nber:w35925"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35925#fromrss"
+        }
+      ],
+      "id": "p_e2db4600528508",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "The Why and How of Foreign Aid -- by Dean Karlan",
+      "authors": [],
+      "abstract": "Foreign aid has become a melting pot of motivations and policies, where differently-motivated actors often converge on recommended policies while the similarly-motivated diverge. Breaking down the “why” and the “how” can illuminate real tensions and reveal false ones. The “why” asks which problems to tackle and who benefits: the recipient, the donor through economic, political, or soft-power returns, or everyone through global public goods. The “how” asks which strategy most cost-effectively addresses a chosen problem. Evidence is central to the “how”: use it where it exists, produce it where ",
+      "source_url": "https://www.nber.org/papers/w35926#fromrss",
+      "doi": "10.3386/w35926",
+      "aliases": [
+        "doi:10.3386/w35926",
+        "nber:w35926"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35926#fromrss"
+        }
+      ],
+      "id": "p_8d53d38571809b",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "nber"
+        }
+      ]
     }
   ]
 }

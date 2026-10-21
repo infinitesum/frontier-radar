@@ -1,1 +1,221 @@
-{"schema_version": 1, "runs": []}
+{
+  "schema_version": 1,
+  "runs": [
+    {
+      "run_at": "2026-10-21T20:13:13+00:00",
+      "mode": "manual",
+      "since_days": 21,
+      "backfill_days": 90,
+      "source_count": 20,
+      "successful_sources": 2,
+      "counts": {
+        "added": 79,
+        "updated": 0,
+        "unchanged": 0,
+        "errors": 18
+      },
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "status": "ok",
+          "fetched": 29,
+          "added": 29,
+          "updated": 0,
+          "error": "",
+          "truncated": false
+        },
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "status": "ok",
+          "fetched": 50,
+          "added": 50,
+          "updated": 0,
+          "error": "",
+          "truncated": false
+        },
+        {
+          "id": "jf",
+          "name": "The Journal of Finance",
+          "status": "error",
+          "fetched": 0,
+          "added": 0,
+          "updated": 0,
+          "error": "Source unavailable (HTTPError): HTTP Error 400: Bad Request",
+          "truncated": false
+        },
+        {
+          "id": "jfe",
+          "name": "Journal of Financial Economics",
+          "status": "error",
+          "fetched": 0,
+          "added": 0,
+          "updated": 0,
+          "error": "Source unavailable (HTTPError): HTTP Error 400: Bad Request",
+          "truncated": false
+        },
+        {
+          "id": "rfs",
+          "name": "The Review of Financial Studies",
+          "status": "error",
+          "fetched": 0,
+          "added": 0,
+          "updated": 0,
+          "error": "Source unavailable (HTTPError): HTTP Error 400: Bad Request",
+          "truncated": false
+        },
+        {
+          "id": "jfqa",
+          "name": "Journal of Financial and Quantitative Analysis",
+          "status": "error",
+          "fetched": 0,
+          "added": 0,
+          "updated": 0,
+          "error": "Source unavailable (HTTPError): HTTP Error 400: Bad Request",
+          "truncated": false
+        },
+        {
+          "id": "jcf",
+          "name": "Journal of Corporate Finance",
+          "status": "error",
+          "fetched": 0,
+          "added": 0,
+          "updated": 0,
+          "error": "Source unavailable (HTTPError): HTTP Error 400: Bad Request",
+          "truncated": false
+        },
+        {
+          "id": "rof",
+          "name": "Review of Finance",
+          "status": "error",
+          "fetched": 0,
+          "added": 0,
+          "updated": 0,
+          "error": "Source unavailable (HTTPError): HTTP Error 400: Bad Request",
+          "truncated": false
+        },
+        {
+          "id": "aer",
+          "name": "American Economic Review",
+          "status": "error",
+          "fetched": 0,
+          "added": 0,
+          "updated": 0,
+          "error": "Source unavailable (HTTPError): HTTP Error 400: Bad Request",
+          "truncated": false
+        },
+        {
+          "id": "qje",
+          "name": "The Quarterly Journal of Economics",
+          "status": "error",
+          "fetched": 0,
+          "added": 0,
+          "updated": 0,
+          "error": "Source unavailable (HTTPError): HTTP Error 400: Bad Request",
+          "truncated": false
+        },
+        {
+          "id": "jpe",
+          "name": "Journal of Political Economy",
+          "status": "error",
+          "fetched": 0,
+          "added": 0,
+          "updated": 0,
+          "error": "Source unavailable (HTTPError): HTTP Error 400: Bad Request",
+          "truncated": false
+        },
+        {
+          "id": "ectr",
+          "name": "Econometrica",
+          "status": "error",
+          "fetched": 0,
+          "added": 0,
+          "updated": 0,
+          "error": "Source unavailable (HTTPError): HTTP Error 400: Bad Request",
+          "truncated": false
+        },
+        {
+          "id": "restud",
+          "name": "The Review of Economic Studies",
+          "status": "error",
+          "fetched": 0,
+          "added": 0,
+          "updated": 0,
+          "error": "Source unavailable (HTTPError): HTTP Error 400: Bad Request",
+          "truncated": false
+        },
+        {
+          "id": "aej-applied",
+          "name": "American Economic Journal: Applied Economics",
+          "status": "error",
+          "fetched": 0,
+          "added": 0,
+          "updated": 0,
+          "error": "Source unavailable (HTTPError): HTTP Error 400: Bad Request",
+          "truncated": false
+        },
+        {
+          "id": "aej-macro",
+          "name": "American Economic Journal: Macroeconomics",
+          "status": "error",
+          "fetched": 0,
+          "added": 0,
+          "updated": 0,
+          "error": "Source unavailable (HTTPError): HTTP Error 400: Bad Request",
+          "truncated": false
+        },
+        {
+          "id": "aej-micro",
+          "name": "American Economic Journal: Microeconomics",
+          "status": "error",
+          "fetched": 0,
+          "added": 0,
+          "updated": 0,
+          "error": "Source unavailable (HTTPError): HTTP Error 400: Bad Request",
+          "truncated": false
+        },
+        {
+          "id": "aej-policy",
+          "name": "American Economic Journal: Economic Policy",
+          "status": "error",
+          "fetched": 0,
+          "added": 0,
+          "updated": 0,
+          "error": "Source unavailable (HTTPError): HTTP Error 400: Bad Request",
+          "truncated": false
+        },
+        {
+          "id": "jpub",
+          "name": "Journal of Public Economics",
+          "status": "error",
+          "fetched": 0,
+          "added": 0,
+          "updated": 0,
+          "error": "Source unavailable (HTTPError): HTTP Error 400: Bad Request",
+          "truncated": false
+        },
+        {
+          "id": "jde",
+          "name": "Journal of Development Economics",
+          "status": "error",
+          "fetched": 0,
+          "added": 0,
+          "updated": 0,
+          "error": "Source unavailable (HTTPError): HTTP Error 400: Bad Request",
+          "truncated": false
+        },
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "status": "error",
+          "fetched": 0,
+          "added": 0,
+          "updated": 0,
+          "error": "Source unavailable (HTTPError): HTTP Error 400: Bad Request",
+          "truncated": false
+        }
+      ]
+    }
+  ]
+}
