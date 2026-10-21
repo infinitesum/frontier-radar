@@ -30,14 +30,6 @@ def today_beijing():
 def day_bounds(kind, as_of):
     if kind=='daily':
         return as_of,as_of
-    conf_path=ROOT/'data/conference_status.json'
-    if conf_path.exists():
-        try:
-            status=json.loads(conf_path.read_text('utf-8'))
-            report['conference_updates']=[x for x in status.get('events',[])
-                if start.isoformat()<=str(x.get('date',''))[:10]<=end.isoformat()][-20:]
-        except (OSError,ValueError):
-            print('::warning title=Conference evidence unavailable::Could not parse conference_status.json')
     if kind=='weekly':
         return as_of-timedelta(days=as_of.weekday()),as_of
     if kind=='monthly':
@@ -103,6 +95,14 @@ def make_issue(kind,as_of,papers,runs):
         'source_health':issue_health(runs),
         'conference_updates':[],
     }
+    conf_path=ROOT/'data/conference_status.json'
+    if conf_path.exists():
+        try:
+            status=json.loads(conf_path.read_text('utf-8'))
+            report['conference_updates']=[x for x in status.get('events',[])
+                if start.isoformat()<=str(x.get('date',''))[:10]<=end.isoformat()][-20:]
+        except (OSError,ValueError):
+            print('::warning title=Conference evidence unavailable::Could not parse conference_status.json')
     if kind=='weekly':
         report['synthesis']=[
             '横向阅读重点：优先将同一数据／方法线索的不同学科论文并读，识别共同问题和识别假设差异。',

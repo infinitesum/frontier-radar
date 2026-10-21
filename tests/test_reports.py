@@ -38,6 +38,18 @@ class Reports(unittest.TestCase):
         self.assertIn('行政记录',','.join(c['data_signals']))
         self.assertIn('尚未通过全文核实',c['finding_zh'])
 
+    def test_period_bounds_are_independent_of_conference_archive(self):
+        from tempfile import TemporaryDirectory
+        from unittest.mock import patch
+        from generate_reports import ROOT
+        with TemporaryDirectory() as folder:
+            archive=Path(folder)/'data'/'conference_status.json'
+            archive.parent.mkdir(parents=True)
+            archive.write_text('{"events": [{"kind":"program-link-change","date":"2026-10-20"}]}', encoding='utf-8')
+            with patch('generate_reports.ROOT', Path(folder)):
+                self.assertEqual(day_bounds('weekly', date(2026,10,25)), (date(2026,10,19),date(2026,10,25)))
+                self.assertEqual(day_bounds('monthly', date(2026,10,1)), (date(2026,9,1),date(2026,9,30)))
+
     def test_month_uses_previous_completed_month(self):
         self.assertEqual(day_bounds('monthly',date(2026,10,1)),(date(2026,9,1),date(2026,9,30)))
         self.assertEqual(day_bounds('monthly',date(2027,1,1)),(date(2026,12,1),date(2026,12,31)))
