@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "snapshot": "incremental-ingestion",
-  "updated_at": "2026-10-21T20:24:04+00:00",
+  "updated_at": "2026-10-21T20:27:32+00:00",
   "papers": [
     {
       "id": "seed-qje-qjag040",
@@ -29920,6 +29920,37 @@
       ]
     },
     {
+      "title": "Convex Surrogate Loss Functions for Contextual Pricing with Transaction Data",
+      "authors": [
+        "Max Biggs"
+      ],
+      "abstract": "We study an off-policy contextual pricing problem in which the seller has access to samples of prices that customers were previously offered, whether they purchased at that price, and auxiliary features describing the customer and/or item being sold. This is in contrast to the well-studied setting in which samples of the customer’s valuation (willingness to pay) are observed. In our setting, the observed data are influenced by the previous pricing policy, and we do not know how customers would have responded to alternative prices. We introduce suitable loss functions for this setting that can ",
+      "source_url": "https://doi.org/10.1287/mnsc.2023.00122",
+      "doi": "10.1287/mnsc.2023.00122",
+      "aliases": [
+        "doi:10.1287/mnsc.2023.00122"
+      ],
+      "first_public_date": "2026-07-14",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.00122"
+        }
+      ],
+      "id": "p_91417590b276b3",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
       "title": "Voting Choice",
       "authors": [
         "Andrey Malenko",
@@ -30080,6 +30111,72 @@
       ]
     },
     {
+      "title": "Data Evaluation: Mechanisms and Implications",
+      "authors": [
+        "Hong Zheng",
+        "Lin Tian",
+        "Guo Li"
+      ],
+      "abstract": "Unlike traditional products, data have unique traits that make their trading a novel retail activity with distinct operational dynamics. Data evaluation is a situation in which a data buyer can ascertain the value of data from a seller. However, as indicated by Arrow’s information paradox, the intangible nature of data presents significant challenges to data evaluation, particularly in data trading between competitors, a scenario that is becoming increasingly common and relevant. Although offering free samples is widely recommended as an effective approach for data evaluation, its actual impac",
+      "source_url": "https://doi.org/10.1287/mnsc.2025.01256",
+      "doi": "10.1287/mnsc.2025.01256",
+      "aliases": [
+        "doi:10.1287/mnsc.2025.01256"
+      ],
+      "first_public_date": "2026-07-13",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2025.01256"
+        }
+      ],
+      "id": "p_26c8ec6edf6992",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Executive Tweets",
+      "authors": [
+        "Richard M. Crowley",
+        "Wenli Huang",
+        "Hai Lu"
+      ],
+      "abstract": "We explore the tweeting behavior of S&P 1500 firms’ chief executive officers and chief financial officers and its market reactions from 2011 to 2018. Executives post a variety of content on Twitter, with slightly less than half of their tweets relating to business matters. We find that most executive tweets do not elicit market reactions. However, the subset of executive tweets about financial information appears to be associated with market reactions incremental to the responses to firm-issued tweets. These reactions coincide with increases in trading volume and retail investor activity. To a",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.05510",
+      "doi": "10.1287/mnsc.2024.05510",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.05510"
+      ],
+      "first_public_date": "2026-07-13",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.05510"
+        }
+      ],
+      "id": "p_26ce73171bc6df",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
       "title": "Misconduct and Market Implications of Honest Advisers’ Decisions",
       "authors": [
         "Michael Gelman",
@@ -30143,6 +30240,74 @@
           "kind": "discovered",
           "date": "2026-10-21",
           "source_id": "restud"
+        }
+      ]
+    },
+    {
+      "title": "Improving Coordination in Teams: Combining Team and Individual Relative Performance Evaluations",
+      "authors": [
+        "Jeremy D. Douthit",
+        "Max Hewitt",
+        "Ashley K. Sauciuc"
+      ],
+      "abstract": "Employees working in teams often fail to coordinate because of strategic uncertainty, i.e., difficulty predicting their colleagues’ actions. Using an incentivized economic experiment, we examine the potentially beneficial effects of a ubiquitous competitive incentive—individual relative performance evaluations (RPE)—in reducing strategic uncertainty and improving team output. When employees work in highly interdependent teams and are motivated by team incentives, we predict that individual RPE reduce employees’ strategic uncertainty and, in doing so, improve coordination. Consistent with our t",
+      "source_url": "https://doi.org/10.1287/mnsc.2025.01870",
+      "doi": "10.1287/mnsc.2025.01870",
+      "aliases": [
+        "doi:10.1287/mnsc.2025.01870"
+      ],
+      "first_public_date": "2026-07-10",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2025.01870"
+        }
+      ],
+      "id": "p_b1dd40c06b5c88",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "The Uneven Impact of Generative Artificial Intelligence on Entrepreneurial Performance: Evidence from a Field Experiment in Kenya",
+      "authors": [
+        "Nicholas G. Otis",
+        "Rowan Clarke",
+        "Solène Delecourt",
+        "David Holtz",
+        "Rembrand Koning"
+      ],
+      "abstract": "Scalable and low-cost artificial intelligence (AI) assistance has the potential to improve firm decision making and economic performance, particularly in emerging markets. However, running a business involves a wide range of open-ended problems, making it unclear whether and how recent advances in AI can help business owners around the world make better decisions. In a field experiment with Kenyan entrepreneurs, we evaluated the impact of AI advice on small business revenues and profits by randomizing access to a GPT-4-powered AI business assistant. Although we are unable to reject the null hy",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.06909",
+      "doi": "10.1287/mnsc.2024.06909",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.06909"
+      ],
+      "first_public_date": "2026-07-10",
+      "stage": "journal",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.06909"
+        }
+      ],
+      "id": "p_3cc8dec5e4838e",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
         }
       ]
     },
@@ -30246,6 +30411,104 @@
       ]
     },
     {
+      "title": "Vertical Patient Streaming in Emergency Departments",
+      "authors": [
+        "Arshya Feizi",
+        "Agni Orfanoudaki",
+        "Soroush Saghafian",
+        "Wayne A. Martini",
+        "Nicole Hodgson"
+      ],
+      "abstract": "Tackling hospital emergency department (ED) overcrowding is a paramount challenge for healthcare systems. To combat this issue, an innovative approach is to identify patients who can be served vertically (i.e., in a seated position) and route them to a dedicated area termed the vertical processing pathway (VPP). Successfully implementing this design requires understanding which patients should be routed to the VPP and when. Currently, the decision to leverage the VPP is made in an ad hoc fashion. To assist our partner hospital and other EDs in capturing the value of the VPP, we develop a machi",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.07517",
+      "doi": "10.1287/mnsc.2024.07517",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.07517"
+      ],
+      "first_public_date": "2026-07-09",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.07517"
+        }
+      ],
+      "id": "p_515a4ee94084bd",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Algorithmic Pricing, Price Wars, and Tacit Collusion: Evidence from E-Commerce",
+      "authors": [
+        "Leon Musolff"
+      ],
+      "abstract": "As the economy digitizes, menu costs fall, and firms can more easily monitor prices. These trends have led to the rise of automated pricing (and repricing) tools. We employ a novel e-commerce data set to examine the effect of algorithmic pricing in the wild. Evidence from an event study suggests that firms that start employing repricing tools drop their prices by 16.93%, with market prices falling by 9.67%. However, algorithmic pricing companies have developed “resetting” strategies (which regularly raise prices in the hope that competitors will follow) in order to avoid stark Bertrand-Nash co",
+      "source_url": "https://doi.org/10.1287/mnsc.2022.02462",
+      "doi": "10.1287/mnsc.2022.02462",
+      "aliases": [
+        "doi:10.1287/mnsc.2022.02462"
+      ],
+      "first_public_date": "2026-07-09",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2022.02462"
+        }
+      ],
+      "id": "p_1236d1645eccad",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Financial Reporting Effects of the 1934 Securities Exchange Act",
+      "authors": [
+        "Oliver Binz",
+        "Darren Roulstone"
+      ],
+      "abstract": "We document financial reporting effects of the 1934 Securities Exchange Act. Specifically, we find strong evidence that the act made the accounting of similar firms more similar. In contrast, we find no evidence that the act made the accounting of differing firms more similar. Together, these findings suggest that the act increased accounting comparability but not accounting uniformity. Further, the act increased information spillovers from earnings news released during bellwether firms’ earnings announcements to other firms within the same industry. We investigate possible mechanisms by which",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.06043",
+      "doi": "10.1287/mnsc.2024.06043",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.06043"
+      ],
+      "first_public_date": "2026-07-08",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.06043"
+        }
+      ],
+      "id": "p_20aafc1d008369",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
       "title": "The Effects of Open Banking on FinTech Firms’ Dynamics and Funding Structure",
       "authors": [
         "Andrés Alonso-Robisco",
@@ -30276,6 +30539,39 @@
           "kind": "discovered",
           "date": "2026-10-21",
           "source_id": "jfqa"
+        }
+      ]
+    },
+    {
+      "title": "The Signals We Give: Performance Feedback, Gender, and Competition",
+      "authors": [
+        "Alexander Coutts",
+        "Boon Han Koh",
+        "Zahra Murad"
+      ],
+      "abstract": "Feedback is vital for growth and learning, yet anecdotal evidence suggests people often hesitate to provide it, and its provision may be shaped by asymmetries and gender-related biases. We study feedback provision across variations in the nature of performance signals, their instrumental value, and the recipient’s gender. We find that a surprising degree of both positive and negative feedback is withheld, with a follow-up experiment suggesting that advisors’ feedback decisions are driven mainly by transparency- and duty-related considerations, or, to a lesser extent, are motivated by self-serv",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.05001",
+      "doi": "10.1287/mnsc.2024.05001",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.05001"
+      ],
+      "first_public_date": "2026-07-07",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.05001"
+        }
+      ],
+      "id": "p_e7b53956042af4",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
         }
       ]
     },
@@ -30376,6 +30672,71 @@
           "kind": "discovered",
           "date": "2026-10-21",
           "source_id": "restud"
+        }
+      ]
+    },
+    {
+      "title": "Multichannel Healthcare Operations: The Impact of Video Visits on the Usage of In-Person Care",
+      "authors": [
+        "Suparerk Lekwijit",
+        "Hummy Song",
+        "Christian Terwiesch",
+        "Krisda Chaiyachati"
+      ],
+      "abstract": "Healthcare organizations have been adopting video visits as an alternative care channel that offers greater convenience and holds promise for improving patients’ access to care. Despite the growing use, the impact of a new digital channel on care demand within existing physical channels has not been investigated in detail, especially in the primary care context of a traditional healthcare organization. We study a large healthcare system that made video visits available to a subset of its patients for primary care needs prior to the COVID-19 pandemic. Using a difference-in-differences approach ",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.06271",
+      "doi": "10.1287/mnsc.2024.06271",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.06271"
+      ],
+      "first_public_date": "2026-07-06",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.06271"
+        }
+      ],
+      "id": "p_62da34e396bd9f",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Bank Run, Interrupted: Modeling Deposit Withdrawals with Generative AI",
+      "authors": [
+        "Sophia Kazinnik"
+      ],
+      "abstract": "I study depositor behavior in panic-driven bank runs using an LLM-based survey simulation. I build a representative population of synthetic agents by assigning demographic attributes, expose them to a viral panic post, and randomize bank communication interventions. I validate model responses against human benchmarks and then generate systematic message variants that vary tone, strength, and content within the validated design space. I then include the estimated withdrawal propensities into a contagion model, which maps network nodes to depositor personas and propagates withdrawals through a s",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.06807",
+      "doi": "10.1287/mnsc.2024.06807",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.06807"
+      ],
+      "first_public_date": "2026-07-06",
+      "stage": "journal",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.06807"
+        }
+      ],
+      "id": "p_bb0f458e0f42ae",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
         }
       ]
     },
@@ -33838,6 +34199,1561 @@
       ]
     },
     {
+      "title": "Dynamic Portfolio Selection Under Quantile Maximization",
+      "authors": [
+        "Xue Dong He",
+        "Zhaoli Jiang",
+        "Steven Kou"
+      ],
+      "abstract": "Although maximizing quantiles is intuitively appealing and has an axiomatic foundation, it is difficult to find the optimal portfolio strategy because of time inconsistency. Using an intrapersonal equilibrium approach and focusing on the class of time-varying affine strategies, we find that the only viable outcome is from the median maximization because for other quantiles, either the equilibrium does not exist or there is no investment in risky assets. We also prove that maximizing the median endogenizes the use of portfolio insurance. The calibration of the model uncovers a new empirical phe",
+      "source_url": "https://doi.org/10.1287/mnsc.2023.03182",
+      "doi": "10.1287/mnsc.2023.03182",
+      "aliases": [
+        "doi:10.1287/mnsc.2023.03182"
+      ],
+      "first_public_date": "2026-07-01",
+      "stage": "journal",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.03182"
+        }
+      ],
+      "id": "p_136fe7db7ec8ea",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "The Role of Digital Platforms in Data Markets: How Platform-Shared Market Data Through Advanced Analytics Empower Firm Innovation",
+      "authors": [
+        "Yubo Chen",
+        "Xuebin Cui",
+        "Aishen Li",
+        "Banggang Wu",
+        "Liu Yang"
+      ],
+      "abstract": "Despite the growing value of data in digital markets, data sharing across firms is constrained by increasingly stringent privacy regulations. Digital platforms with their extensive data and analytical capabilities can help overcome these constraints by sharing market information through advanced analytics rather than raw data. In collaboration with Alibaba’s Taobao Marketplace, we utilize a natural experiment and examine how platform-shared data affect retailers’ performance. We find that advanced data analytics increase retailer sales by 31.8% beyond the effects of descriptive analytics. Anal",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.06633",
+      "doi": "10.1287/mnsc.2024.06633",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.06633"
+      ],
+      "first_public_date": "2026-07-01",
+      "stage": "journal",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.06633"
+        }
+      ],
+      "id": "p_0b39f48b4a0f24",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "A Framework for Selecting Action Portfolios with Incomplete and Action-Dependent Scenario Probabilities",
+      "authors": [
+        "Eeva Vilkkumaa",
+        "Petri Rikkinen",
+        "Juuso Liesiö"
+      ],
+      "abstract": "Companies pursue their goals by selecting and implementing a combination or portfolio of actions that consume resources. The extent to which these actions help attain the companies’ objectives is often contingent on whether a given future scenario is realized. In this paper, we present a model-based framework for supporting the selection of a portfolio of actions that is robust across different scenarios while accounting for the impacts that the actions may have on the probabilities of these scenarios. For the purposes of this framework, we develop a new portfolio decision analytic model and a",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.05383",
+      "doi": "10.1287/mnsc.2024.05383",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.05383"
+      ],
+      "first_public_date": "2026-07-01",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.05383"
+        }
+      ],
+      "id": "p_41d52ad83c4edb",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Learning Personalized Treatment Strategies with Predictive and Prognostic Covariates in Adaptive Clinical Trials",
+      "authors": [
+        "Andres Alban",
+        "Stephen E. Chick",
+        "Spyros I. Zoumpoulis"
+      ],
+      "abstract": "Biomedical research may uncover insights regarding the interaction of the treatments of a disease with patient covariates. We show how to use such insights to improve the efficiency of adaptive clinical trials for precision medicine by extending ideas from optimal Bayesian learning. We present a model for response-adaptive multi-arm clinical trials that leverages knowledge about the predictive-prognostic covariate structure to accelerate the learning of personalized treatment strategies that obtain the best expected outcomes for post-trial patients. Our base model is a contextual linear bandit",
+      "source_url": "https://doi.org/10.1287/mnsc.2022.02048",
+      "doi": "10.1287/mnsc.2022.02048",
+      "aliases": [
+        "doi:10.1287/mnsc.2022.02048"
+      ],
+      "first_public_date": "2026-07-01",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2022.02048"
+        }
+      ],
+      "id": "p_d0377bc2719b93",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Investor Valuation for Socially Responsible Assets: A Willingness to Pay Experiment",
+      "authors": [
+        "Daniel Brodback",
+        "Nadja Guenster",
+        "Sébastien Pouget",
+        "Ruichen Wang"
+      ],
+      "abstract": "We present an experimental study of investors’ willingness to pay for socially responsible assets. In our initial public offering experiment, various assets share identical financial risk-return profiles but differ in the intensity and timing of societal benefits, represented by charitable donations. We find that subjects value societal benefits positively and prefer a positive correlation between financial returns and these societal benefits. We offer implications for the design of corporate social responsibility policies and for the pricing of responsible assets. This paper was accepted by D",
+      "source_url": "https://doi.org/10.1287/mnsc.2022.01349",
+      "doi": "10.1287/mnsc.2022.01349",
+      "aliases": [
+        "doi:10.1287/mnsc.2022.01349"
+      ],
+      "first_public_date": "2026-07-01",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2022.01349"
+        }
+      ],
+      "id": "p_6427246c632c6f",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Dynamic Scheduling of a Multiclass Queue in the Halfin–Whitt Regime: A Computational Approach for High-Dimensional Problems",
+      "authors": [
+        "Barış Ata",
+        "Ebru Kaşıkaralar"
+      ],
+      "abstract": "We consider a multiclass queueing model of a telephone call center in which a system manager dynamically allocates available servers to customer calls. Calls can terminate through either service completion or customer abandonment, and the manager strives to minimize the expected total of holding costs plus abandonment costs over a finite horizon. Focusing on the Halfin–Whitt heavy traffic regime, we derive an approximating diffusion control problem and, building on earlier work by Beck et al. [Beck C, Becker S, Cheridito P, Jentzen A, Neufeld A (2021) Deep splitting method for parabolic PDEs. ",
+      "source_url": "https://doi.org/10.1287/mnsc.2023.03921",
+      "doi": "10.1287/mnsc.2023.03921",
+      "aliases": [
+        "doi:10.1287/mnsc.2023.03921"
+      ],
+      "first_public_date": "2026-07-01",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.03921"
+        }
+      ],
+      "id": "p_da3c4111fe515a",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "The Authenticity of Purpose Claims: Firm Capacity and Job Seeker Responses to Recruitment Efforts",
+      "authors": [
+        "León Valdés",
+        "Trevor Young-Hyman",
+        "Evan Gilbertson",
+        "C. B. Bhattacharya",
+        "Oliver Hahl"
+      ],
+      "abstract": "Whereas corporate purpose involves a claim made to galvanize stakeholders, recent research on the topic has not examined it as a claim. Given the information asymmetry that many evaluators of purpose claims face, a key question concerns the conditions under which they are not simply viewed as cheap talk but are instead perceived as authentic. We argue that the difficulty and future orientation inherent to purpose claims make firm capacity a key source of authenticity and, ultimately, positive evaluations. We examine these ideas in the labor market context, where employers often present purpose",
+      "source_url": "https://doi.org/10.1287/mnsc.2023.03931",
+      "doi": "10.1287/mnsc.2023.03931",
+      "aliases": [
+        "doi:10.1287/mnsc.2023.03931"
+      ],
+      "first_public_date": "2026-07-01",
+      "stage": "journal",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.03931"
+        }
+      ],
+      "id": "p_d7396289bffbdd",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Bad-Drug Ads or Killer Ads: The Effects of Drug Injury Advertising on Public Health",
+      "authors": [
+        "Sylvia Hristakeva"
+      ],
+      "abstract": "This paper analyzes the impact of lawsuit advertisements targeting drug companies. Although the main purpose of the ads is to recruit potential lawsuit plaintiffs, they also reach a broad audience of viewers. Medical professionals have raised concerns that drug injury ads may lead uninjured patients to misperceive the risks and benefits of treatment, leading them to discontinue medically necessary drugs. The paper examines how drug injury ads affect prescription fills and subsequent health outcomes. The empirical context analyzes anticoagulants, which are commonly used by elderly patients to p",
+      "source_url": "https://doi.org/10.1287/mnsc.2023.04294",
+      "doi": "10.1287/mnsc.2023.04294",
+      "aliases": [
+        "doi:10.1287/mnsc.2023.04294"
+      ],
+      "first_public_date": "2026-07-01",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.04294"
+        }
+      ],
+      "id": "p_3bc5564db65a34",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Deciphering the PCAOB Inspection Process: Evidence and Predictive Insights from Public Data",
+      "authors": [
+        "Daniel Aobdia",
+        "Edward Xuejun Li",
+        "K. Ramesh",
+        "Min Shen"
+      ],
+      "abstract": "Little is known about how the Public Company Accounting Oversight Board (PCAOB) selects audits for inspections. We exploit public data that track PCAOB searches of issuer Securities and Exchange Commission (SEC) filings and the trial transcripts of United States of America v. David Middendorf to provide the first large-sample evidence on confidential PCAOB monitoring activities. We initially validate that PCAOB searches spike during actual inspections of triennially inspected auditors and for a list of KPMG audits inspected in 2016. Importantly, we find that PCAOB searches vary predictably wit",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.08084",
+      "doi": "10.1287/mnsc.2024.08084",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.08084"
+      ],
+      "first_public_date": "2026-07-01",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.08084"
+        }
+      ],
+      "id": "p_8c6bed288ea90c",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "The Competitive Ratio of Threshold Policies for Online Unit-Density Knapsack Problems",
+      "authors": [
+        "Will Ma",
+        "David Simchi-Levi",
+        "Jinglong Zhao"
+      ],
+      "abstract": "We study a wholesale supply chain ordering problem. In this problem, the supplier has an initial stock and faces an unpredictable stream of incoming orders, making real-time decisions on whether to accept or reject each order. What makes this wholesale supply chain ordering problem special is its knapsack constraint; that is, we do not allow partially accepting an order or splitting an order. The objective is to maximize the utilized stock. We model this wholesale supply chain ordering problem as an online unit-density knapsack problem. We study randomized threshold algorithms that accept an i",
+      "source_url": "https://doi.org/10.1287/mnsc.2023.01577",
+      "doi": "10.1287/mnsc.2023.01577",
+      "aliases": [
+        "doi:10.1287/mnsc.2023.01577"
+      ],
+      "first_public_date": "2026-07-01",
+      "stage": "journal",
+      "discipline": "trade",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.01577"
+        }
+      ],
+      "id": "p_a4dd5a09f3bb87",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Group Discussions Improve Competence Calibration: Making Self-Perceived Competence Valuable When Harnessing the Wisdom of Crowds",
+      "authors": [
+        "Michael Goedde-Menke",
+        "Enrico Diecidue",
+        "Andreas Jacobs",
+        "Thomas Langer"
+      ],
+      "abstract": "This paper experimentally demonstrates that group discussions can serve as an instrument to improve competence calibration, which in turn allows getting more wisdom out of the crowd through competence weighting. While the alignment of individuals’ estimation accuracy and self-perceived competence is typically poor and competence-weighted aggregates do not even match the accuracy of simple averaging, we find that preceding group discussions on unrelated judgment problems enhance competence calibration. Consequently, the subsequent performance of competence-weighted aggregation schemes rises to ",
+      "source_url": "https://doi.org/10.1287/mnsc.2022.03061",
+      "doi": "10.1287/mnsc.2022.03061",
+      "aliases": [
+        "doi:10.1287/mnsc.2022.03061"
+      ],
+      "first_public_date": "2026-07-01",
+      "stage": "journal",
+      "discipline": "methods",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2022.03061"
+        }
+      ],
+      "id": "p_f509dbdf050302",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "The Production and Consumption of Social Media",
+      "authors": [
+        "Apostolos Filippas",
+        "John J. Horton",
+        "Elliot Lipnowski",
+        "Prasanna Parasurama"
+      ],
+      "abstract": "We model social media as collections of users producing and consuming content. Users value consuming content, but due to scarce attention, they may not value all content from other users. Users also value receiving attention, creating the incentive to attract an audience by producing valuable content but also through attention bartering—users mutually becoming each other’s audience. Attention bartering shapes substantially the patterns of production and consumption on social media, explains key features of social media behavior and platform decision making, and yields sharp predictions that ar",
+      "source_url": "https://doi.org/10.1287/mnsc.2023.00060",
+      "doi": "10.1287/mnsc.2023.00060",
+      "aliases": [
+        "doi:10.1287/mnsc.2023.00060"
+      ],
+      "first_public_date": "2026-07-01",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.00060"
+        }
+      ],
+      "id": "p_a2a02db3b3a143",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Deep Learning-Based Causal Inference for Large-Scale Combinatorial Experiments: Theory and Empirical Evidence",
+      "authors": [
+        "Zikun Ye",
+        "Zhiqi Zhang",
+        "Dennis J. Zhang",
+        "Heng Zhang",
+        "Renyu Zhang"
+      ],
+      "abstract": "Large-scale online platforms launch hundreds of randomized experiments (also known as A/B tests) every day to iterate their operations and marketing strategies. The combinations of these treatments are typically not exhaustively tested, which triggers an important question of both academic and practical interest. Without observing the outcomes of all treatment combinations, how does one estimate the causal effect of any treatment combination and identify the optimal treatment combination? We develop a novel framework combining deep learning and doubly robust estimation to estimate the causal e",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.04625",
+      "doi": "10.1287/mnsc.2024.04625",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.04625"
+      ],
+      "first_public_date": "2026-07-01",
+      "stage": "journal",
+      "discipline": "methods",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.04625"
+        }
+      ],
+      "id": "p_8f51ae6062441b",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "The ABCs of Who Benefits from Working with AI: Ability, Beliefs, and Calibration",
+      "authors": [
+        "Andrew Caplin",
+        "David Deming",
+        "Shangwen Li",
+        "Daniel Martin",
+        "Philip Marx",
+        "Ben Weidmann",
+        "Kadachi Jiada Ye"
+      ],
+      "abstract": "We use a controlled experiment to show that ability and belief calibration jointly determine the benefits of working with artificial intelligence (AI). AI improves performance more for people with low baseline ability. However, holding ability constant, AI assistance is more valuable for people who are calibrated, meaning they have accurate beliefs about their own ability. People who know they have low ability gain the most from working with AI. In a counterfactual analysis, we show that eliminating miscalibration would cause AI to reduce performance inequality nearly twice as much as it alrea",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.08994",
+      "doi": "10.1287/mnsc.2024.08994",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.08994"
+      ],
+      "first_public_date": "2026-07-01",
+      "stage": "journal",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.08994"
+        }
+      ],
+      "id": "p_eb6e9310f6805a",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Effects of Financial Constraints on Supply Chain Financing Choices and Operational Decisions",
+      "authors": [
+        "Anqi Wu",
+        "Qi Wu",
+        "Sridhar Seshadri"
+      ],
+      "abstract": "Bank credit access allows firms to borrow funds from banks and other financial institutions. Although theories have been developed on how bank financing affects firms’ operational decisions, empirical investigations in operations management (OM) literature remain limited. This study examines firms’ inventory management strategies in response to the enhanced credit lines from the adoption of interstate bank branching laws, which introduced staggered access to bank credit for operational firms. By merging multiple datasets with credit line information from 10-K SEC filings, we constructed a pane",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.08465",
+      "doi": "10.1287/mnsc.2024.08465",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.08465"
+      ],
+      "first_public_date": "2026-07-01",
+      "stage": "journal",
+      "discipline": "banking",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.08465"
+        }
+      ],
+      "id": "p_d27bdd5505773e",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "How Do Behavioral Approaches to Increase Savings Compare? Evidence from Multiple Interventions in the U.S. Army",
+      "authors": [
+        "Richard W. Patterson",
+        "William Skimmyhorn"
+      ],
+      "abstract": "How can we compare approaches to increase retirement savings? Messaging interventions, active choice frameworks, and automatic enrollment all increase retirement savings, but evidence supporting these approaches spans widely different institutional settings, populations, and time periods. In this study, we use experimental and quasi-experimental variation in these approaches within a constant setting using interventions in the U.S. military during 2016–2018. We find large differences in the efficacy of these approaches, with active choice and automatic enrollment programs being about 10 and 10",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.04939",
+      "doi": "10.1287/mnsc.2024.04939",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.04939"
+      ],
+      "first_public_date": "2026-07-01",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.04939"
+        }
+      ],
+      "id": "p_fd4aa3c74adf84",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Political Heterogeneity and Societal Polarization Impair Individual Performance: Evidence from Random Assignment in Professional Golf",
+      "authors": [
+        "Tim Sels",
+        "Balázs Kovács"
+      ],
+      "abstract": "We examine how political heterogeneity in groups affects individual performance in settings where people work alongside others. Leveraging the random assignment of golfers to groups in Professional Golfers’ Association Tour tournaments, we find that golfers score 0.2 strokes better per round when playing in politically homogeneous versus heterogeneous groups. This corresponds to a five-rank improvement before the tournament cut and an additional $13,000–$23,400 in tournament earnings. The effect intensifies during periods of high societal political polarization and diminishes when polarization",
+      "source_url": "https://doi.org/10.1287/mnsc.2023.01798",
+      "doi": "10.1287/mnsc.2023.01798",
+      "aliases": [
+        "doi:10.1287/mnsc.2023.01798"
+      ],
+      "first_public_date": "2026-07-01",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.01798"
+        }
+      ],
+      "id": "p_ddb50f48dbfad0",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "The Treasury Collateral Spread and Levered Safe-Asset Production",
+      "authors": [
+        "Chase P. Ross"
+      ],
+      "abstract": "Banks are vital suppliers of money-like safe assets, which they produce by issuing short-term liabilities and pledging collateral. But their ability to create safe assets varies over time as leverage constraints fluctuate. I write a simple model to describe private safe-asset production when intermediaries face leverage constraints. I directly measure leverage constraints using confidential supervisory data on high-frequency changes in the largest banks’ repurchase agreements (repos). The collateral spread—the maturity-matched yield spread between Treasuries used as repo collateral more often ",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.06104",
+      "doi": "10.1287/mnsc.2024.06104",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.06104"
+      ],
+      "first_public_date": "2026-07-01",
+      "stage": "journal",
+      "discipline": "banking",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.06104"
+        }
+      ],
+      "id": "p_af09d8651924e0",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Antitrust Platform Regulation and Entrepreneurship: Evidence from China",
+      "authors": [
+        "Ke Rong",
+        "D. Daniel Sokol",
+        "Di Zhou",
+        "Feng Zhu"
+      ],
+      "abstract": "Many jurisdictions have launched antitrust enforcement and brought in regulation of large tech platforms. The swift and strict implementation of China’s Anti-Monopoly Guidelines for the Platform Economy (Platform Guidelines) provides a quasi-natural experiment to evaluate the impact of antitrust regulation on platform competition. We adopt a difference-in-differences approach to empirically explore the impact of China’s Platform Guidelines on the number of investments and the entry of startups in platform markets. The results show that the Platform Guidelines did not increase entrepreneurship ",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.04397",
+      "doi": "10.1287/mnsc.2024.04397",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.04397"
+      ],
+      "first_public_date": "2026-07-01",
+      "stage": "journal",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.04397"
+        }
+      ],
+      "id": "p_dde6446f7255f1",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Managerial Prosocial Preferences and Guilt as an Emotional Barrier to Exit Decisions",
+      "authors": [
+        "Daniel D. Keum",
+        "Xin Lucy Liu"
+      ],
+      "abstract": "Despite economic setbacks, managers may resist exiting to avoid harming employees who will lose their jobs. We propose that managers with higher prosocial preferences set lower exit thresholds and select conservative investments that reduce the risk of having to exit because they experience stronger feelings of anticipatory guilt. Our field study shows that, in responding to intensifying Chinese import competition, prosocial managers are less likely to exit or divest. Our experiments (N = 1,411), including a sample of senior executives, show that anticipatory guilt mediates the negative effect",
+      "source_url": "https://doi.org/10.1287/mnsc.2023.02533",
+      "doi": "10.1287/mnsc.2023.02533",
+      "aliases": [
+        "doi:10.1287/mnsc.2023.02533"
+      ],
+      "first_public_date": "2026-07-01",
+      "stage": "journal",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.02533"
+        }
+      ],
+      "id": "p_dccf7dbfad5616",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Mutual Fund Revenue Sharing in 401(k) Plans",
+      "authors": [
+        "Veronika K. Pool",
+        "Clemens Sialm",
+        "Irina Stefanescu"
+      ],
+      "abstract": "Recordkeepers in defined contribution (DC) pension plans are often paid indirectly in the form of revenue sharing from third-party funds on the menu. We show that these arrangements affect the investment menu of 401(k) plans. Revenue-sharing funds are more likely to be added to the menu and are less likely to be deleted. Overall, revenue-sharing plans are more expensive, as higher expense ratios are not offset by lower direct fees or by superior performance. Rebates increase with the market power of the recordkeeper, suggesting that third-party funds may share revenues to gain access to retire",
+      "source_url": "https://doi.org/10.1287/mnsc.2023.01560",
+      "doi": "10.1287/mnsc.2023.01560",
+      "aliases": [
+        "doi:10.1287/mnsc.2023.01560"
+      ],
+      "first_public_date": "2026-07-01",
+      "stage": "journal",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.01560"
+        }
+      ],
+      "id": "p_e95ad5b754dddd",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "The Boundary of Open Data: Implications for the Financial Market and Real Efficiency",
+      "authors": [
+        "Zhigang Qiu",
+        "Ziyue Wang"
+      ],
+      "abstract": "We analyze the optimal boundary for open data in an economy where financial and real-sector participants access both open and private data. The distinctive features of open access and nonrivalrous usage of open data enable its dual roles as a public information source and innovation input but raise privacy concerns. Our model reveals a novel tradeoff: Although enhanced private data precision and data skills substitute for open data’s information source role, its ability to amplify innovation benefits (via improved investment efficiency) establishes a crucial complementary relationship. This in",
+      "source_url": "https://doi.org/10.1287/mnsc.2023.03679",
+      "doi": "10.1287/mnsc.2023.03679",
+      "aliases": [
+        "doi:10.1287/mnsc.2023.03679"
+      ],
+      "first_public_date": "2026-07-01",
+      "stage": "journal",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.03679"
+        }
+      ],
+      "id": "p_2a1088224e7d81",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Consider or Choose? The Role and Power of Consideration Sets",
+      "authors": [
+        "Yi-Chun Akchen",
+        "Dmitry Mitrofanov"
+      ],
+      "abstract": "Consideration sets play a crucial role in discrete choice modeling, where customers often form consideration sets in the first stage and then use a second-stage choice mechanism to select the product with the highest utility. Although many recent studies aim to improve choice models by incorporating more sophisticated second-stage choice mechanisms, this paper takes a step back and goes into the opposite extreme. We simplify the second-stage choice mechanism to its most basic form and focus on modeling customer choice by emphasizing the role and power of the first-stage consideration set forma",
+      "source_url": "https://doi.org/10.1287/mnsc.2023.00442",
+      "doi": "10.1287/mnsc.2023.00442",
+      "aliases": [
+        "doi:10.1287/mnsc.2023.00442"
+      ],
+      "first_public_date": "2026-07-01",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.00442"
+        }
+      ],
+      "id": "p_4a09ce104986f2",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Systematic Mispricing of Speculative Stocks and the Cross-Sectional Risk-Return Trade-off",
+      "authors": [
+        "Justin Birru",
+        "Hannes Mohrschladt",
+        "Trevor Young"
+      ],
+      "abstract": "We examine the cross-section of returns from the perspective of a benchmark model that only includes systematic mispricing factors. In contrast to conclusions from standard benchmark models, we recover robust positive risk-return relations for many cross-sectional risk, distress, and friction proxies. Our findings are consistent with systematic mispricing that primarily affects speculative stocks and predominantly results in overpricing, predicting lower returns. Hence, failing to control for exposure to systematic mispricing can bias tests of risk-return trade-offs for anomalies with one spec",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.08815",
+      "doi": "10.1287/mnsc.2024.08815",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.08815"
+      ],
+      "first_public_date": "2026-07-01",
+      "stage": "journal",
+      "discipline": "trade",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.08815"
+        }
+      ],
+      "id": "p_9655417633e7ca",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Correlation Improves Group Testing: Modeling Concentration-Dependent Test Errors",
+      "authors": [
+        "Jiayue Wan",
+        "Yujia Zhang",
+        "Peter I. Frazier"
+      ],
+      "abstract": "Population-wide screening is a powerful tool for controlling infectious diseases. Group testing can enable such screening despite limited resources. Viral concentration of pooled samples are often positively correlated, either because prevalence and sample collection are influenced by location, or through intentional enhancement via pooling samples according to risk or household. Such correlation is known to improve efficiency when test sensitivity is fixed. However, in reality, a test’s sensitivity depends on the concentration of the analyte (e.g., viral RNA), as in the so-called dilution eff",
+      "source_url": "https://doi.org/10.1287/mnsc.2021.04217",
+      "doi": "10.1287/mnsc.2021.04217",
+      "aliases": [
+        "doi:10.1287/mnsc.2021.04217"
+      ],
+      "first_public_date": "2026-07-01",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2021.04217"
+        }
+      ],
+      "id": "p_edf164fafee644",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Congestion Information and Efficiency: An Experiment",
+      "authors": [
+        "Charles N. Noussair",
+        "Liang Qiao"
+      ],
+      "abstract": "Users are now typically able to access historical data in traffic, restaurant, and retailing contexts. This availability of information can be viewed as a means to reduce congestion. However, scientific support for this notion is weak. We investigate, using a laboratory experiment, whether an intermediate level of information provision might reduce congestion. We also study how the effect of making more information available changes over time. We show that providing all users with information is counterproductive in the short run. In the long run, users’ behavior adjusts so that providing some",
+      "source_url": "https://doi.org/10.1287/mnsc.2023.00056",
+      "doi": "10.1287/mnsc.2023.00056",
+      "aliases": [
+        "doi:10.1287/mnsc.2023.00056"
+      ],
+      "first_public_date": "2026-07-01",
+      "stage": "journal",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.00056"
+        }
+      ],
+      "id": "p_28c2e053f59ed4",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "“Be the Buyer”—Leveraging the Wisdom of the Crowd in E-Commerce Assortment Planning",
+      "authors": [
+        "Leela Nageswaran",
+        "Yu (Rain) Kan",
+        "Uttara M. Ananthakrishnan"
+      ],
+      "abstract": "E-commerce retailers often need to make inventory decisions for new products under high uncertainty. We study a new business practice of using crowdvoting, wherein a retailer first seeks input from customers on the desirability of the product and then bases the purchasing decision on their votes. We collaborated with a subscription-based apparel rental platform and obtained a proprietary data set comprising the platform’s products and users. We leverage the staggered introduction of crowdvoting in different product categories to identify whether and, if so, by how much the adoption of crowdvot",
+      "source_url": "https://doi.org/10.1287/mnsc.2023.01928",
+      "doi": "10.1287/mnsc.2023.01928",
+      "aliases": [
+        "doi:10.1287/mnsc.2023.01928"
+      ],
+      "first_public_date": "2026-07-01",
+      "stage": "journal",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.01928"
+        }
+      ],
+      "id": "p_d7d56d54136159",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1287/mnsc.2026.eb.v72n7",
+      "doi": "10.1287/mnsc.2026.eb.v72n7",
+      "aliases": [
+        "doi:10.1287/mnsc.2026.eb.v72n7"
+      ],
+      "first_public_date": "2026-07-01",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2026.eb.v72n7"
+        }
+      ],
+      "id": "p_5fff4cd9a3e999",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Asymptotic Optimality of Semi-Open-Loop Policies in Inventory Models with Stochastic Lead Times",
+      "authors": [
+        "Xingyu Bai",
+        "Xin Chen",
+        "Menglong Li",
+        "Alexander L. Stolyar"
+      ],
+      "abstract": "Inventory models with large and uncertain lead times are notoriously difficult to manage due to the curse of dimensionality. Recent works suggest that in inventory models with large deterministic lead times, semi-open-loop policies are asymptotically optimal. In this paper, we provide a theoretical foundation for the superior performance of semi-open-loop policies in inventory models where the lead times are not only large but also exhibit high variability. In the single-sourcing lost-sales inventory model with divisible products, we show that the optimality gap of constant-order policies deca",
+      "source_url": "https://doi.org/10.1287/mnsc.2023.00539",
+      "doi": "10.1287/mnsc.2023.00539",
+      "aliases": [
+        "doi:10.1287/mnsc.2023.00539"
+      ],
+      "first_public_date": "2026-07-01",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.00539"
+        }
+      ],
+      "id": "p_9d29effbcb2a02",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "No Gifts Returned: Surprise Bonuses Reduce Productivity in a Natural Field Experiment",
+      "authors": [
+        "Francesco Bogliacino",
+        "Gianluca Grimalda",
+        "David Pipke"
+      ],
+      "abstract": "The gift exchange hypothesis posits that workers reciprocate above-market wages with increased productivity. This paper tests this hypothesis in a natural field experiment where one or both workers in a pair received a discretionary bonus after an initial round of data entry tasks. Bonuses were assigned based on one of three criteria: (i) relative productivity in the initial round, (ii) economic need, or (iii) an arbitrary decision. Two conditions where neither or both workers received a bonus served as the baseline. Contrary to the gift exchange hypothesis, we found a significant decline in p",
+      "source_url": "https://doi.org/10.1287/mnsc.2022.04085",
+      "doi": "10.1287/mnsc.2022.04085",
+      "aliases": [
+        "doi:10.1287/mnsc.2022.04085"
+      ],
+      "first_public_date": "2026-07-01",
+      "stage": "journal",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2022.04085"
+        }
+      ],
+      "id": "p_59ce92547d3450",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Incentivizing Information Exchange Within Groups: The Role of Voting Protocols in U.S. Food and Drug Administration Advisory Committees",
+      "authors": [
+        "Panos Markou",
+        "Tian Heong Chan"
+      ],
+      "abstract": "Complex and important decisions are often made with advice from a committee of experts. But how do a committee’s “rules of engagement” affect the way individuals discuss, how they vote, and ultimately the quality of their collective recommendation? Compiling verbatim transcripts from U.S. Food and Drug Administration advisory committee meetings, we study how a 2007 switch from sequential to simultaneous voting procedures changed discussions, information exchange, and decision making. Consistent with past findings, we show that, compared with a sequential voting protocol, simultaneous voting le",
+      "source_url": "https://doi.org/10.1287/mnsc.2023.03649",
+      "doi": "10.1287/mnsc.2023.03649",
+      "aliases": [
+        "doi:10.1287/mnsc.2023.03649"
+      ],
+      "first_public_date": "2026-07-01",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.03649"
+        }
+      ],
+      "id": "p_2f820c7d6aabf3",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Earnings Call Slide Deck",
+      "authors": [
+        "Da Xu"
+      ],
+      "abstract": "In recent years, earnings call slide decks (hereafter, earnings decks) have become increasingly common in the earnings announcements of public firms. In this paper, I examine the characteristics of earnings decks and the determinants of firms’ use of them. More importantly, I study their capital market roles. While I fail to find evidence that earnings decks on average offer information incremental to traditional disclosures, such as press releases and conference calls, they significantly reduce users’ information processing time. My analyses reveal three mechanisms that contribute to this acc",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.04956",
+      "doi": "10.1287/mnsc.2024.04956",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.04956"
+      ],
+      "first_public_date": "2026-07-01",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.04956"
+        }
+      ],
+      "id": "p_74a57441515592",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Ethnic Investing and the Value of Firms",
+      "authors": [
+        "Jonas Hjort",
+        "Changcheng Song",
+        "Chris Yenkey"
+      ],
+      "abstract": "We study ethnic investing, using transaction data from Kenya’s stock exchange and CEO/board turnover. We show that a given investor invests more in a given firm when the firm is run by coethnics and earns lower risk-adjusted returns on such investments. We then model and empirically test for the aggregate impact of (i) the implied taste- or psychology-driven investor discrimination and (ii) counteracting demand- and supply-side forces. Our estimates imply that listed Kenyan firms could collectively be worth 38% more—with minority-run firms benefitting the most—if the neutral proportion of acti",
+      "source_url": "https://doi.org/10.1287/mnsc.2023.03660",
+      "doi": "10.1287/mnsc.2023.03660",
+      "aliases": [
+        "doi:10.1287/mnsc.2023.03660"
+      ],
+      "first_public_date": "2026-07-01",
+      "stage": "journal",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.03660"
+        }
+      ],
+      "id": "p_90f138b8282b44",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Social Media Sponsorship: Metrics and Strategies for Finding the Right Content Creator-Sponsor Matches",
+      "authors": [
+        "Shahryar Doosti",
+        "Stephanie Lee",
+        "Yong Tan"
+      ],
+      "abstract": "Social media video sponsorship, where sponsors partner with content creators to promote their brands, has become increasingly popular. Leveraging rich data on sponsored and nonsponsored videos on Facebook, we introduce two metrics, Content Similarity and Audience Closeness, to help sponsors find effective creator-sponsor matches. Content Similarity captures the thematic alignment between a creator’s content and a sponsor’s brand, whereas Audience Closeness measures how closely aligned a creator’s and sponsor’s audiences are within a social media network. We find that both metrics significantly",
+      "source_url": "https://doi.org/10.1287/mnsc.2023.01192",
+      "doi": "10.1287/mnsc.2023.01192",
+      "aliases": [
+        "doi:10.1287/mnsc.2023.01192"
+      ],
+      "first_public_date": "2026-07-01",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.01192"
+        }
+      ],
+      "id": "p_7909d14e438927",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "How Does Health Insurance Affect Firm Employment and Performance? Evidence from Obamacare",
+      "authors": [
+        "Heitor Almeida",
+        "Ruidi Huang",
+        "Ping Liu",
+        "Yuhai Xuan"
+      ],
+      "abstract": "This article discusses how mandating employers to provide health insurance of a minimum quality and the associated increases in health insurance premia affect firm employment and performance. Using firm-level employee health insurance data around the passage of the Patient Protection and Affordable Care Act (PPACA), we show that the PPACA is associated with a significant increase in health insurance premia for employees in company-sponsored health insurance plans. In response, employers with greater exposure to the PPACA reduce employee enrollments in their health insurance plans to a larger e",
+      "source_url": "https://doi.org/10.1287/mnsc.2023.03761",
+      "doi": "10.1287/mnsc.2023.03761",
+      "aliases": [
+        "doi:10.1287/mnsc.2023.03761"
+      ],
+      "first_public_date": "2026-07-01",
+      "stage": "journal",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.03761"
+        }
+      ],
+      "id": "p_dda2e84aef1852",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Value Premium and Equity Term Structures of Value and Growth Firms",
+      "authors": [
+        "Michael Hasler",
+        "Mariana Khapko",
+        "Roberto Marfè"
+      ],
+      "abstract": "This paper studies the impact of information processing and learning about expected future cashflows on the level and timing of risk premiums in the cross section of firms. Learning with information sources of different qualities endogenously generates value firms, growth firms, and a value premium in equilibrium. Furthermore, the learning model predicts an upward-sloping equity term structure for value firms and a flat equity term structure for growth firms. Using earnings, return, and news data on value and growth firms, we show that the predictions of the learning model are consistent with ",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.05922",
+      "doi": "10.1287/mnsc.2024.05922",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.05922"
+      ],
+      "first_public_date": "2026-07-01",
+      "stage": "journal",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.05922"
+        }
+      ],
+      "id": "p_c892463d121b31",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Scandal, Associative Stigma, and Sorting in Labor Markets: Archival and Experimental Evidence",
+      "authors": [
+        "Jihyeon Kim",
+        "Heejung Byun",
+        "Joseph Raffiee"
+      ],
+      "abstract": "Stigma stemming from managerial scandals often spreads beyond the implicated transgressor and contaminates other actors via stigma by association. We study how associative stigma resulting from scandals involving managerial misconduct affects subordinate worker careers. We extend prior work by distinguishing between managerial misconduct in the professional domain from managerial misconduct in the personal domain and theorize that this distinction will affect the severity of associative stigma, audience evaluations, and associated workers’ labor market outcomes. Our multimethod empirical appro",
+      "source_url": "https://doi.org/10.1287/mnsc.2023.00075",
+      "doi": "10.1287/mnsc.2023.00075",
+      "aliases": [
+        "doi:10.1287/mnsc.2023.00075"
+      ],
+      "first_public_date": "2026-07-01",
+      "stage": "journal",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.00075"
+        }
+      ],
+      "id": "p_e082bb49f5bb57",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Spillover Effects of Opioid Abuse on Skilled Human Capital and Innovation Activity",
+      "authors": [
+        "Kimberly Cornaggia",
+        "John Hund",
+        "Kevin Pisciotta",
+        "Zihan Ye"
+      ],
+      "abstract": "We document effects of the opioid epidemic on the migration and output of skilled workers who drive corporate innovation. Exploiting geographic variation in opioid abuse unrelated to economic conditions and using both patent and home sales-based measures, we show that inventors and research labs exit affected areas. This displacement is accompanied by declines in the quantity and value of patents of approximately 7% and $10.6 million per year, respectively. Declines in school quality, safety, and other amenities drive the out-migration. Because displaced workers are unlikely to abuse opioids, ",
+      "source_url": "https://doi.org/10.1287/mnsc.2023.02976",
+      "doi": "10.1287/mnsc.2023.02976",
+      "aliases": [
+        "doi:10.1287/mnsc.2023.02976"
+      ],
+      "first_public_date": "2026-07-01",
+      "stage": "journal",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.02976"
+        }
+      ],
+      "id": "p_61b9c433290e61",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Deep Neural Newsvendor",
+      "authors": [
+        "Jinhui Han",
+        "Ming Hu",
+        "Guohao Shen"
+      ],
+      "abstract": "We consider a data-driven newsvendor problem, where one has access to past demand data and the associated feature information. We solve the problem by estimating the target conditional quantile function using a deep neural network (DNN). The remarkable representational power of DNNs allows our framework to incorporate or approximate various extant data-driven models. We provide theoretical guarantees in terms of excess risk bounds for the DNN solution characterized by the network structure and sample size in a nonasymptotic manner, which justify the applicability of DNNs in relevant contexts. ",
+      "source_url": "https://doi.org/10.1287/mnsc.2023.03157",
+      "doi": "10.1287/mnsc.2023.03157",
+      "aliases": [
+        "doi:10.1287/mnsc.2023.03157"
+      ],
+      "first_public_date": "2026-07-01",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.03157"
+        }
+      ],
+      "id": "p_1a6c54c158fd06",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Model Aggregation for Risk Evaluation and Robust Optimization",
+      "authors": [
+        "Tiantian Mao",
+        "Ruodu Wang",
+        "Qinyu Wu"
+      ],
+      "abstract": "We introduce a new approach for prudent risk evaluation based on stochastic dominance, and it is called the model aggregation (MA) approach. In contrast to the classic worst case risk (WR) approach, the MA approach produces not only a robust value of risk evaluation but also a robust distributional model, independent of any specific risk measure. The MA risk evaluation can be computed through explicit formulas in the lattice theory of stochastic dominance, and under some standard assumptions, the MA robust optimization admits a convex program reformulation. The MA approach for Wasserstein and ",
+      "source_url": "https://doi.org/10.1287/mnsc.2023.03523",
+      "doi": "10.1287/mnsc.2023.03523",
+      "aliases": [
+        "doi:10.1287/mnsc.2023.03523"
+      ],
+      "first_public_date": "2026-07-01",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.03523"
+        }
+      ],
+      "id": "p_75ea5f4d7d9432",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Partial Law Invariance and Risk Measures",
+      "authors": [
+        "Yi Shen",
+        "Zachary Van Oosten",
+        "Ruodu Wang"
+      ],
+      "abstract": "We introduce partial law invariance, generalizing law invariance, and probabilistic sophistication widely used in decision theory, as well as statistical and financial applications. Partial law invariance may be interpreted as law invariance restricted to events for which there is no model uncertainty, reflecting practical situations in decision theory and financial risk management. We fully characterize partially law-invariant coherent risk measures via a novel representation formula. Strong partial law invariance is defined to bridge the gap between the above characterization and the classic",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.06518",
+      "doi": "10.1287/mnsc.2024.06518",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.06518"
+      ],
+      "first_public_date": "2026-07-01",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.06518"
+        }
+      ],
+      "id": "p_6d73357c84ef6a",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Care for the Mind amid Chronic Diseases: An Interpretable AI Approach Using IoT",
+      "authors": [
+        "Jiaheng Xie",
+        "Xiaohang Zhao",
+        "Xiang Liu",
+        "Xiao Fang"
+      ],
+      "abstract": "Health sensing for chronic disease management creates immense benefits for social welfare. Existing health sensing studies primarily focus on the prediction of physical chronic diseases. Depression, a widespread complication of chronic diseases is, however, understudied. We draw on the medical literature to support depression detection using motion sensor data. To connect humans in this decision making, safeguard trust, and ensure algorithm transparency, we develop an interpretable deep learning model: temporal prototype network (TempPNet). TempPNet is built on the emergent prototype learning ",
+      "source_url": "https://doi.org/10.1287/mnsc.2023.04183",
+      "doi": "10.1287/mnsc.2023.04183",
+      "aliases": [
+        "doi:10.1287/mnsc.2023.04183"
+      ],
+      "first_public_date": "2026-07-01",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.04183"
+        }
+      ],
+      "id": "p_b4d5c6b2d536d1",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Disruptive Timing",
+      "authors": [
+        "Leon Yang Chu",
+        "Guang Li",
+        "Andy Wu",
+        "Brian Wu"
+      ],
+      "abstract": "This study examines the role of strategic timing in disruptive innovation. We construct a model where an entrant decides when to enter with a potentially disruptive technology and the incumbent determines whether and when to switch from its existing technology. By accounting for endogenous firm-specific learning alongside exogenous technological improvement, our model highlights the critical role of timing in shaping disruption. First, an entrant’s strategic timing—whether to enter early or delay entry—can cause disruption by deferring the timing of the incumbent’s response or deterring it alt",
+      "source_url": "https://doi.org/10.1287/mnsc.2023.01734",
+      "doi": "10.1287/mnsc.2023.01734",
+      "aliases": [
+        "doi:10.1287/mnsc.2023.01734"
+      ],
+      "first_public_date": "2026-07-01",
+      "stage": "journal",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.01734"
+        }
+      ],
+      "id": "p_6893a8b6d6922c",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "How Do Mergers Affect the Mental Health of Employees?",
+      "authors": [
+        "Laurent Bach",
+        "Ramin P. Baghai",
+        "Marieke Bos",
+        "Rui C. Silva"
+      ],
+      "abstract": "We study employee mental health to assess the long-term nonmonetary consequences of mergers. Using employer-employee level data linked to individual health records, we document that the incidences of stress, anxiety, depression, and psychiatric medication usage increase following mergers. These effects are prevalent among employees from both targets and acquirers, in weak and in growing profitable firms. Employees who experience negative career developments within the merging firms, ‘blue-collar’ workers, and employees with lower skills are most affected. Mergers that generate more mental illn",
+      "source_url": "https://doi.org/10.1287/mnsc.2023.04277",
+      "doi": "10.1287/mnsc.2023.04277",
+      "aliases": [
+        "doi:10.1287/mnsc.2023.04277"
+      ],
+      "first_public_date": "2026-07-01",
+      "stage": "journal",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.04277"
+        }
+      ],
+      "id": "p_ba7ecf4afdb49e",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Firms’ Response to Credit Supply: Evidence from Upsized Corporate Bond Offerings",
+      "authors": [
+        "Edith Hotchkiss",
+        "Hurong Sun",
+        "Liying Wang",
+        "Yijia (Eddie) Zhao"
+      ],
+      "abstract": "Firms often respond to information about investor demand, learned when underwriters build the book to place corporate bonds, by “upsizing” the offering amount. We examine the factors that predict two measures of realized credit supply (oversubscription and yield tightening) and show that the unexpected component of credit supply can explain firms’ upsizing decisions. Because firms’ fundamentals and need for capital are unchanged in the few hours of bookbuilding, upsizing provides a bond-level measure that can be used to study the impact of credit supply on postissuance leverage and investment.",
+      "source_url": "https://doi.org/10.1287/mnsc.2023.00153",
+      "doi": "10.1287/mnsc.2023.00153",
+      "aliases": [
+        "doi:10.1287/mnsc.2023.00153"
+      ],
+      "first_public_date": "2026-07-01",
+      "stage": "journal",
+      "discipline": "banking",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.00153"
+        }
+      ],
+      "id": "p_5b0ab934eaadac",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "On Generalization and Regularization via Wasserstein Distributionally Robust Optimization",
+      "authors": [
+        "Qinyu Wu",
+        "Jonathan Yu-Meng Li",
+        "Tiantian Mao"
+      ],
+      "abstract": "Wasserstein distributionally robust optimization (DRO) has gained prominence in operations research and machine learning as a powerful method for achieving solutions with favorable out-of-sample performance. Two compelling explanations for its success are the generalization bounds derived from Wasserstein DRO and its equivalence to regularization schemes commonly used in machine learning. However, existing results on generalization bounds and regularization equivalence are largely limited to settings where the Wasserstein ball is of a specific type, and the decision criterion takes certain for",
+      "source_url": "https://doi.org/10.1287/mnsc.2023.03895",
+      "doi": "10.1287/mnsc.2023.03895",
+      "aliases": [
+        "doi:10.1287/mnsc.2023.03895"
+      ],
+      "first_public_date": "2026-07-01",
+      "stage": "journal",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.03895"
+        }
+      ],
+      "id": "p_9d4c18f64e38ca",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Information, Asset Price Volatility, and Liquidity",
+      "authors": [
+        "Daniel Friedman",
+        "Grace Weishi Gu",
+        "Vivian Juehui Zheng"
+      ],
+      "abstract": "How are asset price volatility and liquidity impacted by public perception of the economic state and by market competitivity? We wish to understand the direct impacts as well as indirect impacts via information acquisition and aggregation. To investigate, we design a laboratory experiment with human subjects as bond investors and exogenously vary the bond default rate, the private information cost schedule, and the market format. To discipline the experiment parameters and to obtain hypotheses for empirical testing, we construct a theoretical model that closely parallels the experiment. We fin",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.04911",
+      "doi": "10.1287/mnsc.2024.04911",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.04911"
+      ],
+      "first_public_date": "2026-07-01",
+      "stage": "journal",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.04911"
+        }
+      ],
+      "id": "p_b55456533acc67",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
       "title": "Too Good to Be True: Look-Ahead Bias in Empirical Options Research",
       "authors": [
         "Jefferson Duarte",
@@ -34071,6 +35987,39 @@
       ]
     },
     {
+      "title": "Speed Up the Cold-Start Learning in Two-Sided Bandits with Many Arms",
+      "authors": [
+        "Mohsen Bayati",
+        "Junyu Cao",
+        "Wanning Chen"
+      ],
+      "abstract": "Multiarmed bandit (MAB) algorithms are efficient approaches to reduce the opportunity cost of online experimentation and are used by companies to find the best product from periodically refreshed product catalogs. However, these algorithms face the so-called cold-start at the onset of the experiment due to a lack of knowledge of customer preferences for new products, requiring an initial data collection phase known as the burn-in period. During this period, standard MAB algorithms operate like randomized experiments, incurring large burn-in costs which scale with the large number of products. ",
+      "source_url": "https://doi.org/10.1287/mnsc.2022.03394",
+      "doi": "10.1287/mnsc.2022.03394",
+      "aliases": [
+        "doi:10.1287/mnsc.2022.03394"
+      ],
+      "first_public_date": "2026-06-26",
+      "stage": "journal",
+      "discipline": "methods",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2022.03394"
+        }
+      ],
+      "id": "p_68fb095ea86034",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
       "title": "Twin Defaults and Bank Capital Requirements",
       "authors": [
         "CATERINA MENDICINO",
@@ -34200,6 +36149,40 @@
           "kind": "discovered",
           "date": "2026-10-21",
           "source_id": "jfqa"
+        }
+      ]
+    },
+    {
+      "title": "ESG and the Stock Market: Is ESG Exposure Systematic?",
+      "authors": [
+        "Liya Chu",
+        "Kent Wang",
+        "Bohui Zhang",
+        "Guofu Zhou"
+      ],
+      "abstract": "We study the relation between firms’ environmental, social, and governance (ESG) performance and the aggregate stock market returns. Based on 38 individual ESG measures, we construct a market-level ESG index. With both the traditional predictive regression approach and two recently developed machine-learning methods, we find that the ESG index has strong and positive predictive power on the market both in- and out-of-sample, and both the cash flow and discount rate channels are the economic drivers of predictability. Our results are robust to a number of controls and set-ups. Our novel finding",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.07169",
+      "doi": "10.1287/mnsc.2024.07169",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.07169"
+      ],
+      "first_public_date": "2026-06-24",
+      "stage": "journal",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.07169"
+        }
+      ],
+      "id": "p_afe73becce6273",
+      "discovered_at": "2026-10-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-21",
+          "source_id": "ms"
         }
       ]
     },
