@@ -1,0 +1,212 @@
+{
+  "schema_version": 1,
+  "language_policy": "English-language papers; English research on China is included. No Chinese-language journals.",
+  "rss": [
+    {
+      "id": "nber",
+      "name": "NBER Working Papers",
+      "url": "https://www.nber.org/rss/new.xml",
+      "discipline": "multidisciplinary",
+      "enabled": true
+    },
+    {
+      "id": "cepr",
+      "name": "CEPR Discussion Papers",
+      "url": "https://cepr.org/rss/discussion-paper",
+      "discipline": "multidisciplinary",
+      "enabled": true
+    }
+  ],
+  "journals": [
+    {
+      "id": "jf",
+      "name": "The Journal of Finance",
+      "issn": "0022-1082",
+      "discipline": "finance",
+      "enabled": true
+    },
+    {
+      "id": "jfe",
+      "name": "Journal of Financial Economics",
+      "issn": "0304-405X",
+      "discipline": "finance",
+      "enabled": true
+    },
+    {
+      "id": "rfs",
+      "name": "The Review of Financial Studies",
+      "issn": "0893-9454",
+      "discipline": "finance",
+      "enabled": true
+    },
+    {
+      "id": "jfqa",
+      "name": "Journal of Financial and Quantitative Analysis",
+      "issn": "0022-1090",
+      "discipline": "finance",
+      "enabled": true
+    },
+    {
+      "id": "jcf",
+      "name": "Journal of Corporate Finance",
+      "issn": "0929-1199",
+      "discipline": "finance",
+      "enabled": true
+    },
+    {
+      "id": "rof",
+      "name": "Review of Finance",
+      "issn": "1572-3097",
+      "discipline": "finance",
+      "enabled": true
+    },
+    {
+      "id": "aer",
+      "name": "American Economic Review",
+      "issn": "0002-8282",
+      "discipline": "economics",
+      "enabled": true
+    },
+    {
+      "id": "qje",
+      "name": "The Quarterly Journal of Economics",
+      "issn": "0033-5533",
+      "discipline": "economics",
+      "enabled": true
+    },
+    {
+      "id": "jpe",
+      "name": "Journal of Political Economy",
+      "issn": "0022-3808",
+      "discipline": "economics",
+      "enabled": true
+    },
+    {
+      "id": "ectr",
+      "name": "Econometrica",
+      "issn": "0012-9682",
+      "discipline": "economics",
+      "enabled": true
+    },
+    {
+      "id": "restud",
+      "name": "The Review of Economic Studies",
+      "issn": "0034-6527",
+      "discipline": "economics",
+      "enabled": true
+    },
+    {
+      "id": "aej-applied",
+      "name": "American Economic Journal: Applied Economics",
+      "issn": "1945-7782",
+      "discipline": "economics",
+      "enabled": true
+    },
+    {
+      "id": "aej-macro",
+      "name": "American Economic Journal: Macroeconomics",
+      "issn": "1945-7707",
+      "discipline": "economics",
+      "enabled": true
+    },
+    {
+      "id": "aej-micro",
+      "name": "American Economic Journal: Microeconomics",
+      "issn": "1945-7669",
+      "discipline": "economics",
+      "enabled": true
+    },
+    {
+      "id": "aej-policy",
+      "name": "American Economic Journal: Economic Policy",
+      "issn": "1945-7731",
+      "discipline": "economics",
+      "enabled": true
+    },
+    {
+      "id": "jpub",
+      "name": "Journal of Public Economics",
+      "issn": "0047-2727",
+      "discipline": "economics",
+      "enabled": true
+    },
+    {
+      "id": "jde",
+      "name": "Journal of Development Economics",
+      "issn": "0304-3878",
+      "discipline": "economics",
+      "enabled": true
+    },
+    {
+      "id": "ms",
+      "name": "Management Science",
+      "issn": "0025-1909",
+      "discipline": "cross-field",
+      "enabled": true
+    }
+  ],
+  "conference_watchlist": [
+    {
+      "id": "afa",
+      "name": "American Finance Association",
+      "url": "https://afajof.org/annual-meeting/",
+      "mode": "manual-program-verification"
+    },
+    {
+      "id": "wfa",
+      "name": "Western Finance Association",
+      "url": "https://westernfinance.org/",
+      "mode": "manual-program-verification"
+    },
+    {
+      "id": "efa",
+      "name": "European Finance Association",
+      "url": "https://efa2026.efa-finance.org/",
+      "mode": "manual-program-verification"
+    },
+    {
+      "id": "sfs",
+      "name": "SFS Cavalcade",
+      "url": "https://sfs.org/",
+      "mode": "manual-program-verification"
+    },
+    {
+      "id": "firs",
+      "name": "FIRS",
+      "url": "https://firsociety.org/",
+      "mode": "manual-program-verification"
+    },
+    {
+      "id": "cicf",
+      "name": "CICF",
+      "url": "https://www.cicf-conf.org/en/index.php?c=category&id=34",
+      "mode": "manual-program-verification"
+    },
+    {
+      "id": "nber-si",
+      "name": "NBER Summer Institute",
+      "url": "https://www.nber.org/conferences/summer-institute",
+      "mode": "manual-program-verification"
+    },
+    {
+      "id": "cfrc",
+      "name": "China Financial Research Conference",
+      "url": "https://cfrc.pbcsf.tsinghua.edu.cn/cfrc2026en/CONFERENCE_PROGRAM.htm",
+      "mode": "manual-program-verification"
+    },
+    {
+      "id": "aea",
+      "name": "AEA Annual Meetings",
+      "url": "https://www.aeaweb.org/conference/",
+      "mode": "manual-program-verification"
+    }
+  ],
+  "planned_connectors": [
+    "SSRN",
+    "BFI",
+    "IZA",
+    "CESifo",
+    "major universities",
+    "conference program/PDF parsing"
+  ]
+}

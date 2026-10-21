@@ -1,0 +1,70 @@
+name: Refresh papers (manual only)
+
+# IMPORTANT: no schedule is enabled by design.
+on:
+  workflow_dispatch:
+    inputs:
+      since_days:
+        description: "Incremental Crossref lookback (1-730 days)"
+        required: true
+        default: '21'
+      backfill_days:
+        description: "Initial bootstrap publication window (0 for normal incremental; max 730)"
+        required: true
+        default: '0'
+      max_per_source:
+        description: "Maximum records read from each source (1-1000)"
+        required: true
+        default: '250'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: frontier-radar-pages
+  cancel-in-progress: false
+
+jobs:
+  refresh-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+      - name: Collect source metadata
+        env:
+          RADAR_CONTACT_EMAIL: ${{ vars.RADAR_CONTACT_EMAIL }}
+          SINCE_DAYS: ${{ inputs.since_days }}
+          MAX_PER_SOURCE: ${{ inputs.max_per_source }}
+          BACKFILL_DAYS: ${{ inputs.backfill_days }}
+        run: python scripts/ingest.py --since-days "$SINCE_DAYS" --backfill-days "$BACKFILL_DAYS" --max-per-source "$MAX_PER_SOURCE"
+      - name: Validate and test
+        run: |
+          python -m unittest discover -s tests -v
+          python scripts/validate.py
+      - name: Commit bibliographic archive
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/papers.json data/runs.json
+          if ! git diff --cached --quiet; then
+            git commit -m "data: update academic paper registry"
+            git push
+          fi
+      - name: Build static site
+        run: python scripts/build_site.py
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+      - name: Deploy refreshed site
+        id: deployment
+        uses: actions/deploy-pages@v4

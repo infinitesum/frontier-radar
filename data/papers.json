@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "snapshot": "curated-bootstrap",
+  "updated_at": "2026-10-22T00:00:00Z",
+  "papers": [
+    {
+      "id": "seed-nber-35684",
+      "title": "Canaries in the Gold Mine: Early Productivity Gains from Artificial Intelligence Creating Organization Capital",
+      "authors": [
+        "Tania Babina",
+        "Alex X. He",
+        "Renhao Jiang"
+      ],
+      "abstract": "",
+      "source_url": "https://www.nber.org/papers/w35684",
+      "doi": "10.3386/w35684",
+      "aliases": [
+        "nber:w35684",
+        "doi:10.3386/w35684"
+      ],
+      "first_public_date": "2026-08",
+      "discovered_at": "2026-10-22",
+      "stage": "working-paper",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35684"
+        }
+      ],
+      "events": [
+        {
+          "kind": "manual-bootstrap",
+          "date": "2026-10-22",
+          "source_id": "nber",
+          "note": "Starter record; date approximate to issue month, not an automated new-paper discovery"
+        }
+      ],
+      "insight": {
+        "summary_zh": "研究企业 AI 采用与早期生产率增长，讨论组织资本在其中的作用。",
+        "migration_zh": "可思考如何从招聘、岗位和企业组织变化中测量 AI 能力，而不只是统计设备投入。",
+        "evidence": "publisher-page"
+      }
+    },
+    {
+      "id": "seed-qje-qjag040",
+      "title": "Clause and Effect: Theory and Field Experimental Evidence on Noncompete Clauses",
+      "authors": [
+        "Bo Cowgill"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1093/qje/qjag040",
+      "doi": "10.1093/qje/qjag040",
+      "aliases": [
+        "doi:10.1093/qje/qjag040"
+      ],
+      "first_public_date": "2026-08-07",
+      "discovered_at": "2026-10-22",
+      "stage": "journal",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "qje",
+          "name": "The Quarterly Journal of Economics",
+          "url": "https://doi.org/10.1093/qje/qjag040"
+        }
+      ],
+      "events": [
+        {
+          "kind": "manual-bootstrap",
+          "date": "2026-10-22",
+          "source_id": "qje",
+          "note": "Oxford Academic advance articles list, 2026-08-07; coauthors not retrieved"
+        }
+      ]
+    },
+    {
+      "id": "seed-qje-qjag041",
+      "title": "Capital Services in Global Value Chains",
+      "authors": [
+        "Xiang Ding"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1093/qje/qjag041",
+      "doi": "10.1093/qje/qjag041",
+      "aliases": [
+        "doi:10.1093/qje/qjag041"
+      ],
+      "first_public_date": "2026-07-28",
+      "discovered_at": "2026-10-22",
+      "stage": "journal",
+      "discipline": "trade",
+      "sources": [
+        {
+          "id": "qje",
+          "name": "The Quarterly Journal of Economics",
+          "url": "https://doi.org/10.1093/qje/qjag041"
+        }
+      ],
+      "events": [
+        {
+          "kind": "manual-bootstrap",
+          "date": "2026-10-22",
+          "source_id": "qje",
+          "note": "Oxford Academic advance articles list"
+        }
+      ]
+    },
+    {
+      "id": "seed-rfs-hhag071",
+      "title": "Size-Based Regulation and Bank Fragility: Evidence from the Wells Fargo Asset Cap",
+      "authors": [
+        "Tianyue Ruan",
+        "Siddharth Vij"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1093/rfs/hhag071",
+      "doi": "10.1093/rfs/hhag071",
+      "aliases": [
+        "doi:10.1093/rfs/hhag071"
+      ],
+      "first_public_date": "2026-08-03",
+      "discovered_at": "2026-10-22",
+      "stage": "journal",
+      "discipline": "banking",
+      "sources": [
+        {
+          "id": "rfs",
+          "name": "The Review of Financial Studies",
+          "url": "https://doi.org/10.1093/rfs/hhag071"
+        }
+      ],
+      "events": [
+        {
+          "kind": "manual-bootstrap",
+          "date": "2026-10-22",
+          "source_id": "rfs",
+          "note": "Oxford Academic advance articles list"
+        }
+      ]
+    },
+    {
+      "id": "seed-rfs-hhag054",
+      "title": "International Arbitrage Premia",
+      "authors": [
+        "Mirela Sandulescu",
+        "Paul Schneider"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1093/rfs/hhag054",
+      "doi": "10.1093/rfs/hhag054",
+      "aliases": [
+        "doi:10.1093/rfs/hhag054"
+      ],
+      "first_public_date": "2026-08-06",
+      "discovered_at": "2026-10-22",
+      "stage": "journal",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "rfs",
+          "name": "The Review of Financial Studies",
+          "url": "https://doi.org/10.1093/rfs/hhag054"
+        }
+      ],
+      "events": [
+        {
+          "kind": "manual-bootstrap",
+          "date": "2026-10-22",
+          "source_id": "rfs",
+          "note": "Oxford Academic advance articles list"
+        }
+      ]
+    },
+    {
+      "id": "seed-nber-34854",
+      "title": "Building Pro-Worker Artificial Intelligence",
+      "authors": [
+        "Daron Acemoglu",
+        "David Autor",
+        "Simon Johnson"
+      ],
+      "abstract": "",
+      "source_url": "https://www.nber.org/papers/w34854",
+      "doi": "10.3386/w34854",
+      "aliases": [
+        "nber:w34854",
+        "doi:10.3386/w34854"
+      ],
+      "first_public_date": "2026-02",
+      "discovered_at": "2026-10-22",
+      "stage": "working-paper",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w34854"
+        }
+      ],
+      "events": [
+        {
+          "kind": "manual-bootstrap",
+          "date": "2026-10-22",
+          "source_id": "nber",
+          "note": "Starter record from NBER page; issue month used"
+        }
+      ],
+      "insight": {
+        "summary_zh": "区分能提升劳动者专业技能的 AI 与以替代为主的 AI，讨论不同技术路线的经济后果。",
+        "migration_zh": "可将企业 AI 投资分为替代型与赋能型，而非只使用是否采用 AI 的二元变量。",
+        "evidence": "publisher-abstract"
+      }
+    }
+  ]
+}

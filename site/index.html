@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light" />
+  <meta name="description" content="An open, source-backed literature monitoring dashboard for economics and finance." />
+  <title>Frontier Radar | Research Intelligence</title>
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  <link rel="stylesheet" href="./styles.css" />
+  <script src="./app.js" type="module"></script>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Primary navigation">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true"><span class="brand-dot"></span><span class="brand-orbit"></span></div>
+        <div><div class="brand-name">FRONTIER <strong>RADAR</strong></div><div class="brand-kicker">RESEARCH INTELLIGENCE</div></div>
+      </div>
+      <div class="nav-label">WORKSPACE</div>
+      <nav class="nav-list" id="navigation">
+        <button type="button" data-page="overview" class="nav-btn selected"><span class="nav-icon">&#9673;</span><span>Overview</span></button>
+        <button type="button" data-page="papers" class="nav-btn"><span class="nav-icon">&#9636;</span><span>Papers</span></button>
+        <button type="button" data-page="insights" class="nav-btn"><span class="nav-icon">&#10022;</span><span>Ideas &amp; insights</span></button>
+        <button type="button" data-page="reports" class="nav-btn"><span class="nav-icon">&#9783;</span><span>Briefings</span></button>
+        <button type="button" data-page="sources" class="nav-btn"><span class="nav-icon">&#9711;</span><span>Sources &amp; health</span></button>
+      </nav>
+      <div class="nav-label nav-label-bottom">YOUR LIBRARY</div>
+      <nav class="nav-list">
+        <button type="button" data-page="saved" class="nav-btn"><span class="nav-icon">&#9734;</span><span>Saved papers</span><span class="nav-counter" id="saved-counter">0</span></button>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="mini-indicator"><i></i><span id="sidebar-status">Manual setup</span></div>
+        <div class="sidebar-foot">Independent discovery.<br/>Evidence before inference.</div>
+        <a class="sidebar-help" href="https://github.com/new" target="_blank" rel="noopener noreferrer">GitHub repository <span aria-hidden="true">&#8599;</span></a>
+      </div>
+    </aside>
+
+    <div class="main-shell">
+      <header class="topbar">
+        <div class="topbar-left"><span class="breadcrumb-root">Research radar</span><span class="breadcrumb-sep">/</span><strong id="page-breadcrumb">Overview</strong></div>
+        <div class="topbar-right"><div class="sync-pill"><span class="sync-led" id="sync-led"></span><span id="sync-pill-text">Snapshot mode</span></div><button class="btn-icon" type="button" id="export-btn" title="Export filtered papers to CSV" aria-label="Export filtered papers to CSV">&#8681;</button></div>
+      </header>
+      <main id="app-main" tabindex="-1"><div class="loading-state">Loading the paper archive...</div></main>
+      <footer class="page-footer"><span>Frontier Radar v0.1</span><span>Bibliographic metadata only &middot; Personal reading state stays in this browser</span></footer>
+    </div>
+  </div>
+  <dialog id="paper-dialog" class="paper-dialog" aria-labelledby="dialog-title">
+    <div id="dialog-content"></div>
+  </dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
