@@ -2,7 +2,7 @@
 
 A lightweight, source-backed literature-monitoring dashboard for economics and finance. It keeps the discovery universe broad, linking new journal articles, working papers, and (eventually) conference programs into durable paper histories.
 
-**Status:** Public GitHub Pages website with daily scheduled public-metadata ingestion. Initial archive audit (2026-10-22): 1,309 deduplicated papers and 20/20 sources queried successfully. The initial 6 curated records are retained as bootstrap examples. Narrative daily/weekly/monthly ChatGPT pushes are not yet scheduled because the account has reached its active-task quota.
+**Status (2026-10-22):** Live GitHub Pages dashboard with **1,309** source-linked bibliographic records, daily metadata collection, daily/weekly/monthly **automatically generated metadata-grounded research editions**, long-lived editions archive, three-circle reading queues, and conference landing-page link watchers. Initial daily, weekly and monthly editions were generated and published successfully. No ChatGPT scheduled task is required.
 
 ## What is ready
 
@@ -11,7 +11,7 @@ A lightweight, source-backed literature-monitoring dashboard for economics and f
 - Metadata collection for NBER and CEPR RSS plus a configured set of English-language journals via Crossref.
 - Partial-failure reporting, idempotent paper upsert, stable IDs, DOI/source aliases, and careful title+author fallback matching.
 - Daily scheduled metadata ingestion (09:17 Asia/Shanghai), on-demand refresh, provenance audit, tests, and GitHub Pages deployment.
-- Daily/weekly/monthly report **slots**, not automatically generated prose. Conference and SSRN integrations are **not** yet automated.
+- **Daily/weekly/monthly** source-backed research reports with core/adjacent/inspiration circles, ranked reading, data/method cues, full indexed paper registry and durable edition history. Automatic rules are *reading triage*, not full-paper reviews; API-backed optional abstract commentary requires a separately configured key. Conference landing-page link changes are monitored but program paper extraction and SSRN/BFI/IZA integration are not implemented.
 
 ## Local preview (no Node package install)
 
@@ -60,17 +60,29 @@ GitHub Pages sites are public even when the source repository is private. Never 
 
 - `data/papers.json`: one stable record per deduplicated research paper, source aliases, version events, and optional reviewed notes.
 - `data/runs.json`: attempted/successful sources, fetched/new/updated counts, failures, and truncation warnings.
-- `data/reports.json`: reviewed narrative daily/weekly/monthly editions, empty until authored and audited.
+- `data/reports.json`: dated automatic daily/weekly/monthly research editions, individual picks, unfiltered paper ID indexes and source-health flags. The default report is deterministic metadata triage, not a claimed in-depth peer-reviewed literature analysis.
 - `data/conferences.json`: conference events, empty until a verified program is entered.
 - `docs/ARCHITECTURE.md`: schema, de-duplication safeguards, refresh/review and privacy boundaries.
-- `docs/SCHEDULE_PROPOSAL.md`: running collector cadence and proposed editorial push schedule.
+- `data/editions/{daily,weekly,monthly}/YYYY-MM-DD.json`: separately archived report files retained by date.
+- `data/conference_status.json`: official conference landing-page link checks with visible failures; this does not parse accepted-paper lists.
+- `docs/BRIEFINGS.md`: verified three-cadence workflow, archival contracts, optional abstract-AI configuration and current coverage gaps.
+- `docs/SCHEDULE_PROPOSAL.md`: running GitHub Actions collection and briefing times (no ChatGPT task).
 
 Econometrica currently uses a publisher-specific year-granularity retrieval window because some Crossref deposits give only the year of publication. When a date is only known to the year, the dashboard labels it as such rather than inventing a month/day.
 \nJournal coverage is only metadata registered with Crossref; it does not guarantee all forthcoming/accepted articles, nor accurate publisher dates. RSS feeds have different horizons, and the project tracks what was actually fetched, not an imagined global inventory. Reports should distinguish abstract-only inference from full-text assessment.
 
 ## Updating manually with ChatGPT
 
-Code can be maintained through the linked GitHub App. GitHub Actions automatically refreshes public paper metadata each day, with visible source-health results. Editorial summaries and ChatGPT notifications are separate from data ingestion; the active-task limit currently prevents a new push automation. GitHub Actions may be delayed or disabled after 60 days of repository inactivity.
+Code can be maintained through the linked GitHub App. GitHub Actions automatically refreshes public paper metadata each day, with visible source-health results. GitHub Actions writes the research editions to the website and the repository on its own schedule; this is **website publication, not mobile/ChatGPT push notification**. Without an optional API secret, narrative notes are evidence-tagged metadata triage rather than verified full-text analysis. GitHub Actions may be delayed or disabled after 60 days of repository inactivity.
+
+## Published briefing schedule (Asia/Shanghai)
+
+- **09:17 daily:** public paper metadata and official conference-program link checks.
+- **11:43 daily:** generate and publish an indexed daily research digest, normally available around the preferred 12:00 reading time.
+- **Sunday 20:13:** weekly three-circle reading and cross-field synthesis.
+- **1st of each month 20:31:** monthly lookback at the previous completed month with tentative research/data/method opportunities.
+
+All schedules are best effort. GitHub Actions is not a guarantee of exact-minute publication or a push notification. For deeper AI summary notes, see [docs/BRIEFINGS.md](docs/BRIEFINGS.md) and configure an `OPENAI_API_KEY` repository Actions secret yourself; the standalone API is billed independently of ChatGPT.
 
 ## License
 

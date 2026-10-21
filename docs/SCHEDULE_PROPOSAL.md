@@ -1,16 +1,14 @@
-# Frontier Radar run cadence
+# Frontier Radar: active GitHub Actions schedules (Asia/Shanghai)
 
-## Active — bibliographic source collection
-- GitHub Actions workflow: `.github/workflows/refresh-manual.yml`.
-- Schedule: every day at **09:17 Asia/Shanghai**, plus manual refresh on demand.
-- The collector appends canonical paper records, updates version histories, audits source failures, and publishes GitHub Pages.
-- Verified 2026-10-22 baseline: 1,309 archived papers; 18 journal sources and 2 RSS sources returned successfully; 11 unit tests passed.
+GitHub Actions is the only recurring scheduler for this system; **no ChatGPT task is needed**.
 
-## Not yet active — editorial ChatGPT push
-- Planned daily brief: 12:00 Asia/Shanghai.
-- Planned weekly synthesis: Sunday evening.
-- Planned monthly synthesis: the 1st of every month.
+- **Daily 09:17:** `.github/workflows/refresh-manual.yml` indexes configured NBER/CEPR and 18 Crossref journal sources, watches official conference-program links and republishes Pages.
+- **Daily 11:43:** `.github/workflows/briefings.yml` writes a fresh edition to `data/reports.json` and `data/editions/daily/YYYY-MM-DD.json`, then deploys Pages. Preferred reading time is 12:00.
+- **Sunday 20:13:** weekly report with three-circle featured papers and structured method/data clues, in `data/editions/weekly/`.
+- **Day 1 20:31:** monthly report on the *previous completed calendar month*, in `data/editions/monthly/`.
 
-These narrative push schedules are **not active** because ChatGPT has a 10-active-task quota, currently exhausted. The separate outreach literature task should not be modified or paused without authorization. No scripts in this repository fabricate AI-generated paper reviews.
+All reports are written in Chinese but only track English-language papers (English China research qualifies). The search universe is not limited by current research interests; stratification affects ranking, not ingestion.
 
-GitHub Actions schedules are best effort (delay/drop possible); public repository schedules can be disabled after 60 days of inactivity. The website is public: no secrets or private research notes belong in this repository.
+**Evidence limitations:** without a separately configured OpenAI API secret, all analysis is deterministic metadata-based reading triage with original source links. With the key, optional AI commentary uses **only title/abstract excerpts** and is not a full-text review. Top conference page watching observes program links, not yet complete conference paper lists. SSRN, BFI, IZA, CESifo and university WP adapters are future connectors.
+
+**Scheduling limitations:** GitHub Actions may run late or drop an invocation, and GitHub Pages only publishes content, not device push notifications. The public repository contains no unpublished private notes or personal credentials.

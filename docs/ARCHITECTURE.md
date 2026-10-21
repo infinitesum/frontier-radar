@@ -8,7 +8,7 @@
 4. Track the set of sources successfully fetched on each scan. Never label planned sources as scanned.
 5. Paper records persist across refreshes. Deduplication updates a record; it does not erase provenance or prior events.
 6. Public repository files contain public information only. Personal annotations must remain in local browser storage unless a private authenticated store is introduced.
-7. Daily bibliographic ingestion has been explicitly authorized and runs via GitHub Actions. Editorial ChatGPT push remains separate and is not yet enabled.
+7. Bibliographic ingestion and metadata-grounded editions run entirely under GitHub Actions. No ChatGPT automation task is used; the delivery medium is the public website, not a push message.
 
 ## Source adapters (implemented)
 
@@ -50,11 +50,12 @@ Daily report: complete indexed discovery list + selected papers, explicit eviden
 Weekly synthesis: connect findings across fields, flag collisions or novel data, propose a prioritized reading plan.
 Monthly synthesis: cross-field thematic review, methods/datasets, possible research questions with feasibility checks.
 
-An AI-written note must include the primary link and whether it is based on a publisher abstract or a reviewed paper. No AI provider or prompt schedule is configured in this MVP.
+An AI-written note must include the primary link and its abstract-only evidence boundary. The optional OpenAI Responses API enrichment in `scripts/generate_reports.py` requires a repository Actions secret; without it the system publishes deterministic triage notes, not fabricated model findings. The model is not allowed to override grounded paper identifiers.
 
 ## Proposed later enhancements
 
 - Persist user-private saved/read state through an authenticated backend (e.g., private storage); do not put notes in a public repository.
 - Convert JSON archives to date shards when payloads exceed practical static-site budgets.
 - Add source-adapter integration tests against stored sanitized fixtures, metadata index lag checks, and fuzzy-collision review queue.
-- Add optional RSS/push notifications only after schedule approval and output quality audits.
+- Program-paper/PDF parsing and cross-conference matching are not delivered by the link watcher; retain their source state as pending.
+- Optional RSS/push notifications can be added separately if authorized; publishing a webpage does not notify the user.
