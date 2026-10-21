@@ -1,0 +1,295 @@
+{
+  "schema_version": 1,
+  "items": {
+    "afa": {
+      "id": "afa",
+      "name": "American Finance Association",
+      "url": "https://afajof.org/annual-meeting/",
+      "checked_at": "2026-10-22T05:08:48+08:00",
+      "status": "ok",
+      "error": "",
+      "fingerprint": "8deb1290b85ba094",
+      "program_links": [
+        {
+          "title": "Future of Finance Award and Special Session",
+          "url": "https://afajof.org/future-of-finance-award/"
+        },
+        {
+          "title": "Junior Faculty Mentoring Program",
+          "url": "https://afajof.org/annual-meeting/"
+        },
+        {
+          "title": "Overview",
+          "url": "https://afajof.org/junior-faculty-mentoring-program/"
+        },
+        {
+          "title": "Apply as a Mentee",
+          "url": "https://afajof.org/junior-faculty-mentoring-program/mentees/"
+        },
+        {
+          "title": "Mentors and Mentorship",
+          "url": "https://afajof.org/junior-faculty-mentoring-program/mentors/"
+        },
+        {
+          "title": "Annual Meeting",
+          "url": "https://afajof.org/junior-faculty-mentoring-program/annual-meeting-workshop/"
+        },
+        {
+          "title": "Leadership and Board",
+          "url": "https://afajof.org/junior-faculty-mentoring-program/leadership/"
+        },
+        {
+          "title": "Frequently Asked Questions",
+          "url": "https://afajof.org/junior-faculty-mentoring-program/frequently-asked-questions/"
+        },
+        {
+          "title": "Annual Paper Prizes",
+          "url": "https://afajof.org/prizes/"
+        },
+        {
+          "title": "Submit a Paper",
+          "url": "https://afajof.org/submissions/"
+        },
+        {
+          "title": "Submit a Paper",
+          "url": "https://afajof.org/jfip-submissions/"
+        },
+        {
+          "title": "2027 Featured Sessions",
+          "url": "https://afajof.org/annual-meeting/featured-sessions/"
+        },
+        {
+          "title": "Call for Papers Calendar",
+          "url": "https://afajof.org/call-for-papers-calendar/"
+        },
+        {
+          "title": "For Job Seekers – Postdoc Career Connections",
+          "url": "https://careers.afajof.org/staticpages/10282/postdoc-program/"
+        },
+        {
+          "title": "Register for the 2027 Annual Meeting",
+          "url": "https://conf.aeaweb.org/index.php"
+        },
+        {
+          "title": "AFA 2027 Program",
+          "url": "https://afajof.org/management/conference.php"
+        },
+        {
+          "title": "Poster Guidelines",
+          "url": "https://afajof.org/afa-ph-d-student-poster-session-guidelines/"
+        },
+        {
+          "title": "access their submitted papers",
+          "url": "https://afajof.org/management/homepage.php"
+        }
+      ],
+      "initial_snapshot_at": "2026-10-22T05:08:48+08:00"
+    },
+    "wfa": {
+      "id": "wfa",
+      "name": "Western Finance Association",
+      "url": "https://westernfinance.org/",
+      "checked_at": "2026-10-22T05:08:48+08:00",
+      "status": "ok",
+      "error": "",
+      "fingerprint": "7960411fdd419cd3",
+      "program_links": [
+        {
+          "title": "WFA 2027",
+          "url": "https://westernfinance.org/conference/"
+        },
+        {
+          "title": "Submit a Paper",
+          "url": "https://westernfinance.org/submit-a-paper/"
+        }
+      ],
+      "initial_snapshot_at": "2026-10-22T05:08:48+08:00"
+    },
+    "efa": {
+      "id": "efa",
+      "name": "European Finance Association",
+      "url": "https://efa2026.efa-finance.org/",
+      "checked_at": "2026-10-22T05:08:48+08:00",
+      "status": "error",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'efa2026.efa-finance.org'. (_ssl.c:1032)>"
+    },
+    "sfs": {
+      "id": "sfs",
+      "name": "SFS Cavalcade",
+      "url": "https://sfs.org/",
+      "checked_at": "2026-10-22T05:08:48+08:00",
+      "status": "ok",
+      "error": "",
+      "fingerprint": "4e8f4c52c37f4ce4",
+      "program_links": [
+        {
+          "title": "Submit a Paper",
+          "url": "https://sfs.org/review-of-financial-studies/submit-a-paper/"
+        },
+        {
+          "title": "Accepted Papers Checklist",
+          "url": "https://sfs.org/accepted-papers-checklist/"
+        },
+        {
+          "title": "Papers",
+          "url": "https://sfs.org/"
+        },
+        {
+          "title": "Published Papers",
+          "url": "https://sfs.org/review-of-financial-studies/published-papers/"
+        },
+        {
+          "title": "Submit a Paper",
+          "url": "https://sfs.org/review-of-asset-pricing-studies/submit-a-paper/"
+        },
+        {
+          "title": "Submit a Paper",
+          "url": "https://sfs.org/review-of-corporate-finance-studies/submit-a-paper/"
+        }
+      ],
+      "initial_snapshot_at": "2026-10-22T05:08:48+08:00"
+    },
+    "firs": {
+      "id": "firs",
+      "name": "FIRS",
+      "url": "https://firsociety.org/",
+      "checked_at": "2026-10-22T05:08:48+08:00",
+      "status": "ok",
+      "error": "",
+      "fingerprint": "0c1a7bd1b0b64e18",
+      "program_links": [
+        {
+          "title": "Find out More",
+          "url": "https://firsociety.org/conference/2027-conference/"
+        }
+      ],
+      "initial_snapshot_at": "2026-10-22T05:08:48+08:00"
+    },
+    "cicf": {
+      "id": "cicf",
+      "name": "CICF",
+      "url": "https://www.cicf-conf.org/en/index.php?c=category&id=34",
+      "checked_at": "2026-10-22T05:08:48+08:00",
+      "status": "ok",
+      "error": "",
+      "fingerprint": "1b175c545a3e3759",
+      "program_links": [
+        {
+          "title": "Call for Papers",
+          "url": "https://www.cicf-conf.org/en/index.php?c=category&id=46"
+        },
+        {
+          "title": "Paper Submission",
+          "url": "https://www.cicf-conf.org/en/index.php?c=category&id=48"
+        },
+        {
+          "title": "Program Schedule",
+          "url": "https://www.cicf-conf.org/en/index.php?c=category&id=61"
+        },
+        {
+          "title": "Program Committee",
+          "url": "https://www.cicf-conf.org/en/index.php?c=category&id=50"
+        }
+      ],
+      "initial_snapshot_at": "2026-10-22T05:08:48+08:00"
+    },
+    "nber-si": {
+      "id": "nber-si",
+      "name": "NBER Summer Institute",
+      "url": "https://www.nber.org/conferences/summer-institute",
+      "checked_at": "2026-10-22T05:08:48+08:00",
+      "status": "ok",
+      "error": "",
+      "fingerprint": "e7585629f597ecff",
+      "program_links": [
+        {
+          "title": "Open Calls",
+          "url": "https://www.nber.org/calls-papers-and-proposals"
+        },
+        {
+          "title": "Working Papers",
+          "url": "https://www.nber.org/papers"
+        },
+        {
+          "title": "Training Program in Aging and Health Economics",
+          "url": "https://www.nber.org/agingtraining"
+        },
+        {
+          "title": "Featured Working Papers Archive",
+          "url": "https://www.nber.org/nber-news/featured-working-papers-archive"
+        },
+        {
+          "title": "Current Fellowship Recipients",
+          "url": "https://www.nber.org/career-resources/postdoctoral-and-graduate-fellows-academic-year-2026-27"
+        },
+        {
+          "title": "Summer Institute 2026",
+          "url": "https://www.nber.org/conferences/summer-institute-2026"
+        }
+      ],
+      "initial_snapshot_at": "2026-10-22T05:08:48+08:00"
+    },
+    "cfrc": {
+      "id": "cfrc",
+      "name": "China Financial Research Conference",
+      "url": "https://cfrc.pbcsf.tsinghua.edu.cn/cfrc2026en/CONFERENCE_PROGRAM.htm",
+      "checked_at": "2026-10-22T05:08:48+08:00",
+      "status": "ok",
+      "error": "",
+      "fingerprint": "e9a7828c5729993e",
+      "program_links": [
+        {
+          "title": "Program Committee",
+          "url": "https://cfrc.pbcsf.tsinghua.edu.cn/cfrc2026en/About_the_Conference/Program_Committee.htm"
+        },
+        {
+          "title": "PAPER SUBMISSIONS",
+          "url": "https://cfrc.pbcsf.tsinghua.edu.cn/cfrc2026en/paper_submissions/CallForPapers.htm"
+        },
+        {
+          "title": "Best Paper Awards",
+          "url": "https://cfrc.pbcsf.tsinghua.edu.cn/cfrc2026en/paper_submissions/Best_Paper_Awards.htm"
+        },
+        {
+          "title": "CONFERENCE PROGRAM",
+          "url": "https://cfrc.pbcsf.tsinghua.edu.cn/cfrc2026en/CONFERENCE_PROGRAM.htm"
+        },
+        {
+          "title": "FSFF CALL FOR PAPERS",
+          "url": "https://cfrc.pbcsf.tsinghua.edu.cn/cfrc2026en/FUTURE_SCHOLARS_IN_FINANCE_FORUM/FSFF_CALL_FOR_PAPERS.htm"
+        },
+        {
+          "title": "FSFF FORUM PROGRAM",
+          "url": "https://cfrc.pbcsf.tsinghua.edu.cn/cfrc2026en/FUTURE_SCHOLARS_IN_FINANCE_FORUM/FSFF_FORUM_PROGRAM.htm"
+        },
+        {
+          "title": "CFRC 2026 Program (web version)",
+          "url": "https://editorialexpress.com/conference/CFRC2026/program/CFRC2026.html"
+        },
+        {
+          "title": "CFRC 2026 Program (PDF version)",
+          "url": "https://cfrc.pbcsf.tsinghua.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2129622363&wbfileid=18032193"
+        },
+        {
+          "title": "CFRC 2026 Program",
+          "url": "https://cfrc.pbcsf.tsinghua.edu.cn/cfrc2026en/info/1019/1135.htm"
+        },
+        {
+          "title": "2026",
+          "url": "https://cfrc.pbcsf.tsinghua.edu.cn/cfrc2026en/index.htm"
+        }
+      ],
+      "initial_snapshot_at": "2026-10-22T05:08:48+08:00"
+    },
+    "aea": {
+      "id": "aea",
+      "name": "AEA Annual Meetings",
+      "url": "https://www.aeaweb.org/conference/",
+      "checked_at": "2026-10-22T05:08:48+08:00",
+      "status": "error",
+      "error": "TimeoutError: The read operation timed out"
+    }
+  },
+  "events": [],
+  "last_checked_at": "2026-10-22T05:08:48+08:00"
+}
