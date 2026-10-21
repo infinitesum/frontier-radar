@@ -5,7 +5,7 @@
       "id": "afa",
       "name": "American Finance Association",
       "url": "https://afajof.org/annual-meeting/",
-      "checked_at": "2026-10-22T05:08:48+08:00",
+      "checked_at": "2026-10-22T05:10:37+08:00",
       "status": "ok",
       "error": "",
       "fingerprint": "8deb1290b85ba094",
@@ -89,7 +89,7 @@
       "id": "wfa",
       "name": "Western Finance Association",
       "url": "https://westernfinance.org/",
-      "checked_at": "2026-10-22T05:08:48+08:00",
+      "checked_at": "2026-10-22T05:10:37+08:00",
       "status": "ok",
       "error": "",
       "fingerprint": "7960411fdd419cd3",
@@ -108,16 +108,16 @@
     "efa": {
       "id": "efa",
       "name": "European Finance Association",
-      "url": "https://efa2026.efa-finance.org/",
-      "checked_at": "2026-10-22T05:08:48+08:00",
+      "url": "https://www.efa-finance.org/efa-annual-meeting/",
+      "checked_at": "2026-10-22T05:10:37+08:00",
       "status": "error",
-      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'efa2026.efa-finance.org'. (_ssl.c:1032)>"
+      "error": "HTTPError: HTTP Error 503: Service Unavailable"
     },
     "sfs": {
       "id": "sfs",
       "name": "SFS Cavalcade",
       "url": "https://sfs.org/",
-      "checked_at": "2026-10-22T05:08:48+08:00",
+      "checked_at": "2026-10-22T05:10:37+08:00",
       "status": "ok",
       "error": "",
       "fingerprint": "4e8f4c52c37f4ce4",
@@ -153,7 +153,7 @@
       "id": "firs",
       "name": "FIRS",
       "url": "https://firsociety.org/",
-      "checked_at": "2026-10-22T05:08:48+08:00",
+      "checked_at": "2026-10-22T05:10:37+08:00",
       "status": "ok",
       "error": "",
       "fingerprint": "0c1a7bd1b0b64e18",
@@ -169,7 +169,7 @@
       "id": "cicf",
       "name": "CICF",
       "url": "https://www.cicf-conf.org/en/index.php?c=category&id=34",
-      "checked_at": "2026-10-22T05:08:48+08:00",
+      "checked_at": "2026-10-22T05:10:37+08:00",
       "status": "ok",
       "error": "",
       "fingerprint": "1b175c545a3e3759",
@@ -197,7 +197,7 @@
       "id": "nber-si",
       "name": "NBER Summer Institute",
       "url": "https://www.nber.org/conferences/summer-institute",
-      "checked_at": "2026-10-22T05:08:48+08:00",
+      "checked_at": "2026-10-22T05:10:37+08:00",
       "status": "ok",
       "error": "",
       "fingerprint": "e7585629f597ecff",
@@ -233,7 +233,7 @@
       "id": "cfrc",
       "name": "China Financial Research Conference",
       "url": "https://cfrc.pbcsf.tsinghua.edu.cn/cfrc2026en/CONFERENCE_PROGRAM.htm",
-      "checked_at": "2026-10-22T05:08:48+08:00",
+      "checked_at": "2026-10-22T05:10:37+08:00",
       "status": "ok",
       "error": "",
       "fingerprint": "e9a7828c5729993e",
@@ -284,12 +284,12 @@
     "aea": {
       "id": "aea",
       "name": "AEA Annual Meetings",
-      "url": "https://www.aeaweb.org/conference/",
-      "checked_at": "2026-10-22T05:08:48+08:00",
+      "url": "https://benny.aeaweb.org/conference/",
+      "checked_at": "2026-10-22T05:10:37+08:00",
       "status": "error",
       "error": "TimeoutError: The read operation timed out"
     }
   },
   "events": [],
-  "last_checked_at": "2026-10-22T05:08:48+08:00"
+  "last_checked_at": "2026-10-22T05:10:37+08:00"
 }
