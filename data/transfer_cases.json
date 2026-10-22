@@ -88,6 +88,99 @@
       ],
       "scope": "期刊官方摘要与2021年公开全文已核对；由此延伸的政策性资本配置问题、预测和检验属于待检验假说，不是原论文结论。",
       "confidentiality": "仅展示通用的公共研究问题与公开来源，不存储任何未发表论文的样本、回归系数或内部进展。"
+    },
+    {
+      "id": "goldberg-knowledge-to-investment",
+      "kind": "mechanism-bridge",
+      "title": "How Knowledge Crosses Borders: Evidence from Semiconductor Manufacturing",
+      "title_zh": "知识如何跨越国界：来自半导体制造的证据",
+      "authors": [
+        "Pinelopi Koujianou Goldberg",
+        "Réka Juhász",
+        "Giulia Lo Forte",
+        "Jeff Thurk"
+      ],
+      "journal": "NBER w35879 · CEPR DP22009 · CESifo WP13029",
+      "dates": {
+        "draft": "2026-09-25",
+        "cepr": "2026-10-02",
+        "nber": "2026-10"
+      },
+      "doi": "10.3386/w35879",
+      "sources": [
+        {
+          "label": "NBER官方论文",
+          "url": "https://www.nber.org/papers/w35879",
+          "scope": "official-abstract"
+        },
+        {
+          "label": "CEPR版本",
+          "url": "https://cepr.org/publications/dp22009",
+          "scope": "official-abstract"
+        },
+        {
+          "label": "公开全文入口（CESifo）",
+          "url": "https://www.ifo.de/DocDL/cesifo1_wp13029.pdf",
+          "scope": "fulltext-linked-not-read"
+        },
+        {
+          "label": "高度相关姊妹论文（早于2026首发）",
+          "url": "https://www.nber.org/papers/w32651",
+          "scope": "collision-check"
+        }
+      ],
+      "source_fact": "官方摘要认为半导体跨境学习依赖全球供应链中的知识分享、跨国企业内部工程师流动和外商直接投资等特定市场关系，知识并不会无条件地自动扩散。原始论文不是政府基金评估。",
+      "theory_mechanism": "生产技术中的隐性知识依赖人与企业之间有激励的反复互动，资本、人才网络和供应链合同共同决定学习能否发生。",
+      "source_data": "官方NBER致谢注明 Global Semiconductor Alliance 向作者提供模型估计数据。原始公司—工艺产品与工程师关系微观数据的公开获取/再利用权限未核实；专利等公开数据只能提供知识流动代理，不能测晶圆良率。",
+      "crucial_distinction": "跨境知识学习不等于专利引用增长；公共基金投资、工程师流入与生产良率因果关系均非原论文直接证明。Goldberg等2024年首发、2026年更新的相关论文也讨论国际学习，必须做增量贡献比较。",
+      "bridge_operations": [
+        {
+          "id": "real-story",
+          "label": "从《芯片战争》的真实现象出发",
+          "text": "战略产业追赶需要政府资本、设备、跨国团队与工艺诀窍；先明确失败的瓶颈是资金还是知识接入。"
+        },
+        {
+          "id": "mechanism",
+          "label": "抽象经济机制",
+          "text": "知识通过供应商/客户合作、跨国人员流动及FDI传递，不是所有知识都以开放专利形式溢出。"
+        },
+        {
+          "id": "change-actor",
+          "label": "转换决策主体",
+          "text": "从制造企业如何学习，切换到政策性资本如何选择融资、人才引进和国际合作网络。"
+        },
+        {
+          "id": "test-bridge",
+          "label": "明确尚未证明的桥接前提",
+          "text": "基金资助是否实际改变国际知识连接？工程师经验是否被当地企业吸收？是否真的改善了工艺或创新？"
+        }
+      ],
+      "new_question": "政策资本与人才政策能否协同帮助企业获得跨国制造知识？获资本支持但未接入国际工程师与供应链知识网络的企业，会不会仍然难以追赶前沿？",
+      "alternative": "可能是高潜力企业同时吸引资本与人才；资金带来设备采购或市场需求，专利上升并非隐性知识输入；出口限制同时改变供需。",
+      "discriminating_tests": [
+        "建立资助前后企业专利发明人职业迁移和跨国合作图谱，比较关键工程师进入前后技术方向或国际知识引用；控制资助前趋势及企业技术组合。",
+        "将项目资金与知识接入（海外工程师、供应商合作、FDI）相互作用，检验仅资助不建立知识连接是否仍出现同等创新升级；至少分析一项替代解释：纯资本宽松/设备采购。",
+        "可见数据若只有专利与公司融资，则只识别知识痕迹变化，不得声称工艺良率或生产学习效应已被验证。"
+      ],
+      "key_data": [
+        "Global Semiconductor Alliance（研究致谢，公开权限待核）",
+        "PatentsView发明人消歧/专利",
+        "Google Patents引文",
+        "基金/补贴投资公告",
+        "海外工程师与关联企业",
+        "上下游合作公开信息"
+      ],
+      "tags": [
+        "半导体",
+        "人才流动",
+        "知识接入",
+        "供应链合作",
+        "FDI",
+        "政策资本",
+        "跨境学习"
+      ],
+      "scope": "已核验NBER/CEPR官方摘要、CESifo公开全文入口、NBER致谢与姊妹论文版本；此会话未完成77页全文逐表阅读。政策性资本的研究设想均为独立提出、待验证的假说。",
+      "confidentiality": "公开展示通用机制和数据可行性，不涉及尚未发表的个人研究实证细节。"
     }
   ]
 }
