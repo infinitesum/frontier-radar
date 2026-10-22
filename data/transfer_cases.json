@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-22",
+  "editorial_standard": "机制可迁移性优先于关键词共现；来源事实、跨主体外推、缺失前提、数据度量和可判别检验必须分栏。",
+  "cases": [
+    {
+      "id": "grigoris-segal-upstream-to-public-capital",
+      "kind": "mechanism-bridge",
+      "title": "Investment under Upstream and Downstream Uncertainty",
+      "title_zh": "上游与下游不确定性下的投资",
+      "authors": [
+        "Fotis Grigoris",
+        "Gill Segal"
+      ],
+      "journal": "The Journal of Finance",
+      "dates": {
+        "working_draft": "2021-07",
+        "first_journal_online": "2025-12-22",
+        "journal_issue": "2026-02"
+      },
+      "doi": "10.1111/jofi.70010",
+      "sources": [
+        {
+          "label": "期刊论文与发表历史",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.70010",
+          "scope": "published-abstract"
+        },
+        {
+          "label": "早期开放全文（2021版）",
+          "url": "https://wrds-www.wharton.upenn.edu/documents/1779/Investment_Under_Up-_and_Downstream_Uncertainty.pdf",
+          "scope": "earlier-fulltext"
+        },
+        {
+          "label": "作者当前公开稿",
+          "url": "https://fotig.com/files/research/GrigorisSegalUncertainty_Website.pdf",
+          "scope": "author-manuscript"
+        }
+      ],
+      "source_fact": "企业投资对供应链不确定性的反应具有方向不对称性：来自供应商的上游不确定性抑制投资；来自客户的下游不确定性作用较弱，甚至可能促进投资。期刊摘要支持该表述。早期全文用真实期权与建设期（time-to-build）解释这一不对称性。",
+      "theory_mechanism": "投资项目需要先购买投入品、经历建设期、再向客户销售。上游投入价格不确定性较早影响不可逆投资决策，使等待具有价值；下游价格不确定性可能增加等待的机会成本。",
+      "source_data": "早期公开全文：Compustat Segments 与 FactSet Revere 供应商—客户网络；供应商/客户股票收益波动率度量企业层面不确定性；BEA投入产出表计算宏观行业上游度。期刊终稿与早期稿可能存在差异。",
+      "crucial_distinction": "原研究企业层面的“上游不确定性”是焦点企业供应商的不确定性；你的研究所说“上游度”是被投行业到最终需求的生产链距离。两者关联但绝非同一个变量，不能直接进行因果替换。",
+      "bridge_operations": [
+        {
+          "id": "economic-importance",
+          "label": "提取经济原语",
+          "text": "产业链位置改变冲击的传导方向、发生时点与经济代价。"
+        },
+        {
+          "id": "actor-shift",
+          "label": "更换决策主体",
+          "text": "从受供应链风险影响的生产企业，转向选择资本配置对象的政策性投资人。"
+        },
+        {
+          "id": "outcome-shift",
+          "label": "转换被解释变量",
+          "text": "从企业固定资产投资随不确定性变化，转向政府与市场化资本对上游企业的投资选择。"
+        },
+        {
+          "id": "institutional-wedge",
+          "label": "引入制度差异",
+          "text": "仅当上游投资存在未被私人成本收益充分内化的外溢、资本约束或政策目标时，才有政府资本补位的理论空间。"
+        }
+      ],
+      "new_question": "当上游环节具有更高的生产网络冲击传导重要性、但市场化资本未必充分获得其社会收益时，政策性股权资本是否更愿意为此类企业提供融资？",
+      "alternative": "相同的上游偏好也可能源于产业政策名录、半导体/装备行业构成、企业发展阶段、地方招商、政府采购或基金管理人筛选，而非生产网络外部性。",
+      "discriminating_tests": [
+        "将被投行业上游度与其对下游产出的暴露、投入替代性或网络中心度分开测量；若是系统性外部性机制，仅“更上游”还不够，应在高传导性或低可替代性行业更强。",
+        "在可比行业、地区—年份、企业阶段及技术特征下比较政策性与市场化投资偏好，注意投资主体和被投企业的选择内生性。",
+        "检验私募资本融资缺口或融资约束是否调节政策资本偏好；若市场化资本本来已充足，简单的补位解释会减弱。",
+        "进一步观察上游获得支持后下游企业的投入波动和投资反应（如果可得）。只有配置偏好而无下游外部效果，不能声称已证实风险稳定功能。"
+      ],
+      "key_data": [
+        "BEA/中国投入产出表",
+        "供应商—客户网络",
+        "FactSet Revere",
+        "Compustat Segments",
+        "VC/PE投资事件",
+        "上游度与下游暴露",
+        "融资约束/民间资本供给"
+      ],
+      "tags": [
+        "网络冲击传导",
+        "真实期权",
+        "投入产出上游度",
+        "跨主体转换",
+        "政府资本与市场失灵"
+      ],
+      "scope": "期刊官方摘要与2021年公开全文已核对；由此延伸的政策性资本配置问题、预测和检验属于待检验假说，不是原论文结论。",
+      "confidentiality": "仅展示通用的公共研究问题与公开来源，不存储任何未发表论文的样本、回归系数或内部进展。"
+    }
+  ]
+}
