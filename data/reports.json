@@ -8,14 +8,15 @@
       "period_start": "2026-10-22",
       "period_end": "2026-10-22",
       "title": "每日学术增量 · 2026-10-22",
-      "created_at": "2026-10-22T05:04:56+08:00",
+      "created_at": "2026-10-22T16:55:24+08:00",
       "analysis_level": "metadata-triage",
       "evidence_note": "自动初筛基于论文标题与最多600字符的摘要元数据；并未核查全文，不保证作者方法、结论或贡献。需要人工阅读或配置受控AI增强才能产出深度综述。",
-      "summary_zh": "本期入库登记 6 篇（可能包括历史论文补录），其中首次公开日期明确落在观察窗口附近的记录 189 篇；精选 5 篇供进一步研读。",
-      "new_archive_count": 6,
+      "summary_zh": "本期入库登记 7 篇（可能包括历史论文补录），其中首次公开日期明确落在观察窗口附近的记录 189 篇；精选 5 篇供进一步研读。",
+      "new_archive_count": 7,
       "recent_publication_count": 189,
-      "historical_backfill_count": 6,
+      "historical_backfill_count": 7,
       "archive_index": [
+        "p_7f0d6e61d2eb34",
         "seed-qje-qjag040",
         "seed-rfs-hhag054",
         "seed-rfs-hhag071",
@@ -347,7 +348,7 @@
       ],
       "signals": {
         "topics": {
-          "其他经济金融领域": 222,
+          "其他经济金融领域": 223,
           "劳动与教育": 73,
           "银行与信贷": 47,
           "政策／公共经济学": 38,
@@ -375,21 +376,70 @@
           "交易／支付记录": 1
         },
         "circles": {
-          "inspiration": 282,
+          "inspiration": 283,
           "adjacent": 148,
           "core": 18
         }
       },
       "questions": [],
       "source_health": {
-        "scan_time": "2026-10-21T20:33:15+00:00",
+        "scan_time": "2026-10-22T06:52:15+00:00",
         "success": 20,
         "attempted": 20,
         "failed": [],
         "capped": [],
         "zero": []
       },
-      "conference_updates": []
+      "conference_updates": [
+        {
+          "kind": "program-link-change",
+          "conference_id": "nber-si",
+          "date": "2026-10-22T14:09:13+08:00",
+          "new_links": [
+            {
+              "title": "Working Papers",
+              "url": "https://www.nber.org/index%2Ephp/papers"
+            },
+            {
+              "title": "Training Program in Aging and Health Economics",
+              "url": "https://www.nber.org/index%2Ephp/agingtraining"
+            },
+            {
+              "title": "Featured Working Papers Archive",
+              "url": "https://www.nber.org/index%2Ephp/nber-news/featured-working-papers-archive"
+            },
+            {
+              "title": "Current Fellowship Recipients",
+              "url": "https://www.nber.org/index%2Ephp/career-resources/postdoctoral-and-graduate-fellows-academic-year-2026-27"
+            }
+          ],
+          "note": "Official landing-page links changed; actual paper titles are not verified"
+        },
+        {
+          "kind": "program-link-change",
+          "conference_id": "nber-si",
+          "date": "2026-10-22T14:44:20+08:00",
+          "new_links": [
+            {
+              "title": "Working Papers",
+              "url": "https://www.nber.org/papers"
+            },
+            {
+              "title": "Training Program in Aging and Health Economics",
+              "url": "https://www.nber.org/agingtraining"
+            },
+            {
+              "title": "Featured Working Papers Archive",
+              "url": "https://www.nber.org/nber-news/featured-working-papers-archive"
+            },
+            {
+              "title": "Current Fellowship Recipients",
+              "url": "https://www.nber.org/career-resources/postdoctoral-and-graduate-fellows-academic-year-2026-27"
+            }
+          ],
+          "note": "Official landing-page links changed; actual paper titles are not verified"
+        }
+      ]
     }
   ],
   "weekly": [
@@ -2927,5 +2977,5 @@
       }
     ]
   },
-  "updated_at": "2026-10-22T05:04:57+08:00"
+  "updated_at": "2026-10-22T16:55:24+08:00"
 }
