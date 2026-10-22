@@ -48,6 +48,15 @@ const LABELS = {
 };
 const PAGES = {overview:T.overview,reviews:'论文精读',papers:T.papers,insights:T.insights,reports:T.reports,sources:T.sources,saved:T.saved};
 const storeKey = 'frontier-radar-library-v1';
+const textScaleKey='frontier-radar-text-scale';
+let textScale=Math.max(1,Math.min(1.4,Number(localStorage.getItem(textScaleKey)||1)));
+function setTextScale(scale){
+  textScale=Math.max(1,Math.min(1.4,Math.round(scale*10)/10));
+  document.documentElement.style.setProperty('--reader-scale',String(textScale));
+  const label=document.querySelector('#font-size-indicator');if(label)label.textContent=Math.round(textScale*100)+'%';
+  try{localStorage.setItem(textScaleKey,String(textScale))}catch(_){}
+}
+document.documentElement.style.setProperty('--reader-scale',String(textScale));
 const initialLibrary = (()=>{try{return JSON.parse(localStorage.getItem(storeKey)||'{}')}catch{return {}}})();
 const state = {
   page:'overview', papers:[], runs:[], reports:{}, curatedReviews:[],editorialSummaries:{weekly:[],monthly:[]}, config:{rss:[],journals:[],conference_watchlist:[],planned_connectors:[]},
@@ -160,7 +169,7 @@ function renderOverview(){
   const inspirations=(latestIssue('daily')?.picks||[]).slice(0,3);
   return `
     ${heading(T.overview,'A live-ready discovery workspace. Verified sources, honest coverage, durable paper identities.')}
-    <section class="hero"><div class="hero-copy"><div class="eyebrow">THE DISCOVERY PRINCIPLE</div><h2>${T.hello}</h2><p>${T.intro}</p><div class="hero-note">${run?`Last scan ${fmtDate(run.run_at)}`:T.bootstrap}</div></div><div class="hero-art" aria-hidden="true">&#10022;</div></section>
+
     ${renderCuratedSection(2)}
     <div class="stat-grid">${stat(T.tracked,paperCount,'Unique paper records','&#9636;')}${stat(T.newSeven,realNew,'Excludes older backfills / manual seeds','&#8599;')}${stat(T.fields,disciplines,'Heuristic classification','&#9707;')}${stat(T.sourceSuccess,succeeded,run?'Latest automated scan':T.noRun,'&#9673;')}</div>
     <div class="section-grid"><div>
@@ -285,7 +294,7 @@ function reviewedCard(r){
     +'<p><b>版本与首发区别：</b>'+esc(r.version_note||'')+'</p>'
     +'<p class="curated-evidence"><b>证据级别：</b>'+esc(r.confidence||'待核查')+' · '+esc(scope)+'</p></details>'
     +'<div class="curated-footer"><div>'+topics+'</div><div class="curated-links">'+links
-    +' <button class="text-link" data-action="open" data-id="'+esc(r.paper_id)+'">数据库详情 ↗</button></div></div>'
+    +'</div></div>'
     +'</article>';
 }
 function renderCuratedSection(limit=0){
@@ -297,8 +306,8 @@ function renderCuratedSection(limit=0){
     +'<div class="curated-list">'+chosen.map(reviewedCard).join('')+'</div></section>';
 }
 function renderReviews(){
-  return heading('论文精读','按原始证据核查研究发现、数据方法、可判别的研究迁移；每日12:00由研究阅读任务维护')
-    +'<div class="digest-disclosure">证据范围逐篇标注：有些条目基于论文官方摘要，不能称为全文精读；所有迁移建议仍需独立检验。正式发表时间与早期工作论文首发时间分开记录。</div>'
+  return heading('论文精读','具体研究发现、方法与可执行行动')
+    +''
     +renderCuratedSection();
 }
 function renderEditorialSection(kind){
@@ -321,7 +330,7 @@ function renderEditorialSection(kind){
 function renderInsights(){
   const latest=[...((latestIssue('daily')||{}).picks||[]),...((latestIssue('weekly')||{}).picks||[])];
   const seen=new Set();const uniquePicks=latest.filter(p=>{if(seen.has(p.paper_id))return false;seen.add(p.paper_id);return true});
-  return `${heading(T.insights,'异领域研究的测量、数据与方法灵感；仅将论文视为候选，不等于完成全文评审')}
+  return `${heading(T.insights,'跨领域研究方法与数据灵感')}
     ${renderCuratedSection(5)}
     <div class="digest-disclosure">以下是仅基于标题和摘要的自动扫描候选，尚未核查全文。</div>
     ${uniquePicks.length?miniPicks(uniquePicks):emptyPanel(T.noReports,T.noReportsBody)}
@@ -332,7 +341,7 @@ function renderReports(){
   const labels={daily:'每日增量',weekly:'每周精读与跨界',monthly:'每月研究机会'};
   const issue=resolveReport();
   const editions=(state.reports?.[state.activeReportKind]||[]).slice(0,12);
-  return `${heading(T.reports,'自动生成的每日发现、每周跨界精选与月度研究机会，附可核查论文目录和证据边界')}
+  return `${heading(T.reports,'日报、周报与月度研究整理')}
     <div class="report-tabs" role="tablist" aria-label="简报周期">${Object.entries(labels).map(([kind,label])=>`<button class="report-tab ${state.activeReportKind===kind?'active':''}" data-action="report-kind" data-report-kind="${kind}" role="tab" aria-selected="${state.activeReportKind===kind}">${label}<span>${counts[kind]}</span></button>`).join('')}</div>
     <div class="report-history">${editions.map((r,i)=>`<button class="report-history-btn ${issue?.id===r.id?'active':''}" data-action="report-edition" data-report-id="${escapeHtml(r.id)}">${escapeHtml(r.date)}${i===0?' · 最新':''}</button>`).join('')}</div>
     ${renderEditorialSection(state.activeReportKind)}
@@ -371,13 +380,20 @@ function openPaper(id,keepOpen=false){
   const p=state.papers.find(x=>x.id===id);if(!p)return;
   const dialog=document.querySelector('#paper-dialog');
   const pref=getPreference(id);
+  const review=(state.curatedReviews||[]).find(r=>r.paper_id===id);
+  const reviewed=review?`<section class="verified-dialog"><div>${chip(review.signal||'已核查','signal')} ${chip(review.priority||'阅读优先','gold')}</div>
+  <h3>主要发现</h3><p>${escapeHtml(review.finding_zh||'')}</p>
+  <h3>数据与识别</h3><p>${escapeHtml(review.data_method_zh||'')}</p>
+  <h3>与你研究的关系 · 待检验假说</h3><p>${escapeHtml(review.transfer_zh||'')}</p>
+  <h3>可操作检验</h3><p>${escapeHtml(review.test_zh||'')}</p>
+  <details class="detail-extra"><summary>限制、证据和版本说明</summary><p>${escapeHtml(review.limitation_zh||'')}</p><p>${escapeHtml(review.version_note||'')}</p><p>证据：${escapeHtml(review.read_scope||review.evidence_level||'')}</p></details></section>`:'';
   const sources=(p.sources||[]).map(s=>`<a class="paper-external" href="${escapeHtml(safeUrl(s.url))}" target="_blank" rel="noopener noreferrer">${escapeHtml(s.name)} &#8599;</a>`).join(' &nbsp; ');
   dialog.querySelector('#dialog-content').innerHTML=`<div class="detail-header"><div class="detail-top"><div class="badge-list">${chip(T[p.stage==='journal'?'journal':p.stage==='working-paper'?'workingPaper':'conference'],'indigo')}${chip(sourceName(p))}${isBootstrap(p)?chip('Bootstrap record','grey'):''}</div><button class="dialog-close" data-action="close" aria-label="Close">&times;</button></div>
       <h2 class="detail-title" id="dialog-title">${listTitle(p.title)}</h2><div class="paper-author">${escapeHtml((p.authors||[]).join(', ') || 'Authors not verified')}</div>
       <div class="paper-author" style="margin-top:7px">${T.dates}: ${fmtDate(p.first_public_date)} &nbsp; &middot; &nbsp; ${T.discovered}: ${fmtDate(p.discovered_at)}</div></div>
-      <div class="detail-body">${p.insight?.summary_zh?`<h3>${T.summary}</h3><p>${escapeHtml(p.insight.summary_zh)}</p>`:''}
-        <h3>${T.abstract}</h3><p>${escapeHtml(p.abstract||T.noAbstract)}</p>
-        ${p.insight?.migration_zh?`<h3>${T.migration}</h3><div class="insight-quote">${escapeHtml(p.insight.migration_zh)}</div><p style="margin-top:9px;font-size:11px">Evidence scope: ${escapeHtml(p.insight.evidence||'not marked')}. This is a research hypothesis, not a demonstrated paper result.</p>`:''}
+      <div class="detail-body">${reviewed}${!review&&p.insight?.summary_zh?`<h3>${T.summary}</h3><p>${escapeHtml(p.insight.summary_zh)}</p>`:''}
+        ${review?`<details class="detail-extra"><summary>原文摘要</summary><p>${escapeHtml(p.abstract||T.noAbstract)}</p></details>`:`<h3>${T.abstract}</h3><p>${escapeHtml(p.abstract||T.noAbstract)}</p>`}
+        ${!review&&p.insight?.migration_zh?`<h3>${T.migration}</h3><div class="insight-quote">${escapeHtml(p.insight.migration_zh)}</div><p style="margin-top:9px;font-size:11px">Evidence scope: ${escapeHtml(p.insight.evidence||'not marked')}. This is a research hypothesis, not a demonstrated paper result.</p>`:''}
         <h3>${T.lifecycle}</h3><div class="detail-events">${(p.events||[]).map(e=>`<div class="detail-event"><span>${fmtDate(e.date)} &mdash; ${escapeHtml(e.kind)} ${e.note?`&middot; ${escapeHtml(e.note)}`:''}</span></div>`).join('')||'<p>No recorded events</p>'}</div>
         <h3>${T.original}</h3><p>${sources}</p><div class="detail-btns"><button class="btn primary" data-action="save" data-id="${escapeHtml(id)}">${pref.saved?'&#9733; '+T.unsave:'&#9734; '+T.save}</button><button class="btn" data-action="read" data-id="${escapeHtml(id)}">${pref.read?'&#10003; '+T.read:T.unread}</button><a class="btn" href="${escapeHtml(safeUrl(p.source_url))}" target="_blank" rel="noopener noreferrer">${T.original} &#8599;</a></div></div>`;
   if(!keepOpen && !dialog.open)dialog.showModal();
@@ -446,6 +462,9 @@ document.addEventListener('click',event=>{
   if(action==='report-more'){state.reportIndexLimit+=80;render()}
 });
 document.querySelector('#export-btn').addEventListener('click',exportCsv);
+document.querySelector('#font-smaller').addEventListener('click',()=>setTextScale(textScale-.1));
+document.querySelector('#font-larger').addEventListener('click',()=>setTextScale(textScale+.1));
+setTextScale(textScale);
 document.querySelector('#app-main').addEventListener('input',event=>{
   if(event.target.dataset.filter==='q'){
     state.filter.q=event.target.value;state.countLimit=30;renderPaperFeed();
