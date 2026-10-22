@@ -158,3 +158,20 @@ button,input,select{font-size:16px}
 .pipeline-details summary{cursor:pointer;font-size:18px;font-weight:700}
 .pipeline-details ol{font-size:16px;padding-left:25px}
 @media(max-width:760px){.nav-btn{font-size:15px;min-height:46px}.topbar{height:auto;min-height:65px;padding:8px 11px}.sync-pill{display:none}.reading-size-control button{min-width:37px}.reading-size-control output{min-width:38px}.curated-title{font-size:22px}.curated-result,.curated-transfer p,.detail-body p{font-size:17px}.filter-select{font-size:16px}}
+
+/* Shared evidence cards: strong finding, explicit hypothesis, original abstract. */
+.source-abstract{margin:13px 0;border:1px solid #d5e5e4;background:#fafdfc;border-radius:10px;padding:13px 17px}
+.source-abstract summary{cursor:pointer;font-size:16px;font-weight:700;color:#226f67;line-height:1.6}
+.source-abstract p{font-size:16px;line-height:1.85;color:#344c58;margin:13px 0 3px;white-space:pre-line;overflow-wrap:anywhere}
+.abstract-unavailable{font-size:14px;color:#7b8a91;margin:12px 0}
+.card-reading-actions{display:inline-flex;gap:8px;flex-wrap:wrap;align-items:center}
+.card-reading-actions .paper-btn{font-size:15px;min-height:40px;padding:8px 13px;border-radius:8px}
+.candidate-analysis{border:1px solid #dbeae6;border-left:3px solid #36a387;background:#f8fcfa;padding:16px 18px;border-radius:8px;display:grid;gap:11px}
+.candidate-analysis-head{font-size:14px;font-weight:750;color:#1e7b6d}
+.candidate-analysis p{margin:0!important;font-size:16px;line-height:1.82;color:#29444b}
+.candidate-analysis b{color:#175e55}
+.candidate-analysis .digest-signals{margin-top:5px}
+.digest-bottom{align-items:center}
+.digest-bottom a{font-size:15px}
+.curated-footer>div:first-child{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+@media(max-width:760px){.source-abstract summary,.source-abstract p,.candidate-analysis p{font-size:16px}.card-reading-actions{width:100%}.card-reading-actions .paper-btn{flex:1}.digest-bottom{gap:13px}}
