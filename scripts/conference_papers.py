@@ -60,7 +60,7 @@ def status_for(url):
     if not PDF_PAT.search(url):return 'paper-link', '',0
     try:
         req=Request(url,headers={'User-Agent':AGENT,'Range':'bytes=0-1023'})
-        with urlopen(req,timeout=14) as response:
+        with urlopen(req,timeout=5) as response:
             data=response.read(1024)
             ctype=response.headers.get('Content-Type','')
             ok=data.startswith(b'%PDF') or 'pdf' in ctype.lower()
@@ -93,7 +93,7 @@ def scan():
                      'archive_status':'not-redistributed-unverified-rights',
                      'discovered_at':old.get('discovered_at',timestamp),'checked_at':timestamp}
             # Rate-limit attachment probing, and only probe links pointing to apparent PDFs.
-            for item in list(unique.values())[:100]:
+            for item in list(unique.values())[:10]:
                 if item['pdf_candidate']:
                     status,ctype,size=status_for(item['source_url'])
                     item.update(access_status=status,media_type=ctype,remote_size=size)
