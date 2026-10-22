@@ -62,6 +62,8 @@ GitHub Pages sites are public even when the source repository is private. Never 
 
 - `data/papers.json`: one stable record per deduplicated research paper, source aliases, version events, and optional reviewed notes.
 - `data/runs.json`: attempted/successful sources, fetched/new/updated counts, failures, and truncation warnings.
+- `data/transfer_cases.json`: source-grounded mechanism-to-new-question transfer case studies, separating factual findings, actor/outcome shifts, missing premises, rival explanations and discriminating tests.
+- `docs/MECHANISM_TRANSFER.md`: research-idea discovery standard; prioritizes transferable economic mechanisms over topical/keyword similarity.
 - `data/reports.json`: dated automatic daily/weekly/monthly research editions, individual picks, unfiltered paper ID indexes and source-health flags. The default report is deterministic metadata triage, not a claimed in-depth peer-reviewed literature analysis.
 - `data/conferences.json`: conference events, empty until a verified program is entered.
 - `docs/ARCHITECTURE.md`: schema, de-duplication safeguards, refresh/review and privacy boundaries.
