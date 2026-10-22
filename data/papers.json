@@ -1,8 +1,37 @@
 {
   "schema_version": 1,
   "snapshot": "incremental-ingestion",
-  "updated_at": "2026-10-21T21:10:37+00:00",
+  "updated_at": "2026-10-22T06:09:13+00:00",
   "papers": [
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jfineco.2026.104392",
+      "doi": "10.1016/j.jfineco.2026.104392",
+      "aliases": [
+        "doi:10.1016/j.jfineco.2026.104392"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jfe",
+          "name": "Journal of Financial Economics",
+          "url": "https://doi.org/10.1016/j.jfineco.2026.104392"
+        }
+      ],
+      "id": "p_7f0d6e61d2eb34",
+      "discovered_at": "2026-10-22",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-22",
+          "source_id": "jfe"
+        }
+      ]
+    },
     {
       "id": "seed-qje-qjag040",
       "title": "Clause and Effect: Theory and Field Experimental Evidence on Noncompete Clauses",
