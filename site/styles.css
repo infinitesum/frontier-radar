@@ -175,3 +175,28 @@ button,input,select{font-size:16px}
 .digest-bottom a{font-size:15px}
 .curated-footer>div:first-child{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
 @media(max-width:760px){.source-abstract summary,.source-abstract p,.candidate-analysis p{font-size:16px}.card-reading-actions{width:100%}.card-reading-actions .paper-btn{flex:1}.digest-bottom{gap:13px}}
+
+/* Mechanism-first editorial examples: evidence and new questions kept separate. */
+.transfer-case{background:#fff;border:1px solid #ccdedd;border-radius:14px;padding:25px 28px;margin-bottom:18px;overflow-wrap:anywhere;box-shadow:0 5px 25px rgba(20,62,59,.035)}
+.transfer-case-top{display:flex;align-items:center;flex-wrap:wrap;gap:10px;justify-content:space-between;margin-bottom:14px}
+.transfer-title{font-size:23px;line-height:1.48;margin:5px 0 4px;color:#223f47}
+.transfer-zh{font-size:18px;font-weight:650;color:#426b69;margin:4px 0 18px}
+.transfer-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}
+.transfer-pair>div{background:#f4f8f7;border:1px solid #dfebe7;border-radius:10px;padding:18px}
+.transfer-pair>div:nth-child(2){background:#eaf7f1;border-color:#c4e4d5}
+.transfer-key{font-size:15px;font-weight:750;color:#206f62}
+.transfer-pair p,.transfer-distinction,.transfer-more p,.transfer-more li{font-size:16px;line-height:1.83;color:#264751}
+.transfer-pair p{margin:9px 0 0}
+.transfer-distinction{margin:18px 0;padding:13px 16px;border-left:3px solid #c19246;background:#fffaf0}
+.transfer-more{margin:15px 0 10px;border:1px solid #dbe7e6;border-radius:10px;padding:15px 17px}
+.transfer-more summary{font-size:16px;font-weight:730;color:#276f62;cursor:pointer}
+.transfer-more h4{font-size:17px;margin:20px 0 5px}
+.transfer-more ol{padding-left:23px}
+.transfer-steps{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:18px}
+.transfer-step{border:1px solid #e0eae7;border-radius:8px;padding:13px 15px}
+.transfer-step strong{font-size:15px;color:#256c5b}
+.transfer-step p{margin:8px 0 0}
+.transfer-scope{color:#6b7d7d!important;border-top:1px solid #e3ebe8;padding-top:12px}
+.transfer-case-foot{display:flex;justify-content:space-between;gap:15px;align-items:center;flex-wrap:wrap;margin-top:16px}
+.transfer-case-foot .text-link{font-size:15px}
+@media(max-width:780px){.transfer-case{padding:19px 17px}.transfer-title{font-size:21px}.transfer-pair,.transfer-steps{grid-template-columns:1fr}.transfer-pair p,.transfer-distinction,.transfer-more p,.transfer-more li{font-size:16px}}
