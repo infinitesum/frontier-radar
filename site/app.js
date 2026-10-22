@@ -403,6 +403,14 @@ function renderSources(){
       <p>当前会议采集只覆盖已接入的正式 HTML 议程，不代表所有会议／历史年份均已完整收录。期刊页面也可能存在 Crossref 登记延迟。</p>
     </details>
     <section class="section">${sectionHead('期刊与工作论文来源','最近一轮运行结果')}${renderSourceTable(sources,run?.sources||[])}</section>
+    <section class="section">${sectionHead('完整顶会监测清单','官网监测与逐篇解析是两个独立阶段')}
+      <div class="panel table-wrap"><table class="coverage-table"><thead><tr><th>会议</th><th>官网监测</th><th>Program 线索</th><th>逐篇解析</th><th>官方入口</th></tr></thead><tbody>
+      ${(state.config.conference_watchlist||[]).map(conf=>{
+        const check=state.conferenceStatus?.items?.[conf.id];
+        const ids=papers.filter(p=>p.conference_id===conf.id||p.conference_id?.startsWith(conf.id+'-'));
+        const progress=ids.length?ids.length+'条待核验论文记录':'尚未接入';
+        return `<tr><td>${escapeHtml(conf.name)}</td><td>${escapeHtml(check?.status==='ok'?'成功':check?.error?'访问失败':'尚未检查')}</td><td>${check?.program_links?.length||0}</td><td>${escapeHtml(progress)}</td><td><a href="${escapeHtml(safeUrl(conf.url))}" class="text-link" target="_blank" rel="noopener noreferrer">官网 ↗</a></td></tr>`;
+      }).join('')}</tbody></table></div></section>
     <section class="section">${sectionHead('会议 Program 与附件','可用性和归档权限分开记录')}
       <div class="panel table-wrap"><table class="coverage-table"><thead><tr><th>会议</th><th>状态</th><th>发现论文</th><th>正式议程</th></tr></thead><tbody>${checks.map(x=>`<tr><td>${escapeHtml(x.name)}</td><td>${escapeHtml(x.status==='ok'?'已扫描':x.error||'失败')}</td><td>${x.papers_found||0}</td><td><a class="text-link" href="${escapeHtml(safeUrl(x.program_url))}" target="_blank" rel="noopener noreferrer">Program ↗</a></td></tr>`).join('')||'<tr><td colspan="4">尚未执行正式议程逐篇提取</td></tr>'}</tbody></table></div>
       <details class="panel pipeline-details"><summary>查看论文附件目录（${papers.length}条）</summary>
