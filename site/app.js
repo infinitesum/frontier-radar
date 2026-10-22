@@ -60,7 +60,7 @@ document.documentElement.style.setProperty('--reader-scale',String(textScale));
 const initialLibrary = (()=>{try{return JSON.parse(localStorage.getItem(storeKey)||'{}')}catch{return {}}})();
 const state = {
   page:'overview', papers:[], runs:[], reports:{}, curatedReviews:[],editorialSummaries:{weekly:[],monthly:[]}, config:{rss:[],journals:[],conference_watchlist:[],planned_connectors:[]},
-  snapshot:'', loaded:false, library:initialLibrary, countLimit:30, activeReportKind:'daily',activeReportId:'',reportIndexLimit:40,conferenceStatus:{items:{},events:[]},conferencePapers:{papers:[],checks:[]},candidateNotes:[],
+  snapshot:'', loaded:false, library:initialLibrary, countLimit:30, activeReportKind:'daily',activeReportId:'',reportIndexLimit:40,conferenceStatus:{items:{},events:[]},conferencePapers:{papers:[],checks:[]},candidateNotes:[],transferCases:[],
   filter:{q:'',source:'all',discipline:'all',stage:'all',period:'all',onlySaved:false},
 };
 const escapeHtml = input => String(input ?? '').replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -357,10 +357,39 @@ function renderEditorialSection(kind){
     +'</div></section>';
 }
 
+function renderTransferCases(){
+  const cases=state.transferCases||[];
+  if(!cases.length)return '';
+  const cards=cases.slice(0,3).map(c=>{
+    const facts=escapeHtml(c.source_fact||''),question=escapeHtml(c.new_question||'');
+    const links=(c.sources||[]).map(src=>'<a class="text-link" href="'+escapeHtml(safeUrl(src.url))+'" target="_blank" rel="noopener noreferrer">'+escapeHtml(src.label||'原文')+' ↗</a>').join(' · ');
+    const steps=(c.bridge_operations||[]).map(st=>'<div class="transfer-step"><strong>'+escapeHtml(st.label)+'</strong><p>'+escapeHtml(st.text)+'</p></div>').join('');
+    const tests=(c.discriminating_tests||[]).map(test=>'<li>'+escapeHtml(test)+'</li>').join('');
+    const labels=(c.tags||[]).map(label=>chip(label,'grey')).join('');
+    return '<article class="transfer-case" id="bridge-'+escapeHtml(c.id)+'">'
+      +'<div class="transfer-case-top"><span class="digest-circle inspiration">跨领域机制迁移 · 范例</span><span class="curated-priority">机制相通 ≠ 关键词相同</span></div>'
+      +'<div class="curated-venue">'+escapeHtml(c.journal||'')+' · '+escapeHtml(c.dates?.journal_issue||'')+'</div>'
+      +'<h3 class="transfer-title">'+escapeHtml(c.title)+'</h3><p class="transfer-zh">'+escapeHtml(c.title_zh||'')+'</p>'
+      +'<div class="transfer-pair"><div><span class="transfer-key">原论文已核实的事实</span><p>'+facts+'</p></div>'
+      +'<div><span class="transfer-key">转换后产生的新问题</span><p>'+question+'</p></div></div>'
+      +'<p class="transfer-distinction"><b>关键区别：</b>'+escapeHtml(c.crucial_distinction||'')+'</p>'
+      +'<details class="transfer-more"><summary>展开：推理步骤、可判别检验、替代解释与数据</summary>'
+      +'<div class="transfer-steps">'+steps+'</div>'
+      +'<h4>如何与替代解释区分？</h4><ol>'+tests+'</ol>'
+      +'<p><b>替代解释：</b>'+escapeHtml(c.alternative||'')+'</p>'
+      +'<p><b>可参考的数据：</b>'+escapeHtml((c.key_data||[]).join('、'))+'</p>'
+      +'<p class="transfer-scope">'+escapeHtml(c.scope||'')+'</p></details>'
+      +'<div class="transfer-case-foot"><div class="digest-signals">'+labels+'</div><div>'+links+'</div></div>'
+      +'</article>';
+  }).join('');
+  return '<section class="section"><div class="section-header"><div><h2 class="section-heading">跨领域灵感如何变成研究问题</h2>'
+    +'<p class="section-kicker">从经济机制出发，切换决策主体与结果变量，再提出可以推翻自己解释的检验</p></div></div>'+cards+'</section>';
+}
 function renderInsights(){
   const latest=[...((latestIssue('daily')||{}).picks||[]),...((latestIssue('weekly')||{}).picks||[])];
   const seen=new Set();const uniquePicks=latest.filter(p=>{if(seen.has(p.paper_id))return false;seen.add(p.paper_id);return true});
   return `${heading(T.insights,'跨领域研究方法与数据灵感')}
+    ${renderTransferCases()}
     ${renderCuratedSection(5)}
     <div class="digest-disclosure">以下是仅基于标题和摘要的自动扫描候选，尚未核查全文。</div>
     ${uniquePicks.length?miniPicks(uniquePicks):emptyPanel(T.noReports,T.noReportsBody)}
@@ -474,6 +503,7 @@ async function loadData(){
     state.config=sources;
     try {const r=await fetch('./data/curated_reviews.json',{cache:'no-store'});if(r.ok){const j=await r.json();state.curatedReviews=Array.isArray(j.reviews)?j.reviews:[]}}catch(_){/* optional curated archive */}
     try {const r=await fetch('./data/editorial_summaries.json',{cache:'no-store'});if(r.ok){const j=await r.json();state.editorialSummaries=j||{weekly:[],monthly:[]}}}catch(_){/* optional editorial archive */}
+    try{const tr=await fetch('./data/transfer_cases.json',{cache:'no-store'});if(tr.ok){const obj=await tr.json();state.transferCases=Array.isArray(obj.cases)?obj.cases:[]}}catch(_){/* public worked examples are optional */}
     try{const r=await fetch('./data/candidate_analysis.json',{cache:'no-store'});if(r.ok)state.candidateNotes=(await r.json()).notes||[]}catch(_){/* optional */}
     try {const cp=await fetch('./data/conference_papers.json',{cache:'no-store'});if(cp.ok)state.conferencePapers=await cp.json()}catch(_) { /* optional */ }
     try{
