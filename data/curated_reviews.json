@@ -1,0 +1,223 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-22",
+  "editorial_policy": "真实论文；主发现仅在证据允许范围内陈述；研究迁移为待检验假设；官方摘要和已读论文正文分开标记；不会将旧稿新发当首次公开。仅公开资料。",
+  "reviews": [
+    {
+      "paper_id": "p_af660e4e84d070",
+      "title": "Venture Capital and Customer Capital",
+      "title_zh": "风险投资与客户资本",
+      "authors": [
+        "Martin Aragoneses",
+        "Young Soo Jang",
+        "Amir Sufi"
+      ],
+      "venue": "NBER Working Paper w35919",
+      "publication_date": "2026-10",
+      "version_note": "2026年10月新工作论文；目前公开的摘要已核对，完整草稿需向作者索取",
+      "circle": "core",
+      "signal": "确认",
+      "priority": "3–7天内读",
+      "confidence": "官方摘要已核查",
+      "evidence_level": "official-abstract",
+      "topics": [
+        "VC/PE",
+        "客户资本",
+        "政府资本补位"
+      ],
+      "related_projects": [
+        "引导基金上游倾向",
+        "引导基金本地投资"
+      ],
+      "finding_zh": "论文把企业的客户资本与知识资本区分开来，发现风险投资相较其他融资渠道更偏好客户资本密集的企业和行业，而非简单地偏好知识资本高的企业。广撒网式投资者的这一偏好尤其突出。作者还讨论了风险投资在过去约30年中逐渐从知识资本密集型方向转向客户资本密集型方向的变化。这个结果挑战了“VC主要筛选高技术知识”的单一叙事。",
+      "data_method_zh": "客户资本使用销售与营销支出／收入、销售及营销人员工资负担、商标申请倾向等指标测量；与知识资本和企业融资渠道比较。官方摘要未提供可信的具体回归识别、样本数与系数，须阅读草稿后核实。",
+      "transfer_zh": "直接对照市场化 VC 与政府引导基金（GGF）的资本配置：若市场 VC 更偏客户获取能力，GGF 是否集中于知识资本高、研发周期长、产业链上游的企业？可把客户资本/知识资本测度映射到企业—行业，再估计 GGF 直接投资、纯市场化 VC 投资与本地/异地投资的差异。",
+      "test_zh": "先按行业、融资轮次、成立年龄与地方产业结构做可比性匹配；检验 GGF×高知识资本与市场VC×高客户资本的相对投资概率，再看退出效率。若差异消失，不能把“补位”作为已证实结论。",
+      "limitation_zh": "上述与GGF的比较是新研究假说，不是本论文直接检验的政策效果。作者官网提示完整draft需索取；没有核实全文回归表。",
+      "sources": [
+        {
+          "label": "NBER论文与官方摘要",
+          "url": "https://www.nber.org/papers/w35919"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.3386/w35919"
+        }
+      ],
+      "reviewed_at": "2026-10-22",
+      "reviewer": "assistant-editorial",
+      "read_scope": "official abstract verified; full manuscript unavailable"
+    },
+    {
+      "paper_id": "p_0ec5be3e9b70ba",
+      "title": "How Private Equity Fuels Nonbank Lending",
+      "title_zh": "私募股权投资如何推动非银贷款",
+      "authors": [
+        "Sharjil Haque",
+        "Simon Mayer",
+        "Teng Wang"
+      ],
+      "venue": "Review of Financial Studies (2026); Federal Reserve FEDS 2024-015",
+      "publication_date": "2026-10-19",
+      "version_note": "2026年期刊版本；美联储研究论文已于2024年公开，非2026年首次公开",
+      "circle": "core",
+      "signal": "确认",
+      "priority": "3–7天内读",
+      "confidence": "美联储公开稿正文部分已核查",
+      "evidence_level": "working-paper-sections-reviewed",
+      "topics": [
+        "PE",
+        "银团贷款",
+        "非银行金融",
+        "贷后监控"
+      ],
+      "related_projects": [
+        "政府资本与银行跟贷",
+        "投贷联动"
+      ],
+      "finding_zh": "作者发现，PE支持的借款企业拥有更少的银行主动监控、更低的牵头行留存份额，以及更高的非银行机构贷款持有比例。其机制是PE发起人可替代部分银行信息生产与贷后监控。公开的2024年美联储工作论文中，控制银行×时期及行业×时期固定效应后，PE支持的定期贷款中牵头行留存份额约低2.5个百分点；与银行有较强既有关系的PE发起人差异更大。这些数值属于较早的工作论文版本。",
+      "data_method_zh": "2024年公开稿结合美国共享国家信贷（Shared National Credit）银团贷款监管微观数据、银行监控资料与PitchBook PE收购信息；比较PE支持与非PE支持贷款，并使用银行×时间、行业×时间固定效应及匹配检验。2026年期刊版细节应重新核对。",
+      "transfer_zh": "对政府基金与银行跟贷最有价值的不是“基金帮助获得贷款”这种相关性，而是区分两条相反机制：基金尽调/治理可以替代银行监控，或者通过信息共享增强银行放贷。观察合作银行留存比例、贷款期限、参与机构数量和企业事后违约，可以将补充融资与监控替代区分开。",
+      "test_zh": "设计基金—银行合作关系×政府基金类型的交互；对照相似企业在基金进入前后牵头行份额和贷后表现。若只有贷款量增加而银行留存与违约无变化，不能声称监控替代机制成立。",
+      "limitation_zh": "2.5个百分点估计引用2024年FEDS公开稿，未声称是2026期刊终稿系数；SNC监管微观数据在中国未必能获取。",
+      "sources": [
+        {
+          "label": "RFS期刊论文",
+          "url": "https://doi.org/10.1093/rfs/hhag092"
+        },
+        {
+          "label": "2024美联储公开论文PDF",
+          "url": "https://www.federalreserve.gov/econres/feds/files/2024015pap.pdf"
+        }
+      ],
+      "reviewed_at": "2026-10-22",
+      "reviewer": "assistant-editorial",
+      "read_scope": "2024 Federal Reserve working-paper sections reviewed; 2026 journal full text not verified"
+    },
+    {
+      "paper_id": "p_9605432435fec2",
+      "title": "Learning by Investing: Entrepreneurial Spillovers from Venture Capital",
+      "title_zh": "通过投资学习：风险投资的创业溢出",
+      "authors": [
+        "Josh Lerner",
+        "Jinlin Li",
+        "Tong Liu"
+      ],
+      "venue": "Review of Financial Studies (2026); earlier NBER WP w31897 (2023)",
+      "publication_date": "2026-07-29",
+      "version_note": "2026年期刊版；2023年已有早期工作论文，不应作为2026年首次公开",
+      "circle": "core",
+      "signal": "确认",
+      "priority": "本周内读",
+      "confidence": "官方摘要已核查",
+      "evidence_level": "official-abstract",
+      "topics": [
+        "VC有限合伙人",
+        "创业溢出",
+        "中国行政数据"
+      ],
+      "related_projects": [
+        "政府引导基金",
+        "产业政策与创业"
+      ],
+      "finding_zh": "研究重点不是获得VC资金的企业，而是作为有限合伙人（LP）投资VC基金的个人：相较基金发起失败的潜在LP，投资成功设立VC基金的个人随后更可能创办企业，且新增企业在就业和创新指标上表现较好。作者将这类效应解释为LP从参与VC活动中获得创业知识和网络机会。结果提示资本的溢出可能发生在投资者本身，而不局限于被投企业。",
+      "data_method_zh": "使用中国个人创业活动、VC募资和投资的行政数据；以基金成功成立与未能成立的LP作为主要比较。仅根据期刊摘要可以确定比较框架，成功设立是否满足准随机等识别条件须读正文。",
+      "transfer_zh": "研究政府引导基金的外部性时，可以把“基金投向了谁”扩展为“基金中的LP、GP及合作机构学到了什么”。一个可能的边界是地方财政LP本身不直接创业，但其合作GP和参与企业的重复投资、跨行业投资及新企业形成可能形成可观察知识溢出。",
+      "test_zh": "区分被投企业直接受益与基金参与者间接受益；用基金成立失败或进入时间差构造更接近可比的LP/GP对照，并检验是否在事前创业经历、网络位置上系统不同。",
+      "limitation_zh": "官方摘要不等于已核实因果识别细节；不得把“基金成立成功与否”自动视为随机冲击。",
+      "sources": [
+        {
+          "label": "RFS期刊页面",
+          "url": "https://doi.org/10.1093/rfs/hhag069"
+        },
+        {
+          "label": "较早NBER版本",
+          "url": "https://www.nber.org/papers/w31897"
+        }
+      ],
+      "reviewed_at": "2026-10-22",
+      "reviewer": "assistant-editorial",
+      "read_scope": "journal abstract verified; early paper existence verified"
+    },
+    {
+      "paper_id": "p_c84d8a4af88a74",
+      "title": "When Should We (Not) Interpret Linear IV Estimands as LATE?",
+      "title_zh": "什么时候线性工具变量估计不能解释为局部平均处理效应？",
+      "authors": [
+        "Tymon Słoczyński"
+      ],
+      "venue": "Review of Economic Studies (2026); circulated as working paper earlier",
+      "publication_date": "2026-10-21",
+      "version_note": "2026年期刊上线；核心研究问题至少在2021年已有工作论文，非全新研究",
+      "circle": "inspiration",
+      "signal": "确认",
+      "priority": "本周内读",
+      "confidence": "期刊摘要已核查",
+      "evidence_level": "official-abstract",
+      "topics": [
+        "因果识别",
+        "工具变量",
+        "异质性",
+        "LATE"
+      ],
+      "related_projects": [
+        "实证识别方法迁移"
+      ],
+      "finding_zh": "论文讨论有额外协变量且处理效应异质时，线性工具变量（IV）估计何时不能解释为各组局部平均处理效应（LATE）的合理加权平均。若第一阶段或简约式施加了隐含的同质性限制，常见的2SLS结果可能出现异常权重，甚至与研究者想要解释的顺从者效应背离。这不是要求放弃IV，而是提醒区分识别参数与回归算法输出。",
+      "data_method_zh": "核心贡献是线性IV、协变量调整、第一阶段异质性与权重分解的理论分析。应阅读论文推导和公开复现材料核查适用条件，不能把抽象结论直接套用任何一项估计。",
+      "transfer_zh": "今后在政策强度、基金设立或银行信贷供给的工具变量设计中，不只报告第一阶段F统计量，还要追问：谁是由工具变量推动处理变化的顺从者？不同省份、年份或企业类型的第一阶段是否反向或高度异质？",
+      "test_zh": "对工具变量与关键协变量做交互的一阶段检验，报告不同组的一阶段与权重贡献，并比较饱和交互IV、线性2SLS的估计是否改变方向或经济解释。",
+      "limitation_zh": "属于方法警示，不能据此直接断言当前任何实证结果无效；需逐项验证原论文假设。",
+      "sources": [
+        {
+          "label": "REStud期刊链接",
+          "url": "https://doi.org/10.1093/restud/rdag116"
+        }
+      ],
+      "reviewed_at": "2026-10-22",
+      "reviewer": "assistant-editorial",
+      "read_scope": "journal abstract verified"
+    },
+    {
+      "paper_id": "p_ccfa1bcc860db1",
+      "title": "Monetary Policy Uncertainty and Bank Credit Allocation",
+      "title_zh": "货币政策不确定性与银行信贷配置",
+      "authors": [
+        "Fatih Altunok",
+        "Yavuz Arslan",
+        "Steven Ongena"
+      ],
+      "venue": "CEPR Discussion Paper DP22050",
+      "publication_date": "2026-10-17",
+      "version_note": "2026年10月工作论文；使用官方CEPR摘要信息",
+      "circle": "adjacent",
+      "signal": "确认",
+      "priority": "3–7天内读",
+      "confidence": "官方摘要已核查",
+      "evidence_level": "official-abstract",
+      "topics": [
+        "银行信贷",
+        "货币政策不确定性",
+        "风险承担能力"
+      ],
+      "related_projects": [
+        "政府资本与银行跟贷",
+        "投贷联动"
+      ],
+      "finding_zh": "作者提出货币政策不确定性会占用银行风险承担能力，从而压缩对高风险借款人的信贷，资本较弱银行反应更明显。实证利用美国联邦公开市场委员会公告附近期权隐含利率不确定性的变化，在多个美国信贷市场考察风险配置；CEPR摘要报告，一标准差不确定性变化使高资本与低资本银行之间对风险借款人的信贷配置差异变化约1.65%。",
+      "data_method_zh": "模型强调风险承担能力约束；不确定性测度来自FOMC会议公告附近期权隐含利率分布变化，使用美国信贷市场数据检验银行资本异质性。详细观察单位、样本期与识别限制仍需论文全文核验。",
+      "transfer_zh": "政府基金的银行跟贷未必只取决于项目本身质量，还可能随合作银行的风险容量与宏观不确定性变化。考虑银行资本充足率×宏观不确定性×GGF参与的三重异质性，分离政府资本缓冲供给冲击还是仅吸引安全项目的筛选效应。",
+      "test_zh": "在企业—银行—年份面板中使用宏观不确定性冲击并控制银行风险暴露、地区信贷需求和企业固定效应；比较政策性/市场化基金关联企业的信贷数量和利率响应，避免把货币政策水平变化当作不确定性。",
+      "limitation_zh": "1.65%属于CEPR摘要报告的特定比较，不能直接外推中国银行跟贷效应；且不确定性的外生性需要严谨检验。",
+      "sources": [
+        {
+          "label": "CEPR原始工作论文",
+          "url": "https://cepr.org/publications/dp22050"
+        }
+      ],
+      "reviewed_at": "2026-10-22",
+      "reviewer": "assistant-editorial",
+      "read_scope": "CEPR abstract verified"
+    }
+  ]
+}

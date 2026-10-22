@@ -9,7 +9,7 @@ if TARGET.exists():
     shutil.rmtree(TARGET)
 shutil.copytree(ROOT / "site", TARGET)
 (TARGET / "data").mkdir(parents=True, exist_ok=True)
-for name in ["papers.json", "runs.json", "reports.json", "conferences.json"]:
+for name in ["papers.json", "runs.json", "reports.json", "conferences.json", "curated_reviews.json", "editorial_summaries.json"]:
     shutil.copy2(ROOT / "data" / name, TARGET / "data" / name)
 shutil.copy2(ROOT / "config/sources.json", TARGET / "data/sources.json")
 conference_status=ROOT / "data/conference_status.json"

@@ -46,11 +46,11 @@ const LABELS = {
   methods:'Econometrics', macro:'Macroeconomics', other:'Other',
   economics:'Economics', 'cross-field':'Cross-field',
 };
-const PAGES = {overview:T.overview,papers:T.papers,insights:T.insights,reports:T.reports,sources:T.sources,saved:T.saved};
+const PAGES = {overview:T.overview,reviews:'论文精读',papers:T.papers,insights:T.insights,reports:T.reports,sources:T.sources,saved:T.saved};
 const storeKey = 'frontier-radar-library-v1';
 const initialLibrary = (()=>{try{return JSON.parse(localStorage.getItem(storeKey)||'{}')}catch{return {}}})();
 const state = {
-  page:'overview', papers:[], runs:[], reports:{}, config:{rss:[],journals:[],conference_watchlist:[],planned_connectors:[]},
+  page:'overview', papers:[], runs:[], reports:{}, curatedReviews:[],editorialSummaries:{weekly:[],monthly:[]}, config:{rss:[],journals:[],conference_watchlist:[],planned_connectors:[]},
   snapshot:'', loaded:false, library:initialLibrary, countLimit:30, activeReportKind:'daily',activeReportId:'',reportIndexLimit:40,conferenceStatus:{items:{},events:[]},
   filter:{q:'',source:'all',discipline:'all',stage:'all',period:'all',onlySaved:false},
 };
@@ -161,6 +161,7 @@ function renderOverview(){
   return `
     ${heading(T.overview,'A live-ready discovery workspace. Verified sources, honest coverage, durable paper identities.')}
     <section class="hero"><div class="hero-copy"><div class="eyebrow">THE DISCOVERY PRINCIPLE</div><h2>${T.hello}</h2><p>${T.intro}</p><div class="hero-note">${run?`Last scan ${fmtDate(run.run_at)}`:T.bootstrap}</div></div><div class="hero-art" aria-hidden="true">&#10022;</div></section>
+    ${renderCuratedSection(2)}
     <div class="stat-grid">${stat(T.tracked,paperCount,'Unique paper records','&#9636;')}${stat(T.newSeven,realNew,'Excludes older backfills / manual seeds','&#8599;')}${stat(T.fields,disciplines,'Heuristic classification','&#9707;')}${stat(T.sourceSuccess,succeeded,run?'Latest automated scan':T.noRun,'&#9673;')}</div>
     <div class="section-grid"><div>
       <section class="section">${sectionHead('最近公开的论文',T.latestInfo,`<button class="text-link" data-page="papers">${T.seeAll} &#8594;</button>`)}<div class="panel">${recent.length?recent.map(articleMarkup).join(''):`<div class="empty">No papers yet</div>`}</div></section>
@@ -245,7 +246,7 @@ function renderEdition(issue){
       <h2>${escapeHtml(issue.title)}</h2><p>${escapeHtml(issue.summary_zh)}</p></div><div class="edition-meta"><b>${issue.picks?.length||0}</b><small>篇重点推荐</small></div></div>
     <div class="edition-metrics"><div><strong>${issue.new_archive_count??0}</strong><span>新增入库（含补录）</span></div><div><strong>${issue.recent_publication_count??0}</strong><span>近期可核对公开日期</span></div><div><strong>${src.success||0}/${src.attempted||0}</strong><span>采集来源成功</span></div><div><strong>${issue.analysis_level==='ai-abstract-triage'?'AI 摘要辅助':'元数据初筛'}</strong><span>分析证据层级</span></div></div>
     <div class="digest-disclosure">${escapeHtml(issue.evidence_note||'研究初筛尚未验证全文。')}</div>
-    <section class="digest-section">${sectionHead('最值得进一步阅读的论文','三圈精选：保留陌生领域的迁移机会，不以目前研究方向过滤论文')}${miniPicks(issue.picks||[])}</section>
+    <section class="digest-section">${sectionHead('自动入库的候选论文（元数据初筛）','以下尚未经逐篇原文核查，优先阅读上方已核查精读卡片')}${miniPicks(issue.picks||[])}</section>
     <section class="digest-section">${sectionHead(issue.kind==='monthly'?'本月跨领域研究线索':'本期跨领域线索','基于标题／摘要关键词的扫描分布，不代表因果结论或学科整体趋势')}
       <div class="digest-signal-grid"><div class="report-card"><h3>研究议题</h3><div class="signal-cloud">${renderTagCloud(signal.topics)}</div></div><div class="report-card"><h3>识别／方法线索</h3><div class="signal-cloud">${renderTagCloud(signal.methods)}</div></div><div class="report-card"><h3>数据与测量线索</h3><div class="signal-cloud">${renderTagCloud(signal.datasets)}</div></div></div>
       ${(issue.synthesis||[]).length?`<div class="digest-observations">${issue.synthesis.map(x=>`<p>${escapeHtml(x)}</p>`).join('')}</div>`:''}
@@ -258,11 +259,71 @@ function renderEdition(issue){
     <section class="digest-section">${sectionHead('采集证据与未完成事项','不把成功访问误认为全面覆盖')}<div class="panel padded"><p>最近入库扫描：${escapeHtml(src.scan_time||'未知')} · ${src.success||0}/${src.attempted||0} 个来源成功。</p><p>${issues.length?escapeHtml('需要核验：'+issues.join('；')):'已配置来源本轮未见接口失败、截断或零条警示。未接入的会议／工作论文来源不计入成功数。'}</p><p>首发日期可能只有年份或月份；任何历史补录均不冒充当日新论文。SSRＮ及未解析的会议 Program 不在自动收录范围内。</p></div></section>
   </section>`;
 }
+
+const REVIEW_CIRCLE = {core:'核心圈',adjacent:'邻近圈',inspiration:'灵感圈'};
+function reviewedCard(r){
+  const esc=escapeHtml;
+  const links=(r.sources||[]).map(s=>'<a class="text-link" href="'+esc(safeUrl(s.url))+'" target="_blank" rel="noopener noreferrer">'+esc(s.label)+' ↗</a>').join(' · ');
+  const topics=(r.topics||[]).map(t=>chip(t,'grey')).join('');
+  const related=(r.related_projects||[]).map(t=>chip(t,'signal')).join('');
+  const scope=r.read_scope||r.evidence_level||'待核查';
+  return '<article class="curated-review-card" id="review-'+esc(r.paper_id)+'">'
+    +'<div class="curated-overline"><span class="digest-circle '+esc(r.circle)+'">'+esc(REVIEW_CIRCLE[r.circle]||'综合')+' · '+esc((r.topics||[])[0]||'研究')+'</span>'
+    +'<span class="curated-status">'+esc(r.signal||'待核查')+'</span>'
+    +'<span class="curated-priority">'+esc(r.priority||'加入阅读清单')+'</span></div>'
+    +'<div class="curated-venue">'+esc(r.venue||'')+' · '+esc(r.publication_date||'日期待核验')+'</div>'
+    +'<h3 class="curated-title">'+esc(r.title)+'</h3>'
+    +'<div class="curated-zh">'+esc(r.title_zh||'')+'</div>'
+    +'<div class="curated-author">'+esc((r.authors||[]).join(', '))+'</div>'
+    +'<div class="curated-result">'+esc(r.finding_zh||'尚无原文核实结论')+'</div>'
+    +'<div class="curated-transfer"><strong>与你研究的连接 · 可检验假说</strong><p>'+esc(r.transfer_zh||'尚无证据充分的迁移路径')+'</p></div>'
+    +'<div class="curated-topics">'+related+'</div>'
+    +'<details class="curated-details"><summary>查看数据与方法、判别检验、证据范围</summary>'
+    +'<p><b>数据／研究设计：</b>'+esc(r.data_method_zh||'待核查')+'</p>'
+    +'<p><b>具体可做的检验：</b>'+esc(r.test_zh||'待设计')+'</p>'
+    +'<p><b>重要限制：</b>'+esc(r.limitation_zh||'待核查')+'</p>'
+    +'<p><b>版本与首发区别：</b>'+esc(r.version_note||'')+'</p>'
+    +'<p class="curated-evidence"><b>证据级别：</b>'+esc(r.confidence||'待核查')+' · '+esc(scope)+'</p></details>'
+    +'<div class="curated-footer"><div>'+topics+'</div><div class="curated-links">'+links
+    +' <button class="text-link" data-action="open" data-id="'+esc(r.paper_id)+'">数据库详情 ↗</button></div></div>'
+    +'</article>';
+}
+function renderCuratedSection(limit=0){
+  const all=state.curatedReviews||[];
+  if(!all.length)return '';
+  const chosen=limit?all.slice(0,limit):all;
+  return '<section class="section curated-section">'+sectionHead('已核查论文精读','优先读论文结论与数据，再判断对研究有何具体作用；不是关键词自动拼接',
+    limit?'<button class="text-link" data-page="reviews">查看全部已核查精读 ↗</button>':'')
+    +'<div class="curated-list">'+chosen.map(reviewedCard).join('')+'</div></section>';
+}
+function renderReviews(){
+  return heading('论文精读','按原始证据核查研究发现、数据方法、可判别的研究迁移；每日12:00由研究阅读任务维护')
+    +'<div class="digest-disclosure">证据范围逐篇标注：有些条目基于论文官方摘要，不能称为全文精读；所有迁移建议仍需独立检验。正式发表时间与早期工作论文首发时间分开记录。</div>'
+    +renderCuratedSection();
+}
+function renderEditorialSection(kind){
+  const items=state.editorialSummaries?.[kind]||[];
+  if(!items.length)return '';
+  const e=items[0], headingText=kind==='weekly'?'已核查周度研究综述':'已核查月度研究综述';
+  const synopsis=e.synthesis_zh||e.summary_zh||e.analysis_zh||'';
+  const actions=(e.actions||[]).map(a=>'<li>'+escapeHtml(typeof a==='string'?a:(a.text||a.title||''))+'</li>').join('');
+  const papers=(e.papers||e.picks||[]).map(p=>{
+    if(typeof p==='string')return '';
+    return '<li><a class="text-link" href="'+escapeHtml(safeUrl(p.source_url||p.url))+'" target="_blank" rel="noopener noreferrer">'+escapeHtml(p.title||p.paper_id||'论文')+' ↗</a></li>';
+  }).join('');
+  return '<section class="section"><div class="report-card editorial-feature"><div class="report-tag">'+escapeHtml(headingText)+' · '+escapeHtml(e.date||'')+'</div>'
+    +'<h3>'+escapeHtml(e.title||headingText)+'</h3><p>'+escapeHtml(synopsis)+'</p>'
+    +(papers?'<h4>本期重点论文</h4><ul>'+papers+'</ul>':'')
+    +(actions?'<h4>本周/本月可执行行动</h4><ul>'+actions+'</ul>':'')
+    +'</div></section>';
+}
+
 function renderInsights(){
   const latest=[...((latestIssue('daily')||{}).picks||[]),...((latestIssue('weekly')||{}).picks||[])];
   const seen=new Set();const uniquePicks=latest.filter(p=>{if(seen.has(p.paper_id))return false;seen.add(p.paper_id);return true});
   return `${heading(T.insights,'异领域研究的测量、数据与方法灵感；仅将论文视为候选，不等于完成全文评审')}
-    <div class="digest-disclosure">跨学科迁移是一项要验证的研究假说。这里的结构化提示只来自标题／摘要，尚需核查原文识别、数据可得性与文献空白。</div>
+    ${renderCuratedSection(5)}
+    <div class="digest-disclosure">以下是仅基于标题和摘要的自动扫描候选，尚未核查全文。</div>
     ${uniquePicks.length?miniPicks(uniquePicks):emptyPanel(T.noReports,T.noReportsBody)}
     <div class="report-card" style="margin-top:17px"><h3>检验迁移可能性的四个问题</h3><p>（1）研究的是同一种真实经济机制吗？（2）原方法的识别假设能否迁移？（3）数据能否获取与有效测量？（4）新场景会改变经济学结论吗？</p></div>`;
 }
@@ -274,6 +335,8 @@ function renderReports(){
   return `${heading(T.reports,'自动生成的每日发现、每周跨界精选与月度研究机会，附可核查论文目录和证据边界')}
     <div class="report-tabs" role="tablist" aria-label="简报周期">${Object.entries(labels).map(([kind,label])=>`<button class="report-tab ${state.activeReportKind===kind?'active':''}" data-action="report-kind" data-report-kind="${kind}" role="tab" aria-selected="${state.activeReportKind===kind}">${label}<span>${counts[kind]}</span></button>`).join('')}</div>
     <div class="report-history">${editions.map((r,i)=>`<button class="report-history-btn ${issue?.id===r.id?'active':''}" data-action="report-edition" data-report-id="${escapeHtml(r.id)}">${escapeHtml(r.date)}${i===0?' · 最新':''}</button>`).join('')}</div>
+    ${renderEditorialSection(state.activeReportKind)}
+    ${renderCuratedSection(3)}
     ${issue?renderEdition(issue):emptyPanel(T.noReports,T.noReportsBody)}
     <div class="preference-note">更新机制：GitHub Actions 定期采集并生成研究线索；没有接入 LLM 时只输出带证据标注的元数据初筛，不编造论文发现。本站是网页归档而非 ChatGPT 主动消息推送。</div>`;
 }
@@ -300,7 +363,7 @@ function renderSources(){
 function render(){
   if(!state.loaded)return;
   const main=document.querySelector('#app-main');
-  const renderers={overview:renderOverview,papers:renderPapers,insights:renderInsights,reports:renderReports,sources:renderSources,saved:renderPapers};
+  const renderers={overview:renderOverview,reviews:renderReviews,papers:renderPapers,insights:renderInsights,reports:renderReports,sources:renderSources,saved:renderPapers};
   main.innerHTML=renderers[state.page]();
   if(state.page==='papers'||state.page==='saved')renderPaperFeed();
 }
@@ -342,6 +405,8 @@ async function loadData(){
     state.runs=Array.isArray(runs.runs)?runs.runs:[];
     state.reports=reports;
     state.config=sources;
+    try {const r=await fetch('./data/curated_reviews.json',{cache:'no-store'});if(r.ok){const j=await r.json();state.curatedReviews=Array.isArray(j.reviews)?j.reviews:[]}}catch(_){/* optional curated archive */}
+    try {const r=await fetch('./data/editorial_summaries.json',{cache:'no-store'});if(r.ok){const j=await r.json();state.editorialSummaries=j||{weekly:[],monthly:[]}}}catch(_){/* optional editorial archive */}
     try{
       const statusRes=await fetch('./data/conference_status.json',{cache:'no-store'});
       if(statusRes.ok)state.conferenceStatus=await statusRes.json();
@@ -361,6 +426,11 @@ async function loadData(){
     document.querySelector('#app-main').innerHTML=`<div class="empty"><h3>Archive unavailable</h3><p>${escapeHtml(error.message)}. Serve the built dist/ directory over HTTP (not file://).</p></div>`;
   }
 }
+document.querySelector('#paper-dialog').addEventListener('click', event=>{
+  if(event.target!==event.currentTarget)return;
+  const box=event.currentTarget.getBoundingClientRect();
+  if(event.clientX<box.left||event.clientX>box.right||event.clientY<box.top||event.clientY>box.bottom){event.currentTarget.close()}
+});
 document.addEventListener('click',event=>{
   const page=event.target.closest('[data-page]');if(page){changePage(page.dataset.page);return}
   const btn=event.target.closest('[data-action]');if(!btn)return;
