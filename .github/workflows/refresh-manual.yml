@@ -8,6 +8,7 @@ on:
     paths:
       - '.github/workflows/refresh-manual.yml'
       - 'scripts/ingest.py'
+      - 'scripts/conference_papers.py'
       - 'config/sources.json'
   schedule:
     - cron: '17 9 * * *'
@@ -58,6 +59,8 @@ jobs:
         run: python scripts/ingest.py --since-days "$SINCE_DAYS" --backfill-days "$BACKFILL_DAYS" --max-per-source "$MAX_PER_SOURCE"
       - name: Monitor official conference-program links
         run: python scripts/conference_watch.py
+      - name: Index official conference program papers and PDF availability
+        run: python scripts/conference_papers.py
       - name: Validate and test
         run: |
           python -m unittest discover -s tests -v
@@ -66,7 +69,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/papers.json data/runs.json data/conference_status.json
+          git add data/papers.json data/runs.json data/conference_status.json data/conference_papers.json
           if ! git diff --cached --quiet; then
             git commit -m "data: update academic paper registry"
             git push
