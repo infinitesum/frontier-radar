@@ -60,7 +60,7 @@ document.documentElement.style.setProperty('--reader-scale',String(textScale));
 const initialLibrary = (()=>{try{return JSON.parse(localStorage.getItem(storeKey)||'{}')}catch{return {}}})();
 const state = {
   page:'overview', papers:[], runs:[], reports:{}, curatedReviews:[],editorialSummaries:{weekly:[],monthly:[]}, config:{rss:[],journals:[],conference_watchlist:[],planned_connectors:[]},
-  snapshot:'', loaded:false, library:initialLibrary, countLimit:30, activeReportKind:'daily',activeReportId:'',reportIndexLimit:40,conferenceStatus:{items:{},events:[]},conferencePapers:{papers:[],checks:[]},
+  snapshot:'', loaded:false, library:initialLibrary, countLimit:30, activeReportKind:'daily',activeReportId:'',reportIndexLimit:40,conferenceStatus:{items:{},events:[]},conferencePapers:{papers:[],checks:[]},candidateNotes:[],
   filter:{q:'',source:'all',discipline:'all',stage:'all',period:'all',onlySaved:false},
 };
 const escapeHtml = input => String(input ?? '').replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -114,6 +114,7 @@ function articleMarkup(p){
     <button class="paper-title" data-action="open" data-id="${escapeHtml(p.id)}">${listTitle(p.title)}</button>
     <div class="paper-author">${escapeHtml((p.authors||[]).join(', ') || 'Authors not verified')} &nbsp; &middot; &nbsp; ${escapeHtml(LABELS[p.discipline]||'Other')}</div>
     ${snippet?`<div class="paper-snippet">${escapeHtml(snippet)}</div>`:''}
+    ${p.abstract?abstractDisclosure(p.abstract):''}
     <div class="paper-actions"><div class="paper-actions-left"><button class="paper-btn ${saved?'active':''}" data-action="save" data-id="${escapeHtml(p.id)}" aria-pressed="${saved}">${saved?'&#9733;':'&#9734;'} ${saved?T.unsave:T.save}</button><button class="paper-btn ${read?'active':''}" data-action="read" data-id="${escapeHtml(p.id)}" aria-pressed="${read}">${read?'&#10003;':''} ${read?T.read:T.unread}</button></div><a href="${escapeHtml(safeUrl(p.source_url))}" target="_blank" rel="noopener noreferrer" class="paper-external">${T.original} &#8599;</a></div>
   </article>`;
 }
@@ -194,10 +195,37 @@ function renderPapers(){
 const CIRCLE_LABELS = {core:'核心圈 · 研究直接相关',adjacent:'邻近圈 · 机制相通',inspiration:'灵感圈 · 跨界发现'};
 const CIRCLE_EXPLAIN = {core:'主题相关性用于排序，不限制扫描来源。',adjacent:'政策、贸易、创新、劳动等邻近经济机制。',inspiration:'重要的异领域问题、方法或数据线索。'};
 
+function abstractDisclosure(content,label='原始英文摘要'){
+  if(!String(content||'').trim())return '<div class="abstract-unavailable">暂无已收录摘要；请查阅原始论文链接。</div>';
+  return '<details class="source-abstract"><summary>'+escapeHtml(label)+'　▾</summary><p lang="en">'+escapeHtml(content)+'</p></details>';
+}
+function readingActions(id){
+  if(!id)return '';
+  const p=getPreference(id),sid=escapeHtml(id);
+  return '<span class="card-reading-actions"><button class="paper-btn '+(p.saved?'active':'')+'" data-action="save" data-id="'+sid+'" aria-pressed="'+Boolean(p.saved)+'">'+(p.saved?'★ 已收藏':'☆ 收藏')+'</button><button class="paper-btn '+(p.read?'active':'')+'" data-action="read" data-id="'+sid+'" aria-pressed="'+Boolean(p.read)+'">'+(p.read?'✓ 已读':'○ 未读')+'</button></span>';
+}
+function researchAnalysis(p){
+  const review=(state.curatedReviews||[]).find(r=>r.paper_id===p.paper_id);
+  const note=(state.candidateNotes||[]).find(n=>n.paper_id===p.paper_id);
+  if(review){
+    return '<div class="candidate-analysis"><div class="candidate-analysis-head">已核查研究分析 · '+escapeHtml(review.read_scope||review.evidence_level||'')+'</div>'
+      +'<p><b>研究发现：</b>'+escapeHtml(review.finding_zh||'')+'</p><p><b>数据／方法：</b>'+escapeHtml(review.data_method_zh||'')+'</p>'
+      +'<p><b>与你的研究连接 · 待检验：</b>'+escapeHtml(review.transfer_zh||'')+'</p><p><b>判别检验：</b>'+escapeHtml(review.test_zh||'')+'</p></div>';
+  }
+  if(!note)return '<div class="candidate-analysis"><p>暂未形成有根据的论文发现或研究迁移分析；保留原始摘要以供筛选。</p></div>';
+  const tags=[...(note.data_tags||[]).map(v=>'数据：'+v),...(note.method_tags||[]).map(v=>'机制／方法：'+v)];
+  return '<div class="candidate-analysis"><div class="candidate-analysis-head">'+escapeHtml(note.status||'摘要初析')+'</div>'
+    +'<p><b>摘要可核对的发现：</b>'+escapeHtml(note.evidence_summary_zh||'暂无')+'</p>'
+    +'<p><b>数据与设计：</b>'+escapeHtml(note.data_method_zh||'需阅读全文')+'</p>'
+    +'<p><b>与你研究的连接 · 假说：</b>'+escapeHtml(note.connection_zh||'')+'</p>'
+    +'<p><b>可检验路径：</b>'+escapeHtml(note.test_zh||'')+'</p>'
+    +'<div class="digest-signals">'+tags.map(v=>chip(v,'grey')).join('')+'</div></div>';
+}
 function reportCard(p){
   const circle=CIRCLE_LABELS[p.circle] || '综合研究';
   const note=p.analysis_mode?.startsWith('AI-')?'AI 摘要辅助':'规则筛选／人工待复核';
   const signals=[...(p.method_signals||[]).map(s=>'方法：'+s),...(p.data_signals||[]).map(s=>'数据：'+s)];
+  const original=state.papers.find(item=>item.id===p.paper_id);
   return `<article class="digest-paper">
     <div class="digest-overline"><span class="digest-circle ${escapeHtml(p.circle)}">${escapeHtml(circle)}</span><span class="paper-date">${fmtDate(p.first_public_date)}</span></div>
     <h3>${escapeHtml(p.title)}</h3>
@@ -206,11 +234,11 @@ function reportCard(p){
     ${p.analysis_mode?.startsWith('AI-') && p.finding_zh?`<p class="digest-evidence"><b>摘要所述发现：</b>${escapeHtml(p.finding_zh)}</p>`:''}
     ${p.method_note_zh?`<p class="digest-evidence"><b>数据与方法：</b>${escapeHtml(p.method_note_zh)}</p>`:''}
     ${signals.length?`<div class="digest-signals">${signals.map(s=>chip(s,'grey')).join('')}</div>`:''}
-    ${p.abstract_excerpt?`<details class="digest-abstract"><summary>阅读摘要证据 · 英文原文摘录</summary><p>${escapeHtml(p.abstract_excerpt)}</p></details>`:''}
-    <div class="digest-transfer"><b>→ 迁移线索</b><span>${escapeHtml(p.migration_zh||'尚无可核查的迁移路径。')}</span></div>
+    ${abstractDisclosure(original?.abstract||p.abstract_excerpt||'')}
+    ${researchAnalysis(p)}
     <div class="digest-bottom"><span>${escapeHtml(note)} · ${p.evidence_level==='title-only'?'仅标题':'摘要摘录'}</span>
       <a href="${escapeHtml(safeUrl(p.source_url))}" target="_blank" rel="noopener noreferrer">论文原始链接 ↗</a>
-      <button class="text-link" data-action="open" data-id="${escapeHtml(p.paper_id)}">查看入库信息 →</button>
+      ${readingActions(p.paper_id)}
     </div>
   </article>`;
 }
@@ -276,6 +304,7 @@ function reviewedCard(r){
   const topics=(r.topics||[]).map(t=>chip(t,'grey')).join('');
   const related=(r.related_projects||[]).map(t=>chip(t,'signal')).join('');
   const scope=r.read_scope||r.evidence_level||'待核查';
+  const original=state.papers.find(p=>p.id===r.paper_id);
   return '<article class="curated-review-card" id="review-'+esc(r.paper_id)+'">'
     +'<div class="curated-overline"><span class="digest-circle '+esc(r.circle)+'">'+esc(REVIEW_CIRCLE[r.circle]||'综合')+' · '+esc((r.topics||[])[0]||'研究')+'</span>'
     +'<span class="curated-status">'+esc(r.signal||'待核查')+'</span>'
@@ -286,6 +315,7 @@ function reviewedCard(r){
     +'<div class="curated-author">'+esc((r.authors||[]).join(', '))+'</div>'
     +'<div class="curated-result">'+esc(r.finding_zh||'尚无原文核实结论')+'</div>'
     +'<div class="curated-transfer"><strong>与你研究的连接 · 可检验假说</strong><p>'+esc(r.transfer_zh||'尚无证据充分的迁移路径')+'</p></div>'
+    +abstractDisclosure(original?.abstract||'')
     +'<div class="curated-topics">'+related+'</div>'
     +'<details class="curated-details"><summary>查看数据与方法、判别检验、证据范围</summary>'
     +'<p><b>数据／研究设计：</b>'+esc(r.data_method_zh||'待核查')+'</p>'
@@ -293,7 +323,7 @@ function reviewedCard(r){
     +'<p><b>重要限制：</b>'+esc(r.limitation_zh||'待核查')+'</p>'
     +'<p><b>版本与首发区别：</b>'+esc(r.version_note||'')+'</p>'
     +'<p class="curated-evidence"><b>证据级别：</b>'+esc(r.confidence||'待核查')+' · '+esc(scope)+'</p></details>'
-    +'<div class="curated-footer"><div>'+topics+'</div><div class="curated-links">'+links
+    +'<div class="curated-footer"><div>'+topics+readingActions(r.paper_id)+'</div><div class="curated-links">'+links
     +'</div></div>'
     +'</article>';
 }
@@ -405,7 +435,7 @@ function openPaper(id,keepOpen=false){
       <h2 class="detail-title" id="dialog-title">${listTitle(p.title)}</h2><div class="paper-author">${escapeHtml((p.authors||[]).join(', ') || 'Authors not verified')}</div>
       <div class="paper-author" style="margin-top:7px">${T.dates}: ${fmtDate(p.first_public_date)} &nbsp; &middot; &nbsp; ${T.discovered}: ${fmtDate(p.discovered_at)}</div></div>
       <div class="detail-body">${reviewed}${!review&&p.insight?.summary_zh?`<h3>${T.summary}</h3><p>${escapeHtml(p.insight.summary_zh)}</p>`:''}
-        ${review?`<details class="detail-extra"><summary>原文摘要</summary><p>${escapeHtml(p.abstract||T.noAbstract)}</p></details>`:`<h3>${T.abstract}</h3><p>${escapeHtml(p.abstract||T.noAbstract)}</p>`}
+        ${abstractDisclosure(p.abstract)}
         ${!review&&p.insight?.migration_zh?`<h3>${T.migration}</h3><div class="insight-quote">${escapeHtml(p.insight.migration_zh)}</div><p style="margin-top:9px;font-size:11px">Evidence scope: ${escapeHtml(p.insight.evidence||'not marked')}. This is a research hypothesis, not a demonstrated paper result.</p>`:''}
         <h3>${T.lifecycle}</h3><div class="detail-events">${(p.events||[]).map(e=>`<div class="detail-event"><span>${fmtDate(e.date)} &mdash; ${escapeHtml(e.kind)} ${e.note?`&middot; ${escapeHtml(e.note)}`:''}</span></div>`).join('')||'<p>No recorded events</p>'}</div>
         <h3>${T.original}</h3><p>${sources}</p><div class="detail-btns"><button class="btn primary" data-action="save" data-id="${escapeHtml(id)}">${pref.saved?'&#9733; '+T.unsave:'&#9734; '+T.save}</button><button class="btn" data-action="read" data-id="${escapeHtml(id)}">${pref.read?'&#10003; '+T.read:T.unread}</button><a class="btn" href="${escapeHtml(safeUrl(p.source_url))}" target="_blank" rel="noopener noreferrer">${T.original} &#8599;</a></div></div>`;
@@ -436,6 +466,7 @@ async function loadData(){
     state.config=sources;
     try {const r=await fetch('./data/curated_reviews.json',{cache:'no-store'});if(r.ok){const j=await r.json();state.curatedReviews=Array.isArray(j.reviews)?j.reviews:[]}}catch(_){/* optional curated archive */}
     try {const r=await fetch('./data/editorial_summaries.json',{cache:'no-store'});if(r.ok){const j=await r.json();state.editorialSummaries=j||{weekly:[],monthly:[]}}}catch(_){/* optional editorial archive */}
+    try{const r=await fetch('./data/candidate_analysis.json',{cache:'no-store'});if(r.ok)state.candidateNotes=(await r.json()).notes||[]}catch(_){/* optional */}
     try {const cp=await fetch('./data/conference_papers.json',{cache:'no-store'});if(cp.ok)state.conferencePapers=await cp.json()}catch(_) { /* optional */ }
     try{
       const statusRes=await fetch('./data/conference_status.json',{cache:'no-store'});
