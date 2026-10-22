@@ -23,7 +23,7 @@ PROGRAMS=[
  ('cfrc-2026','China Financial Research Conference 2026','https://editorialexpress.com/conference/CFRC2026/program/CFRC2026.html'),
  ('cicf-2026','China International Conference in Finance 2026','https://editorialexpress.com/conference/CICF2026/program/CICF2026.html')
 ]
-PDF_PAT=re.compile(r'\.pdf(?:$|[?#])|download\.php|download\.jsp|/file/|/files/|getfile',re.I)
+PDF_PAT=re.compile(r'\.pdf(?:$|[?#])|download\.php|download\.jsp|download\.cgi|/file/|/files/|getfile',re.I)
 SESS_PAT=re.compile(r'^Session\s+\d+\s*:',re.I)
 SKIP_PAT=re.compile(r'^(Session Chair|Discussant|Presented by|By |Conference Reception|Keynote|Welcome Speech)',re.I)
 ALLOWED_LICENSES=('creativecommons.org/licenses/by/','creativecommons.org/licenses/by-sa/','creativecommons.org/publicdomain/zero/')
@@ -46,8 +46,8 @@ class ProgramParser(HTMLParser):
         if SESS_PAT.search(title):self.current=title;return
         if SKIP_PAT.search(title) or len(title)<18:return
         # Conference programs mark paper titles as links, sometimes directly to attachments.
-        if self.current and len(title)>22:
-            self.papers.append({'title':title[:320],'session':self.current[:200],'url':url,'pdf_candidate':bool(PDF_PAT.search(url))})
+        if len(title)>22 and (self.current or ('editorialexpress.com' in urlparse(url).netloc and 'download.cgi' in url)):
+            self.papers.append({'title':title[:320],'session':(self.current or 'Conference program')[:200],'url':url,'pdf_candidate':bool(PDF_PAT.search(url))})
 
 def download(url,max_bytes=3_000_000):
     req=Request(url,headers={'User-Agent':AGENT})
