@@ -30,6 +30,29 @@ class CuratedReviewContract(unittest.TestCase):
         for key in ("weekly", "monthly"):
             self.assertIsInstance(editorial[key], list)
 
+    def test_all_three_circles_have_source_scoped_analysis(self):
+        candidates=json.loads((ROOT/"data/candidate_analysis.json").read_text("utf-8"))
+        self.assertEqual(candidates["schema_version"],1)
+        notes=candidates["notes"]
+        self.assertEqual(len({n["paper_id"] for n in notes}),len(notes))
+        for n in notes:
+            self.assertGreater(len(n["evidence_summary_zh"]),35)
+            self.assertGreater(len(n["connection_zh"]),35)
+            self.assertGreater(len(n["test_zh"]),35)
+            self.assertEqual(n["evidence_level"],"abstract-excerpt")
+        js=(ROOT/"site/app.js").read_text("utf-8")
+        for name in ("candidate_analysis.json","function researchAnalysis","function readingActions","function abstractDisclosure"):
+            self.assertIn(name,js)
+        builder=(ROOT/"scripts/build_site.py").read_text("utf-8")
+        self.assertIn("candidate_analysis.json",builder)
+
+    def test_conference_watchlist_is_not_limited_to_parsed_programs(self):
+        config=json.loads((ROOT/"config/sources.json").read_text("utf-8"))
+        self.assertGreaterEqual(len(config["conference_watchlist"]),9)
+        js=(ROOT/"site/app.js").read_text("utf-8")
+        self.assertIn("完整顶会监测清单",js)
+        self.assertIn("state.config.conference_watchlist",js)
+
     def test_frontend_backdrop_and_curated_render(self):
         js=(ROOT / "site/app.js").read_text("utf-8")
         self.assertIn("function renderReviews()",js)
