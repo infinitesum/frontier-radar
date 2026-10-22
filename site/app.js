@@ -60,7 +60,7 @@ document.documentElement.style.setProperty('--reader-scale',String(textScale));
 const initialLibrary = (()=>{try{return JSON.parse(localStorage.getItem(storeKey)||'{}')}catch{return {}}})();
 const state = {
   page:'overview', papers:[], runs:[], reports:{}, curatedReviews:[],editorialSummaries:{weekly:[],monthly:[]}, config:{rss:[],journals:[],conference_watchlist:[],planned_connectors:[]},
-  snapshot:'', loaded:false, library:initialLibrary, countLimit:30, activeReportKind:'daily',activeReportId:'',reportIndexLimit:40,conferenceStatus:{items:{},events:[]},
+  snapshot:'', loaded:false, library:initialLibrary, countLimit:30, activeReportKind:'daily',activeReportId:'',reportIndexLimit:40,conferenceStatus:{items:{},events:[]},conferencePapers:{papers:[],checks:[]},
   filter:{q:'',source:'all',discipline:'all',stage:'all',period:'all',onlySaved:false},
 };
 const escapeHtml = input => String(input ?? '').replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -357,17 +357,30 @@ function renderSourceTable(records,runSources){
   }).join('')}</tbody></table></div>`;
 }
 function renderSources(){
-  const run=latestRun(),result=run?.sources||[],sources=[...(state.config.rss||[]),...(state.config.journals||[])].filter(s=>s.enabled);
-  return `${heading(T.sources,T.sourcesIntro)}
-    <div class="stat-grid">${stat('Configured feeds',sources.length,'Active collection definitions','&#9711;')}${stat('Latest source success',run?run.successful_sources:'--',run?`${run.source_count} attempted`:T.never,'&#10003;')}${stat('Latest source errors',run?run.counts.errors:'--','Never hidden','!')}${stat('Conference watchlist',(state.config.conference_watchlist||[]).length,'Program checks still manual','&#9783;')}</div>
-    <section class="section">${sectionHead(T.monitoring,'Source-by-source accountability')}${renderSourceTable(sources,result)}</section>
-    <section class="section">${sectionHead('顶会 Program 观察状态','检测官网是否出现新议程链接；不等于已读取会议论文目录')}
-      <div class="panel table-wrap"><table class="coverage-table"><thead><tr><th>Conference</th><th>检查状态</th><th>候选链接</th><th>官方 Program</th></tr></thead><tbody>${(state.config.conference_watchlist||[]).map(conf=>{
-        const snap=(state.conferenceStatus?.items||{})[conf.id];
-        return `<tr><td>${escapeHtml(conf.name)}</td><td>${escapeHtml(snap?.status||'未检查')}</td><td>${snap?.program_links?.length||0}</td><td>${(snap?.program_links||[]).slice(0,2).map(l=>`<a class="text-link" href="${escapeHtml(safeUrl(l.url))}" target="_blank" rel="noopener noreferrer">${escapeHtml(l.title)}</a>`).join(' / ')||'<span class="digest-muted">尚无可核实链接</span>'}</td></tr>`;
-      }).join('')}</tbody></table></div></section>
-    <div class="section-grid"><section class="section">${sectionHead('Conferences to verify','Program URLs are leads, not automated coverage')}<div class="panel"><div class="side-list" style="padding:4px 21px">${(state.config.conference_watchlist||[]).map(s=>`<div class="side-line"><span>${escapeHtml(s.name)}</span><a class="text-link" href="${escapeHtml(safeUrl(s.url))}" target="_blank" rel="noopener noreferrer">Official site &#8599;</a></div>`).join('')}</div></div></section>
-    <section class="section">${sectionHead(T.limitations,'Transparent current capabilities')}<div class="panel padded"><p style="line-height:1.9;font-size:12px;color:#637886">${T.metadataOnly}</p><div class="preference-note">Planned: ${escapeHtml((state.config.planned_connectors||[]).join(' / '))}</div></div></section></div>`;
+  const run=latestRun(),sources=[...(state.config.rss||[]),...(state.config.journals||[])].filter(s=>s.enabled);
+  const checks=state.conferencePapers?.checks||[],papers=state.conferencePapers?.papers||[];
+  const readableStatus={ 'paper-link':'论文链接','pdf-accessible':'PDF 可访问','pdf-unavailable':'PDF 已失效／需权限','pdf-not-confirmed':'未确认为 PDF','pending':'待检测'};
+  return `${heading(T.sources,'覆盖范围、采集路径与异常记录')}
+    <div class="stat-grid">${stat('期刊与工作论文源',sources.length,'配置中的自动抓取来源','&#9711;')}${stat('本次成功来源',run?run.successful_sources:'—',run?`${run.source_count} 个源已尝试`:'尚无扫描','&#10003;')}${stat('会议论文索引',papers.length,'逐篇发现，非全文存档数','&#9636;')}${stat('会议项目检测',checks.filter(x=>x.status==='ok').length,checks.length+' 个正式 Program','&#9783;')}</div>
+    <details class="panel pipeline-details" open><summary>数据从哪里来？如何处理？</summary>
+      <ol>
+        <li><b>采集：</b>NBER、CEPR 的公开 RSS；18 种英文期刊的 Crossref DOI 元数据；会议官方 Program 页面。</li>
+        <li><b>整理：</b>保留来源地址、首次发现时间、论文版本与 DOI；通过 DOI／题名与作者合并重复记录，不能把旧稿重新收录当成新论文。</li>
+        <li><b>筛选：</b>日报按增量和主题分层；“论文精读”另由阅读任务核查原文或官方摘要、明确结论／识别／迁移假说。</li>
+        <li><b>会议附件：</b>解析正式议程中的论文条目，检测公开 PDF 是否仍可访问；没有明确转载许可的全文不上传到公开 GitHub，保留来源和失效状态。</li>
+        <li><b>发布：</b>GitHub Actions 自动采集、运行测试、保存 JSON 历史并更新 GitHub Pages；异常源不会伪装为没有新增。</li>
+      </ol>
+      <p>当前会议采集只覆盖已接入的正式 HTML 议程，不代表所有会议／历史年份均已完整收录。期刊页面也可能存在 Crossref 登记延迟。</p>
+    </details>
+    <section class="section">${sectionHead('期刊与工作论文来源','最近一轮运行结果')}${renderSourceTable(sources,run?.sources||[])}</section>
+    <section class="section">${sectionHead('会议 Program 与附件','可用性和归档权限分开记录')}
+      <div class="panel table-wrap"><table class="coverage-table"><thead><tr><th>会议</th><th>状态</th><th>发现论文</th><th>正式议程</th></tr></thead><tbody>${checks.map(x=>`<tr><td>${escapeHtml(x.name)}</td><td>${escapeHtml(x.status==='ok'?'已扫描':x.error||'失败')}</td><td>${x.papers_found||0}</td><td><a class="text-link" href="${escapeHtml(safeUrl(x.program_url))}" target="_blank" rel="noopener noreferrer">Program ↗</a></td></tr>`).join('')||'<tr><td colspan="4">尚未执行正式议程逐篇提取</td></tr>'}</tbody></table></div>
+      <details class="panel pipeline-details"><summary>查看论文附件目录（${papers.length}条）</summary>
+        <div class="table-wrap"><table class="coverage-table"><thead><tr><th>论文</th><th>会议／Session</th><th>附件状态</th><th>原文</th></tr></thead><tbody>
+        ${papers.slice(0,250).map(p=>`<tr><td>${escapeHtml(p.title)}</td><td>${escapeHtml(p.conference||'')}<div class="paper-author">${escapeHtml(p.session||'')}</div></td><td>${escapeHtml(readableStatus[p.access_status]||p.access_status||'待检测')}</td><td><a class="text-link" href="${escapeHtml(safeUrl(p.source_url))}" target="_blank" rel="noopener noreferrer">原始链接 ↗</a></td></tr>`).join('')||'<tr><td colspan="4">尚无论文附件记录</td></tr>'}
+        </tbody></table></div><p>只列已核实的公开链接；“可访问”不等于“获得公开再分发许可”。</p>
+      </details>
+    </section>`;
 }
 function render(){
   if(!state.loaded)return;
@@ -423,6 +436,7 @@ async function loadData(){
     state.config=sources;
     try {const r=await fetch('./data/curated_reviews.json',{cache:'no-store'});if(r.ok){const j=await r.json();state.curatedReviews=Array.isArray(j.reviews)?j.reviews:[]}}catch(_){/* optional curated archive */}
     try {const r=await fetch('./data/editorial_summaries.json',{cache:'no-store'});if(r.ok){const j=await r.json();state.editorialSummaries=j||{weekly:[],monthly:[]}}}catch(_){/* optional editorial archive */}
+    try {const cp=await fetch('./data/conference_papers.json',{cache:'no-store'});if(cp.ok)state.conferencePapers=await cp.json()}catch(_) { /* optional */ }
     try{
       const statusRes=await fetch('./data/conference_status.json',{cache:'no-store'});
       if(statusRes.ok)state.conferenceStatus=await statusRes.json();
