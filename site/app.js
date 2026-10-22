@@ -60,7 +60,7 @@ document.documentElement.style.setProperty('--reader-scale',String(textScale));
 const initialLibrary = (()=>{try{return JSON.parse(localStorage.getItem(storeKey)||'{}')}catch{return {}}})();
 const state = {
   page:'overview', papers:[], runs:[], reports:{}, curatedReviews:[],editorialSummaries:{weekly:[],monthly:[]}, config:{rss:[],journals:[],conference_watchlist:[],planned_connectors:[]},
-  snapshot:'', loaded:false, library:initialLibrary, countLimit:30, activeReportKind:'daily',activeReportId:'',reportIndexLimit:40,conferenceStatus:{items:{},events:[]},conferencePapers:{papers:[],checks:[]},candidateNotes:[],transferCases:[],
+  snapshot:'', loaded:false, library:initialLibrary, countLimit:30, activeReportKind:'daily',activeReportId:'',reportIndexLimit:40,conferenceStatus:{items:{},events:[]},conferencePapers:{papers:[],checks:[]},candidateNotes:[],transferCases:[],mechanismProfiles:[],reanalysis:{entries:[],reviewed_count:0},
   filter:{q:'',source:'all',discipline:'all',stage:'all',period:'all',onlySaved:false},
 };
 const escapeHtml = input => String(input ?? '').replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -385,11 +385,62 @@ function renderTransferCases(){
   return '<section class="section"><div class="section-header"><div><h2 class="section-heading">跨领域灵感如何变成研究问题</h2>'
     +'<p class="section-kicker">从经济机制出发，切换决策主体与结果变量，再提出可以推翻自己解释的检验</p></div></div>'+cards+'</section>';
 }
+function renderMechanismProfiles(){
+ const profiles=state.mechanismProfiles||[];
+ if(!profiles.length)return '';
+ const priorityNames={core:'核心经济机制',institutional:'制度与调节',outcome:'福利与评价',exploratory:'探索机制'};
+ const items=profiles.map((p,index)=>{
+   const list=(p.mechanisms||[]).map(m=>'<details class="mechanism-entry">'
+    +'<summary><span class="mechanism-name">'+escapeHtml(m.title)+'</span><span class="pill">'+escapeHtml(priorityNames[m.priority]||m.priority)+'</span></summary>'
+    +'<div class="mechanism-body"><p><b>经济机制：</b>'+escapeHtml(m.primitive||'')+'</p><p><b>可区分预测：</b>'+escapeHtml(m.prediction||'')+'</p>'
+    +'<p><b>另一种解释：</b>'+escapeHtml(m.counter||'')+'</p><p><b>检验路径：</b>'+escapeHtml(m.test||'')+'</p>'
+    +'<p><b>数据候选：</b>'+escapeHtml((m.data||[]).join(' · '))+'</p><p><b>可行性：</b>'+escapeHtml(m.feasibility||'')+'</p>'
+    +(m.reading_anchor?'<a class="text-link" target="_blank" rel="noopener noreferrer" href="'+escapeHtml(safeUrl(m.reading_anchor))+'">相关研究原文 ↗</a>':'')
+    +'</div></details>').join('');
+   return '<details class="mechanism-project" '+(index===0?'open':'')+'><summary><strong>'+escapeHtml(p.name)+'</strong><span class="mechanism-count">'+(p.mechanisms||[]).length+'项机制</span></summary>'
+    +'<p class="mechanism-question">'+escapeHtml(p.research_question||'')+'</p><p class="mechanism-rule">'+escapeHtml(p.north_star||'')+'</p>'
+    +'<div>'+list+'</div></details>';
+ }).join('');
+ return '<section class="section mechanism-profiles"><div class="section-header"><div class="section-heading">项目机制清单</div>'
+   +'<p class="section-kicker">机制、制度调节与结果分层，逐项提供可判别检验和实际数据难度</p></div>'+items+'</section>';
+}
+function renderReanalysis(){
+ const entries=state.reanalysis?.entries||[];
+ if(!entries.length)return '';
+ const badges={'priority':'建议3–7天内读','foundational-not-new':'理论基础·非新论文','reference-not-direct':'方法借鉴·资料限制'};
+ const count=entries.length;
+ return '<section class="section reanalysis-section"><div class="section-header"><div><div class="section-heading">重新分析的论文 · '+count+'篇</div>'
+   +'<div class="section-kicker">依据原文摘要或可核查文稿，展示机制迁移、竞争解释、数据可行性；不是全部数据库已完成全文精读</div></div></div>'
+   +'<div class="reanalysis-list">'+entries.map((r,i)=>{
+      const important=r.recommendation==='priority';
+      return '<details class="reanalysis-entry" '+(i===0?'open':'')+'><summary>'
+        +'<span class="reanalysis-rank">'+escapeHtml(r.circle==='inspiration'?'灵感圈':r.circle==='adjacent'?'邻近圈':'核心圈')+'</span>'
+        +'<span class="reanalysis-heading">'+escapeHtml(r.title)+'</span><span class="reanalysis-rank">'+escapeHtml(badges[r.recommendation]||r.recommendation)+'</span></summary>'
+        +'<div class="reanalysis-body"><p><b>作者：</b>'+escapeHtml((r.authors||[]).join(', '))+' · '+escapeHtml(r.first_public||'')+'</p>'
+        +'<p><b>原文支持的发现：</b>'+escapeHtml(r.original_claim||'')+'</p>'
+        +'<p><b>可迁移的经济机制：</b>'+escapeHtml(r.economic_primitive||'')+'</p>'
+        +'<p><b>主体／结果怎样转换：</b>'+escapeHtml(r.actor_shift||'')+'</p>'
+        +'<p class="reanalysis-question"><b>由此提出的新问题：</b>'+escapeHtml(r.research_question||'')+'</p>'
+        +'<p><b>未被原文证明的前提：</b>'+escapeHtml(r.bridge_assumption||'')+'</p>'
+        +'<p><b>竞争解释：</b>'+escapeHtml(r.alternative||'')+'</p>'
+        +'<p><b>可判别检验：</b>'+escapeHtml(r.discriminating_test||'')+'</p>'
+        +'<p><b>理想数据：</b>'+escapeHtml(r.data_ideal||'')+'</p>'
+        +'<p><b>可先获取的数据：</b>'+escapeHtml(r.data_pilot||'')+'</p>'
+        +'<p class="reanalysis-feasibility"><b>可行性：</b>'+escapeHtml(r.data_feasibility||'')+'</p>'
+        +(r.collision?'<p><b>撞题／版本检查：</b>'+escapeHtml(r.collision)+'</p>':'')
+        +'<p class="reanalysis-evidence">'+escapeHtml(r.scope||r.evidence||'')+'</p>'
+        +'<div><a class="text-link" href="'+escapeHtml(safeUrl(r.source_url))+'" target="_blank" rel="noopener noreferrer">原文 ↗</a>'
+        +(r.alt_url?' · <a class="text-link" href="'+escapeHtml(safeUrl(r.alt_url))+'" target="_blank" rel="noopener noreferrer">相关版本／公开稿 ↗</a>':'')+'</div>'
+        +'</div></details>';
+   }).join('')+'</div></section>';
+}
 function renderInsights(){
   const latest=[...((latestIssue('daily')||{}).picks||[]),...((latestIssue('weekly')||{}).picks||[])];
   const seen=new Set();const uniquePicks=latest.filter(p=>{if(seen.has(p.paper_id))return false;seen.add(p.paper_id);return true});
   return `${heading(T.insights,'跨领域研究方法与数据灵感')}
+    ${renderMechanismProfiles()}
     ${renderTransferCases()}
+    ${renderReanalysis()}
     ${renderCuratedSection(5)}
     <div class="digest-disclosure">以下是仅基于标题和摘要的自动扫描候选，尚未核查全文。</div>
     ${uniquePicks.length?miniPicks(uniquePicks):emptyPanel(T.noReports,T.noReportsBody)}
@@ -503,6 +554,8 @@ async function loadData(){
     state.config=sources;
     try {const r=await fetch('./data/curated_reviews.json',{cache:'no-store'});if(r.ok){const j=await r.json();state.curatedReviews=Array.isArray(j.reviews)?j.reviews:[]}}catch(_){/* optional curated archive */}
     try {const r=await fetch('./data/editorial_summaries.json',{cache:'no-store'});if(r.ok){const j=await r.json();state.editorialSummaries=j||{weekly:[],monthly:[]}}}catch(_){/* optional editorial archive */}
+    try{const mp=await fetch('./data/mechanism_profiles.json',{cache:'no-store'});if(mp.ok){const res=await mp.json();state.mechanismProfiles=res.projects||[]}}catch(_){/* optional project mechanism map */}
+    try{const ir=await fetch('./data/idea_reanalysis.json',{cache:'no-store'});if(ir.ok)state.reanalysis=await ir.json()}catch(_){/* optional editorial reanalysis */}
     try{const tr=await fetch('./data/transfer_cases.json',{cache:'no-store'});if(tr.ok){const obj=await tr.json();state.transferCases=Array.isArray(obj.cases)?obj.cases:[]}}catch(_){/* public worked examples are optional */}
     try{const r=await fetch('./data/candidate_analysis.json',{cache:'no-store'});if(r.ok)state.candidateNotes=(await r.json()).notes||[]}catch(_){/* optional */}
     try {const cp=await fetch('./data/conference_papers.json',{cache:'no-store'});if(cp.ok)state.conferencePapers=await cp.json()}catch(_) { /* optional */ }
