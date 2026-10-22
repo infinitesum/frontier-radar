@@ -1,7 +1,24 @@
 {
   "schema_version": 1,
-  "updated_at": "",
+  "updated_at": "2026-10-22T14:44:56+08:00",
   "papers": [],
-  "checks": [],
-  "archive_policy": "Paper titles and source links only until licenses/permissions verified. No PDF is redistributed without rights."
+  "checks": [
+    {
+      "conference_id": "cfrc-2026",
+      "name": "China Financial Research Conference 2026",
+      "program_url": "https://editorialexpress.com/conference/CFRC2026/program/CFRC2026.html",
+      "checked_at": "2026-10-22T14:44:56+08:00",
+      "status": "ok",
+      "papers_found": 0
+    },
+    {
+      "conference_id": "cicf-2026",
+      "name": "China International Conference in Finance 2026",
+      "program_url": "https://editorialexpress.com/conference/CICF2026/program/CICF2026.html",
+      "checked_at": "2026-10-22T14:44:56+08:00",
+      "status": "ok",
+      "papers_found": 0
+    }
+  ],
+  "archive_policy": "Public program metadata and links archived. PDF redistribution requires explicit verified permission/license. Missing or gated files are not archived."
 }
