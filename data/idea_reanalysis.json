@@ -1,0 +1,312 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-22",
+  "scope": "First-round mechanism-first re-review of representative high-value English papers; NOT a claim of full-text review or re-audit of the entire 1,309-paper archive.",
+  "status_rules": {
+    "priority": "值得3–7天内通读；跨主体问题和可判别检验具备初步可行性",
+    "foundational": "理论基础；不是新作或新增灵感",
+    "reference": "类比值得讨论，但核心数据不足或概念不等价"
+  },
+  "reviewed_count": 10,
+  "entries": [
+    {
+      "id": "goldberg-knowledge-2026",
+      "title": "How Knowledge Crosses Borders: Evidence from Semiconductor Manufacturing",
+      "authors": [
+        "Pinelopi Koujianou Goldberg",
+        "Réka Juhász",
+        "Giulia Lo Forte",
+        "Jeff Thurk"
+      ],
+      "source_url": "https://www.nber.org/papers/w35879",
+      "alt_url": "https://cepr.org/publications/dp22009",
+      "first_public": "2026-09-25 draft date; CEPR 2026-10-02; NBER 2026-10",
+      "circle": "inspiration",
+      "projects": [
+        "p3",
+        "cross-cutting"
+      ],
+      "recommendation": "priority",
+      "read_in_days": "3–7",
+      "evidence": "official-abstract-and-acknowledgements",
+      "original_claim": "半导体跨境学习经由供应链合作、跨国公司工程师调动和FDI等有目的的市场关系发生；全球前沿知识获取并非自动溢出。",
+      "economic_primitive": "关系依赖型知识传导/隐性知识/匹配摩擦",
+      "actor_shift": "从晶圆制造企业的国际学习活动，转为政府、投资者如何通过资本/人才计划影响知识接入网络。",
+      "research_question": "公共投资是否有助于企业进入前沿供应链或吸引掌握关键隐性知识的人才，抑或资金仅增加设备与专利数量？",
+      "bridge_assumption": "资助能改变知识关系网络且引入的知识有可吸收、可测量的生产作用；并不能从原文推断政府资助的因果效果。",
+      "alternative": "财务宽松引致普遍扩张、受资助企业事前更优秀、设备购置导致成果增长而非人才知识流动。",
+      "discriminating_test": "对照投资前技术/人才基础、投资后发明人跨国或跨企业流动与外国专利引用，检查在关键工程师加入、供应链关系建立后成果是否更集中出现；用同业可比融资和海外知识网络预暴露削弱共同需求冲击。",
+      "data_ideal": "GSA企业—产品/工艺和供应链合作、真实晶圆产出/良率、公司工程师跨国履历、FDI项目。GSA数据由作者致谢，未核实对外授权。",
+      "data_pilot": "US PatentsView发明人/企业链接、Google Patents引文、各国企业专利与公司投资/子公司公告，先做行业×年匹配可行性测试。",
+      "data_feasibility": "中偏难：可观测知识痕迹，难观测工艺良率与非正式传授",
+      "collision": "与Goldberg et al. NBER w32651 (2024首发，2026修订)属于高度相关研究系列；检验差异而非算作全新独立机制。",
+      "scope": "只核验官方摘要、版本和作者致谢；未取得可完整读取的77页正文，因此不写具体回归系数或识别细节。"
+    },
+    {
+      "id": "aneja-xu-standards-2026",
+      "title": "From Politics to Process: Evidence from Progressive Era Naturalizations",
+      "authors": [
+        "Abhay Aneja",
+        "Guo Xu"
+      ],
+      "source_url": "https://www.nber.org/papers/w35903",
+      "first_public": "2026-10 NBER",
+      "circle": "inspiration",
+      "projects": [
+        "p1"
+      ],
+      "recommendation": "priority",
+      "read_in_days": "3–7",
+      "evidence": "official-abstract",
+      "original_claim": "1906年入籍申请联邦标准化后城市做法趋同，改革前明显的选举年入籍周期消失；在政治庇护制度未改革的城市效果更强。",
+      "economic_primitive": "地方知识与地方官员偏差之间的委托代理权衡，程序统一削减政治选择。",
+      "actor_shift": "从市级移民入籍官员转为地方政策资本管理机构，结果从是否批准入籍变成投向与项目质量。",
+      "research_question": "上级对政府基金的统一规则与项目审核要求，能否降低非效率性本地偏向而不扼杀地方信息优势？",
+      "bridge_assumption": "需要可比较的基金政策标准改革和具体执行差异；入籍并不等于投资裁量权。",
+      "alternative": "统一标准也可能提升项目可比性、筛掉低质量项目或改变地方资金总量。",
+      "discriminating_test": "比较统一评价实施前后本地投资份额/项目质量变化，并利用地方政治激励或既有标准化水平区分政治偏向与信息损失；报告政策执行时点。",
+      "data_ideal": "地方政策标准实施日期、基金项目考核规则、GP投资事件、行政人员背景。",
+      "data_pilot": "公开法规和地方基金管理办法、基金投资新闻、企业注册及退出结果。",
+      "data_feasibility": "中：法规可搜集，真实审批与项目筛选结果较难",
+      "scope": "仅官方摘要核查，迁移是假说，不声称本文使用GGF数据。"
+    },
+    {
+      "id": "liu-production-network-2019",
+      "title": "Industrial Policies in Production Networks",
+      "authors": [
+        "Ernest Liu"
+      ],
+      "source_url": "https://doi.org/10.1093/qje/qjz024",
+      "alt_url": "https://ernestliu.scholar.princeton.edu/sites/g/files/toruqf4426/files/ernestliu/files/qjz024.pdf",
+      "first_public": "2016 first draft, 2019 QJE publication",
+      "circle": "adjacent",
+      "projects": [
+        "p1",
+        "upstream"
+      ],
+      "recommendation": "foundational-not-new",
+      "read_in_days": "reference",
+      "evidence": "journal-abstract-and-author-manuscript-excerpts",
+      "original_claim": "投入产出生产网络里的市场摩擦可沿后向需求联系叠加，上游部门可能成为较大资源扭曲积累处；支持某些上游部门有潜在社会价值。",
+      "economic_primitive": "网络上的扭曲传播、私人边际收益与社会边际收益差异。",
+      "actor_shift": "从最优部门产业补贴选择转向政策性风险资本如何通过企业股权配置行业资源。",
+      "research_question": "政策资本的企业/行业投向能否与产业网络扭曲或外部收益衡量匹配，而不是仅与地理和政策标签匹配？",
+      "bridge_assumption": "投入产出位置与最优支持部门非同一变量；股权投资不等同于生产补贴，存在资产管理与GP选择。",
+      "alternative": "可能完全由当地工业政策目录、技术强度和基金管理人能力驱动。",
+      "discriminating_test": "结合行业投入产出与市场摩擦/融资约束构造不同中心性指标，比较与传统上游度的独立预测力；避免以同一上游指标证明两个机制。",
+      "data_ideal": "地区行业投入产出表、扭曲中心性、基金行业投资和融资成本。",
+      "data_pilot": "国家投入产出表、基金投资行业编码、企业融资代理。",
+      "data_feasibility": "中：有投入产出行业数据但社会福利代理仍弱",
+      "scope": "2019年已发表的基础理论，不作为本周新增研究。"
+    },
+    {
+      "id": "aragoneses-customer-capital-2026",
+      "title": "Venture Capital and Customer Capital",
+      "authors": [
+        "Martin Aragoneses",
+        "Young Soo Jang",
+        "Amir Sufi"
+      ],
+      "source_url": "https://www.nber.org/papers/w35919",
+      "first_public": "2026-10 NBER",
+      "circle": "core",
+      "projects": [
+        "p1",
+        "upstream"
+      ],
+      "recommendation": "priority",
+      "read_in_days": "3–7",
+      "evidence": "official-abstract",
+      "original_claim": "VC更倾向客户资本（营销费用、销售营销工资、商标等）密集、知识资本较弱的部门，部分小额广泛投资型GP尤其如此。",
+      "economic_primitive": "中介风险偏好、极端上行回报、不可抵押无形资本。",
+      "actor_shift": "从市场VC投资偏好转向政策资本是否及在何种约束下选择知识资本和产业链关键投入环节。",
+      "research_question": "政策资金是否在风险—收益结构不同的行业提供市场VC难以覆盖的融资？",
+      "bridge_assumption": "知识资本与产业链上游位置不是一个概念；差别选择不等于必然存在市场失灵。",
+      "alternative": "产业政策名单、企业周期、GP募资模式和投资轮次可解释基金类型间差异。",
+      "discriminating_test": "同时控制企业阶段、行业及GP策略，分别测客户资本与知识资本，检验政策资本偏好是否仅在民间融资缺口较大时才出现。",
+      "data_ideal": "VC企业面板、营销薪酬、商标、研发/专利和融资事件；作者使用的MSCI私募数据库可能有权限。",
+      "data_pilot": "上市企业研发/销售费用、招聘结构、企业商标与专利、融资事件的行业均值。",
+      "data_feasibility": "中偏难：私人初创企业无形资本难直接度量",
+      "scope": "仅NBER官方摘要核查，不能从VC偏好直接断定政策资本有效。"
+    },
+    {
+      "id": "fan-export-controls-2026",
+      "title": "Export Controls and the Economics of National Security",
+      "authors": [
+        "Jingting Fan",
+        "Kyle Handley",
+        "Nuno Limão"
+      ],
+      "source_url": "https://www.nber.org/papers/w35898",
+      "first_public": "2025-03 author version; NBER 2026-10",
+      "circle": "adjacent",
+      "projects": [
+        "p3",
+        "cross-cutting"
+      ],
+      "recommendation": "priority",
+      "read_in_days": "3–7",
+      "evidence": "official-abstract",
+      "original_claim": "美国出口控制分类/许可证数据与含军民两用投入产出的一般均衡模型表明，多边管制比单边管制更难被第三国供应替代。",
+      "economic_primitive": "贸易限制的战略替代、供应网络绕行和投入价格变化。",
+      "actor_shift": "从国家贸易管制效率转向算力依赖企业的设备/云租赁替代策略与AI能力。",
+      "research_question": "GPU获取受限后企业会转向非受控设备、远程租赁或算法节约，哪种替代最能保护AI研发？",
+      "bridge_assumption": "论文研究的受控产品/对手分类并非直接测到企业GPU-hour，不应把其一般均衡估计当做企业算力券DID系数。",
+      "alternative": "同时期产品需求、模型技术进步和云厂商定价都会改变利用量。",
+      "discriminating_test": "将管制清单的具体GPU/设备暴露与政策实施时间结合，比较高低事前依赖企业的云租金/模型技术栈替代，并检验多边与单边可获得渠道。",
+      "data_ideal": "海关与管制许可证、企业实际GPU采购/租赁、平台履约记录。",
+      "data_pilot": "官方受控清单、GPU云租赁公价、公开模型仓库与企业备案。",
+      "data_feasibility": "中：供给政策公开，企业采购记录难得",
+      "scope": "仅NBER官方摘要及作者公开版本时间核对，模型参数不作为企业直接估计。"
+    },
+    {
+      "id": "dietrich-ai-subsidy-2026",
+      "title": "Subsidizing the Unknown: The Hidden Trade-offs in Europe's AI Support Schemes",
+      "authors": [
+        "Diemo Dietrich",
+        "Thomas Gehrig",
+        "Rune Stenbacka"
+      ],
+      "source_url": "https://cepr.org/publications/dp21942",
+      "first_public": "2026-09-15; CEPR revision 2026-09-30",
+      "circle": "inspiration",
+      "projects": [
+        "p3"
+      ],
+      "recommendation": "priority",
+      "read_in_days": "3–7",
+      "evidence": "official-abstract",
+      "original_claim": "理论模型区分AI开发者的能力质量、合规评价与不可逆部署；算力或训练补贴可能提高能力，却削弱合规评价激励，而评价补助可能改善信号条件下的扩张。",
+      "economic_primitive": "多任务激励/不可逆扩张/补贴作用于不同边际。",
+      "actor_shift": "从欧洲AI资助与合规模型转向企业算力券购买额度、实际核销和高质量AI产出的关系。",
+      "research_question": "政策补助应鼓励预购设备、实际消耗GPU-hour、完成技术验证，还是引导先做需求/风险评估？",
+      "bridge_assumption": "理论模型结果不等于中国算力券存在同一合规目标或一样的政策制度。",
+      "alternative": "券种不同的企业自选择，受补贴企业原有技术项目质量不同。",
+      "discriminating_test": "拆解买券/领取/核销/部署事件，追踪是否转为模型发布和评测改进；在类似目标群体里比较券种和截止日期。",
+      "data_ideal": "券申请与核销、GPU-hour、模型验收评分。",
+      "data_pilot": "不同地区券种细则、公开发券名单、模型注册/开源发布。",
+      "data_feasibility": "难：核心的实际使用日志缺口大",
+      "scope": "理论论文官方摘要；不宣称已有关于算力券的自然实验。"
+    },
+    {
+      "id": "he-ipo-industrial-policy-2026",
+      "title": "Industrial Policy via the IPO Market",
+      "authors": [
+        "Zhiguo He",
+        "Yiming Qian",
+        "Xi Sun",
+        "Wang Renxuan"
+      ],
+      "source_url": "https://www.nber.org/papers/w35889",
+      "first_public": "2026-10 NBER",
+      "circle": "adjacent",
+      "projects": [
+        "p1",
+        "venture-exit"
+      ],
+      "recommendation": "priority",
+      "read_in_days": "3–7",
+      "evidence": "official-abstract",
+      "original_claim": "中国IPO数量和募资额的行业分布与政策扶持地位相关，作者将政府提供上市机会与市场选择同一行业内企业相区分。",
+      "economic_primitive": "供给名额/准入权作为产业政策工具，政策筛选与市场筛选的序贯分工。",
+      "actor_shift": "从上市机会供给转向政策性股权投资的进入和退出：资金配置是否早已内生预期政策退出机会。",
+      "research_question": "政策资本流向受支持行业，是长期生产网络回报驱动，还是预期获得更有利的IPO退出机会？",
+      "bridge_assumption": "IPO政策偏向与基金投资之间可能由产业名单共同引起，不能简单以相关性证明因果。",
+      "alternative": "行业景气、监管审核节奏、企业质量和退出路线差异。",
+      "discriminating_test": "比较基金投资进入时点和行业上市政策变化；在控制行业基本面后观察政策资本是否更倾向预期IPO通道宽松的项目。",
+      "data_ideal": "IPO审核/上市机会、政策支持行业名单、基金投资事件和退出。",
+      "data_pilot": "证监会与交易所公告、行业上市数据、基金投资事件。",
+      "data_feasibility": "中：数据可做、识别政策冲击较难",
+      "scope": "官方摘要核查，不对未发表项目作效果估计。"
+    },
+    {
+      "id": "hassan-foreign-ideas-2026",
+      "title": "Foreign Giants' Broad Shoulders: The Causal Effect of Foreign Ideas on U.S. Innovation",
+      "authors": [
+        "Tarek Alexander Hassan",
+        "Aakash Kalyani",
+        "Juan Cruz Lopez Del Valle"
+      ],
+      "source_url": "https://www.nber.org/papers/w35900",
+      "first_public": "2026-10 NBER; CEPR DP22034 2026-10-10",
+      "circle": "inspiration",
+      "projects": [
+        "p3",
+        "cross-cutting"
+      ],
+      "recommendation": "priority",
+      "read_in_days": "3–7",
+      "evidence": "official-abstract",
+      "original_claim": "基于1300万项专利构造技术谱系和跨境知识输入网络；其摘要认为外国技术是美国新技术形成的重要投入，使用历史移民定居构造地区知识接入差异。",
+      "economic_primitive": "知识作为可重组的生产投入、路径依赖、国际人才网络。",
+      "actor_shift": "从移民先祖知识网络影响地区创新，转向企业特定知识接入网络影响政策资金、人才吸引与技术升级的收益。",
+      "research_question": "政策资金能否使原本缺少国际知识联系的企业建立连接，而非只让已有联系企业进一步做大？",
+      "bridge_assumption": "知识谱系不是人才流动，专利文本来源不完全等同隐性工艺知识；不能将历史移民工具变量照搬到企业层。",
+      "alternative": "创新强的企业主动吸引外部知识或拥有更多专利，更容易被统计为‘网络中心’。",
+      "discriminating_test": "按外国技术输入结构建立事前连接度，与新技术进入和基金资助事件互动；使用预先存在的海外人才/研发合作而非事后引用，控制引用倾向。",
+      "data_ideal": "专利全文、技术谱系、发明人身份及企业资助和研发项目。",
+      "data_pilot": "Google Patents和PatentsView、公司年报、企业资金项目/合作公告。",
+      "data_feasibility": "中：专利数据可获得，大规模技术谱系计算复杂",
+      "scope": "仅NBER摘要，尚未复现1300万项专利谱系，摘要与CEPR版本数字略有差异必须核对版本。"
+    },
+    {
+      "id": "hsieh-klenow-allocation-2009",
+      "title": "Misallocation and Manufacturing TFP in China and India",
+      "authors": [
+        "Chang-Tai Hsieh",
+        "Peter J. Klenow"
+      ],
+      "source_url": "https://www.nber.org/papers/w13290",
+      "first_public": "2007-08 NBER; 2009 QJE",
+      "circle": "inspiration",
+      "projects": [
+        "p3"
+      ],
+      "recommendation": "reference-not-direct",
+      "read_in_days": "reference",
+      "evidence": "official-abstract",
+      "original_claim": "利用制造业企业微观数据的资本与劳动边际收益产品差异讨论资源错配及潜在TFP损失。",
+      "economic_primitive": "资源在异质生产单位之间的边际产出差异。",
+      "actor_shift": "从资本与劳动配置扭曲，转向GPU-hour等异质算力单位的边际生产价值。",
+      "research_question": "算力补贴是否把有效GPU能力从更高边际收益企业移到低收益企业，还是帮助受资本约束但高潜力的企业？",
+      "bridge_assumption": "必须观测GPU使用、任务性能、技术质量和动态选项价值；'领券多'不是边际收益低/错配。",
+      "alternative": "未使用的预留算力有保险和高峰备份价值；技术投资收益滞后。",
+      "discriminating_test": "若无GPU-hour和单位有效算力产出，先比较利用率与研发成果，不要报告HK式福利损失；一旦有日志，分任务/硬件代际估算边际效率。",
+      "data_ideal": "企业GPU-hour及任务输出、训练推理价格、替代投入、产品成果。",
+      "data_pilot": "可公开的价格/模型评测/券规则做机制可行性，不声称福利估计。",
+      "data_feasibility": "低：严格福利评估高度依赖内部数据",
+      "scope": "旧有理论框架，不是2026年的新文献；与算力的类比不证明错配。"
+    },
+    {
+      "id": "haque-pe-monitoring-2024",
+      "title": "How Private Equity Fuels Non-Bank Lending",
+      "authors": [
+        "Sharjil Haque",
+        "Simon Mayer",
+        "Teng Wang"
+      ],
+      "source_url": "https://www.federalreserve.gov/econres/feds/2024.htm",
+      "alt_url": "https://doi.org/10.1093/rfs/hhag092",
+      "first_public": "2023 earlier version, FEDS 2024-03; RFS accepted manuscript 2026-10",
+      "circle": "adjacent",
+      "projects": [
+        "p1",
+        "credit"
+      ],
+      "recommendation": "priority",
+      "read_in_days": "3–7",
+      "evidence": "official-abstract",
+      "original_claim": "PE支持的贷款对应银行牵头行更低留存份额与监控，更多非银机构参与；Sponsor声誉和银行关系增强这一差异。",
+      "economic_primitive": "监控/信息生产由资本中介替代，控制权及责任分配。",
+      "actor_shift": "从收购PE的银行银团贷款，转向政策基金或GP参与后银行如何调整信息生产和放款组合。",
+      "research_question": "同一GP与银行联系越强时，是基金提供信息后降低银行监控，还是双方因政治/担保关系共同降低标准？",
+      "bridge_assumption": "本地基金不一定有PE控股型Sponsor的监控能力；银团贷款与创业银行授信制度不同。",
+      "alternative": "贷款风险与借款人质量事前不同，银行降低监控可能与信贷配额或隐性担保相关。",
+      "discriminating_test": "观察银行实际留存/担保比例和投后监控，而不仅贷款额；按GP银行历史合作、企业融资约束比较，排除地方担保。",
+      "data_ideal": "银行信用登记、银团贷款和贷款留存份额、基金GP投资事件。",
+      "data_pilot": "企业授信公告、银企合作与质押/担保公开信息，方法级研究机会而非严格复现。",
+      "data_feasibility": "难：贷款层监控数据不可公开",
+      "scope": "联储工作论文官方摘要；期刊终稿系数未逐表核查。"
+    }
+  ]
+}
