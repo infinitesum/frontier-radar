@@ -72,7 +72,8 @@ jobs:
           git add data/papers.json data/runs.json data/conference_status.json data/conference_papers.json
           if ! git diff --cached --quiet; then
             git commit -m "data: update academic paper registry"
-            git push
+            git pull --rebase origin main
+            git push origin HEAD:main
           fi
       - name: Build static site
         run: python scripts/build_site.py
