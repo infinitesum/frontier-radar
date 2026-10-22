@@ -36,6 +36,7 @@ class ProgramParser(HTMLParser):
             a=dict(attrs);self.anchor={'url':urljoin(self.base,a.get('href','')),'text':[]}
     def handle_data(self,data):
         if self.anchor is not None:self.anchor['text'].append(data)
+        elif SESS_PAT.search(data.strip()):self.current=data.strip()[:200]
     def handle_endtag(self,tag):
         if tag!='a' or self.anchor is None:return
         a=self.anchor;self.anchor=None
