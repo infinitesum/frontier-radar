@@ -63,6 +63,10 @@ GitHub Pages sites are public even when the source repository is private. Never 
 - `data/papers.json`: one stable record per deduplicated research paper, source aliases, version events, and optional reviewed notes.
 - `data/runs.json`: attempted/successful sources, fetched/new/updated counts, failures, and truncation warnings.
 - `data/transfer_cases.json`: source-grounded mechanism-to-new-question transfer case studies, separating factual findings, actor/outcome shifts, missing premises, rival explanations and discriminating tests.
+- `data/mechanism_profiles.json`: Project 1 (local government fund selection) and Project 3 (compute allocation) mechanism hypotheses with distinct predictions, rival stories, empirical tests and actual data feasibility. No unpublished empirical results.
+- `data/idea_reanalysis.json`: mechanism-first 2026-10-22 audit of 10 representative papers with evidence scope, versions, actor/outcome shifts, falsification paths, data availability and collision notes. This is not a claim to have read all 1,309 archive papers.
+- **Research Insights UI:** collapsible project-mechanism maps, Grigoris–Segal/Goldberg mechanism bridges, source-scoped candidate review; public abstracts and existing favorite/read statuses remain intact.
+
 - `docs/MECHANISM_TRANSFER.md`: research-idea discovery standard; prioritizes transferable economic mechanisms over topical/keyword similarity.
 - `data/reports.json`: dated automatic daily/weekly/monthly research editions, individual picks, unfiltered paper ID indexes and source-health flags. The default report is deterministic metadata triage, not a claimed in-depth peer-reviewed literature analysis.
 - `data/conferences.json`: conference events, empty until a verified program is entered.
