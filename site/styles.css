@@ -200,3 +200,26 @@ button,input,select{font-size:16px}
 .transfer-case-foot{display:flex;justify-content:space-between;gap:15px;align-items:center;flex-wrap:wrap;margin-top:16px}
 .transfer-case-foot .text-link{font-size:15px}
 @media(max-width:780px){.transfer-case{padding:19px 17px}.transfer-title{font-size:21px}.transfer-pair,.transfer-steps{grid-template-columns:1fr}.transfer-pair p,.transfer-distinction,.transfer-more p,.transfer-more li{font-size:16px}}
+
+/* Readable research mechanism dossiers; detail by choice, not cluttered labels. */
+.mechanism-project,.reanalysis-entry{background:#fff;border:1px solid #d6e4e1;border-radius:12px;margin:13px 0;overflow:hidden}
+.mechanism-project>summary,.reanalysis-entry>summary{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap;list-style:none;cursor:pointer;padding:19px 22px}
+.mechanism-project>summary::-webkit-details-marker,.reanalysis-entry>summary::-webkit-details-marker{display:none}
+.mechanism-project>summary:hover,.reanalysis-entry>summary:hover{background:#f5faf8}
+.mechanism-project>summary strong{font-size:19px;color:#1e4b4b}
+.mechanism-count,.reanalysis-rank{font-size:14px;font-weight:650;color:#32776b}
+.mechanism-question,.mechanism-rule{font-size:16px;line-height:1.76;padding:0 22px;margin:0 0 13px}
+.mechanism-rule{color:#57736f}
+.mechanism-entry{margin:0 20px 13px;border:1px solid #e0eae8;border-radius:9px}
+.mechanism-entry>summary{cursor:pointer;list-style:none;padding:14px 15px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.mechanism-entry>summary::-webkit-details-marker{display:none}
+.mechanism-name{font-size:16px;font-weight:720;color:#2c5754}
+.mechanism-body,.reanalysis-body{padding:14px 19px 20px;background:#fbfdfc;border-top:1px solid #e4ebe9}
+.mechanism-body p,.reanalysis-body p{font-size:16px;line-height:1.8;color:#294951;margin:0 0 12px}
+.mechanism-body b,.reanalysis-body b{color:#155e54}
+.reanalysis-heading{font-size:17px;font-weight:740;line-height:1.5;flex:1 1 280px;color:#243f4b}
+.reanalysis-entry>summary{gap:14px}
+.reanalysis-question{border-left:3px solid #2c9c7e;background:#ebf8f0;padding:11px 14px}
+.reanalysis-feasibility{background:#f0f6fa;padding:10px 14px;border-radius:7px}
+.reanalysis-evidence{border-top:1px dashed #cedfda;padding-top:12px;color:#627a79!important}
+@media(max-width:760px){.mechanism-project>summary,.reanalysis-entry>summary{padding:17px 14px}.mechanism-project>summary strong{font-size:17px}.mechanism-question,.mechanism-rule{padding:0 14px}.mechanism-entry{margin:0 10px 11px}.mechanism-body,.reanalysis-body{padding:13px 14px 18px}.mechanism-body p,.reanalysis-body p{font-size:16px}.reanalysis-heading{font-size:17px;flex-basis:100%}}
