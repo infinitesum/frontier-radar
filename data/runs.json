@@ -2160,6 +2160,222 @@
           "truncated": false
         }
       ]
+    },
+    {
+      "run_at": "2026-10-23T06:04:16+00:00",
+      "mode": "manual",
+      "since_days": 21,
+      "backfill_days": 0,
+      "source_count": 20,
+      "successful_sources": 20,
+      "counts": {
+        "added": 14,
+        "updated": 29,
+        "unchanged": 383,
+        "errors": 0
+      },
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "status": "ok",
+          "fetched": 29,
+          "added": 0,
+          "updated": 29,
+          "error": "",
+          "truncated": false
+        },
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "status": "ok",
+          "fetched": 50,
+          "added": 4,
+          "updated": 0,
+          "error": "",
+          "truncated": false
+        },
+        {
+          "id": "jf",
+          "name": "The Journal of Finance",
+          "status": "ok",
+          "fetched": 12,
+          "added": 1,
+          "updated": 0,
+          "error": "",
+          "truncated": false
+        },
+        {
+          "id": "jfe",
+          "name": "Journal of Financial Economics",
+          "status": "ok",
+          "fetched": 37,
+          "added": 1,
+          "updated": 0,
+          "error": "",
+          "truncated": false
+        },
+        {
+          "id": "rfs",
+          "name": "The Review of Financial Studies",
+          "status": "ok",
+          "fetched": 14,
+          "added": 0,
+          "updated": 0,
+          "error": "",
+          "truncated": false
+        },
+        {
+          "id": "jfqa",
+          "name": "Journal of Financial and Quantitative Analysis",
+          "status": "ok",
+          "fetched": 2,
+          "added": 0,
+          "updated": 0,
+          "error": "",
+          "truncated": false
+        },
+        {
+          "id": "jcf",
+          "name": "Journal of Corporate Finance",
+          "status": "ok",
+          "fetched": 10,
+          "added": 0,
+          "updated": 0,
+          "error": "",
+          "truncated": false
+        },
+        {
+          "id": "rof",
+          "name": "Review of Finance",
+          "status": "ok",
+          "fetched": 9,
+          "added": 0,
+          "updated": 0,
+          "error": "",
+          "truncated": false
+        },
+        {
+          "id": "aer",
+          "name": "American Economic Review",
+          "status": "ok",
+          "fetched": 12,
+          "added": 0,
+          "updated": 0,
+          "error": "",
+          "truncated": false
+        },
+        {
+          "id": "qje",
+          "name": "The Quarterly Journal of Economics",
+          "status": "ok",
+          "fetched": 16,
+          "added": 2,
+          "updated": 0,
+          "error": "",
+          "truncated": false
+        },
+        {
+          "id": "jpe",
+          "name": "Journal of Political Economy",
+          "status": "ok",
+          "fetched": 26,
+          "added": 0,
+          "updated": 0,
+          "error": "",
+          "truncated": false
+        },
+        {
+          "id": "ectr",
+          "name": "Econometrica",
+          "status": "ok",
+          "fetched": 45,
+          "added": 0,
+          "updated": 0,
+          "error": "",
+          "truncated": false
+        },
+        {
+          "id": "restud",
+          "name": "The Review of Economic Studies",
+          "status": "ok",
+          "fetched": 11,
+          "added": 0,
+          "updated": 0,
+          "error": "",
+          "truncated": false
+        },
+        {
+          "id": "aej-applied",
+          "name": "American Economic Journal: Applied Economics",
+          "status": "ok",
+          "fetched": 0,
+          "added": 0,
+          "updated": 0,
+          "error": "",
+          "truncated": false
+        },
+        {
+          "id": "aej-macro",
+          "name": "American Economic Journal: Macroeconomics",
+          "status": "ok",
+          "fetched": 0,
+          "added": 0,
+          "updated": 0,
+          "error": "",
+          "truncated": false
+        },
+        {
+          "id": "aej-micro",
+          "name": "American Economic Journal: Microeconomics",
+          "status": "ok",
+          "fetched": 1,
+          "added": 0,
+          "updated": 0,
+          "error": "",
+          "truncated": false
+        },
+        {
+          "id": "aej-policy",
+          "name": "American Economic Journal: Economic Policy",
+          "status": "ok",
+          "fetched": 2,
+          "added": 0,
+          "updated": 0,
+          "error": "",
+          "truncated": false
+        },
+        {
+          "id": "jpub",
+          "name": "Journal of Public Economics",
+          "status": "ok",
+          "fetched": 26,
+          "added": 1,
+          "updated": 0,
+          "error": "",
+          "truncated": false
+        },
+        {
+          "id": "jde",
+          "name": "Journal of Development Economics",
+          "status": "ok",
+          "fetched": 23,
+          "added": 1,
+          "updated": 0,
+          "error": "",
+          "truncated": false
+        },
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "status": "ok",
+          "fetched": 101,
+          "added": 4,
+          "updated": 0,
+          "error": "",
+          "truncated": false
+        }
+      ]
     }
   ]
 }

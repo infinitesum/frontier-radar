@@ -5,9 +5,9 @@
       "id": "afa",
       "name": "American Finance Association",
       "url": "https://afajof.org/annual-meeting/",
-      "checked_at": "2026-10-22T14:52:15+08:00",
-      "status": "ok",
-      "error": "",
+      "checked_at": "2026-10-23T14:04:16+08:00",
+      "status": "error",
+      "error": "URLError: <urlopen error timed out>",
       "fingerprint": "8deb1290b85ba094",
       "program_links": [
         {
@@ -89,7 +89,7 @@
       "id": "wfa",
       "name": "Western Finance Association",
       "url": "https://westernfinance.org/",
-      "checked_at": "2026-10-22T14:52:15+08:00",
+      "checked_at": "2026-10-23T14:04:16+08:00",
       "status": "ok",
       "error": "",
       "fingerprint": "7960411fdd419cd3",
@@ -109,15 +109,127 @@
       "id": "efa",
       "name": "European Finance Association",
       "url": "https://www.efa-finance.org/efa-annual-meeting/",
-      "checked_at": "2026-10-22T14:52:15+08:00",
-      "status": "error",
-      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+      "checked_at": "2026-10-23T14:04:16+08:00",
+      "status": "ok",
+      "error": "",
+      "fingerprint": "6b415e07eb548869",
+      "program_links": [
+        {
+          "title": "EFA 2026",
+          "url": "https://efa2026.efa-finance.org/"
+        },
+        {
+          "title": "2026 EFA-DT – Info",
+          "url": "https://www.efa-finance.org/doctoral-events/2026-efa-dt-info/"
+        },
+        {
+          "title": "Pre-EFA PhD Program",
+          "url": "https://www.efa-finance.org/doctoral-events/pre-efa-phd-program/"
+        },
+        {
+          "title": "Program",
+          "url": "https://www.efa-finance.org/wp-content/uploads/2026/05/EFA2025_Program.pdf"
+        },
+        {
+          "title": "Program",
+          "url": "https://www.efa-finance.org/wp-content/uploads/2026/05/EFA2024_Program.pdf"
+        },
+        {
+          "title": "Program",
+          "url": "https://www.efa-finance.org/wp-content/uploads/2026/05/EFA2023_Program.pdf"
+        },
+        {
+          "title": "Program",
+          "url": "https://www.efa-finance.org/wp-content/uploads/2026/05/EFA2022-Program.pdf"
+        },
+        {
+          "title": "Program",
+          "url": "https://www.efa-finance.org/wp-content/uploads/2026/05/EFA2021_Program.pdf"
+        },
+        {
+          "title": "Program",
+          "url": "https://www.efa-finance.org/wp-content/uploads/2026/05/EFA2020_Program.pdf"
+        },
+        {
+          "title": "Program",
+          "url": "https://www.efa-finance.org/wp-content/uploads/2026/05/EFA2019_Program.pdf"
+        },
+        {
+          "title": "Program",
+          "url": "https://www.efa-finance.org/wp-content/uploads/2026/05/EFA2018_Program.pdf"
+        },
+        {
+          "title": "Program",
+          "url": "https://www.efa-finance.org/wp-content/uploads/2026/05/EFA2017_Program.pdf"
+        },
+        {
+          "title": "Program",
+          "url": "https://www.efa-finance.org/wp-content/uploads/2026/05/EFA2016_Program.pdf"
+        },
+        {
+          "title": "Program",
+          "url": "https://www.efa-finance.org/wp-content/uploads/2026/05/EFA2015_Program.pdf"
+        },
+        {
+          "title": "Program",
+          "url": "https://www.efa-finance.org/wp-content/uploads/2026/05/EFA2014_Program.pdf"
+        },
+        {
+          "title": "Program",
+          "url": "https://www.efa-finance.org/wp-content/uploads/2026/05/EFA2013_Program.pdf"
+        },
+        {
+          "title": "Program",
+          "url": "https://www.efa-finance.org/wp-content/uploads/2026/05/EFA2012_Program.pdf"
+        },
+        {
+          "title": "Program",
+          "url": "https://www.efa-finance.org/wp-content/uploads/2026/05/EFA2011_Program.pdf"
+        },
+        {
+          "title": "Program",
+          "url": "https://www.efa-finance.org/wp-content/uploads/2026/05/EFA2010-Frankfurtnew.pdf"
+        },
+        {
+          "title": "Program",
+          "url": "https://www.efa-finance.org/wp-content/uploads/2026/05/EFA2009_Program.pdf"
+        },
+        {
+          "title": "Program",
+          "url": "https://www.efa-finance.org/wp-content/uploads/2026/05/EFA2008_Program.pdf"
+        },
+        {
+          "title": "Program",
+          "url": "https://www.efa-finance.org/wp-content/uploads/2026/05/EFA2007_Program.pdf"
+        },
+        {
+          "title": "Program",
+          "url": "https://www.efa-finance.org/wp-content/uploads/2026/05/EFA2006_Program.pdf"
+        },
+        {
+          "title": "Program",
+          "url": "https://www.efa-finance.org/wp-content/uploads/2026/05/EFA2005_Program.pdf"
+        },
+        {
+          "title": "Program",
+          "url": "https://www.efa-finance.org/wp-content/uploads/2026/05/EFA2004_Program.pdf"
+        },
+        {
+          "title": "Program",
+          "url": "https://www.efa-finance.org/wp-content/uploads/2026/05/EFA2003_Program.pdf"
+        },
+        {
+          "title": "Program",
+          "url": "https://www.efa-finance.org/wp-content/uploads/2026/05/EFA2002_Program.pdf"
+        }
+      ],
+      "initial_snapshot_at": "2026-10-23T14:04:16+08:00"
     },
     "sfs": {
       "id": "sfs",
       "name": "SFS Cavalcade",
       "url": "https://sfs.org/",
-      "checked_at": "2026-10-22T14:52:15+08:00",
+      "checked_at": "2026-10-23T14:04:16+08:00",
       "status": "ok",
       "error": "",
       "fingerprint": "4e8f4c52c37f4ce4",
@@ -153,7 +265,7 @@
       "id": "firs",
       "name": "FIRS",
       "url": "https://firsociety.org/",
-      "checked_at": "2026-10-22T14:52:15+08:00",
+      "checked_at": "2026-10-23T14:04:16+08:00",
       "status": "ok",
       "error": "",
       "fingerprint": "0c1a7bd1b0b64e18",
@@ -169,7 +281,7 @@
       "id": "cicf",
       "name": "CICF",
       "url": "https://www.cicf-conf.org/en/index.php?c=category&id=34",
-      "checked_at": "2026-10-22T14:52:15+08:00",
+      "checked_at": "2026-10-23T14:04:16+08:00",
       "status": "ok",
       "error": "",
       "fingerprint": "1b175c545a3e3759",
@@ -197,7 +309,7 @@
       "id": "nber-si",
       "name": "NBER Summer Institute",
       "url": "https://www.nber.org/conferences/summer-institute",
-      "checked_at": "2026-10-22T14:52:15+08:00",
+      "checked_at": "2026-10-23T14:04:16+08:00",
       "status": "ok",
       "error": "",
       "fingerprint": "e7585629f597ecff",
@@ -234,7 +346,7 @@
       "id": "cfrc",
       "name": "China Financial Research Conference",
       "url": "https://cfrc.pbcsf.tsinghua.edu.cn/cfrc2026en/CONFERENCE_PROGRAM.htm",
-      "checked_at": "2026-10-22T14:52:15+08:00",
+      "checked_at": "2026-10-23T14:04:16+08:00",
       "status": "ok",
       "error": "",
       "fingerprint": "e9a7828c5729993e",
@@ -286,9 +398,65 @@
       "id": "aea",
       "name": "AEA Annual Meetings",
       "url": "https://benny.aeaweb.org/conference/",
-      "checked_at": "2026-10-22T14:52:15+08:00",
-      "status": "error",
-      "error": "TimeoutError: The read operation timed out"
+      "checked_at": "2026-10-23T14:04:16+08:00",
+      "status": "ok",
+      "error": "",
+      "fingerprint": "53176a9fcec0f600",
+      "program_links": [
+        {
+          "title": "event form",
+          "url": "https://benny.aeaweb.org/conference/2027/submissions/event"
+        },
+        {
+          "title": "The AEA Recent Development Series incorporates continuing education into the annual meeting program.",
+          "url": "https://benny.aeaweb.org/news/assa-2027-recent-developments-series"
+        },
+        {
+          "title": "AEA lightning round sessions are back for ASSA 2027!",
+          "url": "https://benny.aeaweb.org/news/assa-2027-lightning-rounds"
+        },
+        {
+          "title": "Don't miss the featured AEA lectures!",
+          "url": "https://benny.aeaweb.org/news/assa-2027-save-the-date"
+        },
+        {
+          "title": "Public Sector Economists Are Invited to the President's Reception at ASSA 2027.",
+          "url": "https://benny.aeaweb.org/news/assa-2027-presidents-reception"
+        },
+        {
+          "title": "ASSA 2027 Preliminary Program",
+          "url": "https://benny.aeaweb.org/conference/2027/preliminary"
+        },
+        {
+          "title": "ASSA 2027 General Information",
+          "url": "https://benny.aeaweb.org/conference/2027-general-information"
+        },
+        {
+          "title": "ASSA 2027 Housing Information",
+          "url": "https://benny.aeaweb.org/conference/2027-housing-information"
+        },
+        {
+          "title": "ASSA 2027 Participant Information",
+          "url": "https://benny.aeaweb.org/conference/2027-participant-information"
+        },
+        {
+          "title": "ASSA 2027 Exhibitors",
+          "url": "https://benny.aeaweb.org/conference/exhibitors"
+        },
+        {
+          "title": "ASSA 2027 KiddieCorp (Childcare)",
+          "url": "https://benny.aeaweb.org/conference/2027-kiddiecorp"
+        },
+        {
+          "title": "ASSA 2027 AEA Mentoring and Networking Luncheon",
+          "url": "https://benny.aeaweb.org/conference/mentoring-networking-luncheon"
+        },
+        {
+          "title": "AEA Poster Session Videos",
+          "url": "https://benny.aeaweb.org/conference/poster-videos"
+        }
+      ],
+      "initial_snapshot_at": "2026-10-23T14:04:16+08:00"
     }
   },
   "events": [
@@ -341,5 +509,5 @@
       "note": "Official landing-page links changed; actual paper titles are not verified"
     }
   ],
-  "last_checked_at": "2026-10-22T14:52:15+08:00"
+  "last_checked_at": "2026-10-23T14:04:16+08:00"
 }

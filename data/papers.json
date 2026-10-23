@@ -1,8 +1,461 @@
 {
   "schema_version": 1,
   "snapshot": "incremental-ingestion",
-  "updated_at": "2026-10-22T06:52:15+00:00",
+  "updated_at": "2026-10-23T06:04:16+00:00",
   "papers": [
+    {
+      "title": "Do long-term yields help to estimate short-term risk premia?",
+      "authors": [
+        "Andrea Berardi",
+        "Roger Brown",
+        "Stephen M. Schaefer"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jfineco.2026.104386",
+      "doi": "10.1016/j.jfineco.2026.104386",
+      "aliases": [
+        "doi:10.1016/j.jfineco.2026.104386"
+      ],
+      "first_public_date": "2026-12",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jfe",
+          "name": "Journal of Financial Economics",
+          "url": "https://doi.org/10.1016/j.jfineco.2026.104386"
+        }
+      ],
+      "id": "p_c9330fea29a6ef",
+      "discovered_at": "2026-10-23",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-23",
+          "source_id": "jfe"
+        }
+      ]
+    },
+    {
+      "title": "Crime and Prices:Thefts of expensive precious metals from cars",
+      "authors": [
+        "Gerald Foong",
+        "Stephen Machin",
+        "Matteo Sandi"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jpubeco.2026.105807",
+      "doi": "10.1016/j.jpubeco.2026.105807",
+      "aliases": [
+        "doi:10.1016/j.jpubeco.2026.105807"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jpub",
+          "name": "Journal of Public Economics",
+          "url": "https://doi.org/10.1016/j.jpubeco.2026.105807"
+        }
+      ],
+      "id": "p_953caddaef5fac",
+      "discovered_at": "2026-10-23",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-23",
+          "source_id": "jpub"
+        }
+      ]
+    },
+    {
+      "title": "DP22076 Importers Big and Small: The Heterogeneous Impacts of U.S.-China Tariffs on Sourcing and Prices",
+      "authors": [
+        "Beata Javorcik, Justin Pierce, Emily Wisniewski"
+      ],
+      "abstract": "This paper studies how importing firms adjust to the 2018-19 U.S. tariffs on Chinese goods. Rather than focusing solely on imports the U.S. continues to source from China, our approach captures changes in unit values and sourcing behavior as heterogeneous importers reallocate purchases across countries. After an initial tariff-driven increase in unit values for all importers, the higher costs persist only for small importers, while prices paid by big importers fall below pre-tariff levels. The more benign adjustment for big importers is driven by lower unit values in arm’s-length imports from ",
+      "source_url": "https://cepr.org/publications/dp22076",
+      "doi": "",
+      "aliases": [
+        "cepr:22076"
+      ],
+      "first_public_date": "2026-10-22",
+      "stage": "working-paper",
+      "discipline": "trade",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22076"
+        }
+      ],
+      "id": "p_8459f8df474bdb",
+      "discovered_at": "2026-10-23",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-23",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22074 Isolating Tuberculosis: Sanatoria and the Mortality Transition in Large European Cities",
+      "authors": [
+        "Nina Boberg-Fazlic, Casper Worm Hansen, Peter Sandholdt Jensen"
+      ],
+      "abstract": "Tuberculosis (TB) mortality declined sharply in Europe before effective drug therapies became available, but the contribution of public health interventions remains disputed. This paper estimates the effect of TB sanatoria on mortality in 94 major European cities between 1880 and 1909. We combine newly digitized information on the opening dates and locations of 442 sanatoria with annual cause-specific mortality data and exploit variation in the timing of first sanatorium openings in a staggered difference-in-differences design. The opening of the first sanatorium within 100 km reduced TB morta",
+      "source_url": "https://cepr.org/publications/dp22074",
+      "doi": "",
+      "aliases": [
+        "cepr:22074"
+      ],
+      "first_public_date": "2026-10-22",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22074"
+        }
+      ],
+      "id": "p_3f527dd5d0d102",
+      "discovered_at": "2026-10-23",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-23",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22075 On-the-job Training and Labor Market Competition",
+      "authors": [
+        "Abigail Adams, Thomas Le Barbanchon, Alberto Marcato"
+      ],
+      "abstract": "In this paper, we provide new stylized facts on U.S. firm provision of on-the-job training. We take a supervised machine-learning approach to measure training from job vacancy text. Around 26% of job posts offer training. Using an IV strategy, we find that competition reduces training offers. Decreasing labor concentration by one standard deviation decreases training by 5 to 10%. This suggests that direct positive competition effects through workers’ benefits are outweighed by negative effects on firms’ investment in workers human capital due to higher turnover. Indeed, industries where compet",
+      "source_url": "https://cepr.org/publications/dp22075",
+      "doi": "",
+      "aliases": [
+        "cepr:22075"
+      ],
+      "first_public_date": "2026-10-22",
+      "stage": "working-paper",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22075"
+        }
+      ],
+      "id": "p_084c7a94dd6f80",
+      "discovered_at": "2026-10-23",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-23",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "Excess Movement in Option‐Implied Beliefs",
+      "authors": [
+        "NED AUGENBLICK",
+        "EBEN LAZARUS"
+      ],
+      "abstract": "ABSTRACT We derive bounds on the rational variation in option‐implied beliefs about market returns. While risk preferences distort option‐implied (or risk‐neutral ) beliefs away from subjective beliefs, one can nonetheless bound risk‐neutral belief movement under a general assumption on the stochastic discount factor. The resulting test requires no knowledge of the objective distribution and allows significantly more flexibility in discount rates than standard volatility tests. Implementing our test empirically using index options, we find that there is so much movement in risk‐neutral beliefs",
+      "source_url": "https://doi.org/10.1111/jofi.70086",
+      "doi": "10.1111/jofi.70086",
+      "aliases": [
+        "doi:10.1111/jofi.70086"
+      ],
+      "first_public_date": "2026-10-22",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jf",
+          "name": "The Journal of Finance",
+          "url": "https://doi.org/10.1111/jofi.70086"
+        }
+      ],
+      "id": "p_baa17caaa029b7",
+      "discovered_at": "2026-10-23",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-23",
+          "source_id": "jf"
+        }
+      ]
+    },
+    {
+      "title": "Optimal Flood Insurance in a Second-Best World: Fiscal Spillovers, Reclassification Risk, and Moral Hazard",
+      "authors": [
+        "Jonathan Gruber",
+        "Adam Solomon"
+      ],
+      "abstract": "Abstract Intensifying climate change makes protection against natural disaster risk – either through ex ante insurance or ex post aid – a first-order public policy issue. Flood risk protection in the U.S. traditionally featured ex post aid through FEMA and heavily subsidized insurance through the National Flood Insurance Program (NFIP). In an effort to correct subsidy-induced overbuilding and under-mitigation in flood-prone areas, the NFIP recently moved to actuarially fair insurance premiums. But this change has two unintended consequences: a fiscal spillover onto FEMA disaster aid as insuran",
+      "source_url": "https://doi.org/10.1093/qje/qjag051",
+      "doi": "10.1093/qje/qjag051",
+      "aliases": [
+        "doi:10.1093/qje/qjag051"
+      ],
+      "first_public_date": "2026-10-22",
+      "stage": "journal",
+      "discipline": "public-econ",
+      "sources": [
+        {
+          "id": "qje",
+          "name": "The Quarterly Journal of Economics",
+          "url": "https://doi.org/10.1093/qje/qjag051"
+        }
+      ],
+      "id": "p_30f1546f5b9e93",
+      "discovered_at": "2026-10-23",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-23",
+          "source_id": "qje"
+        }
+      ]
+    },
+    {
+      "title": "How New Products Enter Markets: Social Networks, Consumer Imports, and Retailer Learning",
+      "authors": [
+        "David Argente",
+        "Esteban Méndez",
+        "Diana Van Patten"
+      ],
+      "abstract": "Abstract This paper studies how new varieties enter markets and become locally available. We provide causal evidence of demand externalities that operate in two steps. First, information about new varieties diffuses directly through real-world social ties among consumers. Second, early purchases generate an indirect spillover to firms: local retailers learn from “pioneer” consumers which new varieties are most likely to succeed and adjust their product offerings accordingly. We study this process in the context of direct-to-consumer imports. Using customs records on individuals’ purchases matc",
+      "source_url": "https://doi.org/10.1093/qje/qjag052",
+      "doi": "10.1093/qje/qjag052",
+      "aliases": [
+        "doi:10.1093/qje/qjag052"
+      ],
+      "first_public_date": "2026-10-22",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "qje",
+          "name": "The Quarterly Journal of Economics",
+          "url": "https://doi.org/10.1093/qje/qjag052"
+        }
+      ],
+      "id": "p_a9b5e052086fa8",
+      "discovered_at": "2026-10-23",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-23",
+          "source_id": "qje"
+        }
+      ]
+    },
+    {
+      "title": "From Bytes to Bites: Examining the Online and Offline Spillover Impacts of Online Food Delivery Platform Subscriptions",
+      "authors": [
+        "Jaeho Myeong",
+        "Yongjin Park",
+        "Francis Joseph Costello",
+        "Keongtae Kim",
+        "Jae-Hyeon Ahn"
+      ],
+      "abstract": "With the rapid expansion of online food delivery (OFD) platforms, subscription models have emerged as a strategic tool to retain users and shape consumption behavior. Despite their growing prevalence, the broader impacts of these subscriptions—both within the OFD sector and across downstream consumer activities—remain underexplored. Leveraging a difference-in-differences approach and a large-scale individual-level transaction data set, we identify a significant shift in consumption from a competing platform to the focal platform following the introduction of a subscription service. This shift ",
+      "source_url": "https://doi.org/10.1287/mnsc.2025.00954",
+      "doi": "10.1287/mnsc.2025.00954",
+      "aliases": [
+        "doi:10.1287/mnsc.2025.00954"
+      ],
+      "first_public_date": "2026-10-22",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2025.00954"
+        }
+      ],
+      "id": "p_bdef63eeef5749",
+      "discovered_at": "2026-10-23",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-23",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Why Zoning Is Too Restrictive",
+      "authors": [
+        "Jack Favilukis",
+        "Jaehee Song"
+      ],
+      "abstract": "Economists estimate that zoning regulations raise house prices, lower productivity, and reduce aggregate welfare, yet regulations remain widespread. We develop and solve a model in which fragmented zoning authority leads to overly strict regulations: Homeowners impose stricter regulations to mitigate local congestion but fail to internalize the broader impact on metro-wide affordability. Empirically, the Herfindahl-Hirschman index of local governments explains 12% of the variation in zoning restrictiveness. Using an instrument based on 19th-century municipal fragmentation, we show that greater",
+      "source_url": "https://doi.org/10.1287/mnsc.2025.02844",
+      "doi": "10.1287/mnsc.2025.02844",
+      "aliases": [
+        "doi:10.1287/mnsc.2025.02844"
+      ],
+      "first_public_date": "2026-10-22",
+      "stage": "journal",
+      "discipline": "public-econ",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2025.02844"
+        }
+      ],
+      "id": "p_83aac7e5f9ec8e",
+      "discovered_at": "2026-10-23",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-23",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "From Winning to Giving: The Effect of Gold Medals in Crowdsourcing Contests",
+      "authors": [
+        "Shan Liu",
+        "Fan Zhang",
+        "Jing Wang",
+        "Baojun Gao"
+      ],
+      "abstract": "We examine how users respond to winning symbolic awards in online crowdsourcing contests. Our setting is a machine learning competition platform that grants symbolic medals to recognize participants’ contest achievements. Employing a regression discontinuity design, we find that gold medal winners participate less in subsequent contests but engage more in prosocial activities, evidenced by a greater volume and length of posts, as well as more substantial and frequent code contributions. In contrast, bronze and silver medals do not seem to exert a significant influence on recipients’ subsequent",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.07419",
+      "doi": "10.1287/mnsc.2024.07419",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.07419"
+      ],
+      "first_public_date": "2026-10-22",
+      "stage": "journal",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.07419"
+        }
+      ],
+      "id": "p_8c2c8ef466c17a",
+      "discovered_at": "2026-10-23",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-23",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Information Transparency, Choice Confidence, and Customer Retention: Field and Laboratory Evidence from Markets for Credence Goods",
+      "authors": [
+        "Zhi (Aaron) Cheng",
+        "Ting Li",
+        "Paul A. Pavlou"
+      ],
+      "abstract": "How does information transparency affect customer retention in markets where quality is difficult to verify? Conventional wisdom suggests that transparency intensifies price competition and increases customer churn. We challenge this view by showing that acquisition-stage transparency can strengthen retention in markets for credence goods characterized by delayed feedback and persistent uncertainty, where customers revisit their decisions without clear quality signals. We develop a transparency-confidence-retention framework, in which transparency at acquisition builds choice confidence, a psy",
+      "source_url": "https://doi.org/10.1287/mnsc.2020.02865",
+      "doi": "10.1287/mnsc.2020.02865",
+      "aliases": [
+        "doi:10.1287/mnsc.2020.02865"
+      ],
+      "first_public_date": "2026-10-22",
+      "stage": "journal",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2020.02865"
+        }
+      ],
+      "id": "p_29f3699fd11df7",
+      "discovered_at": "2026-10-23",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-23",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "DP22024 Do Judges Move Markets? Ideological Shifts in the  Supreme Court and Macroeconomic Expectations",
+      "authors": [
+        "Thomas Drechsel, Naixin Zhang"
+      ],
+      "abstract": "This paper studies how judicial ideology shapes financial markets' expectations about the macroeconomy. We use unexpected deaths of U.S. Supreme Court Justices as quasi-experimental shifts in the Court's ideological balance. High-frequency asset price responses reveal how markets perceive the macroeconomic consequences of these ideological shifts. We find that a more conservative Court is associated with lower inflation expectations, lower real activity expectations, and lower bond yields. A shift towards a more liberal Court induces the opposite responses. The finding that inflation and activ",
+      "source_url": "https://cepr.org/publications/dp22024",
+      "doi": "",
+      "aliases": [
+        "cepr:22024"
+      ],
+      "first_public_date": "2026-10-08",
+      "stage": "working-paper",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22024"
+        }
+      ],
+      "id": "p_bfe1ffed385362",
+      "discovered_at": "2026-10-23",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-23",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "Relative affluence and mental health: Evidence from quasi-random class assignments",
+      "authors": [
+        "Huajun Wu",
+        "Ning Neil Yu"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jdeveco.2026.103954",
+      "doi": "10.1016/j.jdeveco.2026.103954",
+      "aliases": [
+        "doi:10.1016/j.jdeveco.2026.103954"
+      ],
+      "first_public_date": "2026-10",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jde",
+          "name": "Journal of Development Economics",
+          "url": "https://doi.org/10.1016/j.jdeveco.2026.103954"
+        }
+      ],
+      "id": "p_a84d292ce66a27",
+      "discovered_at": "2026-10-23",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-23",
+          "source_id": "jde"
+        }
+      ]
+    },
     {
       "title": "Editorial Board",
       "authors": [],
