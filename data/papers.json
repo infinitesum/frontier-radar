@@ -1,8 +1,233 @@
 {
   "schema_version": 1,
   "snapshot": "incremental-ingestion",
-  "updated_at": "2026-10-23T06:04:16+00:00",
+  "updated_at": "2026-10-24T05:56:43+00:00",
   "papers": [
+    {
+      "title": "Rising inequality, declining mobility: The evolution of intergenerational mobility in Germany",
+      "authors": [
+        "Julia Baarck",
+        "Moritz Bode",
+        "Andreas Peichl"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jpubeco.2026.105811",
+      "doi": "10.1016/j.jpubeco.2026.105811",
+      "aliases": [
+        "doi:10.1016/j.jpubeco.2026.105811"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jpub",
+          "name": "Journal of Public Economics",
+          "url": "https://doi.org/10.1016/j.jpubeco.2026.105811"
+        }
+      ],
+      "id": "p_9893f16049da76",
+      "discovered_at": "2026-10-24",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-24",
+          "source_id": "jpub"
+        }
+      ]
+    },
+    {
+      "title": "DP22078 Consent and Choice: Experimental Evidence on User Behavior at Consent Banners",
+      "authors": [
+        "Cristiana Firullo, Francesco Decarolis, Cristobal Cheyre"
+      ],
+      "abstract": "Cookie banners appear on websites when visitors first arrive, informing them about a site’s use of cookies and tracking technologies, and often asking them whether they consent to their data being collected and shared with third parties. We use a panel of 789 U.S. Chrome users, whose online behaviors were tracked by a browser extension they kept installed for up to three months, to investigate how users interact with cookie banners in the wild, over time, across all the websites they visit. We find that users engage with only one in three banners they encounter, and do so mostly on websites th",
+      "source_url": "https://cepr.org/publications/dp22078",
+      "doi": "",
+      "aliases": [
+        "cepr:22078"
+      ],
+      "first_public_date": "2026-10-23",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22078"
+        }
+      ],
+      "id": "p_905d431afc0449",
+      "discovered_at": "2026-10-24",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-24",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22077 Matching in Vertical Markets:  Evidence from the Digital Advertising Industry",
+      "authors": [
+        "Andrea Chiantello, Francesco Decarolis, Maris Goldmanis, Antonio Penta, Ksenia Shakhgildyan"
+      ],
+      "abstract": "The digital advertising industry relies on specialized intermediaries to facilitate advertisers’ access to online ad space. This paper studies vertical complementarities in this market by estimating a structural model of advertiser–agency matching using novel data and methods for many-to-many matching in large markets. We quantify the value created by matches and introduce a machine-learning approach to infer agents’ consideration sets. The results show that advertisers benefit from being affiliated with the same agency network as their competitors, even though they do not necessarily prefer t",
+      "source_url": "https://cepr.org/publications/dp22077",
+      "doi": "",
+      "aliases": [
+        "cepr:22077"
+      ],
+      "first_public_date": "2026-10-23",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22077"
+        }
+      ],
+      "id": "p_ea4d1286749cce",
+      "discovered_at": "2026-10-24",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-24",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "The Rise of Alternatives",
+      "authors": [
+        "Juliane Begenau",
+        "Pauline Liang",
+        "Emil Siriwardane"
+      ],
+      "abstract": "Abstract Since the 2000s, U.S. public pension funds have actively shifted their risky investments away from public equities and toward alternative assets like private equity and hedge funds—some much more than others. We explore a range of possible explanations for these trends and argue that beliefs about the risk-adjusted return of alternatives have played a central role. Pension beliefs are shaped by investment consultants, peers, and experience in the 1990s. Other demand-side channels related to risk-seeking motives, spending needs, and fund governance have weaker empirical support. We als",
+      "source_url": "https://doi.org/10.1093/rfs/hhag091",
+      "doi": "10.1093/rfs/hhag091",
+      "aliases": [
+        "doi:10.1093/rfs/hhag091"
+      ],
+      "first_public_date": "2026-10-23",
+      "stage": "journal",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "rfs",
+          "name": "The Review of Financial Studies",
+          "url": "https://doi.org/10.1093/rfs/hhag091"
+        }
+      ],
+      "id": "p_f4c928a913588c",
+      "discovered_at": "2026-10-24",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-24",
+          "source_id": "rfs"
+        }
+      ]
+    },
+    {
+      "title": "The Economics of Data Unions: Optimal Data Sharing and Coordination",
+      "authors": [
+        "Lin William Cong",
+        "Simon Mayer"
+      ],
+      "abstract": "Abstract We develop a model of data-driven competition in which product quality depends on users’ data contributions and firms’ investments in data infrastructure. Users’ inability to internalize the value generated by their data, together with firms’ strategic investment incentives, can lead to data underinvestment—limiting quality—or overinvestment—concentrating market power. We introduce a data union that coordinates users’ contributions and can be implemented through a data trust or intermediary that aggregates user data. By shaping data compensation, the union enables users to capture and",
+      "source_url": "https://doi.org/10.1093/rof/rfag036",
+      "doi": "10.1093/rof/rfag036",
+      "aliases": [
+        "doi:10.1093/rof/rfag036"
+      ],
+      "first_public_date": "2026-10-23",
+      "stage": "journal",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "rof",
+          "name": "Review of Finance",
+          "url": "https://doi.org/10.1093/rof/rfag036"
+        }
+      ],
+      "id": "p_8bf491c695b617",
+      "discovered_at": "2026-10-24",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-24",
+          "source_id": "rof"
+        }
+      ]
+    },
+    {
+      "title": "Looking Under the Hood of Commodity Currency Predictability",
+      "authors": [
+        "Alexandre Jeanneret",
+        "Valeri Sokolovski"
+      ],
+      "abstract": "This paper revisits the exchange rate predictability of commodity currencies through the lens of market efficiency. Focusing on currencies with strong contemporaneous exposure to commodity prices, we show that changes in country-specific commodity export or import prices predict exchange rate fluctuations both in sample and out of sample. We establish four empirical facts: (i) the sign of the predictive relationship runs counter to standard risk-based explanations; (ii) predictability is concentrated at short horizons; (iii) predictability is driven by a small set of thinly traded currencies; ",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.07249",
+      "doi": "10.1287/mnsc.2024.07249",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.07249"
+      ],
+      "first_public_date": "2026-10-23",
+      "stage": "journal",
+      "discipline": "trade",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.07249"
+        }
+      ],
+      "id": "p_c7de50119e78f0",
+      "discovered_at": "2026-10-24",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-24",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Bargaining and Contract Forms in Distribution Channels: Why Do Slotting Fees Arise and Linear Contracts Persist?",
+      "authors": [
+        "Øystein Foros",
+        "Hans Jarle Kind",
+        "Greg Shaffer"
+      ],
+      "abstract": "Two empirical patterns emerge in business-to-business settings, particularly in retail distribution channels such as grocery markets. First, linear contracts are widely observed alongside nonlinear contracts with fixed payments, despite the claimed efficiency advantages of the latter. Second, when fixed payments arise, they often flow from suppliers to retailers (slotting fees) rather than the reverse. We develop and analyze a model of multilateral bargaining in which a supplier negotiates separately with competing retailers to explain these patterns. The key mechanism is a trade-off between t",
+      "source_url": "https://doi.org/10.1287/mnsc.2025.03426",
+      "doi": "10.1287/mnsc.2025.03426",
+      "aliases": [
+        "doi:10.1287/mnsc.2025.03426"
+      ],
+      "first_public_date": "2026-10-23",
+      "stage": "journal",
+      "discipline": "trade",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2025.03426"
+        }
+      ],
+      "id": "p_c02d6172b75291",
+      "discovered_at": "2026-10-24",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-24",
+          "source_id": "ms"
+        }
+      ]
+    },
     {
       "title": "Do long-term yields help to estimate short-term risk premia?",
       "authors": [

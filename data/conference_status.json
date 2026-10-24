@@ -5,9 +5,9 @@
       "id": "afa",
       "name": "American Finance Association",
       "url": "https://afajof.org/annual-meeting/",
-      "checked_at": "2026-10-23T14:04:16+08:00",
-      "status": "error",
-      "error": "URLError: <urlopen error timed out>",
+      "checked_at": "2026-10-24T13:56:43+08:00",
+      "status": "ok",
+      "error": "",
       "fingerprint": "8deb1290b85ba094",
       "program_links": [
         {
@@ -89,7 +89,7 @@
       "id": "wfa",
       "name": "Western Finance Association",
       "url": "https://westernfinance.org/",
-      "checked_at": "2026-10-23T14:04:16+08:00",
+      "checked_at": "2026-10-24T13:56:43+08:00",
       "status": "ok",
       "error": "",
       "fingerprint": "7960411fdd419cd3",
@@ -109,7 +109,7 @@
       "id": "efa",
       "name": "European Finance Association",
       "url": "https://www.efa-finance.org/efa-annual-meeting/",
-      "checked_at": "2026-10-23T14:04:16+08:00",
+      "checked_at": "2026-10-24T13:56:43+08:00",
       "status": "ok",
       "error": "",
       "fingerprint": "6b415e07eb548869",
@@ -229,9 +229,9 @@
       "id": "sfs",
       "name": "SFS Cavalcade",
       "url": "https://sfs.org/",
-      "checked_at": "2026-10-23T14:04:16+08:00",
-      "status": "ok",
-      "error": "",
+      "checked_at": "2026-10-24T13:56:43+08:00",
+      "status": "error",
+      "error": "URLError: <urlopen error timed out>",
       "fingerprint": "4e8f4c52c37f4ce4",
       "program_links": [
         {
@@ -265,7 +265,7 @@
       "id": "firs",
       "name": "FIRS",
       "url": "https://firsociety.org/",
-      "checked_at": "2026-10-23T14:04:16+08:00",
+      "checked_at": "2026-10-24T13:56:43+08:00",
       "status": "ok",
       "error": "",
       "fingerprint": "0c1a7bd1b0b64e18",
@@ -281,7 +281,7 @@
       "id": "cicf",
       "name": "CICF",
       "url": "https://www.cicf-conf.org/en/index.php?c=category&id=34",
-      "checked_at": "2026-10-23T14:04:16+08:00",
+      "checked_at": "2026-10-24T13:56:43+08:00",
       "status": "ok",
       "error": "",
       "fingerprint": "1b175c545a3e3759",
@@ -309,7 +309,7 @@
       "id": "nber-si",
       "name": "NBER Summer Institute",
       "url": "https://www.nber.org/conferences/summer-institute",
-      "checked_at": "2026-10-23T14:04:16+08:00",
+      "checked_at": "2026-10-24T13:56:43+08:00",
       "status": "ok",
       "error": "",
       "fingerprint": "e7585629f597ecff",
@@ -346,7 +346,7 @@
       "id": "cfrc",
       "name": "China Financial Research Conference",
       "url": "https://cfrc.pbcsf.tsinghua.edu.cn/cfrc2026en/CONFERENCE_PROGRAM.htm",
-      "checked_at": "2026-10-23T14:04:16+08:00",
+      "checked_at": "2026-10-24T13:56:43+08:00",
       "status": "ok",
       "error": "",
       "fingerprint": "e9a7828c5729993e",
@@ -398,10 +398,10 @@
       "id": "aea",
       "name": "AEA Annual Meetings",
       "url": "https://benny.aeaweb.org/conference/",
-      "checked_at": "2026-10-23T14:04:16+08:00",
+      "checked_at": "2026-10-24T13:56:43+08:00",
       "status": "ok",
       "error": "",
-      "fingerprint": "53176a9fcec0f600",
+      "fingerprint": "2defb9d941fab53e",
       "program_links": [
         {
           "title": "event form",
@@ -416,8 +416,8 @@
           "url": "https://benny.aeaweb.org/news/assa-2027-lightning-rounds"
         },
         {
-          "title": "Don't miss the featured AEA lectures!",
-          "url": "https://benny.aeaweb.org/news/assa-2027-save-the-date"
+          "title": "Don't miss the featured AEA sessions on economic investments and institutions!",
+          "url": "https://benny.aeaweb.org/news/assa-2027-sessions"
         },
         {
           "title": "Public Sector Economists Are Invited to the President's Reception at ASSA 2027.",
@@ -456,7 +456,8 @@
           "url": "https://benny.aeaweb.org/conference/poster-videos"
         }
       ],
-      "initial_snapshot_at": "2026-10-23T14:04:16+08:00"
+      "initial_snapshot_at": "2026-10-23T14:04:16+08:00",
+      "last_link_change": "2026-10-24T13:56:43+08:00"
     }
   },
   "events": [
@@ -507,7 +508,19 @@
         }
       ],
       "note": "Official landing-page links changed; actual paper titles are not verified"
+    },
+    {
+      "kind": "program-link-change",
+      "conference_id": "aea",
+      "date": "2026-10-24T13:56:43+08:00",
+      "new_links": [
+        {
+          "title": "Don't miss the featured AEA sessions on economic investments and institutions!",
+          "url": "https://benny.aeaweb.org/news/assa-2027-sessions"
+        }
+      ],
+      "note": "Official landing-page links changed; actual paper titles are not verified"
     }
   ],
-  "last_checked_at": "2026-10-23T14:04:16+08:00"
+  "last_checked_at": "2026-10-24T13:56:43+08:00"
 }
