@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-24T13:57:09+08:00",
+  "updated_at": "2026-10-25T14:11:41+08:00",
   "papers": [
     {
       "id": "4f6a2f09c0e94323",
@@ -14,7 +14,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "3f53809c60a95ee1",
@@ -28,7 +28,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "63cabb55e0867aa7",
@@ -42,7 +42,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "1ac8cabcba405b85",
@@ -56,7 +56,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "896209202b48f48f",
@@ -70,7 +70,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "59b84938d6b75319",
@@ -84,7 +84,7 @@
       "access_status": "pdf-not-confirmed",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00",
+      "checked_at": "2026-10-25T14:11:41+08:00",
       "media_type": "text/html; charset=ISO-8859-1",
       "remote_size": 0
     },
@@ -100,7 +100,7 @@
       "access_status": "pdf-not-confirmed",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00",
+      "checked_at": "2026-10-25T14:11:41+08:00",
       "media_type": "text/html; charset=ISO-8859-1",
       "remote_size": 0
     },
@@ -116,7 +116,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "80c1c42191c3c61b",
@@ -130,7 +130,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "b9a3938d6c652e78",
@@ -144,7 +144,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "c629757902bb6852",
@@ -158,7 +158,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "7c4b89861438d521",
@@ -172,7 +172,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "522a502ff620743f",
@@ -186,7 +186,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "af5d7ec7a9882599",
@@ -200,7 +200,7 @@
       "access_status": "pdf-not-confirmed",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00",
+      "checked_at": "2026-10-25T14:11:41+08:00",
       "media_type": "text/html; charset=ISO-8859-1",
       "remote_size": 0
     },
@@ -216,7 +216,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "f1677f69500fa387",
@@ -230,7 +230,7 @@
       "access_status": "pdf-not-confirmed",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00",
+      "checked_at": "2026-10-25T14:11:41+08:00",
       "media_type": "text/html; charset=ISO-8859-1",
       "remote_size": 0
     },
@@ -246,7 +246,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "02469c599c063894",
@@ -260,7 +260,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "490e21896077af82",
@@ -274,7 +274,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "14d22de710d6ccb2",
@@ -288,7 +288,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "80c9ddffe9cd52af",
@@ -302,7 +302,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "98b0f792428c9fff",
@@ -316,7 +316,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "ded3d46882f5bd89",
@@ -330,7 +330,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "f90a835c02abef83",
@@ -344,7 +344,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "2dcdeb515bd7bd57",
@@ -358,7 +358,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "cd77ed48138958d2",
@@ -372,7 +372,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "ff3eb8ac97176d63",
@@ -386,7 +386,7 @@
       "access_status": "pdf-not-confirmed",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00",
+      "checked_at": "2026-10-25T14:11:41+08:00",
       "media_type": "text/html; charset=ISO-8859-1",
       "remote_size": 0
     },
@@ -402,7 +402,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "a3efe815fb192d11",
@@ -416,7 +416,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "11b1de1e535eeeca",
@@ -430,7 +430,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "57a720262e874b6c",
@@ -444,7 +444,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "af46e5f9b27e8f74",
@@ -458,7 +458,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "3f9f18b35160bf41",
@@ -472,7 +472,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "b75b9a794016084b",
@@ -486,7 +486,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "42fade9e4ca14717",
@@ -500,7 +500,7 @@
       "access_status": "pdf-not-confirmed",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00",
+      "checked_at": "2026-10-25T14:11:41+08:00",
       "media_type": "text/html; charset=ISO-8859-1",
       "remote_size": 0
     },
@@ -516,7 +516,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "3b8b8fe77735e40e",
@@ -530,7 +530,7 @@
       "access_status": "pdf-not-confirmed",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00",
+      "checked_at": "2026-10-25T14:11:41+08:00",
       "media_type": "text/html; charset=ISO-8859-1",
       "remote_size": 0
     },
@@ -546,7 +546,7 @@
       "access_status": "pdf-not-confirmed",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00",
+      "checked_at": "2026-10-25T14:11:41+08:00",
       "media_type": "text/html; charset=ISO-8859-1",
       "remote_size": 0
     },
@@ -562,7 +562,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "f21365ecdf5afcdc",
@@ -576,7 +576,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "24c8468137b31f28",
@@ -590,7 +590,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "4e679748f32e1245",
@@ -604,7 +604,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "4e82f37c19cf007f",
@@ -618,7 +618,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "f7c2a22e3ecd8304",
@@ -632,7 +632,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "517911feff43db65",
@@ -646,7 +646,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "35c53b616506291f",
@@ -660,7 +660,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "6e75b021ce9eae50",
@@ -674,7 +674,7 @@
       "access_status": "pdf-not-confirmed",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00",
+      "checked_at": "2026-10-25T14:11:41+08:00",
       "media_type": "text/html; charset=ISO-8859-1",
       "remote_size": 0
     },
@@ -690,7 +690,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "15f7de723d40a47e",
@@ -704,7 +704,7 @@
       "access_status": "pdf-not-confirmed",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00",
+      "checked_at": "2026-10-25T14:11:41+08:00",
       "media_type": "text/html; charset=ISO-8859-1",
       "remote_size": 0
     },
@@ -720,7 +720,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "bea8b07afea7985e",
@@ -734,7 +734,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "391b1938eeb1a512",
@@ -748,7 +748,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "d9965b77c2fae112",
@@ -762,7 +762,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "5cd8131c388303b1",
@@ -776,7 +776,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "2d1bf74e8f740dc9",
@@ -790,7 +790,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "87b66ee29a01c30e",
@@ -804,7 +804,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "893faf0018b5c515",
@@ -818,7 +818,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "36ba7cc34dddc4cf",
@@ -832,7 +832,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "8541bce06b0f893e",
@@ -846,7 +846,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "cc27beb8c7af42b1",
@@ -860,7 +860,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "0d09e7dd551a0565",
@@ -874,7 +874,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "6f41390a19365820",
@@ -888,7 +888,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "2b9739d4ef2f72e4",
@@ -902,7 +902,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "eaa13d9a28726f22",
@@ -916,7 +916,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "8537061736710916",
@@ -930,7 +930,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "7475e16b5b0f0135",
@@ -944,7 +944,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "16f96329c1df4a58",
@@ -958,7 +958,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "d5f759b5831af045",
@@ -972,7 +972,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "6b3c0d3f7495186c",
@@ -986,7 +986,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "a1153adffd9c1131",
@@ -1000,7 +1000,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "602534510b31c3ac",
@@ -1014,7 +1014,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "a91ff27788cf7cc2",
@@ -1028,7 +1028,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "42b2fabb9a390d22",
@@ -1042,7 +1042,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "161c1c857e74b432",
@@ -1056,7 +1056,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "5fbbd5cde1cf946b",
@@ -1070,7 +1070,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "fc74dc052349169d",
@@ -1084,7 +1084,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "817910d1a55b7665",
@@ -1098,7 +1098,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "8330e37956705e94",
@@ -1112,7 +1112,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "649e1eb5d3f75d74",
@@ -1126,7 +1126,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "2427f7e111d6897a",
@@ -1140,7 +1140,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "33169e73de1582cb",
@@ -1154,7 +1154,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "240853f05b8bb909",
@@ -1168,7 +1168,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "0a74c33bcba3b4c2",
@@ -1182,7 +1182,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "7a995fa8becaaa86",
@@ -1196,7 +1196,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "4ecf99cf323eb449",
@@ -1210,7 +1210,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "0d8dde8d074d2399",
@@ -1224,7 +1224,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "b719a4ccd0e13e3e",
@@ -1238,7 +1238,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "1a90093bf4c92a8f",
@@ -1252,7 +1252,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "5fc76babf7524010",
@@ -1266,7 +1266,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "5b1aa715538c286f",
@@ -1280,7 +1280,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "17af55627c3fe430",
@@ -1294,7 +1294,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "99dba88631e8d9cc",
@@ -1308,7 +1308,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "d0b29998aace48d4",
@@ -1322,7 +1322,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "9605190499b736c7",
@@ -1336,7 +1336,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "372edab7dcf31ed4",
@@ -1350,7 +1350,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "c3d5a126771c3a1a",
@@ -1364,7 +1364,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "affee46318831ab2",
@@ -1378,7 +1378,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "a1c057368c7e7c30",
@@ -1392,7 +1392,7 @@
       "access_status": "pdf-not-confirmed",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00",
+      "checked_at": "2026-10-25T14:11:41+08:00",
       "media_type": "text/html; charset=ISO-8859-1",
       "remote_size": 0
     },
@@ -1408,7 +1408,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "b309ab9334f18b76",
@@ -1422,7 +1422,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "79a62cc6e67ff645",
@@ -1436,7 +1436,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "34361356e144df36",
@@ -1450,7 +1450,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "d88f86f7169e7421",
@@ -1464,7 +1464,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "c6c06b04154cb63a",
@@ -1478,7 +1478,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "b4019ddf23c7ff23",
@@ -1492,7 +1492,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "5011ae2b75ebc0ec",
@@ -1506,7 +1506,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "f4caadd8194eb6bd",
@@ -1520,7 +1520,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "5f9753dbea787569",
@@ -1534,7 +1534,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "651e39c3a42c8f19",
@@ -1548,7 +1548,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "0c6d2b100a59c1a3",
@@ -1562,7 +1562,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "2b7f5342061c9935",
@@ -1576,7 +1576,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "a9087b5350a55e4b",
@@ -1590,7 +1590,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "11f9063b2ac3bdf2",
@@ -1604,7 +1604,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "a00234727f25609e",
@@ -1618,7 +1618,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "9176570ee11c758d",
@@ -1632,7 +1632,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "b63f51685e56498b",
@@ -1646,7 +1646,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "0eb56decb59bac87",
@@ -1660,7 +1660,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "0355c498c32c7ef8",
@@ -1674,7 +1674,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "550491a4b0612ec7",
@@ -1688,7 +1688,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "daf4b6dfbe5814c8",
@@ -1702,7 +1702,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "311b09ffe755c73b",
@@ -1716,7 +1716,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "4637945fa231a02a",
@@ -1730,7 +1730,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "bd61a4a49e93f1ad",
@@ -1744,7 +1744,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "1c0e005c026047d9",
@@ -1758,7 +1758,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "620d12da63df11f4",
@@ -1772,7 +1772,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "ca449628bd325f59",
@@ -1786,7 +1786,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "68ef8bab035b4793",
@@ -1800,7 +1800,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "b52fdfa2b9141752",
@@ -1814,7 +1814,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "8505ee89e979a483",
@@ -1828,7 +1828,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "c3897f476b05b2e1",
@@ -1842,7 +1842,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "56c2902b3401b37d",
@@ -1856,7 +1856,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "d5419a4d4abcb656",
@@ -1870,7 +1870,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "02d0fd3bec8542ae",
@@ -1884,7 +1884,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "e7c166109fc9e4a8",
@@ -1898,7 +1898,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "d86eec117cc88072",
@@ -1912,7 +1912,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "d9b18ae8a2463cf7",
@@ -1926,7 +1926,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "35896da5ba59583f",
@@ -1940,7 +1940,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "2980c81c3377c8f5",
@@ -1954,7 +1954,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "5599e6e12823aae0",
@@ -1968,7 +1968,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "edd948099a8cf9c6",
@@ -1982,7 +1982,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "4b1112271255e1cb",
@@ -1996,7 +1996,7 @@
       "access_status": "pdf-not-confirmed",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00",
+      "checked_at": "2026-10-25T14:11:41+08:00",
       "media_type": "text/html; charset=ISO-8859-1",
       "remote_size": 0
     },
@@ -2012,7 +2012,7 @@
       "access_status": "pdf-not-confirmed",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00",
+      "checked_at": "2026-10-25T14:11:41+08:00",
       "media_type": "text/html; charset=ISO-8859-1",
       "remote_size": 0
     },
@@ -2028,7 +2028,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "0f931c55d5b2b1d2",
@@ -2042,7 +2042,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "a6d7941d4214ca64",
@@ -2056,7 +2056,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "9297903bb2421648",
@@ -2070,7 +2070,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "1f8b03ca45c4462d",
@@ -2084,7 +2084,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "355a65ddb2a8614e",
@@ -2098,7 +2098,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "0c830b403cc60ed8",
@@ -2112,7 +2112,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "497fed8dec17a3dd",
@@ -2126,7 +2126,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "4d5467cc3462a970",
@@ -2140,7 +2140,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "7828a38360f21b44",
@@ -2154,7 +2154,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "03ad5c6d333865bc",
@@ -2168,7 +2168,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "6d49cc04532c3b0a",
@@ -2182,7 +2182,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "46d6a9241254e2da",
@@ -2196,7 +2196,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "7a8d2fdb289c37ec",
@@ -2210,7 +2210,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "57c55fa3af815a58",
@@ -2224,7 +2224,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "98e421dc3775f9d4",
@@ -2238,7 +2238,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "610147ff686a8241",
@@ -2252,7 +2252,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "7261b70f631e33f9",
@@ -2266,7 +2266,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "5df8d0247efc877f",
@@ -2280,7 +2280,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "46e074e6b19bef73",
@@ -2294,7 +2294,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "0fea0f4fc2cd2739",
@@ -2308,7 +2308,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "e436c415bc34cfb2",
@@ -2322,7 +2322,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "8ab2016781321ccc",
@@ -2336,7 +2336,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "c821558092849e5d",
@@ -2350,7 +2350,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "1f52b0ad3a405f54",
@@ -2364,7 +2364,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "16439f62893b75a0",
@@ -2378,7 +2378,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "ef5e4614d3898ffc",
@@ -2392,7 +2392,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "c1c0a8c7021b70e8",
@@ -2406,7 +2406,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "1a8ae4d2f3aafb37",
@@ -2420,7 +2420,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "2892b9b5777de38d",
@@ -2434,7 +2434,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "00f30fc352fd74bd",
@@ -2448,7 +2448,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "0e1391ef8ace1dc0",
@@ -2462,7 +2462,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "3a0b06c50ffeb7a0",
@@ -2476,7 +2476,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "198f7e1d05cc5ae9",
@@ -2490,7 +2490,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "efd1d163528ee71a",
@@ -2504,7 +2504,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "2650d94dfab80ada",
@@ -2518,7 +2518,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "118ef123f4046b21",
@@ -2532,7 +2532,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "0a036f8c188209b7",
@@ -2546,7 +2546,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "1203bf83d022e0c6",
@@ -2560,7 +2560,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "376bed0d0502b04f",
@@ -2574,7 +2574,7 @@
       "access_status": "pdf-not-confirmed",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00",
+      "checked_at": "2026-10-25T14:11:41+08:00",
       "media_type": "text/html; charset=ISO-8859-1",
       "remote_size": 0
     },
@@ -2590,7 +2590,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "43deb3771c2fef1c",
@@ -2604,7 +2604,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "c295e8b4e6851193",
@@ -2618,7 +2618,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "01c1fb1836700da7",
@@ -2632,7 +2632,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "e31b1a60bdb2da73",
@@ -2646,7 +2646,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "1ef1d412b9121461",
@@ -2660,7 +2660,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "1d8c53922fbff23a",
@@ -2674,7 +2674,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "cccf055d2c48de16",
@@ -2688,7 +2688,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "b96d1fadb27a4647",
@@ -2702,7 +2702,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "7645b2d7f85a8fea",
@@ -2716,7 +2716,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "adefe66f57a482ba",
@@ -2730,7 +2730,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "2dde4f7f85860142",
@@ -2744,7 +2744,7 @@
       "access_status": "pdf-not-confirmed",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00",
+      "checked_at": "2026-10-25T14:11:41+08:00",
       "media_type": "text/html; charset=ISO-8859-1",
       "remote_size": 0
     },
@@ -2760,7 +2760,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "cc736f651fe704cb",
@@ -2774,7 +2774,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "74199308bf506294",
@@ -2788,7 +2788,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "ce5197288d2bc93d",
@@ -2802,7 +2802,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "3525529d711ce394",
@@ -2816,7 +2816,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "f2128f011e7b133c",
@@ -2830,7 +2830,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "4c7224eeb4021c09",
@@ -2844,7 +2844,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "4fae003acb4732ec",
@@ -2858,7 +2858,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "824d8407e100fe1c",
@@ -2872,7 +2872,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "991573e46469c9fc",
@@ -2886,7 +2886,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "eb3de94758df1ca9",
@@ -2900,7 +2900,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "d16e6cd307601677",
@@ -2914,7 +2914,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "3d11e6c3a5992af4",
@@ -2928,7 +2928,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "69767b5a346e5ffa",
@@ -2942,7 +2942,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "248e5d7405ee35e4",
@@ -2956,7 +2956,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "e9f8970f7c9b51ba",
@@ -2970,7 +2970,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "7fbcec90356761d3",
@@ -2984,7 +2984,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "4bdb1648f1dc598a",
@@ -2998,7 +2998,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "cd021bd860724ae2",
@@ -3012,7 +3012,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "b23f4c86b02d6714",
@@ -3026,7 +3026,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "1f460ea634b14983",
@@ -3040,7 +3040,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "d851e654fac1d1ef",
@@ -3054,7 +3054,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "f0153a9676cbbc9e",
@@ -3068,7 +3068,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "3ff6b2c3ed432f4c",
@@ -3082,7 +3082,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "3422323e29a6be1b",
@@ -3096,7 +3096,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "5c95fb27057a3480",
@@ -3110,7 +3110,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "051082ebdad8bb45",
@@ -3124,7 +3124,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "739fa30fa485255f",
@@ -3138,7 +3138,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "46bcf6389c4b47bc",
@@ -3152,7 +3152,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "3f6a73cb3e933b6d",
@@ -3166,7 +3166,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "261a2620bfc0f096",
@@ -3180,7 +3180,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "47203401602f510e",
@@ -3194,7 +3194,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "438236e2eeeb75fd",
@@ -3208,7 +3208,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "ad987e1bf0a607e5",
@@ -3222,7 +3222,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "62195a4a98223601",
@@ -3236,7 +3236,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "6bffea476834183d",
@@ -3250,7 +3250,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "2d21adc041d396bc",
@@ -3264,7 +3264,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "8f6e1b8a5ea5d25d",
@@ -3278,7 +3278,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "c8a198f523d82a2f",
@@ -3292,7 +3292,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "fdf693f602f82a48",
@@ -3306,7 +3306,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "d7c237af3ea3b349",
@@ -3320,7 +3320,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "2b5b236363d019ac",
@@ -3334,7 +3334,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "357a27267d037e52",
@@ -3348,7 +3348,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "208cbc9307ab96b1",
@@ -3362,7 +3362,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "7930ff809b44b229",
@@ -3376,7 +3376,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "5c53087e61716187",
@@ -3390,7 +3390,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "374c289a9fc2e95a",
@@ -3404,7 +3404,7 @@
       "access_status": "pdf-not-confirmed",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00",
+      "checked_at": "2026-10-25T14:11:41+08:00",
       "media_type": "text/html; charset=ISO-8859-1",
       "remote_size": 0
     },
@@ -3420,7 +3420,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "3ca878290514eb79",
@@ -3434,7 +3434,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "aea72ccdd46f4bb2",
@@ -3448,7 +3448,7 @@
       "access_status": "pdf-not-confirmed",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00",
+      "checked_at": "2026-10-25T14:11:41+08:00",
       "media_type": "text/html; charset=ISO-8859-1",
       "remote_size": 0
     },
@@ -3464,7 +3464,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "0ee86acd7b35909f",
@@ -3478,7 +3478,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "75301f89cbaf549b",
@@ -3492,7 +3492,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "8f24d74cd3a3ef3a",
@@ -3506,7 +3506,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "fdadfe94c3183e91",
@@ -3520,7 +3520,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "72be47aa2e4d58b7",
@@ -3534,7 +3534,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "219d9ff8848db6f1",
@@ -3548,7 +3548,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "feb8b01ae036b2b4",
@@ -3562,7 +3562,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "09b33679f02fdd64",
@@ -3576,7 +3576,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "da5f758f5998f10f",
@@ -3590,7 +3590,7 @@
       "access_status": "pdf-not-confirmed",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00",
+      "checked_at": "2026-10-25T14:11:41+08:00",
       "media_type": "text/html; charset=ISO-8859-1",
       "remote_size": 0
     },
@@ -3606,7 +3606,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "5bf3e64f3cfd0bd1",
@@ -3620,7 +3620,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "3f36b4e6bfda8471",
@@ -3634,7 +3634,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "5e3bd39b208c9bff",
@@ -3648,7 +3648,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "a365a06c43199d4f",
@@ -3662,7 +3662,7 @@
       "access_status": "pdf-not-confirmed",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00",
+      "checked_at": "2026-10-25T14:11:41+08:00",
       "media_type": "text/html; charset=ISO-8859-1",
       "remote_size": 0
     },
@@ -3678,7 +3678,7 @@
       "access_status": "pdf-not-confirmed",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00",
+      "checked_at": "2026-10-25T14:11:41+08:00",
       "media_type": "text/html; charset=ISO-8859-1",
       "remote_size": 0
     },
@@ -3694,7 +3694,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "d03dea9d44936c4c",
@@ -3708,7 +3708,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "b9e8d8e2a09e2b02",
@@ -3722,7 +3722,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "539f59b833d7ddd0",
@@ -3736,7 +3736,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "66a0aa54c303d89e",
@@ -3750,7 +3750,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "cfed0eff59795db2",
@@ -3764,7 +3764,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "3557a6ab1c3c8a98",
@@ -3778,7 +3778,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "8ae1a6b0865ef2dc",
@@ -3792,7 +3792,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "404e72c7606fa326",
@@ -3806,7 +3806,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "384f68156bf60c6b",
@@ -3820,7 +3820,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "879e3cb38e60cc38",
@@ -3834,7 +3834,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "117409ee99372907",
@@ -3848,7 +3848,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "b3904d1944d91670",
@@ -3862,7 +3862,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "5fc07e7f8272f8fc",
@@ -3876,7 +3876,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "5006c2ec3902cfee",
@@ -3890,7 +3890,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "53e83a3252efaecf",
@@ -3904,7 +3904,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "b90c7571e6917c9c",
@@ -3918,7 +3918,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "9cae0a3e13b4a91f",
@@ -3932,7 +3932,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "e61a31e9d9f7dd5c",
@@ -3946,7 +3946,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "3338545f03da0be9",
@@ -3960,7 +3960,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "fbdfe186e5fa8c03",
@@ -3974,7 +3974,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "75736dfad22975b3",
@@ -3988,7 +3988,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "e2d545d0309db4a4",
@@ -4002,7 +4002,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "1b89e8a1db180fe1",
@@ -4016,7 +4016,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "d9877bae3aa4cc93",
@@ -4030,7 +4030,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "346585166df92e41",
@@ -4044,7 +4044,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "cec2329824b19e07",
@@ -4058,7 +4058,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "e7b9623086a33dc9",
@@ -4072,7 +4072,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "5c9146c31b4f8aaf",
@@ -4086,7 +4086,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "05ea35499f896324",
@@ -4100,7 +4100,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "0dee841844bc9d68",
@@ -4114,7 +4114,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "7af90270d03d6f26",
@@ -4128,7 +4128,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "1d1ed95b9f9446d3",
@@ -4142,7 +4142,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "7727413649c679dd",
@@ -4156,7 +4156,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "aaa27097ced2fe66",
@@ -4170,7 +4170,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "554a8f1d3eba217f",
@@ -4184,7 +4184,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     },
     {
       "id": "34aab6671d15dd36",
@@ -4198,7 +4198,7 @@
       "access_status": "pending",
       "archive_status": "not-redistributed-unverified-rights",
       "discovered_at": "2026-10-22T14:52:41+08:00",
-      "checked_at": "2026-10-24T13:57:09+08:00"
+      "checked_at": "2026-10-25T14:11:41+08:00"
     }
   ],
   "checks": [
@@ -4206,7 +4206,7 @@
       "conference_id": "cfrc-2026",
       "name": "China Financial Research Conference 2026",
       "program_url": "https://editorialexpress.com/conference/CFRC2026/program/CFRC2026.html",
-      "checked_at": "2026-10-24T13:57:09+08:00",
+      "checked_at": "2026-10-25T14:11:41+08:00",
       "status": "ok",
       "papers_found": 58
     },
@@ -4214,7 +4214,7 @@
       "conference_id": "cicf-2026",
       "name": "China International Conference in Finance 2026",
       "program_url": "https://editorialexpress.com/conference/CICF2026/program/CICF2026.html",
-      "checked_at": "2026-10-24T13:57:09+08:00",
+      "checked_at": "2026-10-25T14:11:41+08:00",
       "status": "ok",
       "papers_found": 239
     }

@@ -1,8 +1,101 @@
 {
   "schema_version": 1,
   "snapshot": "incremental-ingestion",
-  "updated_at": "2026-10-24T05:56:43+00:00",
+  "updated_at": "2026-10-25T06:11:16+00:00",
   "papers": [
+    {
+      "title": "DP22079 Learning from Stories, Statistics, and Narratives",
+      "authors": [
+        "Christopher Roth, Thomas Graeber, Florian Zimmermann"
+      ],
+      "abstract": "This article reviews how different types of information shape belief formation. We organize the discussion around two distinctions: whether information supplies evidence or a framework for interpreting evidence, and whether it is qualitative or quantitative. Stories describe individual instances in qualitative terms, whereas statistics summarize many observations numerically. Narratives and quantitative models provide qualitative and quantitative frameworks, respectively, for interpreting evidence. We examine how learning from evidence and learning from models interact: models shape responses ",
+      "source_url": "https://cepr.org/publications/dp22079",
+      "doi": "",
+      "aliases": [
+        "cepr:22079"
+      ],
+      "first_public_date": "2026-10-24",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22079"
+        }
+      ],
+      "id": "p_3892aa225fec3b",
+      "discovered_at": "2026-10-25",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-25",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22080 Milking the Demand Curve: Consumer and Firm Behavior in Inflationary Times",
+      "authors": [
+        "Alon Eizenberg, Klaus Gugler, Lukas Pirnbacher, Florian Szücs"
+      ],
+      "abstract": "We study the effect of the recent inflationary environment on consumer and firm behavior in the Austrian market for milk. Combining detailed scanner data on households' milk purchases with farm-gate raw milk prices, we document sharp increases in both producer and consumer milk prices, as well as above-unity pass-through, at the onset of the inflationary episode. We rationalize these patterns via an estimated model of demand and supply. Consistent with some theoretical predictions, exposure to inflation reduces households' price sensitivity. This channel explains nearly 30% of the observed inc",
+      "source_url": "https://cepr.org/publications/dp22080",
+      "doi": "",
+      "aliases": [
+        "cepr:22080"
+      ],
+      "first_public_date": "2026-10-24",
+      "stage": "working-paper",
+      "discipline": "macro",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22080"
+        }
+      ],
+      "id": "p_db37f4c39bfe4d",
+      "discovered_at": "2026-10-25",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-25",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22081 Nonlinear Factor Models and the Cross-Section of Asset Returns",
+      "authors": [
+        "Georgy Chabakauri"
+      ],
+      "abstract": "We develop a nonlinear model of asset returns with latent economic factors to study theoretically how nonlinearity affects the factors recovered by principal component analysis (PCA). We derive the PCA factors and the eigenvalues of the covariance matrix of asset returns in closed form. The model generates a large leading eigenvalue, positive and approximately uniform stock weights in the corresponding factor, and positive stock betas, consistent with empirical evidence. The size of the leading eigenvalue is determined by the number of latent factors. The dominant PCA factor can absorb the non",
+      "source_url": "https://cepr.org/publications/dp22081",
+      "doi": "",
+      "aliases": [
+        "cepr:22081"
+      ],
+      "first_public_date": "2026-10-24",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22081"
+        }
+      ],
+      "id": "p_09c941392810ce",
+      "discovered_at": "2026-10-25",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-25",
+          "source_id": "cepr"
+        }
+      ]
+    },
     {
       "title": "Rising inequality, declining mobility: The evolution of intergenerational mobility in Germany",
       "authors": [
