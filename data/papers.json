@@ -1,8 +1,1122 @@
 {
   "schema_version": 1,
   "snapshot": "incremental-ingestion",
-  "updated_at": "2026-10-25T06:11:16+00:00",
+  "updated_at": "2026-10-26T06:18:43+00:00",
   "papers": [
+    {
+      "title": "Synthesizing Information-Driven Insider Trade Signals",
+      "authors": [
+        "Jens Heckmann",
+        "Heiko Jacobs",
+        "Patrick Schwarz"
+      ],
+      "abstract": "Abstract We propose a novel approach to synthesize presumably information-driven insider trading signals for the cross section of stocks. We find that the resulting straightforward composite strategy can often forecast returns in a global sample. This predictability is strongest in equal-weighted portfolios, short holding periods, and insider-buying signals, and it improves further with global diversification. Cross-country analysis reveals that varying insider trading restrictions between countries have limited explanatory power for the performance of the composite strategy. Overall, the resu",
+      "source_url": "https://doi.org/10.1017/s0022109026103366",
+      "doi": "10.1017/s0022109026103366",
+      "aliases": [
+        "doi:10.1017/s0022109026103366"
+      ],
+      "first_public_date": "2026-10-26",
+      "stage": "journal",
+      "discipline": "trade",
+      "sources": [
+        {
+          "id": "jfqa",
+          "name": "Journal of Financial and Quantitative Analysis",
+          "url": "https://doi.org/10.1017/s0022109026103366"
+        }
+      ],
+      "id": "p_0e8565019644bc",
+      "discovered_at": "2026-10-26",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-26",
+          "source_id": "jfqa"
+        }
+      ]
+    },
+    {
+      "title": "DP22082 Separating Cost Recovery from Conduct",
+      "authors": [
+        "Martin Pesendorfer, Taisuke Otsu"
+      ],
+      "abstract": "Abstract This paper introduces a novel method to recover marginal costs from incentive-compatibility first-order conditions without maintaining a particular model of conduct or game form. The approach allows private information about costs and retains equilibrium discipline. We examine the MillerCoors joint venture and find that post-merger price increases can largely be rationalized by firm-specific cost heterogeneity and unilateral pricing incentives rather than large coordinated effects. We also construct bounds on welfare outcomes attainable across incentive-compatible market mechanisms an",
+      "source_url": "https://cepr.org/publications/dp22082",
+      "doi": "",
+      "aliases": [
+        "cepr:22082"
+      ],
+      "first_public_date": "2026-10-25",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22082"
+        }
+      ],
+      "id": "p_51f98544cb46d1",
+      "discovered_at": "2026-10-26",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-26",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "Beliefs Over Contracts -- by Francis Annan, Collin B. Raymond",
+      "authors": [],
+      "abstract": "We study how firms choose among incentive contracts and how accurately managers predict their effects. Using a survey of managerial beliefs and a large-scale field experiment, we randomly assign agents at the market level to several widely used, expenditure-equivalent incentive schemes. In the field, the best-performing contract raises weekly firm profit by over 55% relative to the status quo, despite being ranked lower by managers, whereas the worst-performing contract performs as predicted. Managers reliably avoid poorly performing contracts but systematically underestimate top-performing on",
+      "source_url": "https://www.nber.org/papers/w35788#fromrss",
+      "doi": "10.3386/w35788",
+      "aliases": [
+        "doi:10.3386/w35788",
+        "nber:w35788"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35788#fromrss"
+        }
+      ],
+      "id": "p_987dd0d1e89584",
+      "discovered_at": "2026-10-26",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-26",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "HouseholdBench: Evaluating Large Language Models as Predictors of Household Economic Behavior -- by Jin Huang, Diego Ferreras Garrucho, Yutong Xie, Walter M. Yuan, Qiaozhu Mei, Chen Lian, Jonathon Hazell",
+      "authors": [],
+      "abstract": "Large language models (LLMs) have the potential to meet a key goal in economics: a quantitative model of household decision making, across a variety of settings. Yet existing evaluations cover few surveys and outcomes, and do not study how households adjust to changing economic conditions. We introduce a new evaluation, HouseholdBench, which unites 6 U.S. household surveys and 32 prediction tasks spanning numeric, categorical and probabilistic outcomes, related to consumption, income, labor, expectations, and housing. Using past behavior, demographics and macroeconomic conditions, the tasks te",
+      "source_url": "https://www.nber.org/papers/w35927#fromrss",
+      "doi": "10.3386/w35927",
+      "aliases": [
+        "doi:10.3386/w35927",
+        "nber:w35927"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35927#fromrss"
+        }
+      ],
+      "id": "p_b971ba916213df",
+      "discovered_at": "2026-10-26",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-26",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Strategic Monetary Policy in Open Economies -- by Louphou Coulibaly, Charles Engel",
+      "authors": [],
+      "abstract": "We examine optimal non-cooperative monetary policy in a two-country New Keynesian setting with complete financial markets and pricing to market for goods. In contrast to the case in which the law of one price holds for goods, currency misalignments are an important consideration even for self-oriented policymakers. Financial markets are critical in the analysis. Under “full” commitment, the optimal policy considers the effects on asset values and hence wealth distribution across countries. Optimal policy under full commitment differs from the “partial” commitment case in which the policy commi",
+      "source_url": "https://www.nber.org/papers/w35928#fromrss",
+      "doi": "10.3386/w35928",
+      "aliases": [
+        "doi:10.3386/w35928",
+        "nber:w35928"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "macro",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35928#fromrss"
+        }
+      ],
+      "id": "p_521c955c564a47",
+      "discovered_at": "2026-10-26",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-26",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "The Occupational Ladder: Implications for Life-Cycle Wage Dynamics -- by Henry E. Siu, Kelly Foley, Matias Cortes",
+      "authors": [],
+      "abstract": "Some occupations pay higher wages than others, even conditional on worker characteristics, implying that occupations can be ranked on a ladder. We develop a simple decomposition to study the role this occupational ladder plays in average wage growth and in the fanning out of wages over the life cycle. We present three main findings. First, the distribution of employment shifts towards higher-paying occupations as workers gain experience. This contributes modestly to average life-cycle wage growth, with greatest impact in early career. Second, this upward movement in the occupational employment",
+      "source_url": "https://www.nber.org/papers/w35929#fromrss",
+      "doi": "10.3386/w35929",
+      "aliases": [
+        "doi:10.3386/w35929",
+        "nber:w35929"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35929#fromrss"
+        }
+      ],
+      "id": "p_29163290f81e7a",
+      "discovered_at": "2026-10-26",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-26",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "College Success: Understanding the Roles of Financial Aid, Loans, Preparation, and Incentives -- by Douglas N. Harris, Christopher R. Taber, Alan Yang",
+      "authors": [],
+      "abstract": "Over the past four decades, the earnings gap between college graduates and non-graduates has widened substantially, prompting interest in policies aimed at promoting higher education among low-income students. A key challenge for these policies is the high college dropout rate. This paper develops a dynamic model of college enrollment and completion with rich individual heterogeneity to assess how various factors influence college attendance, dropout, and graduation. We estimate the model using data from longitudinal surveys, results of quasi-experimental studies on grant aid, and large-scale ",
+      "source_url": "https://www.nber.org/papers/w35930#fromrss",
+      "doi": "10.3386/w35930",
+      "aliases": [
+        "doi:10.3386/w35930",
+        "nber:w35930"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35930#fromrss"
+        }
+      ],
+      "id": "p_f9549535669589",
+      "discovered_at": "2026-10-26",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-26",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "We Just Created More Than 1,000 Synthetic Controls To Study California's $20 Fast Food Minimum Wage -- by Jeffrey Clemens, Olivia Edwards, Jonathan Meer, Joshua D. Nguyen",
+      "authors": [],
+      "abstract": "Synthetic control methods hold the promise of identifying a credible counterfactual by closely reproducing pretreatment outcome paths. Their reliability, however, depends in part on how effectively they constrain researchers’ less-visible degrees of freedom. We explore these methods’ sensitivity by constructing 1440 plausibly defensible specifications to estimate the employment effect of California’s $20 fast-food minimum wage. While over 96 percent of the estimated employment effects are negative, the range is vast, illustrating that synthetic control methods are sensitive to specification ch",
+      "source_url": "https://www.nber.org/papers/w35931#fromrss",
+      "doi": "10.3386/w35931",
+      "aliases": [
+        "doi:10.3386/w35931",
+        "nber:w35931"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35931#fromrss"
+        }
+      ],
+      "id": "p_f3255f9d0b45c9",
+      "discovered_at": "2026-10-26",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-26",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Insuring Landlords -- by Thomas Bézy, Antoine B. Levy, Timothy McQuade",
+      "authors": [],
+      "abstract": "This paper shows that insuring landlords against non-payment risk can improve housing access and upward geographic mobility for fragile tenants. We study Visale, a large-scale publicly funded rent guarantee insurance policy in France, free for eligible tenants and landlords. Using administrative household and claim payout data and quasi-experimental eligibility variation by exact age, we show the guarantee increased access to private-sector rental housing, especially for immigrants, newly formed households, and low-income renters. The scheme eased long-distance mobility toward expensive, high-",
+      "source_url": "https://www.nber.org/papers/w35932#fromrss",
+      "doi": "10.3386/w35932",
+      "aliases": [
+        "doi:10.3386/w35932",
+        "nber:w35932"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35932#fromrss"
+        }
+      ],
+      "id": "p_17ef23604151be",
+      "discovered_at": "2026-10-26",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-26",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Losing Their Religion -- by Richard Murphy, Shqiponja Telhaj",
+      "authors": [],
+      "abstract": "This paper studies whether governments can change social norms that constrain women’s education and work, and through which mechanism. Albania’s 1967 religion ban, which created the world’s first atheist state, provides an extreme natural experiment: religious practice was outlawed nationwide, but a 1948 classification of historic monuments determined which religious buildings remained standing. We find larger increases in female employment and schooling where no monument survived. The public visibility of the old religious order appears to be the mechanism: effects are largest where no monume",
+      "source_url": "https://www.nber.org/papers/w35933#fromrss",
+      "doi": "10.3386/w35933",
+      "aliases": [
+        "doi:10.3386/w35933",
+        "nber:w35933"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35933#fromrss"
+        }
+      ],
+      "id": "p_f0e8d1c911bdc9",
+      "discovered_at": "2026-10-26",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-26",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Tax Productivity and Economic Development: A Quantitative Macroeconomic Analysis -- by Radhika Goyal, Anders Jensen, David Lagakos, Abdoulaye Ndiaye, Yuntian Zhao",
+      "authors": [],
+      "abstract": "This paper examines the role of government capacity to collect taxes in driving economic development. We first draw on a new macro-historical database to document that tax collections relative to tax administration expenditures rise sharply with GDP per capita. We then interpret this finding in a neoclassical growth model with a tax administration sector in which labor inputs are required to raise tax revenues. Countries differ in their levels of tax productivity, capturing how effectively labor is used to raise taxes, as well as their levels of productivity in creating consumption and investm",
+      "source_url": "https://www.nber.org/papers/w35934#fromrss",
+      "doi": "10.3386/w35934",
+      "aliases": [
+        "doi:10.3386/w35934",
+        "nber:w35934"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35934#fromrss"
+        }
+      ],
+      "id": "p_76c462eeca8df5",
+      "discovered_at": "2026-10-26",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-26",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Implications of Policy Interventions on Eliminating Gender Gaps -- by Carla Varona Cervantes, Russell Cooper",
+      "authors": [],
+      "abstract": "This paper studies policy interventions intended to eliminate gender differences in labor market outcomes, principally wages. Because gender is an individual attribute rather than a manipulable treatment, the ideal experiment of randomly assigning gender to evaluate its effects is infeasible. Policies that remove gender labels from the employment process are the closest feasible counterpart. We quantify both the intended and unintended consequences of the policies through simulated interventions of an estimated equilibrium model of statistical discrimination with dynamic choices of education a",
+      "source_url": "https://www.nber.org/papers/w35935#fromrss",
+      "doi": "10.3386/w35935",
+      "aliases": [
+        "doi:10.3386/w35935",
+        "nber:w35935"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35935#fromrss"
+        }
+      ],
+      "id": "p_41e602a614b271",
+      "discovered_at": "2026-10-26",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-26",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Representation, Innovation, and Product Adoption -- by Jennifer L. Kao, Tamar Oostrom",
+      "authors": [],
+      "abstract": "During research and development, firms must decide which types of individuals to engage in developing and testing their products. We investigate how lowering the cost of including one group shapes its representation, subsequent innovation, and product adoption. In 2000, Medicare expanded coverage of clinical trial costs for elderly trial participants, a historically underrepresented group in drug development. This policy increases representation: trial sponsors expand trial eligibility to include elderly participants and increase the share of elderly participants. We find an immediate and larg",
+      "source_url": "https://www.nber.org/papers/w35936#fromrss",
+      "doi": "10.3386/w35936",
+      "aliases": [
+        "doi:10.3386/w35936",
+        "nber:w35936"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35936#fromrss"
+        }
+      ],
+      "id": "p_9feb698339c2e9",
+      "discovered_at": "2026-10-26",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-26",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Regional Variations and Productivity Puzzles in Health Care -- by Amy Finkelstein, Jonathan S. Skinner",
+      "authors": [],
+      "abstract": "Health care utilization per capita varies widely across the United States, yet higher utilization areas have no better patient health. In the late 2000s, this pattern was widely interpreted as evidence that health care costs could be cut substantially without harming patients, which in turn shaped the 2010 Affordable Care Act. We describe how our understanding has since evolved, emphasizing three points. First, new evidence indicates quantitatively meaningful roles for both supply-side and demand-side factors in driving regional variation in health care and in health outcomes. Second, health c",
+      "source_url": "https://www.nber.org/papers/w35937#fromrss",
+      "doi": "10.3386/w35937",
+      "aliases": [
+        "doi:10.3386/w35937",
+        "nber:w35937"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35937#fromrss"
+        }
+      ],
+      "id": "p_c0f3a880847225",
+      "discovered_at": "2026-10-26",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-26",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Optimal Taxation of Indistinguishable Activities -- by Jacob Goldin, Sebastian Koehne, Nicholas Lawson",
+      "authors": [],
+      "abstract": "Optimal tax policy frequently prescribes different tax treatments for activities that are difficult in practice for tax administrators to distinguish, such as expenditures undertaken for business versus personal purposes. We study the optimal design of income tax deductions for such expenditures under the assumption that a common deduction rate must be applied to both forms of the expenditure. The Pareto optimal common deduction turns on the relative compensated spending response for each margin, weighted by the income tax wedge. We also characterize the welfare gain from distinguishing betwee",
+      "source_url": "https://www.nber.org/papers/w35938#fromrss",
+      "doi": "10.3386/w35938",
+      "aliases": [
+        "doi:10.3386/w35938",
+        "nber:w35938"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "public-econ",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35938#fromrss"
+        }
+      ],
+      "id": "p_2ee694ae371fda",
+      "discovered_at": "2026-10-26",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-26",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Gender Gaps: International Evidence on the Role of Family Policy -- by Francine D. Blau, Lawrence Kahn, Freddy Bachmann, Helen Burkhardt, Leonardo Peñaloza-Pacheco, David Titus",
+      "authors": [],
+      "abstract": "We use Luxembourg Income Study and International Social Survey Programme microdata on 27 countries over the 1986-2019 period, augmented by policy and labor market information, to estimate the impact of family-friendly policies on gender gaps in employment, wages, earnings, and part-time work, as well as child penalties in employment and earnings. We find that longer duration of parental leave generally lowers gender gaps in wages, employment, earnings, and child penalties in employment and earnings, except for high levels of this entitlement, where further increases in leave raise gender gaps.",
+      "source_url": "https://www.nber.org/papers/w35939#fromrss",
+      "doi": "10.3386/w35939",
+      "aliases": [
+        "doi:10.3386/w35939",
+        "nber:w35939"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35939#fromrss"
+        }
+      ],
+      "id": "p_aa07efa2e1cdff",
+      "discovered_at": "2026-10-26",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-26",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Sex and Subsistence: Income Effects on Risky Sexual Behavior and Partner Selection -- by Natalie Bau, Corinne Low, Bryce Steinberg",
+      "authors": [],
+      "abstract": "Whether to engage in sex and with whom are extremely consequential decisions for young women worldwide, and particularly in sub-Saharan Africa, where HIV rates are high and adolescent pregnancies are common. Yet little is known about the extent to which these decisions are financially motivated. We combine a randomized controlled trial of monthly cash assistance to female students at the University of Zambia with detailed, high-frequency data on sexual behavior and partner characteristics. We find that this temporary increase in income significantly changes women's sexual behavior. Treated par",
+      "source_url": "https://www.nber.org/papers/w35940#fromrss",
+      "doi": "10.3386/w35940",
+      "aliases": [
+        "doi:10.3386/w35940",
+        "nber:w35940"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35940#fromrss"
+        }
+      ],
+      "id": "p_3f5e6cbd29012a",
+      "discovered_at": "2026-10-26",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-26",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "The Returns to Temporary Migration: Experimental Evidence from the H-2A Program -- by Melanie Morten, Beatriz Magaloni, Sebastián Cubillos",
+      "authors": [],
+      "abstract": "In 2024, 315,000 H-2A temporary seasonal work visas were issued to agricultural workers in the US. The H-2A program is controversial: earnings are high, but critics argue that workers face poor working and living conditions and that families bear the costs of separation. We randomize H-2A seasonal visas for Mexican workers. During a single US season, migrants earn more than USD 16,000 and send 70% of these earnings to origin households. Living standards in Mexico rise: food security increases, the probability of living in poverty falls by 10 percentage points, and families invest in home impro",
+      "source_url": "https://www.nber.org/papers/w35941#fromrss",
+      "doi": "10.3386/w35941",
+      "aliases": [
+        "doi:10.3386/w35941",
+        "nber:w35941"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35941#fromrss"
+        }
+      ],
+      "id": "p_85cc4c591349f9",
+      "discovered_at": "2026-10-26",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-26",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Comparative Advantage and Economies of Scale under Uncertainty -- by Xiao Ma, Natalia Ramondo",
+      "authors": [],
+      "abstract": "We study how regional specialization patterns and welfare are affected by uncertainty and economies of scale in an open economy. We use a spatial equilibrium model with sectoral economies of scale, aggregate uncertainty, and irreversible mobility decisions made by heterogenous workers. We analytically characterize how the interactions between comparative advantage, both of workers and firms, economies of scale, and uncertainty shape specialization patterns and, hence, the gains from trade. We find empirical support for the model predictions by documenting the impact of aggregate changes in vol",
+      "source_url": "https://www.nber.org/papers/w35942#fromrss",
+      "doi": "10.3386/w35942",
+      "aliases": [
+        "doi:10.3386/w35942",
+        "nber:w35942"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35942#fromrss"
+        }
+      ],
+      "id": "p_3dbe1ec1f70685",
+      "discovered_at": "2026-10-26",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-26",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Global Entrepreneurial Talent Flows: Widely Funded, Selectively Successful? -- by Paul Gompers, Henry Woo",
+      "authors": [],
+      "abstract": "Immigrant founders of US venture-backed startups exit successfully more often than native founders. Does this hold worldwide? Using career histories for 913,226 founder-firm pairs in 213 countries (1990–2026), we compare founders who build abroad (expats) or return home after foreign experience (returnees) with comparable local founders in the same country. Both expats and returnees raise early funding more often globally. Expats' success premium, however, concentrates in the US (18 percent) and UK (26 percent), especially among those entering the US through graduate school, work, or direct fo",
+      "source_url": "https://www.nber.org/papers/w35943#fromrss",
+      "doi": "10.3386/w35943",
+      "aliases": [
+        "doi:10.3386/w35943",
+        "nber:w35943"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35943#fromrss"
+        }
+      ],
+      "id": "p_0f996b0885ae77",
+      "discovered_at": "2026-10-26",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-26",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Selective Admissions in Nursing Homes: Evidence from a Randomized Audit Study -- by Liran Einav, Amy Finkelstein, Jesse Gubb, Neale Mahoney, James Okun",
+      "authors": [],
+      "abstract": "It has been widely documented that patients in the US who are associated with disadvantaged demographics receive care at lower quality nursing homes. To understand the role that selective admissions may play in contributing to this pattern, we conducted a nationwide audit study of the impact of patient race, payer, and medical condition on responses to about 5,500 availability inquiries sent to about 3,000 nursing homes. We find 10-15% lower availability for Medicaid patients compared to private-pay patients and for patients with Alzheimer’s disease compared to those without; these availabilit",
+      "source_url": "https://www.nber.org/papers/w35944#fromrss",
+      "doi": "10.3386/w35944",
+      "aliases": [
+        "doi:10.3386/w35944",
+        "nber:w35944"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35944#fromrss"
+        }
+      ],
+      "id": "p_2c158279ca571a",
+      "discovered_at": "2026-10-26",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-26",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Homework in Climate Economics: Household Production, Environmental Preferences, and Climate Policy -- by Stephie Fried, David Lagakos, Hannah Rhodenhiser",
+      "authors": [],
+      "abstract": "Household energy use accounts for approximately one third of U.S. emissions. Guided by a new survey, we develop a quantitative model in which households differ in income and their desire to reduce their emissions. Our analysis of cost-minimizing subsidies for clean equipment, such as electric vehicles and heat pumps, and residential solar yields three insights. First, solar receives the highest subsidy rate and accounts for over one third of abatement, reflecting its complementarities with clean equipment. Second, restricting subsidy eligibility to lower-income households generates only small ",
+      "source_url": "https://www.nber.org/papers/w35945#fromrss",
+      "doi": "10.3386/w35945",
+      "aliases": [
+        "doi:10.3386/w35945",
+        "nber:w35945"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35945#fromrss"
+        }
+      ],
+      "id": "p_f09a61e3503a91",
+      "discovered_at": "2026-10-26",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-26",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "The Value of (Sub) Specialization: Evidence from Oncology -- by René Karadakic, David C. Chan Jr, Nancy Keating, Bruce Landon, Michael L. Barnett",
+      "authors": [],
+      "abstract": "We estimate the returns to specialization in medical oncology, in which subspecialists focus on specific cancer types. Using 2.2 million Medicare chemotherapy episodes from 2008–2020, we instrument for subspecialist access with differential distance to cancer-type-specific subspecialists versus general oncologists. Access to a relevant subspecialist reduces three-year mortality by 4.5 percentage points (10 percent), without increasing Medicare spending or measured provider fragmentation. Subspecialists also increase the use of newer therapies and diagnosis-specific clinical trials. These findi",
+      "source_url": "https://www.nber.org/papers/w35946#fromrss",
+      "doi": "10.3386/w35946",
+      "aliases": [
+        "doi:10.3386/w35946",
+        "nber:w35946"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35946#fromrss"
+        }
+      ],
+      "id": "p_2cccfa9ddad635",
+      "discovered_at": "2026-10-26",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-26",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "An LLM Workflow for Functional Form Sensitivity Analysis -- by Isaiah Andrews, Simon C. Essig Aberg, Jesse M. Shapiro",
+      "authors": [],
+      "abstract": "We introduce an LLM workflow for functional form sensitivity analysis. A researcher estimates the value of an object of interest by maximizing the fit of a working model to some data. The working model assumes an arbitrary form for some function. We define sensitivity by how much it is possible to change the estimate of the object of interest, without compromising fit, by selecting a different functional form. The workflow first looks for an analytic solution. If it fails to find one, it approximates the solution via numerical methods that respect the fit constraint at each step of a solver pa",
+      "source_url": "https://www.nber.org/papers/w35947#fromrss",
+      "doi": "10.3386/w35947",
+      "aliases": [
+        "doi:10.3386/w35947",
+        "nber:w35947"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35947#fromrss"
+        }
+      ],
+      "id": "p_abffbe422e3cf7",
+      "discovered_at": "2026-10-26",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-26",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "fevc: Leave-Out Bias-Corrected Variance Decompositions in Stata -- by Johannes F. Schmieder",
+      "authors": [],
+      "abstract": "Variance decompositions from regressions with worker and firm fixed effects are widely used to measure heterogeneity and sorting in linked data. Variances computed directly from estimated effects overstate heterogeneity because they include estimation noise, and the bias can be large when few workers move between firms. This article introduces fevc, a Stata command that implements the leave-out bias correction of Kline, Saggio, and Sølvsten (2020, “Leave-Out Estimation of Variance Components,” Econometrica 88: 1859–1898). fevc reports corrected variances of worker and firm effects, their covar",
+      "source_url": "https://www.nber.org/papers/w35948#fromrss",
+      "doi": "10.3386/w35948",
+      "aliases": [
+        "doi:10.3386/w35948",
+        "nber:w35948"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35948#fromrss"
+        }
+      ],
+      "id": "p_eb816593fab30e",
+      "discovered_at": "2026-10-26",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-26",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Generative AI, Managerial Expectations, and Economic Activity -- by Manish Jha, Jialin Qian, Michael Weber, Baozhong Yang",
+      "authors": [],
+      "abstract": "Using generative AI, we extract managers’ economic expectations from over 120,000 corporate conference call transcripts. The resulting AI Economy Score predicts GDP growth, production, employment, and wages five or more quarters ahead, beyond survey forecasts and other existing measures. Industry- and firm-level scores capture sector- and firm-specific activity, and a composite of firm, industry, and macroeconomic expectations further improves forecasting power and horizon. Predictability concentrates among historically more accurate, less biased managers, consistent with an information rather",
+      "source_url": "https://www.nber.org/papers/w35949#fromrss",
+      "doi": "10.3386/w35949",
+      "aliases": [
+        "doi:10.3386/w35949",
+        "nber:w35949"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35949#fromrss"
+        }
+      ],
+      "id": "p_f35e7ff81f1bb3",
+      "discovered_at": "2026-10-26",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-26",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Training Your Replacement: Worker Incentives and the Pace of Automation -- by Joshua S. Gans, Peter Landry",
+      "authors": [],
+      "abstract": "Firms ask workers to train AI systems that will replace them. We model this with a worker who can shirk, cooperate with training, or obstruct training while maintaining productivity. Because training ends the job but only cooperation completes training, dismissal becomes a weaker penalty for shirking. The firm must raise the worker’s rent, and the worker gains from their replacement. AI can create jobs paying more than they produce and eliminate jobs it never automates. Firms paying only wages may slow training. A credible completion bonus equal to the worker’s rent without AI removes both the",
+      "source_url": "https://www.nber.org/papers/w35950#fromrss",
+      "doi": "10.3386/w35950",
+      "aliases": [
+        "doi:10.3386/w35950",
+        "nber:w35950"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35950#fromrss"
+        }
+      ],
+      "id": "p_731be361e56483",
+      "discovered_at": "2026-10-26",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-26",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "A Network Approach to Geopolitics -- by Ernest Liu, Stephen J. Redding, Bennett Smith-Worthington, David Y. Yang",
+      "authors": [],
+      "abstract": "We develop a tractable framework for analyzing geopolitics as a network of coordination and strategic influence. Countries choose geopolitical actions that trade off domestic interests against incentives to align with connected countries. They can exert costly bilateral influence to affect one another’s actions. We characterize equilibrium actions and bilateral influence in closed form. Cross-country differences in domestic interests decompose into latent geopolitical cleavages, each of which the network transmits into geopolitical actions independently of the others. The cross-country covaria",
+      "source_url": "https://www.nber.org/papers/w35951#fromrss",
+      "doi": "10.3386/w35951",
+      "aliases": [
+        "doi:10.3386/w35951",
+        "nber:w35951"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "trade",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35951#fromrss"
+        }
+      ],
+      "id": "p_bf76c489654e94",
+      "discovered_at": "2026-10-26",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-26",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "The Great Game: A Model of Geoeconomic Competition -- by Christopher Clayton, Matteo Maggiori, Jesse Schreger",
+      "authors": [],
+      "abstract": "We build a model of two hegemons that have valuable trading relationships with each other and at the same time compete in exerting geoeconomic power over countries in the rest of the world. When the hegemons trade with each other, their optimal policy is shaped both by classic economic considerations - the profitability of that specific trade - and by geoeconomic competition - how the trade affects the power of each hegemon vis-a-vis the rest of the world. We show that containment, a policy mix in which a hegemon limits sales of its inputs to the rival hegemon and uses its power to demand that",
+      "source_url": "https://www.nber.org/papers/w35952#fromrss",
+      "doi": "10.3386/w35952",
+      "aliases": [
+        "doi:10.3386/w35952",
+        "nber:w35952"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "trade",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35952#fromrss"
+        }
+      ],
+      "id": "p_720c01ad7c1c3d",
+      "discovered_at": "2026-10-26",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-26",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Competition in Generative AI: Evidence from Consumer Demand -- by Mark L. Egan, Dominic Russel, Claire Shi, Vincent Yao",
+      "authors": [],
+      "abstract": "How competitive will the market for generative AI be as it matures? Using novel transaction level credit and debit card data covering 174 million consumers and 114 billion transactions, we study the adoption of paid services and the demand-side foundations of competition in this market. As of April 2026, approximately 2.9% of U.S. consumers pay for at least one major generative AI service, with adoption highest among younger and higher-income consumers. Nearly all of these paid users subscribe to basic plans that cost $30 or less per month. Three patterns suggest limited differentiation and lo",
+      "source_url": "https://www.nber.org/papers/w35953#fromrss",
+      "doi": "10.3386/w35953",
+      "aliases": [
+        "doi:10.3386/w35953",
+        "nber:w35953"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35953#fromrss"
+        }
+      ],
+      "id": "p_35755d93380836",
+      "discovered_at": "2026-10-26",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-26",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "When Cash Wakes Up: Inertia in Institutional Money Market Funds and the Potential Effects of AI Disruption -- by Ali Hortaçsu, Younggeun Yoo",
+      "authors": [],
+      "abstract": "We study institutional cash management by constructing a novel dataset that records the specific money market funds (MMFs) held by each mutual fund in each month from 2010 to 2024. We document remarkably high inertia: more than half of mutual funds never switched their MMF choice throughout the sample period, despite non-negligible yield dispersion. To decompose the sources of this inertia, we develop a two-stage structural model that separately identifies the determinants of portfolio managers’ attentiveness (“waking up”) and their conditional preferences once attentive. We estimate the model",
+      "source_url": "https://www.nber.org/papers/w35954#fromrss",
+      "doi": "10.3386/w35954",
+      "aliases": [
+        "doi:10.3386/w35954",
+        "nber:w35954"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35954#fromrss"
+        }
+      ],
+      "id": "p_ab836a24b84507",
+      "discovered_at": "2026-10-26",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-26",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "The Impact of Silver Loading in ACA Health Insurance Marketplaces -- by Coleman Drake, David Anderson, Dylan Nagy, Mark Shepard",
+      "authors": [],
+      "abstract": "In 2017, the federal government ended payments for cost-sharing reduction (CSR) subsidies for the Health Insurance Marketplaces created by the Affordable Care Act. Rather than uniformly increase Marketplace plans’ premiums to offset the loss of these payments, over 40 states responded by silver loading—only increasing the premiums of silver plans to which CSR subsidies apply and premium tax credits are tied. Silver loading was intended to increase the affordability of Marketplace coverage by increasing premium tax credits and thereby enrollment, though the literature lacks causal estimates. Fu",
+      "source_url": "https://www.nber.org/papers/w35955#fromrss",
+      "doi": "10.3386/w35955",
+      "aliases": [
+        "doi:10.3386/w35955",
+        "nber:w35955"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "public-econ",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35955#fromrss"
+        }
+      ],
+      "id": "p_f47c7622372b31",
+      "discovered_at": "2026-10-26",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-26",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Ratings, Debt, and Deficits: An Exploration -- by Olivier J. Blanchard, Daniel Leigh, Prachi Mishra",
+      "authors": [],
+      "abstract": "We look at the effects of debt and primary fiscal balances on sovereign credit ratings through the lens of a simple model. We find that the ratings differ from the implications of the model in three important ways. They give much more weight to debt relative to forecast primary balances. They understate the effects of the difference between the interest rate and the growth rate. They give a very large role to country effects. For the same level of debt and forecast primary balances, they imply extremely different ratings across countries, and imply extremely different levels of debt needed to ",
+      "source_url": "https://www.nber.org/papers/w35956#fromrss",
+      "doi": "10.3386/w35956",
+      "aliases": [
+        "doi:10.3386/w35956",
+        "nber:w35956"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "public-econ",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35956#fromrss"
+        }
+      ],
+      "id": "p_0767f8aaadaa79",
+      "discovered_at": "2026-10-26",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-26",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Tariff Staggering -- by Stephanie Schmitt-Grohé, Martín Uribe",
+      "authors": [],
+      "abstract": "Using a panel of U.S. imports and customs duties at the HS 6-digit level, we document that in a typical quarter about 20 percent of tariffs rise, 20 percent fall, and 60 percent remain unchanged. Motivated by these facts, we develop a model of staggered tariff setting and embed it in a dynamic open-economy framework. Staggering changes the dynamics of the cross-sectional mean tariff, generating hump-shaped macroeconomic responses to tariff shocks. Staggering also overturns the Razin–Svensson trade- balance neutrality result for permanent tariff increases, because the gradual adjustment of the ",
+      "source_url": "https://www.nber.org/papers/w35957#fromrss",
+      "doi": "10.3386/w35957",
+      "aliases": [
+        "doi:10.3386/w35957",
+        "nber:w35957"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "trade",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35957#fromrss"
+        }
+      ],
+      "id": "p_36869159ad9244",
+      "discovered_at": "2026-10-26",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-26",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Who Can Control Our Firms? National Security and Foreign Ownership Regulation -- by Rodrigo Adão, Olivier Kooi",
+      "authors": [],
+      "abstract": "Governments invoke national security to regulate foreign acquisitions of domestic firms. Why is ownership regulation a distinct policy margin beyond standard tools, like production subsidies and trade taxes? We show that contractual frictions make multinational firm boundaries central to geoeconomic policy. Within firms, ownership allocates residual control that affects outcomes through non-contractible decisions. Between governments, the absence of enforceable agreements makes the economic costs of conflict shape geopolitical bargaining. Foreign ownership depends on private returns to foreign",
+      "source_url": "https://www.nber.org/papers/w35958#fromrss",
+      "doi": "10.3386/w35958",
+      "aliases": [
+        "doi:10.3386/w35958",
+        "nber:w35958"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "trade",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35958#fromrss"
+        }
+      ],
+      "id": "p_a8c3cdb1209ce2",
+      "discovered_at": "2026-10-26",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-26",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Behavioral Finance at 40 -- by Nicholas C. Barberis",
+      "authors": [],
+      "abstract": "Behavioral finance seeks to improve our understanding of markets, investors, and firms by adopting a psychologically realistic description of how people think. While behavioral finance ideas have been part of human discourse for decades if not centuries, the modern research effort in the field began in the 1980s. Forty years later, behavioral finance is a vibrant area of financial economics. In this article, I explain why by reviewing some of its recent progress. I focus on three topics – beliefs about future earnings, beliefs about future returns, and prospect theory – and on their applicatio",
+      "source_url": "https://www.nber.org/papers/w35959#fromrss",
+      "doi": "10.3386/w35959",
+      "aliases": [
+        "doi:10.3386/w35959",
+        "nber:w35959"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35959#fromrss"
+        }
+      ],
+      "id": "p_e94a5141235b93",
+      "discovered_at": "2026-10-26",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-26",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Coasian Stakeholder Theory -- by Matthew J. Higgins, Peter G. Klein, Anita McGahan, Rob Wuebker",
+      "authors": [],
+      "abstract": "Stakeholder theory asks who is in, who is out, and who gets what. Existing work illuminates important dimensions of firm–stakeholder relationships but does not supply a common, transaction-level rule connecting these questions. We use the Coase theorem to develop such a rule. A Coasian stakeholder is an actor with shutdown power, defined as the de facto capacity, within the relevant time horizon, to prevent, materially delay, or substantially reduce the expected joint value of a focal value-creating transaction. If all such actors are identified and bargaining and enforcement are costless, val",
+      "source_url": "https://www.nber.org/papers/w35960#fromrss",
+      "doi": "10.3386/w35960",
+      "aliases": [
+        "doi:10.3386/w35960",
+        "nber:w35960"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w35960#fromrss"
+        }
+      ],
+      "id": "p_655acc2ec1355a",
+      "discovered_at": "2026-10-26",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-26",
+          "source_id": "nber"
+        }
+      ]
+    },
     {
       "title": "DP22079 Learning from Stories, Statistics, and Narratives",
       "authors": [
