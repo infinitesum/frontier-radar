@@ -1,8 +1,608 @@
 {
   "schema_version": 1,
   "snapshot": "incremental-ingestion",
-  "updated_at": "2026-10-26T06:18:43+00:00",
+  "updated_at": "2026-10-27T06:20:24+00:00",
   "papers": [
+    {
+      "title": "The effect of prime brokers’ balance sheet constraints on hedge fund performance: Evidence from the GSIB surcharge",
+      "authors": [
+        "Yueting Jiang",
+        "Yiwen Shen"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jfineco.2026.104399",
+      "doi": "10.1016/j.jfineco.2026.104399",
+      "aliases": [
+        "doi:10.1016/j.jfineco.2026.104399"
+      ],
+      "first_public_date": "2026-12",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jfe",
+          "name": "Journal of Financial Economics",
+          "url": "https://doi.org/10.1016/j.jfineco.2026.104399"
+        }
+      ],
+      "id": "p_bc169061053b24",
+      "discovered_at": "2026-10-27",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-27",
+          "source_id": "jfe"
+        }
+      ]
+    },
+    {
+      "title": "The Weight of Compliance: Anti-Money Laundering Enforcement, Banking Sector Composition, and Lending",
+      "authors": [
+        "Şenay Ağca",
+        "Pablo Slutzky",
+        "Stefan Zeume"
+      ],
+      "abstract": "Abstract We examine how strengthened anti-money laundering (AML) enforcement affects the U.S. banking sector. Heightened enforcement disproportionately raises compliance costs for small banks, especially in counties more exposed to money laundering. In these areas, small banks contract while large banks expand, increasing standardized, government-supported, and secured lending. While aggregate county-level credit does not decline differentially, local outcomes improve. Small establishments grow, non-tradable employment and wages rise, and real estate prices increase. The evidence is consistent",
+      "source_url": "https://doi.org/10.1017/s002210902610338x",
+      "doi": "10.1017/s002210902610338x",
+      "aliases": [
+        "doi:10.1017/s002210902610338x"
+      ],
+      "first_public_date": "2026-10-27",
+      "stage": "journal",
+      "discipline": "banking",
+      "sources": [
+        {
+          "id": "jfqa",
+          "name": "Journal of Financial and Quantitative Analysis",
+          "url": "https://doi.org/10.1017/s002210902610338x"
+        }
+      ],
+      "id": "p_27886ff1bb6886",
+      "discovered_at": "2026-10-27",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-27",
+          "source_id": "jfqa"
+        }
+      ]
+    },
+    {
+      "title": "DP22086 Covenant-Driven Fire Sales",
+      "authors": [
+        "Shohini Kundu"
+      ],
+      "abstract": "Covenants mitigate agency frictions but can trigger asset sales at fire sale prices. I demonstrate covenant-driven fire sales and trace their real effects. Following a large negative oil-price shock, collateralized loan obligations exposed to oil-and-gas (O&G) firms approach their covenant thresholds and sell non-O&G loans, exerting price-pressure on non-O&G bonds and loans in primary and secondary markets. Affected non-O&G borrowers experience declines in financing, investment, R&D, and employment. Instrumenting CLO net loan sales with lenders’ O&G exposure, a one-percentage-point increase re",
+      "source_url": "https://cepr.org/publications/dp22086",
+      "doi": "",
+      "aliases": [
+        "cepr:22086"
+      ],
+      "first_public_date": "2026-10-26",
+      "stage": "working-paper",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22086"
+        }
+      ],
+      "id": "p_42b0d000e5a933",
+      "discovered_at": "2026-10-27",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-27",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22093 Producing to Signal: Private Information in Dynamic Quantity Competition",
+      "authors": [
+        "Andrew Sweeting, Xuezhen Tao, Qian Wang"
+      ],
+      "abstract": "We model a finite-horizon game of repeated oligopoly competition in which sellers choose quantities of a homogeneous product with linear demand and have private information about their own marginal costs, which are serially correlated over time. Focusing on fully separating equilibria, we provide conditions for existence and uniqueness. Relative to static complete and incomplete-information benchmarks, sellers’ incentives to signal low costs can substantially affect output, productive efficiency, and welfare, even when there are ten or more sellers. We apply the model to the global oil market,",
+      "source_url": "https://cepr.org/publications/dp22093",
+      "doi": "",
+      "aliases": [
+        "cepr:22093"
+      ],
+      "first_public_date": "2026-10-26",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22093"
+        }
+      ],
+      "id": "p_95b55793087386",
+      "discovered_at": "2026-10-27",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-27",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22084 The Moral Components of Financial Misconduct",
+      "authors": [
+        "Irsa Ajmal, Neil Stewart, John Thanassoulis"
+      ],
+      "abstract": "Using survey experiments in financial market settings we identify four moral components which contribute to the moral unacceptability of financial misconduct: lying, communication with the victim, colluding and using technology to effect the misconduct. We establish the moral magnitude of these components. We determine which of these are judged by respondents in a scale-sensitive, and which in a scale-insensitive manner. We determine if corporate victims are considered differently to human victims. And we draw out the implications for optimal regulatory policies concerning disclosure, investme",
+      "source_url": "https://cepr.org/publications/dp22084",
+      "doi": "",
+      "aliases": [
+        "cepr:22084"
+      ],
+      "first_public_date": "2026-10-26",
+      "stage": "working-paper",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22084"
+        }
+      ],
+      "id": "p_6ea49435051747",
+      "discovered_at": "2026-10-27",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-27",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22091 Strategic Mistakes in School Assignment: Biased Beliefs versus Optimization Errors",
+      "authors": [
+        "Monique De Haan, Pieter Gautier, Hessel Oosterbeek, Sandor Sovago, Bas van der Klaauw"
+      ],
+      "abstract": "Theory predicts that the manipulable Boston mechanism can give higher \\revised{expected} student welfare than the strategy-proof deferred acceptance (DA) mechanism, but recent empirical studies find the opposite and attribute this to strategic mistakes. Such mistakes can stem from biased beliefs about admission probabilities or from optimization errors. We use a unique combination of survey and register data from the secondary-school match in Utrecht in 2016 to distinguish the two. We find that 26.2\\% of the students make a strategic mistake, and that more than half of these mistakes are due t",
+      "source_url": "https://cepr.org/publications/dp22091",
+      "doi": "",
+      "aliases": [
+        "cepr:22091"
+      ],
+      "first_public_date": "2026-10-26",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22091"
+        }
+      ],
+      "id": "p_13169e629e1a5a",
+      "discovered_at": "2026-10-27",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-27",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22083 Bank Liquidity Regulation and the Growth of Private Credit",
+      "authors": [
+        "Sebastian Doerr, Gaston Gelos, Vesa Pursiainen"
+      ],
+      "abstract": "We study the role of bank liquidity regulation in the growth of private credit. Following the introduction of the liquidity coverage ratio (LCR), private credit increases significantly more in U.S. counties with a larger footprint of banks subject to the LCR or of LCR banks with greater initial liquidity shortfalls. Our estimated effect of the LCR on private credit growth is comparable in economic magnitude to that of the increased capital requirements from the 2012 CCAR stress tests. Consistent with loan supply effects, the relationship between banks' LCR footprint and private credit is stron",
+      "source_url": "https://cepr.org/publications/dp22083",
+      "doi": "",
+      "aliases": [
+        "cepr:22083"
+      ],
+      "first_public_date": "2026-10-26",
+      "stage": "working-paper",
+      "discipline": "banking",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22083"
+        }
+      ],
+      "id": "p_2f0a58595d0878",
+      "discovered_at": "2026-10-27",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-27",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22095 Beyond the Numbers: Professional Forecasters’ Narratives about Inflation and Stock Market Performance",
+      "authors": [
+        "Christian Conrad, Julius Schölkopf, Michael Weber, Frank Brueckbauer"
+      ],
+      "abstract": "Professional forecasters' heterogeneous narratives about how inflation affects stock markets in 2023 rationalize their high disagreement regarding quantitative expectations for 12-month-ahead inflation and stock returns in December 2022. Professional forecasters causally update their return expectations in heterogeneous directions in response to information about the inflation outlook, depending on the narrative they entertain. Moreover, the narratives also affect their asset allocation in a hypothetical portfolio-choice experiment. Providing common signals does not necessarily lead to converg",
+      "source_url": "https://cepr.org/publications/dp22095",
+      "doi": "",
+      "aliases": [
+        "cepr:22095"
+      ],
+      "first_public_date": "2026-10-26",
+      "stage": "working-paper",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22095"
+        }
+      ],
+      "id": "p_4cd8ed232a0a55",
+      "discovered_at": "2026-10-27",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-27",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22094 Saving for the Machines",
+      "authors": [
+        "Jesús Fernández-Villaverde"
+      ],
+      "abstract": "When machines can perform a growing share of tasks, growth depends on two margins: how the task structure affects the returns to accumulating machines, and how strongly capital accumulation responds to those returns. I argue that, in a standard task model, capital supply governs the size of the growth boom associated with automation, while the task structure sets the duration of this growth boom and the evolution of wages. I document how the same technology path that generates 11.7% annual growth when households choose their saving rate optimally delivers only 2.2% when the saving rate is fixe",
+      "source_url": "https://cepr.org/publications/dp22094",
+      "doi": "",
+      "aliases": [
+        "cepr:22094"
+      ],
+      "first_public_date": "2026-10-26",
+      "stage": "working-paper",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22094"
+        }
+      ],
+      "id": "p_ffef741665acf7",
+      "discovered_at": "2026-10-27",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-27",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22087 Learning and Beliefs: Models, Measurement, and Identification",
+      "authors": [
+        "Arnaud Maurel, Michela Tincani"
+      ],
+      "abstract": "This article discusses the rapidly expanding literature on imperfect information, learning, and belief formation, with a focus on learning models in labor economics. We structure the review around a stylized dynamic learning framework, which we use as a lens to highlight key methodological and empirical contributions. We pay particular attention to issues of measurement and identification. We conclude by outlining promising directions for future research, stressing the importance of tight links between measurements and theory.",
+      "source_url": "https://cepr.org/publications/dp22087",
+      "doi": "",
+      "aliases": [
+        "cepr:22087"
+      ],
+      "first_public_date": "2026-10-26",
+      "stage": "working-paper",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22087"
+        }
+      ],
+      "id": "p_20f8bb363257a3",
+      "discovered_at": "2026-10-27",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-27",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22090 The Effects of a Shorter Workweek on Employment, Output, and Productivity",
+      "authors": [
+        "Pauline Carry, Claire Montialoux, Elio Nimier-David, Alexandra Roulet, Nina Roussille"
+      ],
+      "abstract": "Do shorter workweeks generate work-sharing and productivity gains, as intended by policymakers? We study France's pay-preserving reduction in the workweek from 39 to 35 hours, bundled with employer payroll tax cuts. We first exploit the staggered implementation by firm size to identify the impact of the reform package. We then use differential exposure to the hours cut and tax cut to separate their effects. We combine matched employer--employee, balance-sheet, and survey data to study worker, firm, and local labor market effects. The reform package left employment unchanged. This zero masks la",
+      "source_url": "https://cepr.org/publications/dp22090",
+      "doi": "",
+      "aliases": [
+        "cepr:22090"
+      ],
+      "first_public_date": "2026-10-26",
+      "stage": "working-paper",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22090"
+        }
+      ],
+      "id": "p_7f1a01737d9af3",
+      "discovered_at": "2026-10-27",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-27",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22089 Challenges to Scaling a Youth Violence Reduction Intervention: Evidence from a Field Experiment and Qualitative Data",
+      "authors": [
+        "Sarah Cattan, Pulkit Bajpai, Julian Childs, Emily Stapley, Monica Costa Dias, Jenna Jacob, Emily Goodacre, Angelika Labno, Vaishnavi Dhas, Emily Orchard, Erin Mckeaveney, Grizelda Khaling, Anoushka Kappor, Ashley New, Imran Rasul"
+      ],
+      "abstract": "Concerns around the exposure of young people to violence lie at the top of the UK policy agenda. We evaluate a flagship violence-reduction intervention in London, known as Your Choice, that targets adolescents at risk of exposure to violent crime. The intervention trains youth practitioners in CBT, who deliver these techniques to adolescents over 12-18 weeks. Delivery is embedded within pre-existing services that London Local Authorities are statutorily required to provide, so accounting for constraints to scale-up from the outset. Many challenges to retaining voltage at-scale relate to system",
+      "source_url": "https://cepr.org/publications/dp22089",
+      "doi": "",
+      "aliases": [
+        "cepr:22089"
+      ],
+      "first_public_date": "2026-10-26",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22089"
+        }
+      ],
+      "id": "p_abea045f91a157",
+      "discovered_at": "2026-10-27",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-27",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22092 Taxing Entrepreneurs and Workers: A Linear Optimization Approach for Multidimensional Screening",
+      "authors": [
+        "Nicolo Ceneri, Giuseppe Lopomo, Alessandro Villa, Nicolas Werquin"
+      ],
+      "abstract": "We study optimal taxation in economies with general equilibrium market clearing, where agents with privately known labor skills and entrepreneurial abilities choose between deterministic labor income and risky firm operation. The government observes labor income and realized dividends but not effort or technology shocks. We formulate the multidimensional screening problem as a lottery-based linear optimization, accounting for global incentive constraints, fixed costs and other non-convexities. Optimal policies exhibit tax breaks, which can render net taxes negative, for agents with intermediat",
+      "source_url": "https://cepr.org/publications/dp22092",
+      "doi": "",
+      "aliases": [
+        "cepr:22092"
+      ],
+      "first_public_date": "2026-10-26",
+      "stage": "working-paper",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22092"
+        }
+      ],
+      "id": "p_7dcf48758d7132",
+      "discovered_at": "2026-10-27",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-27",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22088 AI and the Boundary of the Firm: Evidence from Radiology",
+      "authors": [
+        "Marco Francesconi, Xiaoyu Xia"
+      ],
+      "abstract": "Artificial intelligence (AI) may transform labor markets not only by changing workers' tasks but also by reorganizing production. We study radiology, where AI has spread rapidly without increasing interpretations per radiologist. In our model, AI facilitates outsourcing by letting hospitals verify the quality of remotely supplied interpretations. Using US Medicare data for 2013--2024, we document declining local radiology activity in smaller markets despite stable imaging demand. Interpretations shift toward larger markets, and radiologists at documented AI-adopting platforms end up serving mo",
+      "source_url": "https://cepr.org/publications/dp22088",
+      "doi": "",
+      "aliases": [
+        "cepr:22088"
+      ],
+      "first_public_date": "2026-10-26",
+      "stage": "working-paper",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22088"
+        }
+      ],
+      "id": "p_cad849c581f40d",
+      "discovered_at": "2026-10-27",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-27",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22085 Financing High-Growth Firms in Europe: Market Integration Matters, but so does Depth",
+      "authors": [
+        "Frank Betz, Rozália Pál, Andre Sapir, Huyen Tran"
+      ],
+      "abstract": "Europe’s competitiveness challenge is increasingly linked to its limited ability to generate and scale high-growth firms. This paper examines how capital market development shapes firms’ access to equity finance and how equity financing is associated with subsequent investment and innovation. Combining firm-level data from the European Investment Bank Investment Survey (EIBIS) with ORBIS financial statements and country-level indicators of capital market development, we analyse equity issuance across the European Union, the United Kingdom and the United States. We distinguish between two dimen",
+      "source_url": "https://cepr.org/publications/dp22085",
+      "doi": "",
+      "aliases": [
+        "cepr:22085"
+      ],
+      "first_public_date": "2026-10-26",
+      "stage": "working-paper",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22085"
+        }
+      ],
+      "id": "p_ebd67a3f551bdc",
+      "discovered_at": "2026-10-27",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-27",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "Price Gouging and the Monopoly Option",
+      "authors": [
+        "Samuel Häfner",
+        "Curtis R Taylor"
+      ],
+      "abstract": "Abstract We investigate a dynamic oligopoly model with two phases: a normal phase where an essential input is available, and a disruption phase where firms must rely on inventories. Disruptions create an overcutting pricing incentive arising from the option to forgo sales and monopolize the market once rivals stock out. This monopoly option causes the price to jump to a supracompetitive level at the advent of the disruption and to remain above the competitive price path throughout. Price caps raise welfare, but reduce inventory investment. Government reserves reduce prices and raise buffer sto",
+      "source_url": "https://doi.org/10.1093/restud/rdag119",
+      "doi": "10.1093/restud/rdag119",
+      "aliases": [
+        "doi:10.1093/restud/rdag119"
+      ],
+      "first_public_date": "2026-10-26",
+      "stage": "journal",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "restud",
+          "name": "The Review of Economic Studies",
+          "url": "https://doi.org/10.1093/restud/rdag119"
+        }
+      ],
+      "id": "p_17f668c1c33a90",
+      "discovered_at": "2026-10-27",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-27",
+          "source_id": "restud"
+        }
+      ]
+    },
+    {
+      "title": "Corporate Pension Risk-Taking in a Low Interest Rate Environment",
+      "authors": [
+        "Vasso Ioannidou",
+        "Roberto Pinto",
+        "Zexi Wang"
+      ],
+      "abstract": "We examine how funding deficit pressures shape the risk-taking of U.S. corporate defined-benefit pension plans and how targeted regulatory relief can mitigate these incentives. Using the 2012 Moving Ahead for Progress in the 21st Century Act reform, which temporarily eased funding pressure by revising discount rate calculations, we show that plans receiving greater relief significantly reduced their equity allocations and shifted toward safer assets. This derisking was most pronounced among active plans and those sponsored by more financially constrained firms. Our findings demonstrate that ta",
+      "source_url": "https://doi.org/10.1287/mnsc.2025.02928",
+      "doi": "10.1287/mnsc.2025.02928",
+      "aliases": [
+        "doi:10.1287/mnsc.2025.02928"
+      ],
+      "first_public_date": "2026-10-26",
+      "stage": "journal",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2025.02928"
+        }
+      ],
+      "id": "p_1566f6fe4f164e",
+      "discovered_at": "2026-10-27",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-27",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "The Equity Market Implications of the Retail Investment Boom",
+      "authors": [
+        "Philippe van der Beck",
+        "Cameron Cohen",
+        "Coralie Jaunin"
+      ],
+      "abstract": "We quantify the equilibrium impact of retail traders on the U.S. equity market within a structural model of asset demand. Estimating investor-specific demand curves, we find that Robinhood traders are fundamentally distinct from all other investors, including other households: their demand is the most elastic and tilts most strongly toward volatile and microcap stocks. Each dollar invested through Robinhood generates more than five dollars in aggregate equity repricing, exceeding hedge funds, other households, and all other investor types. We decompose the cross-sectional variation in stock re",
+      "source_url": "https://doi.org/10.1287/mnsc.2025.04854",
+      "doi": "10.1287/mnsc.2025.04854",
+      "aliases": [
+        "doi:10.1287/mnsc.2025.04854"
+      ],
+      "first_public_date": "2026-10-26",
+      "stage": "journal",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2025.04854"
+        }
+      ],
+      "id": "p_a0bbfb2f3e418c",
+      "discovered_at": "2026-10-27",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-27",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Do black politicians matter? Political leadership and racial composition in top public sector positions",
+      "authors": [
+        "Fernanda Estevan",
+        "Thiago de Lucena",
+        "Marcos Y. Nakaguma",
+        "Alexandre Rabelo"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jdeveco.2026.103957",
+      "doi": "10.1016/j.jdeveco.2026.103957",
+      "aliases": [
+        "doi:10.1016/j.jdeveco.2026.103957"
+      ],
+      "first_public_date": "2026-10",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jde",
+          "name": "Journal of Development Economics",
+          "url": "https://doi.org/10.1016/j.jdeveco.2026.103957"
+        }
+      ],
+      "id": "p_b139e490ab782a",
+      "discovered_at": "2026-10-27",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-27",
+          "source_id": "jde"
+        }
+      ]
+    },
     {
       "title": "Synthesizing Information-Driven Insider Trade Signals",
       "authors": [
