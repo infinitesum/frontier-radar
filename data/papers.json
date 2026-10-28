@@ -1,8 +1,419 @@
 {
   "schema_version": 1,
   "snapshot": "incremental-ingestion",
-  "updated_at": "2026-10-27T06:20:24+00:00",
+  "updated_at": "2026-10-28T06:53:32+00:00",
   "papers": [
+    {
+      "title": "Are direct lenders more like banks or arm’s-length investors?",
+      "authors": [
+        "Young Soo Jang"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jfineco.2026.104397",
+      "doi": "10.1016/j.jfineco.2026.104397",
+      "aliases": [
+        "doi:10.1016/j.jfineco.2026.104397"
+      ],
+      "first_public_date": "2026-12",
+      "stage": "journal",
+      "discipline": "banking",
+      "sources": [
+        {
+          "id": "jfe",
+          "name": "Journal of Financial Economics",
+          "url": "https://doi.org/10.1016/j.jfineco.2026.104397"
+        }
+      ],
+      "id": "p_5b3da612c77388",
+      "discovered_at": "2026-10-28",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-28",
+          "source_id": "jfe"
+        }
+      ]
+    },
+    {
+      "title": "Innovation booms, easy financing, and human capital accumulation",
+      "authors": [
+        "Johan Hombert",
+        "Adrien Matray"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jfineco.2026.104381",
+      "doi": "10.1016/j.jfineco.2026.104381",
+      "aliases": [
+        "doi:10.1016/j.jfineco.2026.104381"
+      ],
+      "first_public_date": "2026-12",
+      "stage": "journal",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "jfe",
+          "name": "Journal of Financial Economics",
+          "url": "https://doi.org/10.1016/j.jfineco.2026.104381"
+        }
+      ],
+      "id": "p_81e1b76b0e4ccc",
+      "discovered_at": "2026-10-28",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-28",
+          "source_id": "jfe"
+        }
+      ]
+    },
+    {
+      "title": "The impact of preference programs in public procurement: Evidence from veteran set-asides",
+      "authors": [
+        "Rodrigo Carril",
+        "Audrey Guo"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jpubeco.2026.105805",
+      "doi": "10.1016/j.jpubeco.2026.105805",
+      "aliases": [
+        "doi:10.1016/j.jpubeco.2026.105805"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jpub",
+          "name": "Journal of Public Economics",
+          "url": "https://doi.org/10.1016/j.jpubeco.2026.105805"
+        }
+      ],
+      "id": "p_6aec4e2ea4bdc3",
+      "discovered_at": "2026-10-28",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-28",
+          "source_id": "jpub"
+        }
+      ]
+    },
+    {
+      "title": "Fiscal accountability: Institutional discipline and behavioral frictions",
+      "authors": [
+        "Alejandro Saporiti",
+        "Yizhi Wang"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jpubeco.2026.105808",
+      "doi": "10.1016/j.jpubeco.2026.105808",
+      "aliases": [
+        "doi:10.1016/j.jpubeco.2026.105808"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "public-econ",
+      "sources": [
+        {
+          "id": "jpub",
+          "name": "Journal of Public Economics",
+          "url": "https://doi.org/10.1016/j.jpubeco.2026.105808"
+        }
+      ],
+      "id": "p_d523a8bba95e19",
+      "discovered_at": "2026-10-28",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-28",
+          "source_id": "jpub"
+        }
+      ]
+    },
+    {
+      "title": "Optimal avoidability in cross-border minimum taxation",
+      "authors": [
+        "Adam Kern"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jpubeco.2026.105809",
+      "doi": "10.1016/j.jpubeco.2026.105809",
+      "aliases": [
+        "doi:10.1016/j.jpubeco.2026.105809"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "public-econ",
+      "sources": [
+        {
+          "id": "jpub",
+          "name": "Journal of Public Economics",
+          "url": "https://doi.org/10.1016/j.jpubeco.2026.105809"
+        }
+      ],
+      "id": "p_2524ae0951053b",
+      "discovered_at": "2026-10-28",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-28",
+          "source_id": "jpub"
+        }
+      ]
+    },
+    {
+      "title": "Pricing climate risks: Evidence from wildfires and municipal bonds",
+      "authors": [
+        "Woongchan Jeon",
+        "Lint Barrage",
+        "Kieran James Walsh"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jpubeco.2026.105810",
+      "doi": "10.1016/j.jpubeco.2026.105810",
+      "aliases": [
+        "doi:10.1016/j.jpubeco.2026.105810"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jpub",
+          "name": "Journal of Public Economics",
+          "url": "https://doi.org/10.1016/j.jpubeco.2026.105810"
+        }
+      ],
+      "id": "p_7602c9f2235c48",
+      "discovered_at": "2026-10-28",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-28",
+          "source_id": "jpub"
+        }
+      ]
+    },
+    {
+      "title": "DP22097 Demand-Driven Inflation",
+      "authors": [
+        "Domenico Giannone, Giorgio Primiceri"
+      ],
+      "abstract": "Post-covid inflation was predominantly driven by unexpectedly strong demand forces---both in the United States and in the Euro Area. We establish this result using a sequence of structural VARs with progressively richer specifications, interpret it through the lens of standard AD-AS analysis and an estimated DSGE model, and provide independent support for this conclusion using survey forecasts and real-time data. These demand forces reflected a combination of surprisingly robust pent-up demand following the pandemic restrictions, stronger-than-expected expansionary fiscal policies, and an unus",
+      "source_url": "https://cepr.org/publications/dp22097",
+      "doi": "",
+      "aliases": [
+        "cepr:22097"
+      ],
+      "first_public_date": "2026-10-27",
+      "stage": "working-paper",
+      "discipline": "public-econ",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22097"
+        }
+      ],
+      "id": "p_d6ffd8f7c99419",
+      "discovered_at": "2026-10-28",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-28",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22099 The Hidden Sharpe Ratio",
+      "authors": [
+        "Mikhail Chernov, Bryan Kelly, Semyon Malamud, Johannes Schwab"
+      ],
+      "abstract": "We estimate the maximal Sharpe ratio in large cross-sections of assets directly, without constructing the efficient portfolio. Covariance estimation in this setting requires regularization, which suppresses the contribution of small-eigenvalue directions. Our estimator progressively recovers this contribution, yielding tight upper and lower bounds with asymptotic confidence intervals. We further show that ridge-regularized Markowitz portfolios, the construction underlying many existing high-Sharpe benchmarks, deliver out-of-sample Sharpe ratios that fall short of the true maximum by an explici",
+      "source_url": "https://cepr.org/publications/dp22099",
+      "doi": "",
+      "aliases": [
+        "cepr:22099"
+      ],
+      "first_public_date": "2026-10-27",
+      "stage": "working-paper",
+      "discipline": "methods",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22099"
+        }
+      ],
+      "id": "p_11e3fd37e51b3b",
+      "discovered_at": "2026-10-28",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-28",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22098 Green Tastes, Beliefs, and Portfolios: Evidence from Synthetic Investors",
+      "authors": [
+        "Luboš Pástor, Xindi He"
+      ],
+      "abstract": "We use LLMs as synthetic survey respondents to elicit green tastes, return beliefs, portfolio allocations, and investment motives from 480 retail and 60 institutional investor identities. Compared with retail, institutions report weaker tastes yet greener portfolio tilts, citing outside pressure. A greener tilt therefore need not indicate a stronger taste for greenness. Retail tastes depend mostly on political affiliation, institutional tastes on type and geography. Beliefs differ across the three ESG dimensions, with high-governance portfolios expected to outperform. We reconstruct survey res",
+      "source_url": "https://cepr.org/publications/dp22098",
+      "doi": "",
+      "aliases": [
+        "cepr:22098"
+      ],
+      "first_public_date": "2026-10-27",
+      "stage": "working-paper",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22098"
+        }
+      ],
+      "id": "p_d18953b3eaab95",
+      "discovered_at": "2026-10-28",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-28",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22096 The Supply of Expertise: New Technologies, New Skills, and Worker Impacts",
+      "authors": [
+        "Anna Salomons, Cäcilia vom Baur, Ulrich Zierahn-Weilage"
+      ],
+      "abstract": "Does educational content respond to technological advances, and do such changes enable workers to acquire new valuable expertise? We construct a novel database of legally binding training curricula spanning the near universe of vocational training in Germany over five decades, and link curriculum updates to breakthrough technologies using Natural Language Processing. We trace a causal chain from technological change to curriculum content to worker outcomes. Technological change spurs curriculum updates, and training content shifts toward less routine-intensive tasks. This shift occurs predomin",
+      "source_url": "https://cepr.org/publications/dp22096",
+      "doi": "",
+      "aliases": [
+        "cepr:22096"
+      ],
+      "first_public_date": "2026-10-27",
+      "stage": "working-paper",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22096"
+        }
+      ],
+      "id": "p_31c44f569d175f",
+      "discovered_at": "2026-10-28",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-28",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "Conversations at Scale: Robust AI-led Interviews",
+      "authors": [
+        "Friedrich Geiecke",
+        "Xavier Jaravel"
+      ],
+      "abstract": "Abstract The advent of large language models (LLMs) creates new opportunities to conduct qualitative interviews at scale, with thousands of respondents, thereby bridging qualitative and quantitative methods. We develop a simple, versatile approach for researchers to run AI-led qualitative interviews, including voice interviews. We assess its robustness by drawing comparisons to human experts and with several respondents-based quality metrics. The versatility of the approach is illustrated through four broad classes of applications: eliciting key factors in decision making, political views, sub",
+      "source_url": "https://doi.org/10.1093/restud/rdag114",
+      "doi": "10.1093/restud/rdag114",
+      "aliases": [
+        "doi:10.1093/restud/rdag114"
+      ],
+      "first_public_date": "2026-10-27",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "restud",
+          "name": "The Review of Economic Studies",
+          "url": "https://doi.org/10.1093/restud/rdag114"
+        }
+      ],
+      "id": "p_9a779a5802dbe8",
+      "discovered_at": "2026-10-28",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-28",
+          "source_id": "restud"
+        }
+      ]
+    },
+    {
+      "title": "Selection into Financial Education and Effects on Portfolio Choice",
+      "authors": [
+        "Irina Gemmo",
+        "Pierre-Carl Michaud",
+        "Olivia S. Mitchell"
+      ],
+      "abstract": "We study the impact of a financial education program on portfolio choices in a setting that allows us to examine both participation decisions and differences in program benefits across individuals. We directly elicit willingness to pay for financial education and show that individuals with higher financial literacy, greater confidence in applying new knowledge, and higher expected returns are willing to pay more. Using incentivized portfolio allocation tasks, we develop outcome measures tailored to individual risk preferences and show that financial education improves decision quality along th",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.08268",
+      "doi": "10.1287/mnsc.2024.08268",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.08268"
+      ],
+      "first_public_date": "2026-10-27",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.08268"
+        }
+      ],
+      "id": "p_2bcedf59b3ebd8",
+      "discovered_at": "2026-10-28",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-28",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Navigating the Rugged Data Landscape: The Impact of Data-Extrapolation Technologies on Knowledge Production",
+      "authors": [
+        "Soomi Kim"
+      ],
+      "abstract": "Data-extrapolation technologies enable progress by importing and applying empirical patterns from one domain to another. Their reliance on empirical patterns, however, is also their limitation: these tools can only be applied where data are abundant. Using the setting of structural biology, I investigate the impact of a data-extrapolation technology on innovation. I exploit the variation in prior data availability to compare areas in which the tool was usable to those in which it was not. I find that the tool increased the quantity of research in data-rich areas: the resulting output yielded l",
+      "source_url": "https://doi.org/10.1287/mnsc.2023.04115",
+      "doi": "10.1287/mnsc.2023.04115",
+      "aliases": [
+        "doi:10.1287/mnsc.2023.04115"
+      ],
+      "first_public_date": "2026-10-27",
+      "stage": "journal",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.04115"
+        }
+      ],
+      "id": "p_151335eace0908",
+      "discovered_at": "2026-10-28",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-28",
+          "source_id": "ms"
+        }
+      ]
+    },
     {
       "title": "The effect of prime brokers’ balance sheet constraints on hedge fund performance: Evidence from the GSIB surcharge",
       "authors": [
