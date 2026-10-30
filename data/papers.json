@@ -1,8 +1,874 @@
 {
   "schema_version": 1,
   "snapshot": "incremental-ingestion",
-  "updated_at": "2026-10-29T07:09:55+00:00",
+  "updated_at": "2026-10-30T07:12:17+00:00",
   "papers": [
+    {
+      "title": "Decoupling voting and cash flow rights",
+      "authors": [
+        "Andre Speit",
+        "Paul Voss",
+        "András Danis"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jfineco.2026.104388",
+      "doi": "10.1016/j.jfineco.2026.104388",
+      "aliases": [
+        "doi:10.1016/j.jfineco.2026.104388"
+      ],
+      "first_public_date": "2026-12",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jfe",
+          "name": "Journal of Financial Economics",
+          "url": "https://doi.org/10.1016/j.jfineco.2026.104388"
+        }
+      ],
+      "id": "p_03ae43d450e4d3",
+      "discovered_at": "2026-10-30",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-30",
+          "source_id": "jfe"
+        }
+      ]
+    },
+    {
+      "title": "The Pass-Through of Retail Crime",
+      "authors": [
+        "Carl Hase",
+        "Johannes Kasinger"
+      ],
+      "abstract": "This paper shows retailers increase prices in response to organized retail crime. We match store-level crime data to scanner data from the universe of transactions for cannabis retailers in Washington state. Using quasi-experimental variation from robberies and burglaries, we find a 1.7–1.8 percent price increase at victimized stores and nearby competitors. This rise is not driven by short-to-medium-term demand changes but is consistent with crime-related cost shocks. Effects are larger for independent stores and less concentrated markets. We estimate crime imposes a 1 percent “hidden” unit ta",
+      "source_url": "https://doi.org/10.1257/pol.20240889",
+      "doi": "10.1257/pol.20240889",
+      "aliases": [
+        "doi:10.1257/pol.20240889"
+      ],
+      "first_public_date": "2026-11-01",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "aej-policy",
+          "name": "American Economic Journal: Economic Policy",
+          "url": "https://doi.org/10.1257/pol.20240889"
+        }
+      ],
+      "id": "p_f6c5d54bbc214f",
+      "discovered_at": "2026-10-30",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-30",
+          "source_id": "aej-policy"
+        }
+      ]
+    },
+    {
+      "title": "Impacts of Corporate Tax Cuts on Firms and Workers: Evidence from Small Businesses",
+      "authors": [
+        "Yige Duan",
+        "Terry S. Moon"
+      ],
+      "abstract": "This paper assesses the effects of corporate tax cuts on small firms and their workers. Following a reform in Quebec, Canada, firms receiving tax cuts expand and their workers’ earnings increase compared to workers and firms without tax cuts. We estimate that overall workers bear 35 percent of the tax burden, with larger incidence falling on those with ownership in the companies they work at, through increased profits. Additionally, workers across each tercile of the within-firm earnings distribution benefit from tax cuts, possibly because fair-wage concerns matter when after-tax profits rise ",
+      "source_url": "https://doi.org/10.1257/pol.20240813",
+      "doi": "10.1257/pol.20240813",
+      "aliases": [
+        "doi:10.1257/pol.20240813"
+      ],
+      "first_public_date": "2026-11-01",
+      "stage": "journal",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "aej-policy",
+          "name": "American Economic Journal: Economic Policy",
+          "url": "https://doi.org/10.1257/pol.20240813"
+        }
+      ],
+      "id": "p_ba692e086f23a0",
+      "discovered_at": "2026-10-30",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-30",
+          "source_id": "aej-policy"
+        }
+      ]
+    },
+    {
+      "title": "The Role of Race in the Legal Representation of Low-Income Defendants",
+      "authors": [
+        "Maya Mikdash",
+        "Suhyeon Oh"
+      ],
+      "abstract": "Little is known about the role of race in the defense of low-income defendants by court-appointed attorneys. Exploiting the quasirandom assignment of court-appointed attorneys to cases, we test whether attorneys secure better deals for same-race defendants. Results indicate that while Black and White attorneys are similarly effective at representing White defendants, Black defendants who are represented by White rather than Black attorneys are 14–16 percent more likely to have their charges dismissed and 15–26 percent less likely to be incarcerated. Moreover, we find no evidence that having a ",
+      "source_url": "https://doi.org/10.1257/pol.20240685",
+      "doi": "10.1257/pol.20240685",
+      "aliases": [
+        "doi:10.1257/pol.20240685"
+      ],
+      "first_public_date": "2026-11-01",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "aej-policy",
+          "name": "American Economic Journal: Economic Policy",
+          "url": "https://doi.org/10.1257/pol.20240685"
+        }
+      ],
+      "id": "p_e930c942533805",
+      "discovered_at": "2026-10-30",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-30",
+          "source_id": "aej-policy"
+        }
+      ]
+    },
+    {
+      "title": "Front Matter",
+      "authors": [],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1257/pol.18.4.i",
+      "doi": "10.1257/pol.18.4.i",
+      "aliases": [
+        "doi:10.1257/pol.18.4.i"
+      ],
+      "first_public_date": "2026-11-01",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "aej-policy",
+          "name": "American Economic Journal: Economic Policy",
+          "url": "https://doi.org/10.1257/pol.18.4.i"
+        }
+      ],
+      "id": "p_e38241ca7cddd2",
+      "discovered_at": "2026-10-30",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-30",
+          "source_id": "aej-policy"
+        }
+      ]
+    },
+    {
+      "title": "Polluted IPOs",
+      "authors": [
+        "Meng Miao",
+        "Wei Wang",
+        "Zhengyu Zuo"
+      ],
+      "abstract": "Chinese companies must undergo a review by a regulator-appointed committee before proceeding with initial public offerings (IPOs). We find that firms—particularly, politically unconnected ones—are more likely to pass this review on polluted days (i.e., with a high level of PM2.5). The effect appears driven by reduced cognitive capacity among reviewers, reflected in fewer and simpler questions raised during review sessions. Notably, firms approved on polluted days show no significant performance difference from other firms within three years after the IPO. The findings suggest that pollution-in",
+      "source_url": "https://doi.org/10.1257/pol.20240900",
+      "doi": "10.1257/pol.20240900",
+      "aliases": [
+        "doi:10.1257/pol.20240900"
+      ],
+      "first_public_date": "2026-11-01",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "aej-policy",
+          "name": "American Economic Journal: Economic Policy",
+          "url": "https://doi.org/10.1257/pol.20240900"
+        }
+      ],
+      "id": "p_e67fab6c5c980d",
+      "discovered_at": "2026-10-30",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-30",
+          "source_id": "aej-policy"
+        }
+      ]
+    },
+    {
+      "title": "How Effective Are R&D Tax Incentives? Reconciling the Micro and Macro Evidence",
+      "authors": [
+        "Silvia Appelt",
+        "Matěj Bajgar",
+        "Chiara Criscuolo",
+        "Fernando Galindo-Rueda"
+      ],
+      "abstract": "Recent firm-level studies find R&D tax incentives to be much more effective at stimulating firms’ R&D investment than aggregate analyses suggest. Based on a distributed analysis of official R&D survey and administrative tax relief microdata for 19 OECD countries, we show that two factors can reconcile these contrasting results. First, the limited uptake of R&D tax incentives in most countries makes aggregate studies underestimate the effectiveness of R&D tax incentives. Secondly, R&D tax incentives are (much) less effective for large and R&D-intensive firms, which account for a small share of ",
+      "source_url": "https://doi.org/10.1257/pol.20240883",
+      "doi": "10.1257/pol.20240883",
+      "aliases": [
+        "doi:10.1257/pol.20240883"
+      ],
+      "first_public_date": "2026-11-01",
+      "stage": "journal",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "aej-policy",
+          "name": "American Economic Journal: Economic Policy",
+          "url": "https://doi.org/10.1257/pol.20240883"
+        }
+      ],
+      "id": "p_5abcd83f72bd51",
+      "discovered_at": "2026-10-30",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-30",
+          "source_id": "aej-policy"
+        }
+      ]
+    },
+    {
+      "title": "The Effect of Deactivating Facebook and Instagram on Users’ Emotional State",
+      "authors": [
+        "Hunt Allcott",
+        "Matthew Gentzkow",
+        "Benjamin Wittenbrink",
+        "Winter Mason",
+        "Arjun Wilkins",
+        "Natalie Jomini Stroud",
+        "Joshua A. Tucker"
+      ],
+      "abstract": "We estimate the effect of social media deactivation on users’ emotional state in two large randomized experiments before the 2020 US election. People who deactivated Facebook for the six weeks before the election reported a 0.060 standard deviation improvement in an index of happiness, depression, and anxiety, relative to controls who deactivated for just the first of those six weeks. People who deactivated Instagram for those six weeks reported a 0.041 standard deviation improvement relative to controls. Exploratory analysis suggests that the Facebook effect is driven by people over 35, while",
+      "source_url": "https://doi.org/10.1257/pol.20240806",
+      "doi": "10.1257/pol.20240806",
+      "aliases": [
+        "doi:10.1257/pol.20240806"
+      ],
+      "first_public_date": "2026-11-01",
+      "stage": "journal",
+      "discipline": "methods",
+      "sources": [
+        {
+          "id": "aej-policy",
+          "name": "American Economic Journal: Economic Policy",
+          "url": "https://doi.org/10.1257/pol.20240806"
+        }
+      ],
+      "id": "p_7d07d74c90c0c6",
+      "discovered_at": "2026-10-30",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-30",
+          "source_id": "aej-policy"
+        }
+      ]
+    },
+    {
+      "title": "On-Demand Assistance: Experimental Evidence from Indonesia",
+      "authors": [
+        "Rema Hanna",
+        "Benjamin A. Olken",
+        "Sudarno Sumarto",
+        "Achmad Maulana",
+        "Vivi Alatas",
+        "Elan Satriawan"
+      ],
+      "abstract": "Given labor informality in developing countries, addressing employment shocks is challenging. We study Indonesia’s new approach for on-demand online applications for temporary cash assistance and online job training. Through 20 lotteries over two years, 11 million beneficiaries were selected. In nationwide representative surveys matched with administrative data, most beneficiaries report not receiving the assistance, with no detectable impact on employment or consumption. In contrast, survey data from applicants with working phones reveal high reported take-up and higher incomes. The results s",
+      "source_url": "https://doi.org/10.1257/pol.20250324",
+      "doi": "10.1257/pol.20250324",
+      "aliases": [
+        "doi:10.1257/pol.20250324"
+      ],
+      "first_public_date": "2026-11-01",
+      "stage": "journal",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "aej-policy",
+          "name": "American Economic Journal: Economic Policy",
+          "url": "https://doi.org/10.1257/pol.20250324"
+        }
+      ],
+      "id": "p_7f196780545ca8",
+      "discovered_at": "2026-10-30",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-30",
+          "source_id": "aej-policy"
+        }
+      ]
+    },
+    {
+      "title": "Trade Protection along Supply Chains",
+      "authors": [
+        "Chad P. Bown",
+        "Paola Conconi",
+        "Aksel Erbahar",
+        "Lorenzo Trimarchi"
+      ],
+      "abstract": "We study the effects of trade protection along supply chains. We focus on temporary trade barriers against China, which has been the main target of US trade protection during the last decades. To deal with endogeneity concerns, we use an instrumental variable strategy, exploiting changes in the identity of swing states across presidential terms and heterogeneous exposure to these political shocks across industries. We find that politically motivated trade protection generates winners and losers: It fosters employment growth in protected industries but hampers employment growth in downstream in",
+      "source_url": "https://doi.org/10.1257/pol.20240893",
+      "doi": "10.1257/pol.20240893",
+      "aliases": [
+        "doi:10.1257/pol.20240893"
+      ],
+      "first_public_date": "2026-11-01",
+      "stage": "journal",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "aej-policy",
+          "name": "American Economic Journal: Economic Policy",
+          "url": "https://doi.org/10.1257/pol.20240893"
+        }
+      ],
+      "id": "p_25a4a483583cd2",
+      "discovered_at": "2026-10-30",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-30",
+          "source_id": "aej-policy"
+        }
+      ]
+    },
+    {
+      "title": "A Matter of Time? Measuring Effects of Public Schooling Expansions on Families",
+      "authors": [
+        "Chloe R. Gibbs",
+        "Jocelyn Wikle",
+        "Riley Wilson"
+      ],
+      "abstract": "We leverage pronounced changes in the availability of public schooling for young children—through duration expansions to the kindergarten day—to better understand how an implicit childcare subsidy affects mothers and families. Exploiting full-day kindergarten variation across place and time from 1992 through 2022 and novel data on state-level policy changes, combined with a comparison of children of typical kindergarten-age to older children, we measure effects on parental labor supply and family childcare expenses. Full-day kindergarten expansions were responsible for as much as 24 percent of",
+      "source_url": "https://doi.org/10.1257/pol.20240837",
+      "doi": "10.1257/pol.20240837",
+      "aliases": [
+        "doi:10.1257/pol.20240837"
+      ],
+      "first_public_date": "2026-11-01",
+      "stage": "journal",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "aej-policy",
+          "name": "American Economic Journal: Economic Policy",
+          "url": "https://doi.org/10.1257/pol.20240837"
+        }
+      ],
+      "id": "p_9130bd848d3575",
+      "discovered_at": "2026-10-30",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-30",
+          "source_id": "aej-policy"
+        }
+      ]
+    },
+    {
+      "title": "The Unintended Consequences of Academic Leniency",
+      "authors": [
+        "A. Brooks Bowden",
+        "Viviana Rodriguez",
+        "Zach Weingarten"
+      ],
+      "abstract": "Education is widely recognized as the primary driver of human capital accumulation. However, policies designed to promote educational attainment often overlook students’ endogenous responses. This paper provides empirical evidence of the causal impact of relaxed academic standards on student effort and achievement. We find that academic leniency results in mechanical GPA increases, but significant reductions in effort among lower ability students based on lower attendance and lower numerical grades. These heterogeneous effects compound and exacerbate gaps in engagement and achievement througho",
+      "source_url": "https://doi.org/10.1257/pol.20240582",
+      "doi": "10.1257/pol.20240582",
+      "aliases": [
+        "doi:10.1257/pol.20240582"
+      ],
+      "first_public_date": "2026-11-01",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "aej-policy",
+          "name": "American Economic Journal: Economic Policy",
+          "url": "https://doi.org/10.1257/pol.20240582"
+        }
+      ],
+      "id": "p_0fbdeb5bbcfb5e",
+      "discovered_at": "2026-10-30",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-30",
+          "source_id": "aej-policy"
+        }
+      ]
+    },
+    {
+      "title": "Inclusive Teaching: Spotting Social Isolation in the Classroom",
+      "authors": [
+        "Sule Alan",
+        "Michela Carlana",
+        "Marinella Leone"
+      ],
+      "abstract": "We evaluate an intervention aimed at addressing social isolation in classrooms. The treatment provides teachers with their students’ social networks and information on developmental risks associated with social exclusion. Using friendship data and incentive-compatible measures, we find that the intervention reduces social isolation and antisocial behavior but does not increase prosocial behavior. Lower antisocial behavior enhances economic efficiency, reflected in higher average student payoffs and reduced inequality. Our findings highlight the personal and communal benefits of addressing soci",
+      "source_url": "https://doi.org/10.1257/pol.20250089",
+      "doi": "10.1257/pol.20250089",
+      "aliases": [
+        "doi:10.1257/pol.20250089"
+      ],
+      "first_public_date": "2026-11-01",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "aej-policy",
+          "name": "American Economic Journal: Economic Policy",
+          "url": "https://doi.org/10.1257/pol.20250089"
+        }
+      ],
+      "id": "p_c5c7db245bb16d",
+      "discovered_at": "2026-10-30",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-30",
+          "source_id": "aej-policy"
+        }
+      ]
+    },
+    {
+      "title": "Can You Erase the Mark of a Criminal Record? Labor Market Impacts of Criminal Record Remediation",
+      "authors": [
+        "Amanda Agan",
+        "Andrew Garin",
+        "Dmitri Koustas",
+        "Alexandre Mas",
+        "Crystal S. Yang"
+      ],
+      "abstract": "We investigate whether removing a previously obtained criminal record improves employment outcomes. We estimate the causal impact of criminal record remediation laws that have been widely enacted with the goal of improving employment opportunities for millions of individuals with records. We find consistent evidence that removing an existing record does not improve labor market outcomes, on average. A notable exception is participation in gig work through online platforms, which often screen workers based on their records but not their employment histories. The evidence is consistent with reco",
+      "source_url": "https://doi.org/10.1257/pol.20240830",
+      "doi": "10.1257/pol.20240830",
+      "aliases": [
+        "doi:10.1257/pol.20240830"
+      ],
+      "first_public_date": "2026-11-01",
+      "stage": "journal",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "aej-policy",
+          "name": "American Economic Journal: Economic Policy",
+          "url": "https://doi.org/10.1257/pol.20240830"
+        }
+      ],
+      "id": "p_f0d1b2325f4a74",
+      "discovered_at": "2026-10-30",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-30",
+          "source_id": "aej-policy"
+        }
+      ]
+    },
+    {
+      "title": "Childhood Health Shocks and the Intergenerational Transmission of Inequality",
+      "authors": [
+        "Tine M. Eriksen",
+        "Amanda P. Gaulke",
+        "Niels Skipper",
+        "Jannet Svensson",
+        "Peter R. Thingholm"
+      ],
+      "abstract": "This paper documents a socioeconomic gradient in adult labor market penalties stemming from a single chronic and treatable childhood health shock in a country with universal access to health care. Using childhood onset type 1 diabetes, Danish administrative registry data, and causal forests, we estimate substantial variation in the employment and earnings penalties at age 30. These penalties vary systematically with parental income and maternal educational attainment. Our findings help explain the income-health gradient and have important implications for policy discussions related to the desi",
+      "source_url": "https://doi.org/10.1257/pol.20240586",
+      "doi": "10.1257/pol.20240586",
+      "aliases": [
+        "doi:10.1257/pol.20240586"
+      ],
+      "first_public_date": "2026-11-01",
+      "stage": "journal",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "aej-policy",
+          "name": "American Economic Journal: Economic Policy",
+          "url": "https://doi.org/10.1257/pol.20240586"
+        }
+      ],
+      "id": "p_4262b23284d9a1",
+      "discovered_at": "2026-10-30",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-30",
+          "source_id": "aej-policy"
+        }
+      ]
+    },
+    {
+      "title": "Prioritizing Benefit? How Low-Income Patients Respond to Prescription Cost Sharing",
+      "authors": [
+        "Christopher Hollrah"
+      ],
+      "abstract": "This paper measures how cost sharing impacts older low-income patients, exploiting a discontinuity in eligibility for a prescription drug subsidy for those who lose access to the Medicaid-linked program. Higher drug prices resulting from subsidy loss lead to a 40 percent reduction in prescription expenditures, driven by a 16 percent quantity reduction of prescriptions filled. Patients economize on purchases of higher-priced drugs, irrespective of their health benefits. For example, patients reduce insulin purchases by 35 percent. There is no evidence that cost sharing prompts switching from br",
+      "source_url": "https://doi.org/10.1257/pol.20240814",
+      "doi": "10.1257/pol.20240814",
+      "aliases": [
+        "doi:10.1257/pol.20240814"
+      ],
+      "first_public_date": "2026-11-01",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "aej-policy",
+          "name": "American Economic Journal: Economic Policy",
+          "url": "https://doi.org/10.1257/pol.20240814"
+        }
+      ],
+      "id": "p_f1a2822240c049",
+      "discovered_at": "2026-10-30",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-30",
+          "source_id": "aej-policy"
+        }
+      ]
+    },
+    {
+      "title": "China’s Nationwide CO 2 Emissions Trading System: A General Equilibrium Assessment",
+      "authors": [
+        "Lawrence H. Goulder",
+        "Xianling Long",
+        "Chenfei Qu",
+        "Da Zhang"
+      ],
+      "abstract": "China’s CO 2 emissions trading system, the world’s largest, aims to significantly reduce CO 2 emissions. The system is a tradable performance standard (TPS), differing from cap and trade (C&T). We provide a dynamic general equilibrium assessment that uniquely considers institutional and fiscal features of China that affect policy costs and distributional impacts. Key findings: The TPS’s environmental benefits exceed its costs by a factor of five or more. Interactions with the fiscal system reduce or eliminate the TPS’s cost disadvantage relative to C&T. Introducing auctioning as a complementar",
+      "source_url": "https://doi.org/10.1257/pol.20240652",
+      "doi": "10.1257/pol.20240652",
+      "aliases": [
+        "doi:10.1257/pol.20240652"
+      ],
+      "first_public_date": "2026-11-01",
+      "stage": "journal",
+      "discipline": "trade",
+      "sources": [
+        {
+          "id": "aej-policy",
+          "name": "American Economic Journal: Economic Policy",
+          "url": "https://doi.org/10.1257/pol.20240652"
+        }
+      ],
+      "id": "p_47558770d7cc0a",
+      "discovered_at": "2026-10-30",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-30",
+          "source_id": "aej-policy"
+        }
+      ]
+    },
+    {
+      "title": "Identifying Tax Compliance from Variation in Tax Policy: Theory and Empirics",
+      "authors": [
+        "Andrew Bibler",
+        "Laura Grigolon",
+        "Keith F. Teltser",
+        "Mark J. Tremblay"
+      ],
+      "abstract": "Governments increasingly use changes in tax rules to combat evasion. We develop a general approach to point-identify tax compliance along with supply and demand elasticities. Identification requires data on prices and quantities, variation in tax policy, and a demand or supply shifter. We illustrate our approach using data on Airbnb collection agreements, where taxes are enforced by shifting the statutory burden away from hosts and onto renters via the platform. We find that taxes are paid on roughly 0 to 1.6 percent of Airbnb transactions prior to enforcement. (JEL H25, H26, H71, K34, L83)",
+      "source_url": "https://doi.org/10.1257/pol.20240812",
+      "doi": "10.1257/pol.20240812",
+      "aliases": [
+        "doi:10.1257/pol.20240812"
+      ],
+      "first_public_date": "2026-11-01",
+      "stage": "journal",
+      "discipline": "public-econ",
+      "sources": [
+        {
+          "id": "aej-policy",
+          "name": "American Economic Journal: Economic Policy",
+          "url": "https://doi.org/10.1257/pol.20240812"
+        }
+      ],
+      "id": "p_6bf9250ff424f2",
+      "discovered_at": "2026-10-30",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-30",
+          "source_id": "aej-policy"
+        }
+      ]
+    },
+    {
+      "title": "State capacity and wildfire mitigation: Evidence from state-led forest conservation in China",
+      "authors": [
+        "Rong Ma",
+        "Wenhui Chen",
+        "Bo Zhang"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jpubeco.2026.105814",
+      "doi": "10.1016/j.jpubeco.2026.105814",
+      "aliases": [
+        "doi:10.1016/j.jpubeco.2026.105814"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jpub",
+          "name": "Journal of Public Economics",
+          "url": "https://doi.org/10.1016/j.jpubeco.2026.105814"
+        }
+      ],
+      "id": "p_202250514f7b1a",
+      "discovered_at": "2026-10-30",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-30",
+          "source_id": "jpub"
+        }
+      ]
+    },
+    {
+      "title": "Liquidity constraints and staggered income disbursement: evidence from TANF, SNAP, and medicaid",
+      "authors": [
+        "Alicia Atwood",
+        "Lindsay Allen",
+        "Sabrina K. Young"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jpubeco.2026.105785",
+      "doi": "10.1016/j.jpubeco.2026.105785",
+      "aliases": [
+        "doi:10.1016/j.jpubeco.2026.105785"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jpub",
+          "name": "Journal of Public Economics",
+          "url": "https://doi.org/10.1016/j.jpubeco.2026.105785"
+        }
+      ],
+      "id": "p_1497d619e649d2",
+      "discovered_at": "2026-10-30",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-30",
+          "source_id": "jpub"
+        }
+      ]
+    },
+    {
+      "title": "DP22106 The Market Price of Risk and Macro-Financial Dynamics",
+      "authors": [
+        "Tobias Adrian, Matthew DeHaven, Fernando Duarte, Tara Iyer"
+      ],
+      "abstract": "We estimate the component of the market price of risk spanned by asset returns using a model with non-separable preferences, incomplete markets, and frictions. This return-spanned price of risk predicts the conditional mean and volatility of GDP growth and comoves with financial conditions. We identify its shocks through heteroskedasticity and find large, persistent macroeconomic effects. Our Volatility Financial Conditions Index (VFCI), the return-predicted conditional volatility of GDP growth, closely tracks this price of risk and forecasts growth. Tightening VFCI shocks lower output and pro",
+      "source_url": "https://cepr.org/publications/dp22106",
+      "doi": "",
+      "aliases": [
+        "cepr:22106"
+      ],
+      "first_public_date": "2026-10-29",
+      "stage": "working-paper",
+      "discipline": "macro",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22106"
+        }
+      ],
+      "id": "p_fc3cdae1aa9771",
+      "discovered_at": "2026-10-30",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-30",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "Do Experimental Asset Market Results Replicate? High‐Powered Preregistered Replications of 17 Key Results",
+      "authors": [
+        "CHRISTOPH HUBER",
+        "FELIX HOLZMEISTER",
+        "MAGNUS JOHANNESSON",
+        "CHRISTIAN KÖNIG‐KERSTING",
+        "ANNA DREBER",
+        "JÜRGEN HUBER",
+        "MICHAEL KIRCHLER"
+      ],
+      "abstract": "ABSTRACT Experimental asset markets provide a controlled approach to studying financial markets. We attempt to replicate 17 key results from four prominent studies, collecting new data from 166 markets with 1,544 participants. Only three of the 14 original results reported as statistically significant were successfully replicated. We fail to replicate findings on emotions, self‐control, and gender differences in bubble formation but confirm that experience reduces bubbles and cognitive skills explain trading success. Our study demonstrates the importance of replications in enhancing the credib",
+      "source_url": "https://doi.org/10.1111/jofi.70100",
+      "doi": "10.1111/jofi.70100",
+      "aliases": [
+        "doi:10.1111/jofi.70100"
+      ],
+      "first_public_date": "2026-10-29",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jf",
+          "name": "The Journal of Finance",
+          "url": "https://doi.org/10.1111/jofi.70100"
+        }
+      ],
+      "id": "p_f9e7d8f693462a",
+      "discovered_at": "2026-10-30",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-30",
+          "source_id": "jf"
+        }
+      ]
+    },
+    {
+      "title": "Contest or Contract: Assessing the Effectiveness of Contests in Online Labor Markets",
+      "authors": [
+        "Jason Chan",
+        "Jiahui Mo",
+        "Tingting Nian",
+        "Nila Zhang"
+      ],
+      "abstract": "Online labor markets have become increasingly popular among companies seeking global access to workers. Some platforms have adopted a contest-based scheme, allowing employers to review multiple submissions before selecting the best one. This practice raises a crucial question: Given a predefined budget, should employers choose a contest or contract scheme for tasks? This study examines the comparative effectiveness of contests versus contracts in achieving better job outcomes, focusing on design tasks characterized by high uncertainty. Using a comprehensive data set from a leading online labor",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.07082",
+      "doi": "10.1287/mnsc.2024.07082",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.07082"
+      ],
+      "first_public_date": "2026-10-29",
+      "stage": "journal",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.07082"
+        }
+      ],
+      "id": "p_8951e30fcf3d55",
+      "discovered_at": "2026-10-30",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-30",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Inflexibility and Leverage",
+      "authors": [
+        "Lifeng Gu",
+        "Dirk Hackbarth",
+        "Yuxin Luo"
+      ],
+      "abstract": "Firms’ inflexibility to adjust their scale persistently explains capital structure variations in a comprehensive sample and randomly selected subsamples. Higher inflexibility leads to lower financial leverage, potentially due to higher default risk and lower value of tax shields. Contraction inflexibility determines leverage more than expansion inflexibility. Moreover, our inflexibility measure explains financial leverage significantly better than other variables that potentially capture certain aspects of adjustment costs for capital or labor. In addition, inflexible firms increase leverage m",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.08672",
+      "doi": "10.1287/mnsc.2024.08672",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.08672"
+      ],
+      "first_public_date": "2026-10-29",
+      "stage": "journal",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.08672"
+        }
+      ],
+      "id": "p_7733b338f91f97",
+      "discovered_at": "2026-10-30",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-30",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Willingness to Compete in Dirty Competitions",
+      "authors": [
+        "Thomas Buser",
+        "Sahar Sangi"
+      ],
+      "abstract": "Competitive environments often leave room for “dirty” practices such as sabotage, retaliation, or dishonesty. We use an online experiment to document aggregate levels and individual differences in the willingness to engage in dirty competition and in the willingness to enter competitions where the opponent may play dirty. We then use the experimental data to validate a set of survey questions that capture willingness to engage in dirty competition above general willingness to compete. We elicit these questions in a representative survey panel and show that willingness to engage in dirty compet",
+      "source_url": "https://doi.org/10.1287/mnsc.2025.01218",
+      "doi": "10.1287/mnsc.2025.01218",
+      "aliases": [
+        "doi:10.1287/mnsc.2025.01218"
+      ],
+      "first_public_date": "2026-10-29",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2025.01218"
+        }
+      ],
+      "id": "p_ee6674727f416a",
+      "discovered_at": "2026-10-30",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-30",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Multitype Information Acquisition in a Strategic Trading Model",
+      "authors": [
+        "Hui Ou-Yang",
+        "Weili Wu",
+        "Xingtan Zhang"
+      ],
+      "abstract": "We analyze information acquisition in a strategic trading model with multidimensional uncertainties. Our main result is that the equilibrium can exhibit multiplicity because of the integer nature of the number of informed traders and the strategic interactions across different types of informed traders. We show that the number of equilibria can be arbitrarily large. Moreover, asymmetric equilibria can arise even in symmetric settings. As information costs rise, fewer traders acquire information, yet prices can become more informative. These results shed light on the instability of financial ma",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.08463",
+      "doi": "10.1287/mnsc.2024.08463",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.08463"
+      ],
+      "first_public_date": "2026-10-29",
+      "stage": "journal",
+      "discipline": "trade",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.08463"
+        }
+      ],
+      "id": "p_acbd345ffde93b",
+      "discovered_at": "2026-10-30",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-30",
+          "source_id": "ms"
+        }
+      ]
+    },
     {
       "title": "Cognitive Ability and Perceived Disagreement in Learning",
       "authors": [
