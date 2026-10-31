@@ -1,8 +1,655 @@
 {
   "schema_version": 1,
   "snapshot": "incremental-ingestion",
-  "updated_at": "2026-10-30T07:12:17+00:00",
+  "updated_at": "2026-10-31T07:01:54+00:00",
   "papers": [
+    {
+      "title": "Inequality and Racial Backlash: Evidence from the Reconstruction Era and the Freedmen's Bureau",
+      "authors": [
+        "Eric Chyn",
+        "Kareem Haggag",
+        "Bryan A. Stuart"
+      ],
+      "abstract": "How do majority groups respond to narrowing inequality in racially polarized environments? We study this by examining the Freedmen's Bureau, an agency created after the US Civil War to aid former slaves and launch institutional reform in the South. Using new historical records and an event-study approach, we estimate the bureau's impact on political, social, and economic outcomes. Vote shares for Democrats, the party that previously championed slavery and opposed Black civil rights, initially eroded in bureau counties, but these impacts faded as federal oversight weakened. Racial backlash emer",
+      "source_url": "https://doi.org/10.1257/aer.20241561",
+      "doi": "10.1257/aer.20241561",
+      "aliases": [
+        "doi:10.1257/aer.20241561"
+      ],
+      "first_public_date": "2026-11-01",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "aer",
+          "name": "American Economic Review",
+          "url": "https://doi.org/10.1257/aer.20241561"
+        }
+      ],
+      "id": "p_a709770a66b84c",
+      "discovered_at": "2026-10-31",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-31",
+          "source_id": "aer"
+        }
+      ]
+    },
+    {
+      "title": "Reproducible Aggregation of Sample-Split Statistics",
+      "authors": [
+        "David M. Ritzwoller",
+        "Joseph P. Romano"
+      ],
+      "abstract": "Statistical inference is often simplified by sample splitting. This simplification comes at the cost of the introduction of randomness not native to the data. We propose a simple procedure for sequentially aggregating statistics constructed with multiple splits of the same sample. The user specifies a bound and a nominal error rate. If the procedure is implemented twice on the same data, the nominal error rate approximates the chance that the results differ by more than the bound. We illustrate the application of the procedure to several widely applied econometric methods. (JEL C20, C30, C52)",
+      "source_url": "https://doi.org/10.1257/aer.20231651",
+      "doi": "10.1257/aer.20231651",
+      "aliases": [
+        "doi:10.1257/aer.20231651"
+      ],
+      "first_public_date": "2026-11-01",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "aer",
+          "name": "American Economic Review",
+          "url": "https://doi.org/10.1257/aer.20231651"
+        }
+      ],
+      "id": "p_80213e078f12b4",
+      "discovered_at": "2026-10-31",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-31",
+          "source_id": "aer"
+        }
+      ]
+    },
+    {
+      "title": "Front Matter",
+      "authors": [],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1257/aer.116.11.i",
+      "doi": "10.1257/aer.116.11.i",
+      "aliases": [
+        "doi:10.1257/aer.116.11.i"
+      ],
+      "first_public_date": "2026-11-01",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "aer",
+          "name": "American Economic Review",
+          "url": "https://doi.org/10.1257/aer.116.11.i"
+        }
+      ],
+      "id": "p_0599f7ceb677aa",
+      "discovered_at": "2026-10-31",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-31",
+          "source_id": "aer"
+        }
+      ]
+    },
+    {
+      "title": "Durables and the Marginal Propensity to Spend",
+      "authors": [
+        "Nathan Zorzi",
+        "Martin Beraja"
+      ],
+      "abstract": "Durables represent a large share of households' marginal propensity to spend (MPX). We develop a quantitative model of spending that takes durables into account and matches a rich set of empirical regularities simultaneously. Scaling the response of nondurables provides a poor approximation of the MPX on durables when it comes to its distribution in the population, its persistence over time, and its cyclicality. As an application, we study how the MPX varies with the size of stimulus checks and find that it declines more slowly compared to a model of purely nondurable spending. (JEL D11, E21, ",
+      "source_url": "https://doi.org/10.1257/aer.20240666",
+      "doi": "10.1257/aer.20240666",
+      "aliases": [
+        "doi:10.1257/aer.20240666"
+      ],
+      "first_public_date": "2026-11-01",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "aer",
+          "name": "American Economic Review",
+          "url": "https://doi.org/10.1257/aer.20240666"
+        }
+      ],
+      "id": "p_cc4f97d228baa7",
+      "discovered_at": "2026-10-31",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-31",
+          "source_id": "aer"
+        }
+      ]
+    },
+    {
+      "title": "The Returns to Government R&D: Evidence from US Appropriations Shocks",
+      "authors": [
+        "Andrew J. Fieldhouse",
+        "Karel Mertens"
+      ],
+      "abstract": "Based on a narrative classification of all significant postwar changes in R&D appropriations for five major federal agencies, we find that an increase in nondefense R&D appropriations leads to increases in various measures of innovative activity and higher business-sector productivity in the long run. We structurally estimate the production function elasticity of nondefense government R&D capital using the SP-IV methodology of Lewis and Mertens (2024) and obtain implied returns of 140 to 210 percent over the postwar period. The estimates indicate that government-funded R&D accounts for one-fif",
+      "source_url": "https://doi.org/10.1257/aer.20231684",
+      "doi": "10.1257/aer.20231684",
+      "aliases": [
+        "doi:10.1257/aer.20231684"
+      ],
+      "first_public_date": "2026-11-01",
+      "stage": "journal",
+      "discipline": "public-econ",
+      "sources": [
+        {
+          "id": "aer",
+          "name": "American Economic Review",
+          "url": "https://doi.org/10.1257/aer.20231684"
+        }
+      ],
+      "id": "p_105f43a9c1c026",
+      "discovered_at": "2026-10-31",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-31",
+          "source_id": "aer"
+        }
+      ]
+    },
+    {
+      "title": "The Inflation Attention Threshold and Inflation Surges",
+      "authors": [
+        "Oliver Pfäuti"
+      ],
+      "abstract": "The recent inflation surge brought inflation back on people's minds. I quantify when and how much attention to inflation changes and derive the macroeconomic implications of these attention changes. I estimate an attention threshold at an inflation rate of 4 percent, that attention doubles when inflation exceeds this threshold, and that supply shocks have stronger and more persistent effects on inflation in times of high attention. Developing a model featuring the attention threshold, I show that attention changes offer a joint explanation for inflation surges, inflation's co-movement with inf",
+      "source_url": "https://doi.org/10.1257/aer.20250051",
+      "doi": "10.1257/aer.20250051",
+      "aliases": [
+        "doi:10.1257/aer.20250051"
+      ],
+      "first_public_date": "2026-11-01",
+      "stage": "journal",
+      "discipline": "macro",
+      "sources": [
+        {
+          "id": "aer",
+          "name": "American Economic Review",
+          "url": "https://doi.org/10.1257/aer.20250051"
+        }
+      ],
+      "id": "p_58dbf76f24cf82",
+      "discovered_at": "2026-10-31",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-31",
+          "source_id": "aer"
+        }
+      ]
+    },
+    {
+      "title": "Firm Adaptation in Production Networks: Evidence from Extreme Weather Events in Pakistan",
+      "authors": [
+        "Clare Balboni",
+        "Johannes Boehm",
+        "Mazhar Waseem"
+      ],
+      "abstract": "This paper considers how far private adaptation may reduce future vulnerability to climate risks. Using data on monthly firm-to-firm transactions from Pakistan, we find that flood-affected firms are more likely to relocate to safer ground and shift purchases toward suppliers in less flood-prone regions and reached via less flood-prone roads. The results indicate that firms are imperfectly informed about flood risk and update their beliefs following floods. We quantify aggregate impacts using a spatial model of endogenous production network formation. The findings suggest that firms' learning w",
+      "source_url": "https://doi.org/10.1257/aer.20241027",
+      "doi": "10.1257/aer.20241027",
+      "aliases": [
+        "doi:10.1257/aer.20241027"
+      ],
+      "first_public_date": "2026-11-01",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "aer",
+          "name": "American Economic Review",
+          "url": "https://doi.org/10.1257/aer.20241027"
+        }
+      ],
+      "id": "p_59874cc47e3fa5",
+      "discovered_at": "2026-10-31",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-31",
+          "source_id": "aer"
+        }
+      ]
+    },
+    {
+      "title": "Residential Segregation and Unequal Access to Local Public Services in India: Evidence from 1.5 Million Neighborhoods",
+      "authors": [
+        "Sam Asher",
+        "Kritarth Jha",
+        "Paul Novosad",
+        "Anjali Adukia",
+        "Brandon Tan"
+      ],
+      "abstract": "We study residential segregation and access to public services across 1.5 million urban and rural neighborhoods in India. Muslim and Scheduled Caste segregation in India is high by global standards and only slightly lower than Black-White segregation in the United States. Within cities, public facilities and infrastructure are systematically less available in Muslim and Scheduled Caste neighborhoods. Nearly all regressive allocation is across neighborhoods within cities—at the most informal and least studied form of government. These inequalities are not visible in the aggregate data typically",
+      "source_url": "https://doi.org/10.1257/aer.20240179",
+      "doi": "10.1257/aer.20240179",
+      "aliases": [
+        "doi:10.1257/aer.20240179"
+      ],
+      "first_public_date": "2026-11-01",
+      "stage": "journal",
+      "discipline": "public-econ",
+      "sources": [
+        {
+          "id": "aer",
+          "name": "American Economic Review",
+          "url": "https://doi.org/10.1257/aer.20240179"
+        }
+      ],
+      "id": "p_f54efb7af58f42",
+      "discovered_at": "2026-10-31",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-31",
+          "source_id": "aer"
+        }
+      ]
+    },
+    {
+      "title": "The Unequal Economic Consequences of Carbon Pricing",
+      "authors": [
+        "Diego R. Känzig"
+      ],
+      "abstract": "This paper studies the economic impacts of carbon pricing. Exploiting institutional features of the European carbon market and high-frequency data, I identify carbon policy shocks and trace their dynamic effects. A restrictive carbon policy shock raises energy prices, reduces emissions, spurs green innovation, but decreases economic activity—disproportionately burdening poorer households. Not only are the poor more affected because of their higher energy spending, but they also experience larger income losses. These indirect, general equilibrium effects via income and employment play an import",
+      "source_url": "https://doi.org/10.1257/aer.20230448",
+      "doi": "10.1257/aer.20230448",
+      "aliases": [
+        "doi:10.1257/aer.20230448"
+      ],
+      "first_public_date": "2026-11-01",
+      "stage": "journal",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "aer",
+          "name": "American Economic Review",
+          "url": "https://doi.org/10.1257/aer.20230448"
+        }
+      ],
+      "id": "p_85e3367c5abe36",
+      "discovered_at": "2026-10-31",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-31",
+          "source_id": "aer"
+        }
+      ]
+    },
+    {
+      "title": "Union Bargaining Power and the Amenity-Wage Trade-Off",
+      "authors": [
+        "Lorenzo Lagos"
+      ],
+      "abstract": "This paper studies how collective bargaining affects wages and amenities. By merging collective bargaining agreements (CBAs) to linked employer-employee data in Brazil, I combine rich contracted amenities with wage information. I implement a difference-in-differences strategy that exploits a court ruling enforcing CBA continuation (i.e., ultra-activity) to estimate the effects of union bargaining power. Strengthening unions raises wages and amenities without reducing employment—increasing retention despite some labor-labor substitution. A revealed-preference approach shows that amenities accou",
+      "source_url": "https://doi.org/10.1257/aer.20240766",
+      "doi": "10.1257/aer.20240766",
+      "aliases": [
+        "doi:10.1257/aer.20240766"
+      ],
+      "first_public_date": "2026-11-01",
+      "stage": "journal",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "aer",
+          "name": "American Economic Review",
+          "url": "https://doi.org/10.1257/aer.20240766"
+        }
+      ],
+      "id": "p_1fd624f3571b26",
+      "discovered_at": "2026-10-31",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-31",
+          "source_id": "aer"
+        }
+      ]
+    },
+    {
+      "title": "The Causal Effects of Global Supply Chain Disruptions on Macroeconomic Outcomes: Evidence and Theory",
+      "authors": [
+        "Xiwen Bai",
+        "Jesús Fernández-Villaverde",
+        "Yiliang Li",
+        "Francesco Zanetti"
+      ],
+      "abstract": "We study the causal effects of global supply chain disruptions by constructing a new index of real-time port congestion using Automatic Identification System data from container ships and a spatial clustering algorithm. We develop a model with search frictions between producers and retailers that links upstream production slack to downstream supply shortages and captures output and price responses to supply chain shocks. The co-movements of output, prices, spare capacity, and market tightness provide novel identification restrictions. We find that demand and supply shocks drove US disinflation",
+      "source_url": "https://doi.org/10.1257/aer.20250081",
+      "doi": "10.1257/aer.20250081",
+      "aliases": [
+        "doi:10.1257/aer.20250081"
+      ],
+      "first_public_date": "2026-11-01",
+      "stage": "journal",
+      "discipline": "trade",
+      "sources": [
+        {
+          "id": "aer",
+          "name": "American Economic Review",
+          "url": "https://doi.org/10.1257/aer.20250081"
+        }
+      ],
+      "id": "p_b3f4599d98b5a3",
+      "discovered_at": "2026-10-31",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-31",
+          "source_id": "aer"
+        }
+      ]
+    },
+    {
+      "title": "Does ridesharing affect external-cause mortality? Evidence from U.S. Vital Statistics Data",
+      "authors": [
+        "Conor Lennon",
+        "Christian Saenz",
+        "Keith Teltser"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jpubeco.2026.105813",
+      "doi": "10.1016/j.jpubeco.2026.105813",
+      "aliases": [
+        "doi:10.1016/j.jpubeco.2026.105813"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jpub",
+          "name": "Journal of Public Economics",
+          "url": "https://doi.org/10.1016/j.jpubeco.2026.105813"
+        }
+      ],
+      "id": "p_9cfb014a717b51",
+      "discovered_at": "2026-10-31",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-31",
+          "source_id": "jpub"
+        }
+      ]
+    },
+    {
+      "title": "DP22107 When Globalization Comes Home: Commodity Prices and Labour Conflict in Italy, 1881–1910",
+      "authors": [
+        "Tancredi Buscemi, Anna Missiaia, Dario Pellegrino"
+      ],
+      "abstract": "The turn of the twentieth century marked the rise of mass labour conflict in the industrializing West, alongside a general expansion of global market integration. This paper tests the link between the two, using newly digitized provincial data on strikes in Italy (1881–1910) and province-specific measures of exposure to world markets, based on international commodity price shocks and occupational shares. We focus on silk cocoons, a sizeable home production for many rural households and the raw input of the main Italian export at that time, and find that falls in their world price were followed",
+      "source_url": "https://cepr.org/publications/dp22107",
+      "doi": "",
+      "aliases": [
+        "cepr:22107"
+      ],
+      "first_public_date": "2026-10-30",
+      "stage": "working-paper",
+      "discipline": "trade",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22107"
+        }
+      ],
+      "id": "p_6b6ee543bd1d64",
+      "discovered_at": "2026-10-31",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-31",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "The Evolution of the Market for Corporate Control",
+      "authors": [
+        "MIKE BURKART",
+        "SAMUEL LEE",
+        "PAUL VOSS"
+      ],
+      "abstract": "ABSTRACT We consider an informed large shareholder who can choose between making a takeover bid herself and initiating a sale to another acquirer. Such takeover activism complements direct takeovers because the very choice mitigates the asymmetric information problem, thereby improving efficiency. As more investors enter the market for corporate control, takeover activism increasingly replaces direct takeovers as the prevailing mode of disciplinary control change, matching the evolution in practice. Our model shows how this evolution, characterized by a symbiotic relationship between investor ",
+      "source_url": "https://doi.org/10.1111/jofi.70099",
+      "doi": "10.1111/jofi.70099",
+      "aliases": [
+        "doi:10.1111/jofi.70099"
+      ],
+      "first_public_date": "2026-10-30",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jf",
+          "name": "The Journal of Finance",
+          "url": "https://doi.org/10.1111/jofi.70099"
+        }
+      ],
+      "id": "p_ce5ecdc2f782fd",
+      "discovered_at": "2026-10-31",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-31",
+          "source_id": "jf"
+        }
+      ]
+    },
+    {
+      "title": "Correction to: The Financial Channel of the Exchange Rate and Global Trade",
+      "authors": [],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1093/rfs/hhag066",
+      "doi": "10.1093/rfs/hhag066",
+      "aliases": [
+        "doi:10.1093/rfs/hhag066"
+      ],
+      "first_public_date": "2026-10-30",
+      "stage": "journal",
+      "discipline": "trade",
+      "sources": [
+        {
+          "id": "rfs",
+          "name": "The Review of Financial Studies",
+          "url": "https://doi.org/10.1093/rfs/hhag066"
+        }
+      ],
+      "id": "p_3b2d9594ede212",
+      "discovered_at": "2026-10-31",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-31",
+          "source_id": "rfs"
+        }
+      ]
+    },
+    {
+      "title": "Launching for the “Greater Good”: Spillover Effect of ESG Funds",
+      "authors": [
+        "Fangyuan Ma",
+        "Linlin Ma",
+        "Yuan Wang",
+        "Bo Xu"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1017/s0022109026103524",
+      "doi": "10.1017/s0022109026103524",
+      "aliases": [
+        "doi:10.1017/s0022109026103524"
+      ],
+      "first_public_date": "2026-10-30",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jfqa",
+          "name": "Journal of Financial and Quantitative Analysis",
+          "url": "https://doi.org/10.1017/s0022109026103524"
+        }
+      ],
+      "id": "p_afdf00023ed1fe",
+      "discovered_at": "2026-10-31",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-31",
+          "source_id": "jfqa"
+        }
+      ]
+    },
+    {
+      "title": "Market Return Decomposition and Equity Risk Premium Predictability",
+      "authors": [
+        "Yanyan Lin",
+        "Chongfeng Wu",
+        "Guofu Zhou",
+        "Shunwei Zhu"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1017/s0022109026103536",
+      "doi": "10.1017/s0022109026103536",
+      "aliases": [
+        "doi:10.1017/s0022109026103536"
+      ],
+      "first_public_date": "2026-10-30",
+      "stage": "journal",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "jfqa",
+          "name": "Journal of Financial and Quantitative Analysis",
+          "url": "https://doi.org/10.1017/s0022109026103536"
+        }
+      ],
+      "id": "p_8ba74167f112d2",
+      "discovered_at": "2026-10-31",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-31",
+          "source_id": "jfqa"
+        }
+      ]
+    },
+    {
+      "title": "Who Do You Vote For? Same-Race Voting Preferences in Director Elections",
+      "authors": [
+        "Johan Sulaeman",
+        "Qiaozhi Ye"
+      ],
+      "abstract": "Abstract This paper highlights racial and ethnic preferences in corporate director elections. Using a comprehensive dataset of mutual fund voting records, we discover that mutual fund managers are more likely to vote for director nominees who share their racial or ethnic identity. Funds managed by White-dominated teams exhibit the strongest same-race preferences, particularly those in fund families with scarce minority representation. Same-race voting preferences have detrimental implications for the career outcomes of minority director candidates, and are associated with worse fund performanc",
+      "source_url": "https://doi.org/10.1093/rof/rfag050",
+      "doi": "10.1093/rof/rfag050",
+      "aliases": [
+        "doi:10.1093/rof/rfag050"
+      ],
+      "first_public_date": "2026-10-30",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "rof",
+          "name": "Review of Finance",
+          "url": "https://doi.org/10.1093/rof/rfag050"
+        }
+      ],
+      "id": "p_9fd8242ad3fe88",
+      "discovered_at": "2026-10-31",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-31",
+          "source_id": "rof"
+        }
+      ]
+    },
+    {
+      "title": "The Effects of School Phone Bans: National Evidence from Lockable Pouches",
+      "authors": [
+        "Hunt Allcott",
+        "Jason Baron",
+        "Thomas Dee",
+        "Angela L Duckworth",
+        "Matthew Gentzkow",
+        "Brian Jacob"
+      ],
+      "abstract": "Abstract Schools across the U.S. have sharply restricted student use of phones during the school day. We evaluate one type of restriction—lockable phone pouches—using nationwide data combining a large-scale teacher survey, GPS pings, standardized test scores, and school administrative records, along with sales records from the largest pouch provider. Using a staggered difference-in-differences design, we find that pouch adoption substantially reduces phone use as measured by GPS pings and teacher reports. In the first year after adoption, disciplinary incidents increase, and we find suggestive",
+      "source_url": "https://doi.org/10.1093/qje/qjag050",
+      "doi": "10.1093/qje/qjag050",
+      "aliases": [
+        "doi:10.1093/qje/qjag050"
+      ],
+      "first_public_date": "2026-10-30",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "qje",
+          "name": "The Quarterly Journal of Economics",
+          "url": "https://doi.org/10.1093/qje/qjag050"
+        }
+      ],
+      "id": "p_bebf2427c8a871",
+      "discovered_at": "2026-10-31",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-31",
+          "source_id": "qje"
+        }
+      ]
+    },
+    {
+      "title": "A Model of Enclosures: Coordination, Conflict, and Efficiency in the Transformation of Land Property Rights",
+      "authors": [
+        "Matthew J Baker",
+        "Jonathan Conning"
+      ],
+      "abstract": "Abstract Economists and historians have long debated how open-access areas, frontier regions, and customary landholding regimes transformed into private property. This paper analyzes decentralized enclosure processes using the theory of aggregative games, examining how population density, enclosure costs, potential productivity gains, and local governance capacity, including the power to demand compensation, jointly determine the mix of property regimes. Depending on these fundamentals, private decisions to enclose may be strategic complements or substitutes. Strategic complements generate tip",
+      "source_url": "https://doi.org/10.1093/restud/rdag118",
+      "doi": "10.1093/restud/rdag118",
+      "aliases": [
+        "doi:10.1093/restud/rdag118"
+      ],
+      "first_public_date": "2026-10-30",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "restud",
+          "name": "The Review of Economic Studies",
+          "url": "https://doi.org/10.1093/restud/rdag118"
+        }
+      ],
+      "id": "p_1b83880d56f7c0",
+      "discovered_at": "2026-10-31",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-10-31",
+          "source_id": "restud"
+        }
+      ]
+    },
     {
       "title": "Decoupling voting and cash flow rights",
       "authors": [
