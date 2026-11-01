@@ -1,8 +1,256 @@
 {
   "schema_version": 1,
   "snapshot": "incremental-ingestion",
-  "updated_at": "2026-10-31T07:01:54+00:00",
+  "updated_at": "2026-11-01T07:36:24+00:00",
   "papers": [
+    {
+      "title": "DP22110 Early Decisions, Long-Lasting Consequences: The Macroeconomics of School Tracking",
+      "authors": [
+        "Suzanne Bellue, Lukas Mahler"
+      ],
+      "abstract": "School tracking-sorting students into different school programs-is widespread and shapes how students accumulate skills. We study its aggregate, distributional, and intergenerational effects in a general-equilibrium overlapping-generations model with endogenous school-track choices and a novel skill formation technology trading off learning gains from homogeneous groups against the risk of misallocating children whose skills are still developing. Calibrated to Germany's early-tracking system, the model shows that delaying tracking from age 10 to 14 improves intergenerational mobility and reduc",
+      "source_url": "https://cepr.org/publications/dp22110",
+      "doi": "",
+      "aliases": [
+        "cepr:22110"
+      ],
+      "first_public_date": "2026-10-31",
+      "stage": "working-paper",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22110"
+        }
+      ],
+      "id": "p_a8acde58a597d9",
+      "discovered_at": "2026-11-01",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-01",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22113 Deciding Before You Are Persuaded",
+      "authors": [
+        "Torun Dewan, Kfir Eliaz"
+      ],
+      "abstract": "We study how a decision maker can use a committed deadline to discipline a biased sender's information acquisition. Evidence arrives through public tests, and both investigation and waiting are costless. With sufficient time, the sender induces favourable decisions by eliminating unfavourable possibilities. A shorter deadline can instead make direct evidence the sender's only route to persuasion. We characterize the optimal deadline and show when it achieves perfect accuracy. For general discovery technologies, the gain compares undiscovered guilt with wrongly convicted innocence. Under contin",
+      "source_url": "https://cepr.org/publications/dp22113",
+      "doi": "",
+      "aliases": [
+        "cepr:22113"
+      ],
+      "first_public_date": "2026-10-31",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22113"
+        }
+      ],
+      "id": "p_d1754b9e80e37f",
+      "discovered_at": "2026-11-01",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-01",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22109 Heterogeneous risk preferences, entrepreneurship, and wealth",
+      "authors": [
+        "Monika Merz, Brigitte Hochmuth, Fabian Prettenthaler"
+      ],
+      "abstract": "This paper studies how individual risk attitudes shape occupational choice and wealth accumulation. Using self-reported individual risk preferences from the German Socio-Economic Panel (GSOEP), we estimate that a one-unit increase in risk aversion lowers the probability of a worker transitioning to self-employment by 17 percent. We develop a life-cycle model of occupational choice with Epstein-Zin preferences and heterogeneous risk attitudes to examine how risk aversion interacts with entrepreneurial ability and wealth in determining entry into self-employment, the survival probability upon en",
+      "source_url": "https://cepr.org/publications/dp22109",
+      "doi": "",
+      "aliases": [
+        "cepr:22109"
+      ],
+      "first_public_date": "2026-10-31",
+      "stage": "working-paper",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22109"
+        }
+      ],
+      "id": "p_6051be24bc93df",
+      "discovered_at": "2026-11-01",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-01",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22112 Financial Portfolio Choices and Marital Property Regimes",
+      "authors": [
+        "Lidia Cruces, Johannes Goensch, Isabel Micó-Millán"
+      ],
+      "abstract": "We study how marital property laws shape household saving and investment decisions, exploiting regional variation in statutory defaults across Spain. Using this variation as an instrument, we find that Separate Property reduces household saving but has no significant average effect on stock market participation. This null effect, however, masks sharply opposing responses: Separate Property increases participation by 8.9 percentage points when the wife is the financial head (the spouse most knowledgeable about household finances) and decreases it by 10.7 percentage points when the husband is, i",
+      "source_url": "https://cepr.org/publications/dp22112",
+      "doi": "",
+      "aliases": [
+        "cepr:22112"
+      ],
+      "first_public_date": "2026-10-31",
+      "stage": "working-paper",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22112"
+        }
+      ],
+      "id": "p_dbd5effeccda7c",
+      "discovered_at": "2026-11-01",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-01",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22111 Gendered Change: 150 Years of Transformation in US Hours",
+      "authors": [
+        "Liwa Rachel Ngai, Claudia Olivetti, Barbara Petrongolo"
+      ],
+      "abstract": "We construct consistent estimates of market hours for 1880-2020, including unpaid farm labor, by gender, sector, and margin of labor supply. For 1880-1930, we assemble and harmonize data from roughly one hundred historical sources, extending Census and ACS hours data available from 1940 onward. Women's hours follow a U-shape, men's decline monotonically, and aggregate hours decline before modestly rebounding. We develop a multisector model in which subsistence consumption and uneven productivity growth generate structural transformation and marketization. Initially, structural transformation d",
+      "source_url": "https://cepr.org/publications/dp22111",
+      "doi": "",
+      "aliases": [
+        "cepr:22111"
+      ],
+      "first_public_date": "2026-10-31",
+      "stage": "working-paper",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22111"
+        }
+      ],
+      "id": "p_287dbb16df2f54",
+      "discovered_at": "2026-11-01",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-01",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22108 Priced Out of Parenthood: Housing Costs, Household Formation, and Fertility in Spain",
+      "authors": [
+        "Francesco Chiocchio, Nezih Guner, Virginia Sánchez-Marcos"
+      ],
+      "abstract": "This paper studies whether housing costs affect fertility by delaying household formation in Spain, where fertility is low and departure from the parental home is late. Over the last two decades, young adults’ incomes have declined relative to those of adults aged 35-54, independent living has fallen, and homeownership among those living independently has declined. Households headed by young adults have also become less likely to be couples. Using a yearly municipality-level panel and a shift-share instrument that interacts national house-price movements with predetermined housing-supply const",
+      "source_url": "https://cepr.org/publications/dp22108",
+      "doi": "",
+      "aliases": [
+        "cepr:22108"
+      ],
+      "first_public_date": "2026-10-31",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22108"
+        }
+      ],
+      "id": "p_6093f072804413",
+      "discovered_at": "2026-11-01",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-01",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22114 Mortgage Constraints: Household Responses, Market Adjustments and Financial Stability",
+      "authors": [
+        "Ragnar Juelsrud,  , Ella Getz Wold"
+      ],
+      "abstract": "Mortgage constraints are widely used to reduce household leverage, but lower credit volumes alone say little about who bears the cost or whether financial vulnerability falls. We decompose the effect of a mortgage constraint tightening into three components: the direct effect on households, the equilibrium incidence through house prices, rents and credit supply and, finally, the corrective benefit. We use this framework to synthesize household- level, housing-market, lender, cross-country and credit-crisis evidence. The direct effect falls on young and low-wealth households, largely through fe",
+      "source_url": "https://cepr.org/publications/dp22114",
+      "doi": "",
+      "aliases": [
+        "cepr:22114"
+      ],
+      "first_public_date": "2026-10-31",
+      "stage": "working-paper",
+      "discipline": "banking",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22114"
+        }
+      ],
+      "id": "p_0f9eef69a992b8",
+      "discovered_at": "2026-11-01",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-01",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "Increasing healthcare usage among the homeless: Evidence from Mobile Street Clinics in Brazil",
+      "authors": [
+        "Malte Becker"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jdeveco.2026.103956",
+      "doi": "10.1016/j.jdeveco.2026.103956",
+      "aliases": [
+        "doi:10.1016/j.jdeveco.2026.103956"
+      ],
+      "first_public_date": "2026-10",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jde",
+          "name": "Journal of Development Economics",
+          "url": "https://doi.org/10.1016/j.jdeveco.2026.103956"
+        }
+      ],
+      "id": "p_f406880713cd93",
+      "discovered_at": "2026-11-01",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-01",
+          "source_id": "jde"
+        }
+      ]
+    },
     {
       "title": "Inequality and Racial Backlash: Evidence from the Reconstruction Era and the Freedmen's Bureau",
       "authors": [
