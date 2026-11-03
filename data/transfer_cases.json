@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-22",
+  "updated_at": "2026-11-04",
   "editorial_standard": "机制可迁移性优先于关键词共现；来源事实、跨主体外推、缺失前提、数据度量和可判别检验必须分栏。",
   "cases": [
     {
@@ -181,6 +181,75 @@
       ],
       "scope": "已核验NBER/CEPR官方摘要、CESifo公开全文入口、NBER致谢与姊妹论文版本；此会话未完成77页全文逐表阅读。政策性资本的研究设想均为独立提出、待验证的假说。",
       "confidentiality": "公开展示通用机制和数据可行性，不涉及尚未发表的个人研究实证细节。"
+    },
+    {
+      "id": "poelhekke-wache-vc-local-spillovers-2026",
+      "kind": "mechanism-bridge",
+      "title": "When venture capital comes to town: Local ecosystem effects beyond funded ventures",
+      "title_zh": "VC进入当地后：超越被投企业的创业生态外溢",
+      "authors": [
+        "Steven Poelhekke",
+        "Benjamin Wache"
+      ],
+      "journal": "Journal of Business Venturing 41(3), 106588 (May 2026)",
+      "dates": {
+        "early_working_paper": "2023",
+        "revised_working_paper": "2026-02-23",
+        "journal_issue": "2026-05"
+      },
+      "doi": "10.1016/j.jbusvent.2026.106588",
+      "sources": [
+        {
+          "label": "Open-access journal full text",
+          "url": "https://doi.org/10.1016/j.jbusvent.2026.106588",
+          "scope": "published-fulltext"
+        },
+        {
+          "label": "RePEc version history",
+          "url": "https://ideas.repec.org/a/eee/jbvent/v41y2026i3s0883902626000182.html",
+          "scope": "version-history"
+        }
+      ],
+      "source_fact": "研究1986–2019年美国县级VC流入与就业、工资总额和经营场所数，使用ThomsonOne投资数据与Census County Business Patterns，结合县固定效应、区域×年固定效应和由县际Facebook社会联系加权外部VC资金供给构造的工具变量。IV结果表明每100万美元VC对应约1个新增经营场所、41个工作岗位和700万美元工资总额；异行业VC对当地专业服务及企业管理服务行业的就业有正向溢出，五年内逐步累积。估计包含直接与间接效应，不等于政府资本的社会净收益。",
+      "theory_mechanism": "股权融资使被投企业扩张并增加对当地专业服务及供应商的需求，供应商能力和创业生态随之发展；存在需求联系、资源竞争和跨地区重新配置，不能只凭当地就业增长证明全国净福利。",
+      "source_data": "ThomsonOne投资者—企业VC交易（商业数据库）；美国Census CBP县×行业×年就业/工资/经营场所（公开聚合数据）；Facebook Social Connectedness Index（研究获取条件需核实）；投入产出联系需另行构造。",
+      "bridge_operations": [
+        {
+          "id": "actor-shift",
+          "label": "决策主体转换",
+          "text": "从市场化VC资金流入的地区总量结果，转为政府LP与GP在返投约束下选择被投企业与投资地点。"
+        },
+        {
+          "id": "outcome-shift",
+          "label": "结果变量转换",
+          "text": "从县级总就业/工资/经营场所，转为本地未被投供应商新增客户、经营规模及净进入，另测其他地区挤出。"
+        },
+        {
+          "id": "institutional-wedge",
+          "label": "制度转换",
+          "text": "政策返投约束是否引导资本进入有真实本地需求外溢的项目，而非仅为满足行政考核迁址或形成名义本地投资。"
+        }
+      ],
+      "new_question": "返投要求提高本地投资后，是否真正带动未获投本地上下游企业，还是将原本发生在外地的投资和就业重新登记到本地？",
+      "bridge_assumption": "市场VC的局部溢出不自动适用于政府基金；须证明返投政策确实改变边际投资、真实供应链需求在本地实现，且溢出未被其他地区损失抵消。",
+      "alternative": "产业招商、地区共同景气、行政迁址、地方服务业增长或政府采购同时推动VC与本地就业；GP合同约束、信息优势和偏袒须分开。",
+      "discriminating_tests": [
+        "将未被投企业按政策前行业投入产出联系与实际供应商关系划分，真实需求溢出预测强联系行业/企业受益更大；行政招商机制预测主要按政策名录和辖区边界变化。",
+        "比较投资地、注册地、实际生产/纳税地；若只有注册地址和名义投资增加而当地未获投供应商订单/就业无变化，不支持真实外溢。",
+        "检验相邻地区和外地原有供应商就业、资本流入是否下降，避免将空间转移误作社会净收益。"
+      ],
+      "key_data": [
+        "清科/投中VC投资事件（授权）",
+        "地方返投政策与母子基金GP关系（公开部分）",
+        "中国投入产出表（公开）",
+        "企业工商注册地址（公开部分）",
+        "企业社保就业/增值税发票/真实供应链（通常受限）",
+        "城市行业就业和企业注册统计（公开但较粗）"
+      ],
+      "data_pilot": "3–7天先选2–3个返投规则明确且修订时间可核的地区，匹配公开子基金投资事件、企业实际经营地址、投入产出表行业关系、城市行业新增企业及就业；核查覆盖率。无供应商真实交易或细分就业数据时仅作描述性/可行性试验。",
+      "priority": "high-direct-relevance",
+      "read_scope": "2026 open-access published full text, methods and results inspected; 2023 working-paper first release verified from RePEc; not a newly originated 2026 mechanism",
+      "scope": "仅公开论文及独立研究设想，不包含私人未发表论文的系数或数据。"
     }
   ]
 }
