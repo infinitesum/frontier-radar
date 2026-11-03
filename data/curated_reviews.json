@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-22",
+  "updated_at": "2026-11-04",
   "editorial_policy": "真实论文；主发现仅在证据允许范围内陈述；研究迁移为待检验假设；官方摘要和已读论文正文分开标记；不会将旧稿新发当首次公开。仅公开资料。",
   "reviews": [
     {
@@ -218,6 +218,62 @@
       "reviewed_at": "2026-10-22",
       "reviewer": "assistant-editorial",
       "read_scope": "CEPR abstract verified"
+    },
+    {
+      "paper_id": "p_59874cc47e3fa5",
+      "title": "Firm Adaptation in Production Networks: Evidence from Extreme Weather Events in Pakistan",
+      "title_zh": "生产网络中的企业适应：巴基斯坦极端天气证据",
+      "authors": [
+        "Clare Balboni",
+        "Johannes Boehm",
+        "Mazhar Waseem"
+      ],
+      "venue": "American Economic Review 116(11), 2026, 4282–4325",
+      "publication_date": "2026-11",
+      "version_note": "2024年已有PEDL工作论文；阅读的是作者2025-11-12公开稿，2026-11期刊摘要另行核对；不是2026年首次提出。",
+      "circle": "inspiration",
+      "signal": "已核查公开作者稿",
+      "priority": "3–7天内做数据可行性试验",
+      "confidence": "2025作者稿正文和2026期刊官方摘要核查；终稿回归表未逐一复核",
+      "evidence_level": "author-manuscript-sections-reviewed",
+      "topics": [
+        "生产网络",
+        "风险学习",
+        "供应链调整",
+        "企业融资"
+      ],
+      "related_projects": [
+        "p1"
+      ],
+      "finding_zh": "决策主体是巴基斯坦企业；冲击是自身、供应商及运输道路遭遇洪灾；结果包括迁址、供应商替换、运输路线和销售。2025作者稿报告：严重受灾企业迁移超过10公里的概率增加2.42个百分点；即便原供应商未受灾，企业仍持续转向洪水风险较低的供应商。该证据支持风险信息更新和前瞻调整，不等于证明政策资本有效。",
+      "data_method_zh": "2011–2018年巴基斯坦VAT企业月度交易、企业地理位置、卫星洪水范围、洪水风险地图及超过1.5万辆货车GPS轨迹；作者稿最终筛选73,336家企业。事件暴露与企业/供应商/道路层面的采购及位置变化相连；路线规格采用买卖双方配对、买方×时间和卖方×时间固定效应，并以空间内生生产网络模型作总量反事实。行政税务微观数据和商业GPS不能视作开放获取。",
+      "transfer_zh": "可迁移原语是短暂冲击触发持久信念更新与交易网络重新匹配。转换主体：从企业选择供应商到投资者/政策基金评估企业供应链韧性；转换结果：从供应商调整到融资条件及资金投向。新问题：融资者是否识别灾害后真正降低网络脆弱性的企业，还是机械惩罚受灾地企业？",
+      "bridge_assumption_zh": "必须另外证明金融机构能观察或推断企业真实供应链风险、风险调整改变融资决策，并且存在外部性或融资摩擦使政策介入有价值。原论文未识别政府基金行为、融资约束或政策资本社会回报。",
+      "alternative_zh": "灾后融资下降可能来自资产毁损和抵押品下降，而非投资者风险学习；企业转移采购可能来自供应中断而非风险信念更新；地理集聚和行业政策可共同决定融资及迁址。",
+      "test_zh": "检验一：在灾害直接损失与企业规模可比条件下，未直接受灾但上游道路/供应商暴露较高企业的后续融资是否变化；若仅自有厂房受灾显著，支持抵押品损失而非网络学习。检验二：对照灾后已建立低风险替代供应商的企业与未调整企业，观察融资折价是否随真实网络风险下降而收敛；若仅按行政区域惩罚则不收敛。需要灾前网络、灾害路径与融资申请信息，缺失时只能做描述性研究。",
+      "data_ideal_zh": "企业—供应商月度真实交易、灾害路径、融资申请/拒绝/利差、基金投资审批及投后实际交付；需税务、银行或GP授权，现实获取难。",
+      "data_pilot_zh": "先用公开卫星洪水范围（UNOSAT）、OpenStreetMap道路、企业公告披露的重大供应商及公开融资事件做少量企业—灾害事件链接，检查地理编码与网络覆盖；公开供应链只覆盖披露关系，不能代理完整交易网络。",
+      "data_feasibility_zh": "公开数据可验证洪水与道路暴露、部分披露网络和融资事件；无法识别申请被拒、真实交易网络及贷款定价，初期只可测量可行性，不足以因果识别。",
+      "read_in_days": "第1–2天检查公开灾害和企业地理链接；第3–4天抽样匹配披露供应商及融资；第5–7天判断是否有足够覆盖率及可获得的融资/网络合作数据，否则降级为机制参考。",
+      "limitation_zh": "属于跨主体待检验研究假说，不将原文网络适应直接解释为政府资本配置的因果作用。2025作者稿与2026期刊版可能有数值差异；没有把期刊终稿系数混入作者稿。",
+      "sources": [
+        {
+          "label": "2026 AER期刊摘要",
+          "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20241027"
+        },
+        {
+          "label": "2025-11-12作者公开全文",
+          "url": "https://jmboehm.github.io/Pakistan_Floods.pdf"
+        },
+        {
+          "label": "2024 PEDL早期版本",
+          "url": "https://www.gov.uk/research-for-development-outputs/firm-adaptation-in-production-networks-evidence-from-extreme-weather-events-in-pakistan"
+        }
+      ],
+      "reviewed_at": "2026-11-04",
+      "reviewer": "assistant-editorial",
+      "read_scope": "2025 author manuscript introduction, data, design and key findings; 2026 journal abstract; not full journal final text",
+      "abstract_en": "This paper considers how far private adaptation may reduce future vulnerability to climate risks. Using data on monthly firm-to-firm transactions from Pakistan, we find that flood-affected firms are more likely to relocate to safer ground and shift purchases toward suppliers in less flood-prone regions and reached via less flood-prone roads. The results indicate that firms are imperfectly informed about flood risk and update their beliefs following floods. We quantify aggregate impacts using a spatial model of endogenous production network formation. The findings suggest that firms' learning will shape the economic impact of increasingly frequent climate-related disasters."
     }
   ]
 }
