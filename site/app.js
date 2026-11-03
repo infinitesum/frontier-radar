@@ -49,9 +49,9 @@ const LABELS = {
 const PAGES = {overview:T.overview,reviews:'论文精读',papers:T.papers,insights:T.insights,reports:T.reports,sources:T.sources,saved:T.saved};
 const storeKey = 'frontier-radar-library-v1';
 const textScaleKey='frontier-radar-text-scale';
-let textScale=Math.max(1,Math.min(1.4,Number(localStorage.getItem(textScaleKey)||1)));
+let textScale=Math.max(0.7,Math.min(1.4,Number(localStorage.getItem(textScaleKey)||1)));
 function setTextScale(scale){
-  textScale=Math.max(1,Math.min(1.4,Math.round(scale*10)/10));
+  textScale=Math.max(0.7,Math.min(1.4,Math.round(scale*10)/10));
   document.documentElement.style.setProperty('--reader-scale',String(textScale));
   const label=document.querySelector('#font-size-indicator');if(label)label.textContent=Math.round(textScale*100)+'%';
   try{localStorage.setItem(textScaleKey,String(textScale))}catch(_){}
