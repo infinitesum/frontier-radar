@@ -249,7 +249,8 @@
       "data_pilot": "3–7天先选2–3个返投规则明确且修订时间可核的地区，匹配公开子基金投资事件、企业实际经营地址、投入产出表行业关系、城市行业新增企业及就业；核查覆盖率。无供应商真实交易或细分就业数据时仅作描述性/可行性试验。",
       "priority": "high-direct-relevance",
       "read_scope": "2026 open-access published full text, methods and results inspected; 2023 working-paper first release verified from RePEc; not a newly originated 2026 mechanism",
-      "scope": "仅公开论文及独立研究设想，不包含私人未发表论文的系数或数据。"
+      "scope": "仅公开论文及独立研究设想，不包含私人未发表论文的系数或数据。",
+      "crucial_distinction": "原文识别的是美国市场化VC流入与县域就业、工资、企业数量及行业间溢出的关系；并非政府引导基金返投政策的因果效应。地方投资增加不等于真实本地供应链联系增强，县域就业增加也不等于全国净就业或社会福利增加。"
     }
   ]
 }
