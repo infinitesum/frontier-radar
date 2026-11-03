@@ -274,6 +274,98 @@
       "reviewer": "assistant-editorial",
       "read_scope": "2025 author manuscript introduction, data, design and key findings; 2026 journal abstract; not full journal final text",
       "abstract_en": "This paper considers how far private adaptation may reduce future vulnerability to climate risks. Using data on monthly firm-to-firm transactions from Pakistan, we find that flood-affected firms are more likely to relocate to safer ground and shift purchases toward suppliers in less flood-prone regions and reached via less flood-prone roads. The results indicate that firms are imperfectly informed about flood risk and update their beliefs following floods. We quantify aggregate impacts using a spatial model of endogenous production network formation. The findings suggest that firms' learning will shape the economic impact of increasingly frequent climate-related disasters."
+    },
+    {
+      "paper_id": "p_31c44f569d175f",
+      "title": "The Supply of Expertise: New Technologies, New Skills, and Worker Impacts",
+      "authors": [
+        "Anna Salomons",
+        "Cäcilia vom Baur",
+        "Ulrich Zierahn-Weilage"
+      ],
+      "venue": "CEPR DP22096 (2026); ZEW DP 24-044 (2024); IZA DP18248 (2025)",
+      "publication_date": "2026-10-27",
+      "version_note": "2024 ZEW初稿、2025 IZA修订、2026 CEPR新版本；非2026首次公开。",
+      "evidence_level": "official-abstract-and-earlier-working-paper-abstract",
+      "read_scope": "2026 CEPR官方完整英文摘要、2025 IZA官方摘要；未声称阅读全文",
+      "finding_zh": "决策主体是德国职业培训制度制定者、受训劳动者与雇主；技术突破推动法定职业培训课程调整；结果是课程新技能、职业工资与留任。作者将约五十年培训大纲以NLP匹配技术突破，结合行政雇主雇员数据及stacked DID，发现更新主要增加数字、社交和解决问题技能，课程调整解释职业技能供给去常规化约三分之二；新技能劳动者工资更高，旧从业者工资承压。",
+      "economic_primitive_zh": "技术与人力资本互补，制度化培训更新决定吸收新技术的速度；投入品供给并非技术能力产出的充分条件。",
+      "transfer_zh": "从培训制度制定者/劳动者的技能更新转向AI算力购买企业的组织能力建设；从工资/职业留任转向真实AI部署、模型维护与企业生产率。新问题：算力补贴的有效性是否受技术人才再培训速度制约？",
+      "bridge_assumption_zh": "须另证企业培训实际针对AI、员工技能更新与算力使用形成互补，且政策冲击不同时改变企业整体创新需求；德国法定职业课程不等于中国企业内部培训。",
+      "alternative_zh": "本来更有创新能力的企业既招募AI人才又购买算力；需求冲击同时推动培训、算力与AI成果。",
+      "test_zh": "在相同产业×城市×年份及事前AI活动水平下比较具有培训更新证据和仅获得算力额度的企业；若互补机制成立，实际核销GPU-hour对可验证部署产出的边际关联在已培训企业更强。若仅发券额度有差异而核销和部署无差异，不支持互补。替代解释检验：观察培训/招聘是否早于券政策，以及未涉及AI岗位培训的安慰剂。没有真实核销数据只做相关性与测量试验。",
+      "data_ideal_zh": "企业员工培训记录、AI招聘与技能、算力券领取/购买/核销GPU-hour、模型部署和任务绩效；核销日志及企业内部培训多需政府/平台合作授权。",
+      "data_pilot_zh": "公开地方算力券政策及获批名单、企业AI招聘文本、企业GitHub/模型备案和产品更新记录；发券不等于购买，购买不等于核销，部署不等于能力提升。先抽样核验企业身份和时间戳。",
+      "data_feasibility_zh": "公开数据仅适合覆盖率/事件顺序试验，无法直接估算算力使用的因果效应或福利。",
+      "priority": "3–7天内做公开名单与招聘文本匹配；核销数据无法取得则降级",
+      "read_in_days": "1–2天下载2026公开稿核对方法；3–4天匹配算力券与招聘；5–7天检验公开AI产出可观测率。",
+      "abstract_en": "Does educational content respond to technological advances, and do such changes enable workers to acquire new valuable expertise? We construct a novel database of legally binding training curricula spanning the near universe of vocational training in Germany over five decades, and link curriculum updates to breakthrough technologies using Natural Language Processing. We trace a causal chain from technological change to curriculum content to worker outcomes. Technological change spurs curriculum updates, and training content shifts toward less routine-intensive tasks. This shift occurs predominantly through the emergence of new skills related to social, digital, and problem-solving competencies, rather than the removal of old ones. This within-occupation margin is quantitatively important: curriculum updates account for two-thirds of the overall deroutinization in vocational skill supply over this period. Using administrative employer-employee data and a stacked difference-in-differences design, we show that new-skilled workers earn higher wages, especially in technology-exposed occupations, and are more likely to remain employed in their trained occupation. In contrast, older occupational incumbents experience wage declines, indicating skill obsolescence. These findings highlight the central role of within-occupation skill supply adjustments—not just educational attainment—in meeting evolving labor market demands.",
+      "sources": [
+        {
+          "label": "CEPR 2026 official abstract",
+          "url": "https://cepr.org/publications/dp22096"
+        },
+        {
+          "label": "ZEW 2024 prior version",
+          "url": "https://www.zew.de/en/publications/the-supply-of-expertise-new-technologies-new-skills-and-worker-impacts"
+        },
+        {
+          "label": "IZA 2025 version",
+          "url": "https://iza.org/publications/dp/18248/expertise-at-work-new-technologies-new-skills-and-worker-impacts"
+        }
+      ],
+      "reviewed_at": "2026-11-04",
+      "reviewer": "assistant-editorial",
+      "signal": "official abstract verified",
+      "confidence": "official abstracts only",
+      "circle": "inspiration",
+      "scope_note": "公开文献事实与独立迁移假说分离；无私人实证结果。"
+    },
+    {
+      "paper_id": "p_6051be24bc93df",
+      "title": "Heterogeneous Risk Preferences, Entrepreneurship, and Wealth",
+      "authors": [
+        "Monika Merz",
+        "Brigitte Hochmuth",
+        "Fabian Prettenthaler"
+      ],
+      "venue": "CEPR DP22109 (2026); prior CEPR DP20286 (2025)",
+      "publication_date": "2026-10-31",
+      "version_note": "2025 CEPR DP20286与2025-11 RBA公开稿已存在；2026是更新版，估计结果和文字发生变化，不能混用。",
+      "evidence_level": "official-abstract-and-earlier-working-paper-abstract",
+      "read_scope": "2026 CEPR官方完整摘要与2025 CEPR/RBA公开摘要，未阅读全文",
+      "finding_zh": "决策主体是选择受雇或自雇的个人；冲击/环境是创业风险与2008年德国1-Euro GmbH有限责任改革；结果是进入自雇、存活和财富积累。德国GSOEP自报风险偏好结合生命周期Epstein–Zin职业选择模型；2026摘要称风险厌恶提高一单位使转自雇概率下降17%，反事实显示风险增加抑制进入，有限责任改革减弱风险偏好对进入的筛选而未显著改变创业能力构成。该17%为2026摘要口径，2025稿使用风险容忍度口径，不可直接对照。",
+      "economic_primitive_zh": "有限责任改变创业失败损失的个人承担程度，影响进入门槛与风险偏好选择，而未必改变能力选择。",
+      "transfer_zh": "从个人职业进入转向VC/政府基金投资条款与创业团队形成；新结果是高风险厌恶但能力强的潜在创业者是否进入融资市场。制度变化从企业注册有限责任扩展为失败风险分担契约，属待检验跨制度假说。",
+      "bridge_assumption_zh": "必须证明风险分担条款真实降低创始人个人下行损失且不只是给既有企业融资；基金股权投资并不等于创始人有限责任改革。",
+      "alternative_zh": "改革降低注册成本、改变税收/声誉或行政手续而非风险暴露；创始人能力无法直接观察，入场增加也可能是低质量项目涌入。",
+      "test_zh": "分别检验创业进入与成立后生存/增长；风险保险机制预测高个人资产暴露、低家庭财富者反应更强，纯注册成本机制则主要按行政成本和地区注册便利度变化。利用改革前后法律形式选择及个体风险偏好，设置不受改革影响的法人类型作对照；须检验同期改革和政策预期。",
+      "data_ideal_zh": "个体GSOEP风险偏好、个人财富、企业注册法律形式、进入/退出及融资合同；GSOEP微观访问需申请，投资合同通常不公开。",
+      "data_pilot_zh": "德国2008有限责任公司改革法条、公开企业注册统计与行业进入率、官方创业调查汇总；仅汇总数据不能区分风险偏好与注册成本机制。",
+      "data_feasibility_zh": "公开法律与注册总量可做断点时间核验，但个体层机制需GSOEP权限和注册微观匹配。",
+      "priority": "3–7天先做版本对照与法条识别审查；微观数据无权限则降级",
+      "read_in_days": "1–2天比对2025/2026版本的风险变量方向与数值；3–4天核查2008改革适用法律形式；5–7天评估GSOEP访问与注册数据链接。",
+      "abstract_en": "This paper studies how individual risk attitudes shape occupational choice and wealth accumulation. Using self-reported individual risk preferences from the German Socio-Economic Panel (GSOEP), we estimate that a one-unit increase in risk aversion lowers the probability of a worker transitioning to self-employment by 17 percent. We develop a life-cycle model of occupational choice with Epstein-Zin preferences and heterogeneous risk attitudes to examine how risk aversion interacts with entrepreneurial ability and wealth in determining entry into self-employment, the survival probability upon entry, and its aggregate implications. Counterfactual simulations show that increasing business risk reduces entry and shifts the pool of entrepreneurs toward less risk-averse individuals. In contrast, Germany’s “1-Euro GmbH” reform of 2008 weakened the role of risk aversion for entry, drawing more risk-averse individuals into entrepreneurship with little change in their ability composition.",
+      "sources": [
+        {
+          "label": "CEPR 2026 official abstract",
+          "url": "https://cepr.org/publications/dp22109"
+        },
+        {
+          "label": "CEPR 2025 earlier paper",
+          "url": "https://cepr.org/publications/dp20286"
+        },
+        {
+          "label": "RBA 2025 publicly available draft",
+          "url": "https://www.rba.gov.au/publications/workshops/research/2025/pdf/rba-workshop-2025-hochmuth-merz-prettenthaler.pdf"
+        }
+      ],
+      "reviewed_at": "2026-11-04",
+      "reviewer": "assistant-editorial",
+      "signal": "official abstract verified",
+      "confidence": "official abstracts only",
+      "circle": "inspiration",
+      "scope_note": "公开文献事实与独立迁移假说分离；无私人实证结果。"
     }
   ]
 }
