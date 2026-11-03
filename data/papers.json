@@ -1,8 +1,259 @@
 {
   "schema_version": 1,
   "snapshot": "incremental-ingestion",
-  "updated_at": "2026-11-02T07:44:08+00:00",
+  "updated_at": "2026-11-03T07:57:41+00:00",
   "papers": [
+    {
+      "title": "DP22119 Central Bank Retail Deposits in the Past",
+      "authors": [
+        "Pamfili Antipa, Anna Grodecka-Messi, Marius Hafke, Clemens Jobst, Enrique Jorge Sotelo, Daniel Kaufmann, Eva Mulder, Kilian Rieder, Stefano Ugolini"
+      ],
+      "abstract": "European central banks historically offered deposit accounts to individuals and firms other than banks - the closest precedent for retail central bank digital currency. Using novel evidence, we show that these accounts served payment, liquidity management and store-of-value functions. Access to accounts was broad on paper, but narrow in practice due to discretionary introduction criteria, minimum balances, fees, and the absence of remuneration. Under the Gold Standard, central bank retail deposits were often not neutral for monetary policy. During panics, the accounts provided a safe haven. Th",
+      "source_url": "https://cepr.org/publications/dp22119",
+      "doi": "",
+      "aliases": [
+        "cepr:22119"
+      ],
+      "first_public_date": "2026-11-02",
+      "stage": "working-paper",
+      "discipline": "banking",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22119"
+        }
+      ],
+      "id": "p_47549b8067ec45",
+      "discovered_at": "2026-11-03",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-03",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22120 Equal Treatment, Unequal Family Duties: Gendered Screening and Selective Exclusion in the Workplace",
+      "authors": [
+        "Francesca Barigozzi, Helmuth Cremer"
+      ],
+      "abstract": "Can a ban on explicit gender discrimination in hiring and compensation unintentionally reinforce labor market inequalities when family duties remain unequally distributed across genders? This paper develops a theoretical model to address this question in a monopsonistic labor market where workers differ in gender-specific outside options and labor-supply costs—driven by family responsibilities—but exhibit the same underlying heterogeneity in effort costs. We compare outcomes under gender-based tagging and gender-neutral screening. When tagging is allowed, the firm offers efficient, gender-spec",
+      "source_url": "https://cepr.org/publications/dp22120",
+      "doi": "",
+      "aliases": [
+        "cepr:22120"
+      ],
+      "first_public_date": "2026-11-02",
+      "stage": "working-paper",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22120"
+        }
+      ],
+      "id": "p_d8972e6847d632",
+      "discovered_at": "2026-11-03",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-03",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22116 Consumer Profiling via Information Design",
+      "authors": [
+        "Itay Fainmesser, Andrea Galeotti, Ruslan Momot, Ludovic Renou"
+      ],
+      "abstract": "A platform profiles consumers using their purchase histories and selectively discloses information to successive short-lived sellers. By shaping sellers' prices, the platform generates new purchase data and improves its profiles. With short-lived consumers, the platform can learn valuations below a threshold but cannot distinguish valuations above it. The threshold is the lowest price that sellers would not want to raise for any consumer, even if they knew that all consumers would accept it. With long-lived consumers, the platform can learn every valuation. We also characterize attainable comb",
+      "source_url": "https://cepr.org/publications/dp22116",
+      "doi": "",
+      "aliases": [
+        "cepr:22116"
+      ],
+      "first_public_date": "2026-11-02",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22116"
+        }
+      ],
+      "id": "p_4e60ded079d5f3",
+      "discovered_at": "2026-11-03",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-03",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22122 On the Role and Effectiveness of Fiscal Rules and Independent Fiscal Councils",
+      "authors": [
+        "Roel Beetsma, Raphael Lam, Erik Leonards, Marcos Poplawski-Ribeiro, Alexandra Solovyeva"
+      ],
+      "abstract": "Fiscal rules and fiscal councils are often adopted independently: many countries operate under fiscal rules without a fiscal council, while fiscal councils are frequently established only after a fiscal rule is already in place, suggesting that the two institutions may contribute differently to fiscal discipline. This paper starts with a simple theoretical framework to explain these stylized facts, accounting for the fact that governments, or even society at large, may not always be in favour of a fiscal council. The model also predicts that a sufficient strengthening of a budget balance rule,",
+      "source_url": "https://cepr.org/publications/dp22122",
+      "doi": "",
+      "aliases": [
+        "cepr:22122"
+      ],
+      "first_public_date": "2026-11-02",
+      "stage": "working-paper",
+      "discipline": "public-econ",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22122"
+        }
+      ],
+      "id": "p_a7b2c314c86496",
+      "discovered_at": "2026-11-03",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-03",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22117 Take-off Dynamics of a Sovereign Wealth Fund",
+      "authors": [
+        "Emilio Carnevali, Giacomo Corneo, Pierluigi Vellucci"
+      ],
+      "abstract": "A sovereign wealth fund can bring about broad participation in the financial gains of enterprises, especially AI-generated gains. But building such a fund takes time. This paper determines the waiting time necessary to build a fund of economically significant size, depending on the allotted fiscal resources and the macro-financial environment. As the fund’s returns are uncertain, its take-off is framed as a diffusion process. A backward Kolmogorov equation characterises the firstpassage probability of the fund-to-GDP ratio. Quantitative results on waiting time markedly differ from those obtain",
+      "source_url": "https://cepr.org/publications/dp22117",
+      "doi": "",
+      "aliases": [
+        "cepr:22117"
+      ],
+      "first_public_date": "2026-11-02",
+      "stage": "working-paper",
+      "discipline": "public-econ",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22117"
+        }
+      ],
+      "id": "p_fae061f3afefc8",
+      "discovered_at": "2026-11-03",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-03",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22118 Age and Productivity in High-Skilled Work: Goal-scoring in the English Premier League",
+      "authors": [
+        "Jan C. van Ours"
+      ],
+      "abstract": "Professional football has many dimensions of productivity. This paper focuses on goal scoring and analyzes the relationship between goal scoring and the age of professional football players active in the English Premier League over an eight-season period. There are two dimensions of productivity in goal scoring. First, goal preparation in terms of creating scoring opportunities as measured by expected goals. Second, the conversion of expected goals into actual goals. The first dimension is the result of a combination of teamwork and individual skills, while the second dimension represents a pu",
+      "source_url": "https://cepr.org/publications/dp22118",
+      "doi": "",
+      "aliases": [
+        "cepr:22118"
+      ],
+      "first_public_date": "2026-11-02",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22118"
+        }
+      ],
+      "id": "p_2b8c0ea92ff4a7",
+      "discovered_at": "2026-11-03",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-03",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22121 Tariffs, Employment and the Balance of Trade",
+      "authors": [
+        "Sweder van Wijnbergen"
+      ],
+      "abstract": "The literature on tariffs is mostly static and focused on tariffs on consumer goods. We show that the macroeconomic consequences of tariff policies depend crucially on the type of goods over which tariffs are levied and on the time pattern of the tariffs. Under full employment, the trade-balance effect of tariffs depends critically on their time structure. With endogenous investment, tariff shocks may improve the trade balance but do so by crowding out investment. Tariffs on intermediate imports (typically about 50\\% of all imports) cause output and investment to fall and the trade balance to ",
+      "source_url": "https://cepr.org/publications/dp22121",
+      "doi": "",
+      "aliases": [
+        "cepr:22121"
+      ],
+      "first_public_date": "2026-11-02",
+      "stage": "working-paper",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22121"
+        }
+      ],
+      "id": "p_553ae1c77bdccd",
+      "discovered_at": "2026-11-03",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-03",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "Unintended Consequences of Holding Dollar Assets",
+      "authors": [
+        "ROBERT CZECH",
+        "SHIYANG HUANG",
+        "DONG LOU",
+        "TIANYU WANG"
+      ],
+      "abstract": "ABSTRACT We propose and examine a novel mechanism whereby holdings of dollar assets by foreign institutions can have a large, unexpected impact on foreign Treasury yields in crisis periods. Non‐U.S. institutions hold substantial dollar assets and hedge dollar exposures by selling dollars forward. In crisis periods, the dollar appreciates against other currencies. To meet margin calls on foreign exchange (FX) hedging positions, traditionally passive institutions liquidate domestic safe assets to raise cash. We show that during the recent COVID crisis, U.K. institutions with substantial dollar h",
+      "source_url": "https://doi.org/10.1111/jofi.70097",
+      "doi": "10.1111/jofi.70097",
+      "aliases": [
+        "doi:10.1111/jofi.70097"
+      ],
+      "first_public_date": "2026-11-02",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jf",
+          "name": "The Journal of Finance",
+          "url": "https://doi.org/10.1111/jofi.70097"
+        }
+      ],
+      "id": "p_e90e10cea5d302",
+      "discovered_at": "2026-11-03",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-03",
+          "source_id": "jf"
+        }
+      ]
+    },
     {
       "title": "DP22115 The equity-adjusted social cost of carbon",
       "authors": [
