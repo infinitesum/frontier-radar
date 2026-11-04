@@ -1,8 +1,552 @@
 {
   "schema_version": 1,
   "snapshot": "incremental-ingestion",
-  "updated_at": "2026-11-03T07:57:41+00:00",
+  "updated_at": "2026-11-04T07:32:13+00:00",
   "papers": [
+    {
+      "title": "DP22131 The Professors Who Would Become Popes: Academic Human Capital and Elite Selection in Premodern Europe",
+      "authors": [
+        "Mara Vitale, David De La Croix"
+      ],
+      "abstract": "Between 999 and 1800, 133 pontiffs ascended to the papal throne of the Catholic Church. Drawing on the RETE database of premodern European academia, we identify 22 popes or antipopes who held teaching positions before their election. The pattern is striking: all were elected before 1600. Biographical evidence further suggests that academic popes often came from more modest social backgrounds than the great Roman and Italian families that otherwise played a central role in papal selection, while simple measures of papal activity do not reveal systematic differences between former professors and",
+      "source_url": "https://cepr.org/publications/dp22131",
+      "doi": "",
+      "aliases": [
+        "cepr:22131"
+      ],
+      "first_public_date": "2026-11-04",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22131"
+        }
+      ],
+      "id": "p_4afb0fa2640782",
+      "discovered_at": "2026-11-04",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-04",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "Economic Fundamentals and Short-Run Exchange Rate Prediction: A Machine-Learning Perspective",
+      "authors": [
+        "Ilias Filippou",
+        "David E. Rapach",
+        "Mark P. Taylor",
+        "Guofu Zhou"
+      ],
+      "abstract": "Abstract The exchange rate predictability puzzle—that fundamentals fail to forecast short-horizon exchange rate movements out of sample—has long resisted resolution. We show that fundamentals do matter, but their effects vary with global financial conditions. Using a rich set of country characteristics interacted with global state variables and machine-learning techniques to handle the high-dimensional data, we document that interactions between country characteristics and foreign exchange market volatility are particularly important, consistent with a “flight to fundamentals” during periods o",
+      "source_url": "https://doi.org/10.1017/s0022109026103391",
+      "doi": "10.1017/s0022109026103391",
+      "aliases": [
+        "doi:10.1017/s0022109026103391"
+      ],
+      "first_public_date": "2026-11-04",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jfqa",
+          "name": "Journal of Financial and Quantitative Analysis",
+          "url": "https://doi.org/10.1017/s0022109026103391"
+        }
+      ],
+      "id": "p_4c896d4eee48c6",
+      "discovered_at": "2026-11-04",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-04",
+          "source_id": "jfqa"
+        }
+      ]
+    },
+    {
+      "title": "Housing Yields",
+      "authors": [
+        "Stefano Colonnello",
+        "Roberto Marfè",
+        "Qizhou Xiong"
+      ],
+      "abstract": "Abstract We build a granular data set of residential property yields using rental and sale listings from a major German real estate platform. With more than 1.5 million property-level rent-to-price ratios, we document a novel heterogeneity puzzle. About two-fifths of yield dispersion remains unexplained after controlling for extensive observable property characteristics and postal code-level time-varying factors using fixed effects. When we absorb finer neighborhood amenities through richer fixed effects, the unexplained share remains close to one-third. This evidence points to the importance ",
+      "source_url": "https://doi.org/10.1017/s0022109026103470",
+      "doi": "10.1017/s0022109026103470",
+      "aliases": [
+        "doi:10.1017/s0022109026103470"
+      ],
+      "first_public_date": "2026-11-04",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jfqa",
+          "name": "Journal of Financial and Quantitative Analysis",
+          "url": "https://doi.org/10.1017/s0022109026103470"
+        }
+      ],
+      "id": "p_0243a63abdbe7d",
+      "discovered_at": "2026-11-04",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-04",
+          "source_id": "jfqa"
+        }
+      ]
+    },
+    {
+      "title": "DP22128 FLASH DROUGHTS AND BANK STABILITY IN THE UNITED STATES",
+      "authors": [
+        "Maxime FAJEAU, Remi Generoso, Clement Mathonnat, Steven Ongena"
+      ],
+      "abstract": "Flash droughts represent a distinctive climate risk that often goes under the radar. Unlike slowly developing droughts, they rapidly deplete soil moisture, compressing the time available for borrowers and banks to adjust without necessarily producing visible destruction. Linking climate data to United States banks through their branch networks, we find that a strong flash drought reduces bank Z-scores by approximately 9 percent. Profitability weakens before credit quality deteriorates, generating persistent financial fragility. The findings show why the speed of climate deterioration matters f",
+      "source_url": "https://cepr.org/publications/dp22128",
+      "doi": "",
+      "aliases": [
+        "cepr:22128"
+      ],
+      "first_public_date": "2026-11-03",
+      "stage": "working-paper",
+      "discipline": "banking",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22128"
+        }
+      ],
+      "id": "p_80bd9d7a95e39f",
+      "discovered_at": "2026-11-04",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-04",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22126 Presidential Appointments to the Federal Reserve Board",
+      "authors": [
+        "Alessandro Riboni, Francisco Ruge-Murcia"
+      ],
+      "abstract": "Appointments to the Federal Reserve Board allow U.S. presidents to influence monetary policy. Due to early Board departures and Senate confirmation delays, the ratio of politically appointed governors to Bank presidents in the FOMC varies over time. We exploit this time variation to estimate dynamic causal effects of presidential appointments using external instruments based on institutional and political features. Appointments causally predict a more expansionary monetary policy in the short run and an increase in inflation in the medium run. Electoral and partisan considerations induce stron",
+      "source_url": "https://cepr.org/publications/dp22126",
+      "doi": "",
+      "aliases": [
+        "cepr:22126"
+      ],
+      "first_public_date": "2026-11-03",
+      "stage": "working-paper",
+      "discipline": "banking",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22126"
+        }
+      ],
+      "id": "p_607bd5e6d032cc",
+      "discovered_at": "2026-11-04",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-04",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22123 Tax, Lies and Red Tape",
+      "authors": [
+        "Megha Patnaik"
+      ],
+      "abstract": "Do family firms evade tax when enforcement is weak? I combine a measure of ultimate ownership in India with firm-level excise tax payments and statutory rates. Firms with greater family shareholding have lower effective tax rates. To identify differences in compliance, I use year-by-year changes in statutory rates across products. A one-percentage-point increase in the statutory rate for a firm raises the effective rate by 0.14 points for family firms versus 0.20 for other firms. When states introduce e-filing for VAT, the effective rate of family firms rises by 0.82 percentage points relative",
+      "source_url": "https://cepr.org/publications/dp22123",
+      "doi": "",
+      "aliases": [
+        "cepr:22123"
+      ],
+      "first_public_date": "2026-11-03",
+      "stage": "working-paper",
+      "discipline": "public-econ",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22123"
+        }
+      ],
+      "id": "p_dd00d54d2b7f28",
+      "discovered_at": "2026-11-04",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-04",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22124 Weak Instrument Robust Simultaneous Confidence Bands for Impulse Response Functions",
+      "authors": [
+        "Daniel Lewis, Yatheesan Selvakumar"
+      ],
+      "abstract": "Empirical researchers frequently make statements about the impacts of macroeconomic shocks at multiple horizons that require confidence bands that are simultaneously valid across those horizons, not just pointwise (for a single horizon). Increasing evidence suggests that available macroeconomic instruments are typically weak. We show that commonly-used simultaneous bands under strong identification can readily be adapted to be robust to weak instruments based on the Anderson and Rubin (1949) statistic. Our proposed sup-AR band is efficient amongst bands that control worst-case coverage. All ro",
+      "source_url": "https://cepr.org/publications/dp22124",
+      "doi": "",
+      "aliases": [
+        "cepr:22124"
+      ],
+      "first_public_date": "2026-11-03",
+      "stage": "working-paper",
+      "discipline": "macro",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22124"
+        }
+      ],
+      "id": "p_e3975eb43a0c19",
+      "discovered_at": "2026-11-04",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-04",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22130 Value Migration and Defense Strategies",
+      "authors": [
+        "Gaston Llanes, Markus Reisinger, Jens Schmidt"
+      ],
+      "abstract": "In many industries, firms adopt external technologies that improve their products but also generate complementary revenues for the technology developer. In this paper, we study a formal model to examine how competition between adopters affects the distribution of value created by such technologies and how adopters can respond to potential value migration---i.e., a shift in value capture from the firms to the developer. We find that value migration depends on the structure of value creation: it occurs when the technology primarily creates value at the consumer level, but not when it creates val",
+      "source_url": "https://cepr.org/publications/dp22130",
+      "doi": "",
+      "aliases": [
+        "cepr:22130"
+      ],
+      "first_public_date": "2026-11-03",
+      "stage": "working-paper",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22130"
+        }
+      ],
+      "id": "p_dd7c78425596c2",
+      "discovered_at": "2026-11-04",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-04",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22129 Artificial Intelligence and Bank Intermediation: A Critical Review of the Evidence",
+      "authors": [
+        "Tudor Dragan, Simona Nistor, Steven Ongena"
+      ],
+      "abstract": "We critically review the evidence on how artificial intelligence (AI) affects bank intermediation, from information production and lending decisions to bank performance and financial stability. Studies reach conflicting conclusions on profitability, risk and fragility, mainly because they measure AI, select outcomes and identify effects differently. We develop a framework that traces AI effects along the intermediation chain, from prediction to lending, bank balance sheets and the banking system, and explains why predictive gains pass through only partly and may change sign. Appraising the cor",
+      "source_url": "https://cepr.org/publications/dp22129",
+      "doi": "",
+      "aliases": [
+        "cepr:22129"
+      ],
+      "first_public_date": "2026-11-03",
+      "stage": "working-paper",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22129"
+        }
+      ],
+      "id": "p_a8a016d014dce3",
+      "discovered_at": "2026-11-04",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-04",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22125 Incentivizing Inflation Expectations",
+      "authors": [
+        "Sergii Drobot, Daniela Puzzello, Ryan Rholes, Alena Wabitsch"
+      ],
+      "abstract": "Inflation expectations are central to macroeconomics, yet surveys elicit them without marginal incentives for accuracy. In a multi-wave survey experiment, incentives change reported expectations: they reduce upward bias by 2.3-3.4 percentage points, disagreement by one-third, close the gender gap, and double learning rates in an RCT - all without increasing participant remuneration. Incentives raise effort and attention, not search or strategic behavior, and make expectations more informative about consumption plans. Because these effects are larger when baseline attention to inflation is low,",
+      "source_url": "https://cepr.org/publications/dp22125",
+      "doi": "",
+      "aliases": [
+        "cepr:22125"
+      ],
+      "first_public_date": "2026-11-03",
+      "stage": "working-paper",
+      "discipline": "macro",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22125"
+        }
+      ],
+      "id": "p_fccbfcc2bab78f",
+      "discovered_at": "2026-11-04",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-04",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22127 Policymaker Expectations and Fiscal Policy",
+      "authors": [
+        "Martin Ellison, Jason Lennard"
+      ],
+      "abstract": "How do policymaker expectations shape fiscal policy? We study this question using British Treasury revenue forecasts, an underexploited source of information on policymakers’ economic outlook. Extracting this information requires separating common macroeconomic expectations from tax-specific variation. We develop a Bayesian dynamic factor model to recover these expectations, drawing on a previously unused Treasury exercise that quantified how individual tax revenues respond to economic activity. The recovered expectations capture pessimism surrounding the return to gold, the deterioration in p",
+      "source_url": "https://cepr.org/publications/dp22127",
+      "doi": "",
+      "aliases": [
+        "cepr:22127"
+      ],
+      "first_public_date": "2026-11-03",
+      "stage": "working-paper",
+      "discipline": "public-econ",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22127"
+        }
+      ],
+      "id": "p_911964f7a6ec69",
+      "discovered_at": "2026-11-04",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-04",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "Forward Return Expectations",
+      "authors": [
+        "Mihir Gandhi",
+        "Niels Joachim Gormsen",
+        "Eben Lazarus"
+      ],
+      "abstract": "Abstract We measure investors’ short- and long-term stock-return expectations using both options and survey data. These expectations at different horizons reveal what investors think their own short-term expectations will be in the future, or forward return expectations. Across data sources, investors’ forward return expectations are countercyclical, especially when measured as forward risk premiums. This countercyclical variation is, however, excessive, as changes in forward return expectations are too large relative to subsequent realized short-term expectations. The excess variation in forw",
+      "source_url": "https://doi.org/10.1093/rfs/hhag096",
+      "doi": "10.1093/rfs/hhag096",
+      "aliases": [
+        "doi:10.1093/rfs/hhag096"
+      ],
+      "first_public_date": "2026-11-03",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "rfs",
+          "name": "The Review of Financial Studies",
+          "url": "https://doi.org/10.1093/rfs/hhag096"
+        }
+      ],
+      "id": "p_ea2dfecaf6c2c0",
+      "discovered_at": "2026-11-04",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-04",
+          "source_id": "rfs"
+        }
+      ]
+    },
+    {
+      "title": "The Cross-section of Subjective Expectations: Understanding Prices and Anomalies",
+      "authors": [
+        "Ricardo Delao",
+        "Xiao Han",
+        "Sean Myers"
+      ],
+      "abstract": "Abstract We decompose cross-sectional differences in the level of price-earnings ratios using professional forecasts. High price-earnings ratios are accounted for by both low expected returns and overly high expected earnings growth. The magnitudes and timing of the comovements between prices, earnings growth, and returns are consistent with gradual learning rather than expectations being highly sensitive to recent realizations. Earnings growth surprises do not translate 1-1 into one-period returns but instead are gradually reflected in returns over time. A structural risk-premium model incorp",
+      "source_url": "https://doi.org/10.1093/rfs/hhag095",
+      "doi": "10.1093/rfs/hhag095",
+      "aliases": [
+        "doi:10.1093/rfs/hhag095"
+      ],
+      "first_public_date": "2026-11-03",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "rfs",
+          "name": "The Review of Financial Studies",
+          "url": "https://doi.org/10.1093/rfs/hhag095"
+        }
+      ],
+      "id": "p_ec109838074944",
+      "discovered_at": "2026-11-04",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-04",
+          "source_id": "rfs"
+        }
+      ]
+    },
+    {
+      "title": "Does Climate Change Affect Firm Sales? Identifying Supply Effects",
+      "authors": [
+        "Cláudia Custódio",
+        "Miguel A. Ferreira",
+        "Emilia Garcia-Appendini",
+        "Adrian Lam"
+      ],
+      "abstract": "Abstract We estimate the supply-side effects of climate change on firm sales by exploiting variation in local average temperature across suppliers of the same client. A 1°C increase in temperature leads to a 2.5% decline in annual sales. This effect is nonlinear, with stronger effects among suppliers in regions with the largest temperature increases and in cooler regions. Manufacturing and heat-sensitive industries are more affected, consistent with a reduction in labor productivity and labor supply when local temperatures rise. Nondiversified and financially constrained firms are also more af",
+      "source_url": "https://doi.org/10.1017/s002210902610341x",
+      "doi": "10.1017/s002210902610341x",
+      "aliases": [
+        "doi:10.1017/s002210902610341x"
+      ],
+      "first_public_date": "2026-11-03",
+      "stage": "journal",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "jfqa",
+          "name": "Journal of Financial and Quantitative Analysis",
+          "url": "https://doi.org/10.1017/s002210902610341x"
+        }
+      ],
+      "id": "p_b6f4d355db5f7b",
+      "discovered_at": "2026-11-04",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-04",
+          "source_id": "jfqa"
+        }
+      ]
+    },
+    {
+      "title": "Does the Salience of Climate-Related Risk Affect Asset Prices?",
+      "authors": [
+        "Cloé Garnache"
+      ],
+      "abstract": "Abstract Using regression discontinuity and difference-in-differences designs to compare prices of California homes across a new wildfire risk zone boundary, I identify null effects in the immediate vicinity of the new risk zone boundary. In contrast, prices of homes newly assigned to a riskier zone drop by 5.7% further away from the new risk zone boundary. These findings suggest that households do not respond to the risk salience triggered by the new risk zone assignment. Instead, they update their risk beliefs in response to rezoning in a way that is consistent with the actual wildfire risk.",
+      "source_url": "https://doi.org/10.1017/s0022109026103494",
+      "doi": "10.1017/s0022109026103494",
+      "aliases": [
+        "doi:10.1017/s0022109026103494"
+      ],
+      "first_public_date": "2026-11-03",
+      "stage": "journal",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "jfqa",
+          "name": "Journal of Financial and Quantitative Analysis",
+          "url": "https://doi.org/10.1017/s0022109026103494"
+        }
+      ],
+      "id": "p_5ec6abadea21ec",
+      "discovered_at": "2026-11-04",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-04",
+          "source_id": "jfqa"
+        }
+      ]
+    },
+    {
+      "title": "Local Returns and Beliefs about the Stock Market",
+      "authors": [
+        "Tobin Hanspal",
+        "Clemens Wagner"
+      ],
+      "abstract": "Abstract We show that investors extrapolate from recent stock returns of locally headquartered firms when forming beliefs about aggregate stock market outcomes. While it may be optimal to rely on local information, these effects are unrelated to how informative local returns are on predictions of aggregate outcomes. Evidence from a sample of retail investors suggests this belief extrapolation is driven by investors’ own holdings of local firms. Our findings suggest that beliefs about information contained in public signals vary systematically with geography, and are an important component of l",
+      "source_url": "https://doi.org/10.1093/rof/rfag051",
+      "doi": "10.1093/rof/rfag051",
+      "aliases": [
+        "doi:10.1093/rof/rfag051"
+      ],
+      "first_public_date": "2026-11-02",
+      "stage": "journal",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "rof",
+          "name": "Review of Finance",
+          "url": "https://doi.org/10.1093/rof/rfag051"
+        }
+      ],
+      "id": "p_1afa68cb07c2c7",
+      "discovered_at": "2026-11-04",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-04",
+          "source_id": "rof"
+        }
+      ]
+    },
+    {
+      "title": "Middlemen as an exchange technology in international production networks",
+      "authors": [
+        "Bernardo S. Blum",
+        "Sebastian Claro",
+        "Kunal Dasgupta",
+        "Ignatius J. Horstmann",
+        "Marcos A. Rangel"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jdeveco.2026.103959",
+      "doi": "10.1016/j.jdeveco.2026.103959",
+      "aliases": [
+        "doi:10.1016/j.jdeveco.2026.103959"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "jde",
+          "name": "Journal of Development Economics",
+          "url": "https://doi.org/10.1016/j.jdeveco.2026.103959"
+        }
+      ],
+      "id": "p_15b13ec5a67639",
+      "discovered_at": "2026-11-04",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-04",
+          "source_id": "jde"
+        }
+      ]
+    },
     {
       "title": "DP22119 Central Bank Retail Deposits in the Past",
       "authors": [
