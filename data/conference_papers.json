@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-04T15:32:22+08:00",
+  "updated_at": "2026-11-05T15:56:56+08:00",
   "papers": [
     {
       "id": "4f6a2f09c0e94323",
@@ -4206,17 +4206,19 @@
       "conference_id": "cfrc-2026",
       "name": "China Financial Research Conference 2026",
       "program_url": "https://editorialexpress.com/conference/CFRC2026/program/CFRC2026.html",
-      "checked_at": "2026-11-04T15:32:22+08:00",
-      "status": "ok",
-      "papers_found": 58
+      "checked_at": "2026-11-05T15:56:56+08:00",
+      "status": "error",
+      "papers_found": 0,
+      "error": "URLError: <urlopen error [Errno 111] Connection refused>"
     },
     {
       "conference_id": "cicf-2026",
       "name": "China International Conference in Finance 2026",
       "program_url": "https://editorialexpress.com/conference/CICF2026/program/CICF2026.html",
-      "checked_at": "2026-11-04T15:32:22+08:00",
-      "status": "ok",
-      "papers_found": 239
+      "checked_at": "2026-11-05T15:56:56+08:00",
+      "status": "error",
+      "papers_found": 0,
+      "error": "URLError: <urlopen error [Errno 111] Connection refused>"
     }
   ],
   "archive_policy": "Public program metadata and links archived. PDF redistribution requires explicit verified permission/license. Missing or gated files are not archived."

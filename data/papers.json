@@ -1,8 +1,420 @@
 {
   "schema_version": 1,
   "snapshot": "incremental-ingestion",
-  "updated_at": "2026-11-04T07:32:13+00:00",
+  "updated_at": "2026-11-05T07:56:48+00:00",
   "papers": [
+    {
+      "title": "Shadow banks on the rise: Evidence across market segments",
+      "authors": [
+        "Kim Fe Cramer",
+        "Pulak Ghosh",
+        "Nirupama Kulkarni",
+        "Nishant Vats"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jfineco.2026.104398",
+      "doi": "10.1016/j.jfineco.2026.104398",
+      "aliases": [
+        "doi:10.1016/j.jfineco.2026.104398"
+      ],
+      "first_public_date": "2026-12",
+      "stage": "journal",
+      "discipline": "banking",
+      "sources": [
+        {
+          "id": "jfe",
+          "name": "Journal of Financial Economics",
+          "url": "https://doi.org/10.1016/j.jfineco.2026.104398"
+        }
+      ],
+      "id": "p_a6494e7d365408",
+      "discovered_at": "2026-11-05",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-05",
+          "source_id": "jfe"
+        }
+      ]
+    },
+    {
+      "title": "China Walls",
+      "authors": [
+        "Tomy Lee",
+        "Daniel Nathan",
+        "Chaojun Wang"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jfineco.2026.104403",
+      "doi": "10.1016/j.jfineco.2026.104403",
+      "aliases": [
+        "doi:10.1016/j.jfineco.2026.104403"
+      ],
+      "first_public_date": "2026-12",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jfe",
+          "name": "Journal of Financial Economics",
+          "url": "https://doi.org/10.1016/j.jfineco.2026.104403"
+        }
+      ],
+      "id": "p_97de7f60ea5307",
+      "discovered_at": "2026-11-05",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-05",
+          "source_id": "jfe"
+        }
+      ]
+    },
+    {
+      "title": "DP22134 Manufacturing Renaissance Meets Time-Inconsistent Tariffs",
+      "authors": [
+        "Christoph Boehm, Andrei Levchenko, Wei Xiang"
+      ],
+      "abstract": "Abstract We analyze optimal tariffs in a dynamic version of the Venables (1987) framework with a time-to-build lag in firm creation. In this environment, trade protection is driven by the desire to increase firm creation at home at the expense of the foreign trade partner. When firm creation takes time, the benefits of protection accrue in the future, whereas the costs in the form of higher consumer prices occur immediately. Under certain parameterizations, a policymaker that can commit to a full time path of tariffs leaves trade unrestricted at date 0, and announces high tariffs coming on at ",
+      "source_url": "https://cepr.org/publications/dp22134",
+      "doi": "",
+      "aliases": [
+        "cepr:22134"
+      ],
+      "first_public_date": "2026-11-04",
+      "stage": "working-paper",
+      "discipline": "trade",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22134"
+        }
+      ],
+      "id": "p_193b95ba2d5407",
+      "discovered_at": "2026-11-05",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-05",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22138 Growth Spillovers from China: A Firm-Level Anatomy",
+      "authors": [
+        "Paula Beltran, Lukas Franz, Andrea Presbitero"
+      ],
+      "abstract": "We study how growth shocks in China propagate to foreign firms through trade and supply chain linkages. We build granular instruments from idiosyncratic shocks to Chinese firms and trace their effects on almost 10 million firms in 37 countries. The same Chinese sectoral growth shock raises revenue for some foreign firms and lowers it for others, depending on how they are connected to China. Firms facing Chinese competition grow more slowly, while those exposed through export demand and input linkages benefit. We provide a unified firm-level decomposition into import competition, export demand,",
+      "source_url": "https://cepr.org/publications/dp22138",
+      "doi": "",
+      "aliases": [
+        "cepr:22138"
+      ],
+      "first_public_date": "2026-11-04",
+      "stage": "working-paper",
+      "discipline": "trade",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22138"
+        }
+      ],
+      "id": "p_c2c0b572962160",
+      "discovered_at": "2026-11-05",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-05",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22133 Prewar US Business Cycles under Uncertainty: Reconstructing Quarterly GDP before 1947",
+      "authors": [
+        "Raphael Auer"
+      ],
+      "abstract": "Official quarterly US GDP estimates begin in 1947; earlier quarterly histories must be reconstructed using annual benchmarks and historical indicators. To investigate uncertainty in these reconstructions, this paper systematically compares specifications drawn from the literature for reconstructing quarterly GDP during 1919–1946. The comparison evaluates predictions on concealed postwar quarters and separates variation across specifications from coefficient uncertainty within a model. Reconstruction choices matter, but their effects differ across episodes. Across 58 reconstruction specificatio",
+      "source_url": "https://cepr.org/publications/dp22133",
+      "doi": "",
+      "aliases": [
+        "cepr:22133"
+      ],
+      "first_public_date": "2026-11-04",
+      "stage": "working-paper",
+      "discipline": "macro",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22133"
+        }
+      ],
+      "id": "p_ea1e7b1b385979",
+      "discovered_at": "2026-11-05",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-05",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22135 Innovation Partnerships for Development along Green Value Chains",
+      "authors": [
+        "Samuel Edet, Ralf Martin, Golvine de Rochambeau, Trang Thu Tran, Dennis Verhoeven"
+      ],
+      "abstract": "Growth and development success stories are often linked to new technological waves and innovation success. Green technologies emerge as a new technology category in which innovation quality in Emerging and Developing Economies (EMDE) - even when excluding China - is relatively high when measured via the value of knowledge spillovers they generate. This suggests that further R&D investment in developing-country green-tech could be growth-enhancing. How could this be funded? We show that the highest-impact developing-country innovations are produced in collaborations between developing-country i",
+      "source_url": "https://cepr.org/publications/dp22135",
+      "doi": "",
+      "aliases": [
+        "cepr:22135"
+      ],
+      "first_public_date": "2026-11-04",
+      "stage": "working-paper",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22135"
+        }
+      ],
+      "id": "p_e39adba2e52ca1",
+      "discovered_at": "2026-11-05",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-05",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22137 Lost in Transition: Financial Barriers to New Technologies",
+      "authors": [
+        "Philippe Aghion, Antonin Bergeaud, Maarten De Ridder, John Van Reenen"
+      ],
+      "abstract": "Advanced economies are reshaped by transitions from old to new technological paradigms. These transitions rely on complementary innovations that spread new technologies across industries. What happens when a financial crisis disrupts investment in these innovations? Using a Schumpeterian endogenous growth model with financial frictions, we show that investment in new technologies is more sensitive to tighter financial conditions than investment in mature technologies. The key mechanism is path dependence: firms build expertise in the technologies they previously developed, leading young firms ",
+      "source_url": "https://cepr.org/publications/dp22137",
+      "doi": "",
+      "aliases": [
+        "cepr:22137"
+      ],
+      "first_public_date": "2026-11-04",
+      "stage": "working-paper",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22137"
+        }
+      ],
+      "id": "p_e91095ffd30aee",
+      "discovered_at": "2026-11-05",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-05",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22139 Measuring the Prevalence and Direction of Innovation: A Pilot Approach using LLMs",
+      "authors": [
+        "Prashant Garg, Peter John Lambert, Ralf Martin, Denis Medvedev"
+      ],
+      "abstract": "This paper pilots a method for measuring firms' product and process innovation at scale. Our approach uses LLMs to complete a detailed innovation survey for a sample of 600,000 companies operating across 40 countries. The preliminary results contain 6 million individual instances of innovative activity along with rich textual descriptions. These responses carry signal, for example a one-standard-deviation increase in a firm's product innovation index is associated with a 5% higher measured TFP residual. The data reveal that innovation is widespread: two-fifths of companies engage in product in",
+      "source_url": "https://cepr.org/publications/dp22139",
+      "doi": "",
+      "aliases": [
+        "cepr:22139"
+      ],
+      "first_public_date": "2026-11-04",
+      "stage": "working-paper",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22139"
+        }
+      ],
+      "id": "p_c29b43df13b53a",
+      "discovered_at": "2026-11-05",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-05",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22132 Middle Powers and a Rupturing Global Order",
+      "authors": [
+        "Jingyuan Cui, Nicolas Fernandez-Arias, Pierre-Olivier Gourinchas, Gee Hee Hong, Nan Li, Andrea Presbitero, Petia Topalova, Robert Zymek"
+      ],
+      "abstract": "Can middle powers—economies that are not large enough to be great powers themselves, but capable of influencing global outcomes through cooperation and coalition building—sustain trade cooperation if trade fragmentation were to intensify? We find that following the April 2025 US tariff announcement many middle powers strengthened trade ties and expanded preferential trade agreements among themselves while reducing their exposure to the US. Using a quantitative trade model, we show that a coalition of middle powers can raise its welfare in a hypothetical environment in which economies set tarif",
+      "source_url": "https://cepr.org/publications/dp22132",
+      "doi": "",
+      "aliases": [
+        "cepr:22132"
+      ],
+      "first_public_date": "2026-11-04",
+      "stage": "working-paper",
+      "discipline": "trade",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22132"
+        }
+      ],
+      "id": "p_785b66fef5033c",
+      "discovered_at": "2026-11-05",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-05",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22136 Unraveling the cobweb of global imbalances: drivers, vulnerabilities, and adjustment scenarios",
+      "authors": [
+        "Stefan Avdjiev, Kristin Forbes, Tsvetelina Nenova, Marjorie Santos"
+      ],
+      "abstract": "This paper analyses the evolution and drivers of the stock of global imbalances in order to assess associated vulnerabilities and potential adjustment scenarios. These imbalances have recently increased sharply, with a deterioration in the US net international investment position (NIIP) mirrored by NIIP improvements in most other major economies. We decompose these NIIP changes into their proximate drivers for a sample of 28 economies and find that financial factors (including valuation changes and investment income flows) are the primary drivers of global imbalances at both short and long hor",
+      "source_url": "https://cepr.org/publications/dp22136",
+      "doi": "",
+      "aliases": [
+        "cepr:22136"
+      ],
+      "first_public_date": "2026-11-04",
+      "stage": "working-paper",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22136"
+        }
+      ],
+      "id": "p_55ca759411f7f7",
+      "discovered_at": "2026-11-05",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-05",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "Is Informed Short Selling Concentrated in Family Firms? Evidence from a Reinvestigation",
+      "authors": [
+        "FERHAT AKBAS",
+        "MINJIE HUANG",
+        "FELIX MESCHKE"
+      ],
+      "abstract": "ABSTRACT We reinvestigate Anderson, Reeb, and Zhao's findings that informed short selling is unique to family firms and driven by information leakage from internal disputes. Using the same firm sample and more comprehensive short‐selling data, we find that short selling predicts future returns in both family and nonfamily firms. We also find no significant difference in abnormal short selling before negative earnings announcements. In extended sample periods, short selling continues to predict returns for nonfamily firms under both ownership‐based and familial‐link definitions. Overall, our ev",
+      "source_url": "https://doi.org/10.1111/jofi.70098",
+      "doi": "10.1111/jofi.70098",
+      "aliases": [
+        "doi:10.1111/jofi.70098"
+      ],
+      "first_public_date": "2026-11-04",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jf",
+          "name": "The Journal of Finance",
+          "url": "https://doi.org/10.1111/jofi.70098"
+        }
+      ],
+      "id": "p_eeedfa90b632bd",
+      "discovered_at": "2026-11-05",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-05",
+          "source_id": "jf"
+        }
+      ]
+    },
+    {
+      "title": "A Conditional Shrinkage Method for Portfolio Selection",
+      "authors": [
+        "Nathan Lassance",
+        "Alberto Martín-Utrera"
+      ],
+      "abstract": "Abstract We develop a conditional shrinkage method for portfolio selection. Our approach builds on a decomposition of the mean-variance portfolio into the 1/N portfolio and an alpha component that offers large efficiency gains but is exposed to substantial estimation risk. We show that a linear shrinkage covariance matrix determines the portfolio’s relative exposure to these components, and our framework allows the shrinkage intensity to depend on a state variable that predicts their relative performance. We implement the method using investor sentiment and find that the estimated relation pre",
+      "source_url": "https://doi.org/10.1093/rof/rfag052",
+      "doi": "10.1093/rof/rfag052",
+      "aliases": [
+        "doi:10.1093/rof/rfag052"
+      ],
+      "first_public_date": "2026-11-04",
+      "stage": "journal",
+      "discipline": "methods",
+      "sources": [
+        {
+          "id": "rof",
+          "name": "Review of Finance",
+          "url": "https://doi.org/10.1093/rof/rfag052"
+        }
+      ],
+      "id": "p_73afeb89b6a670",
+      "discovered_at": "2026-11-05",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-05",
+          "source_id": "rof"
+        }
+      ]
+    },
+    {
+      "title": "The long-run returns to rural electrification: Evidence from a randomized experiment",
+      "authors": [
+        "Matthieu Chemin",
+        "Thomas Kokossou"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jdeveco.2026.103960",
+      "doi": "10.1016/j.jdeveco.2026.103960",
+      "aliases": [
+        "doi:10.1016/j.jdeveco.2026.103960"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "methods",
+      "sources": [
+        {
+          "id": "jde",
+          "name": "Journal of Development Economics",
+          "url": "https://doi.org/10.1016/j.jdeveco.2026.103960"
+        }
+      ],
+      "id": "p_016eca2ca8ff00",
+      "discovered_at": "2026-11-05",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-05",
+          "source_id": "jde"
+        }
+      ]
+    },
     {
       "title": "DP22131 The Professors Who Would Become Popes: Academic Human Capital and Elite Selection in Premodern Europe",
       "authors": [
