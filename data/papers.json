@@ -1,8 +1,1836 @@
 {
   "schema_version": 1,
   "snapshot": "incremental-ingestion",
-  "updated_at": "2026-11-05T07:56:48+00:00",
+  "updated_at": "2026-11-06T07:57:30+00:00",
   "papers": [
+    {
+      "title": "Financial constraints and the transmission of monetary policy: Evidence from relaxation of collateral constraints",
+      "authors": [
+        "Nishant Vats"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jfineco.2026.104405",
+      "doi": "10.1016/j.jfineco.2026.104405",
+      "aliases": [
+        "doi:10.1016/j.jfineco.2026.104405"
+      ],
+      "first_public_date": "2026-12",
+      "stage": "journal",
+      "discipline": "macro",
+      "sources": [
+        {
+          "id": "jfe",
+          "name": "Journal of Financial Economics",
+          "url": "https://doi.org/10.1016/j.jfineco.2026.104405"
+        }
+      ],
+      "id": "p_0c09db8007636a",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "jfe"
+        }
+      ]
+    },
+    {
+      "title": "DP22145 Heterogeneous CEO Death Effects",
+      "authors": [
+        "Dirk Jenter, Egor Matveyev, Lukas Roth"
+      ],
+      "abstract": "This paper analyzes changes in firm value, performance, and behavior caused by CEO deaths. Many deaths trigger large stock price changes—shareholders believe that some CEOs add shareholder value, but others are seen as not optimally matched or overpaid. These value changes are correlated with CEO and firm characteristics (e.g., deaths of old CEOs tend to add value), but much of the variation remains unexplained. The market reactions predict changes in operating performance, indicating that shareholders know which CEOs improve performance and which do not. The evidence suggests that CEOs are im",
+      "source_url": "https://cepr.org/publications/dp22145",
+      "doi": "",
+      "aliases": [
+        "cepr:22145"
+      ],
+      "first_public_date": "2026-11-05",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22145"
+        }
+      ],
+      "id": "p_23d70b0a89a940",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22144 Complex Capital Markets",
+      "authors": [
+        "Sergei Glebkin, Bryan Kelly, Semyon Malamud, Matias Palmunen, Mo Pourmohammadi"
+      ],
+      "abstract": "We propose the Complex Market Hypothesis: substantial return predictability arises from many individually weak signals. We model a computational arms race in which investors choose model scale and learn from limited data. Random matrix theory yields an essentially unique linear equilibrium and characterizes the distribution of model sizes. Prices transmit information from larger models to smaller ones, allowing both to coexist. Cheaper computation can raise aggregate spending and widen performance gaps across funds. Even when every investor observes all signals determining payoffs, uncertainty",
+      "source_url": "https://cepr.org/publications/dp22144",
+      "doi": "",
+      "aliases": [
+        "cepr:22144"
+      ],
+      "first_public_date": "2026-11-05",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22144"
+        }
+      ],
+      "id": "p_a38c2df71c5e25",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22141 Productivity and Knowledge Transfer: Evidence from Prisoner Employment",
+      "authors": [
+        "Michela Giorcelli, Jacopo Ballabio, Claudio Labanca"
+      ],
+      "abstract": "Worker mobility can facilitate the transmission of knowledge and ultimately increase productivity. Yet isolating such productivity effects is challenging because of worker sorting, labor market adjustments, and assimilation processes. We exploit quasiexperimental variation arising from the temporary employment of Italian prisoners of war in Australian agriculture during World War II to isolate the effects of worker mobility on productivity. We find that this inflow of workers increased agricultural output in the short run and generated productivity gains that persisted after the workers’ depar",
+      "source_url": "https://cepr.org/publications/dp22141",
+      "doi": "",
+      "aliases": [
+        "cepr:22141"
+      ],
+      "first_public_date": "2026-11-05",
+      "stage": "working-paper",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22141"
+        }
+      ],
+      "id": "p_08d34704779e7d",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22143 Urban Elevators and the Geography of Labor Market Polarization",
+      "authors": [
+        "Alexander Monge-Naranjo, Fabio Cerina, Elisa Dienesch, Alessio Moro"
+      ],
+      "abstract": "Large cities gain abstract jobs and shed routine jobs faster than small ones. Whether this divergence arises because workers move across locations or because workers' labor market careers differ across locations matters for welfare and policy, and cross-sectional data cannot tell the two apart. Using the French administrative panel DADS--EDP (1984--2021), we decompose the change in each occupation's employment share, by city size, into within-city occupational switches, cross-city relocation, combined moves, and non-employment flows. The divergence is produced inside cities. We find that large",
+      "source_url": "https://cepr.org/publications/dp22143",
+      "doi": "",
+      "aliases": [
+        "cepr:22143"
+      ],
+      "first_public_date": "2026-11-05",
+      "stage": "working-paper",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22143"
+        }
+      ],
+      "id": "p_e16a46856c6d20",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22142 Heterogeneous Firms, Growth and the Long Shadows of Business Cycle",
+      "authors": [
+        "Giammario Impullitti, Omar Licandro, Petr Sedláček, Adam Spencer"
+      ],
+      "abstract": "Do firms differ in their innovation response to business cycles? What economic forces shape this heterogeneity? And does it matter for aggregate propagation? We document substantial heterogeneity in firm-level R&D cyclicality, develop a theory to explain this fact, and validate its key mechanism in the data. In a tractable model of business cycles and innovation-driven growth, endogenous selection makes R&D particularly responsive to aggregate conditions for firms close to the exit margin. Consistent with this mechanism, firms closer to exit display more procyclical R&D in the data. Quantitati",
+      "source_url": "https://cepr.org/publications/dp22142",
+      "doi": "",
+      "aliases": [
+        "cepr:22142"
+      ],
+      "first_public_date": "2026-11-05",
+      "stage": "working-paper",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22142"
+        }
+      ],
+      "id": "p_2d82b336baefdf",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22140 Money, Time, and the Demand for Children",
+      "authors": [
+        "Evie Thompson, Guy Michaels"
+      ],
+      "abstract": "US fertility has fallen well below replacement, even as stated fertility ideals have not. We ask how much money and time women are willing to trade off for additional children, a question that is difficult to answer using observational data or even natural experiments. We field a discrete choice experiment in which 1,995 women choose between hypothetical futures varying the number of additional children, household income, and time use. Demand falls with both income and time prices, and rises with income faster than proportionally, consistent with larger families being a luxury good. Explorator",
+      "source_url": "https://cepr.org/publications/dp22140",
+      "doi": "",
+      "aliases": [
+        "cepr:22140"
+      ],
+      "first_public_date": "2026-11-05",
+      "stage": "working-paper",
+      "discipline": "trade",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22140"
+        }
+      ],
+      "id": "p_08f8e95db2f711",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "Are the Hedges of Funds Green?",
+      "authors": [
+        "Huan Kuang",
+        "Bing Liang",
+        "Mila Getmansky Sherman",
+        "Tianyi Qu"
+      ],
+      "abstract": "Abstract Over the past decade, hedge funds have increasingly embraced green investing. We develop a novel return-based measure of fund greenness and find that greener funds earn higher average returns, consistent with capturing a positive green premium, and are associated with lower risks, especially during adverse periods. We further show that performance gains are greatest among directional funds, whereas risk reduction is most pronounced among nondirectional funds. We also provide evidence that managers of these funds exhibit superior green investment skills through green stock selection an",
+      "source_url": "https://doi.org/10.1017/s0022109026103457",
+      "doi": "10.1017/s0022109026103457",
+      "aliases": [
+        "doi:10.1017/s0022109026103457"
+      ],
+      "first_public_date": "2026-11-05",
+      "stage": "journal",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "jfqa",
+          "name": "Journal of Financial and Quantitative Analysis",
+          "url": "https://doi.org/10.1017/s0022109026103457"
+        }
+      ],
+      "id": "p_ff948bdbfbc495",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "jfqa"
+        }
+      ]
+    },
+    {
+      "title": "Why Do Union Jobs Pay More? New Evidence from Matched Employer-Employee Data",
+      "authors": [
+        "Pierre-Loup Beauregard",
+        "Thomas Lemieux",
+        "Derek Messacar",
+        "Raffaele Saggio"
+      ],
+      "abstract": "Abstract We use Canadian matched employer-employee data to assess the sources of the union pay premium. After controlling for worker heterogeneity using the two-way fixed effects approach of Abowd, Kramarz, and Margolis (AKM), we find that unionized firms pay about 15 log points more than non-unionized firms. Forty percent of this gap is linked to productivity differences between unionized and non-unionized firms as measured by value added per worker. The remaining gap reflects unions’ ability to extract more rents for workers. Our estimates imply that unions raise pay among unionized workers ",
+      "source_url": "https://doi.org/10.1093/qje/qjag054",
+      "doi": "10.1093/qje/qjag054",
+      "aliases": [
+        "doi:10.1093/qje/qjag054"
+      ],
+      "first_public_date": "2026-11-05",
+      "stage": "journal",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "qje",
+          "name": "The Quarterly Journal of Economics",
+          "url": "https://doi.org/10.1093/qje/qjag054"
+        }
+      ],
+      "id": "p_c72974cf3c208e",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "qje"
+        }
+      ]
+    },
+    {
+      "title": "The DNA of Neuroticism and Financial Decisions",
+      "authors": [
+        "Richard Sias",
+        "Laura T Starks",
+        "H J Turtle"
+      ],
+      "abstract": "Abstract A polygenic score (PGS) capturing genetic predisposition toward neuroticism predicts heterogeneity in risk aversion, return beliefs, and stock market participation. This approach addresses key methodological and interpretive concerns associated with phenotypic measures of neuroticism. Risk aversion and return beliefs are important, but incomplete, channels linking the neuroticism PGS to stock market participation. The neuroticism PGS also predicts heterogeneity in demographic and behavioral characteristics previously shown to influence financial choices. These characteristics serve as",
+      "source_url": "https://doi.org/10.1093/rof/rfag039",
+      "doi": "10.1093/rof/rfag039",
+      "aliases": [
+        "doi:10.1093/rof/rfag039"
+      ],
+      "first_public_date": "2026-11-04",
+      "stage": "journal",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "rof",
+          "name": "Review of Finance",
+          "url": "https://doi.org/10.1093/rof/rfag039"
+        }
+      ],
+      "id": "p_60508c87c88a8e",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "rof"
+        }
+      ]
+    },
+    {
+      "title": "Climate exposure and the flight of inventors",
+      "authors": [
+        "Tong Li"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jcorpfin.2026.103107",
+      "doi": "10.1016/j.jcorpfin.2026.103107",
+      "aliases": [
+        "doi:10.1016/j.jcorpfin.2026.103107"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jcf",
+          "name": "Journal of Corporate Finance",
+          "url": "https://doi.org/10.1016/j.jcorpfin.2026.103107"
+        }
+      ],
+      "id": "p_24ba875ac6ad32",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "jcf"
+        }
+      ]
+    },
+    {
+      "title": "Health Shocks and Annuity Choices",
+      "authors": [
+        "Johannes Hagen",
+        "Michal Hodor",
+        "Abigail Hurwitz"
+      ],
+      "abstract": "This study examines how a first-time malignant cancer diagnosis, acting as an informational shock to perceived longevity, affects the demand for life annuities. Using a quasi-experimental design and exploiting Swedish administrative data, we show that receiving a cancer diagnosis close to retirement reduces annuitization rates by 5.5%. The diagnosis lowers the money’s worth ratio of a life annuity by 33%, representing a substantial financial loss. Combined with the modest behavioral response, this yields a low demand elasticity of 0.17 with respect to the perceived annuity value. Evidence from",
+      "source_url": "https://doi.org/10.1287/mnsc.2025.00682",
+      "doi": "10.1287/mnsc.2025.00682",
+      "aliases": [
+        "doi:10.1287/mnsc.2025.00682"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2025.00682"
+        }
+      ],
+      "id": "p_96949693321621",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "The Effects of Personal Data Management on Competition and Welfare",
+      "authors": [
+        "Jiajia Cong",
+        "Noriaki Matsushima"
+      ],
+      "abstract": "This study examines the impact of consumers’ personal data management on firm competition in the data collection and application markets, as well as on welfare outcomes. Consumers purchase products from differentiated firms in these two markets. Initially, in the data collection market, firms compete to collect consumer data to predict preferences in the data application market, enabling them to offer personalized prices to their targeted customers. Before firms set prices in the data application market, targeted consumers can erase their data at a fixed cost, thereby becoming untargeted. We s",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.08024",
+      "doi": "10.1287/mnsc.2024.08024",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.08024"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.08024"
+        }
+      ],
+      "id": "p_fde4a9b82d3186",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Forecasting GDP Growth Rates Using Accounting Earnings: A Large Panel Microdata Approach",
+      "authors": [
+        "Yumeng Cui",
+        "Yongmiao Hong",
+        "Naijing Huang",
+        "Yicheng Wang"
+      ],
+      "abstract": "Economists and econometricians typically use aggregate economic and financial variables for gross domestic product (GDP) prediction. However, aggregation often results in a loss of valuable information, diminishing key features such as heterogeneity, interactions, nonlinearity, and structural breaks. We propose a novel microforecasting approach, using large panel data of firm accounting earnings from corporate financial reports to forecast GDP. By employing machine learning methods, we can effectively exploit this large microlevel information set to achieve substantially more accurate GDP fore",
+      "source_url": "https://doi.org/10.1287/mnsc.2025.01549",
+      "doi": "10.1287/mnsc.2025.01549",
+      "aliases": [
+        "doi:10.1287/mnsc.2025.01549"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2025.01549"
+        }
+      ],
+      "id": "p_ccdcf99d2ffb7d",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "The Demand for Government Debt",
+      "authors": [
+        "Egemen Eren",
+        "Andreas Schrimpf",
+        "Fan Dora Xia"
+      ],
+      "abstract": "We document that the sectoral composition and marginal buyers of government debt differ notably across jurisdictions and over time. We use instrumental variables derived from monetary policy surprises to estimate the demand elasticities of various sectors. In the United States, commercial banks and mutual funds exhibit the most price-elastic demand, whereas the foreign official sector has a price-inelastic demand. Based on these estimates and under certain assumptions, we find that a 1% increase in the Central Bank holdings of U.S. Treasuries results in an around 8- to 13-basis-point drop in l",
+      "source_url": "https://doi.org/10.1287/mnsc.2025.00332",
+      "doi": "10.1287/mnsc.2025.00332",
+      "aliases": [
+        "doi:10.1287/mnsc.2025.00332"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "banking",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2025.00332"
+        }
+      ],
+      "id": "p_f52805bf0f57b7",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Tobin Tax Policy, Housing Speculation, and Property Market Dynamics",
+      "authors": [
+        "Sumit Agarwal",
+        "Kwong Wing Chau",
+        "Maggie Rong Hu",
+        "Wayne Xinwei Wan"
+      ],
+      "abstract": "Hong Kong introduced a Tobin property tax—the Special Stamp Duty (SSD)—in 2010, which substantially increased the selling costs of short-term residential property holders. This study examines the effectiveness of this Tobin tax in curbing speculation and cooling down the housing market. We find that the SSD effectively curtails flippers who hold homes for less than two years and reduces their market presence from 23.2% in 2009% to 2.4% in 2011 and 0.9% in 2013. However, one year after implementing the tax, housing prices grow by 12.64% and 15.76% in the primary and secondary markets, respectiv",
+      "source_url": "https://doi.org/10.1287/mnsc.2022.00370",
+      "doi": "10.1287/mnsc.2022.00370",
+      "aliases": [
+        "doi:10.1287/mnsc.2022.00370"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "public-econ",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2022.00370"
+        }
+      ],
+      "id": "p_a492c6472f8bb5",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Quality Disclosures and Disappointment: Evidence from the Academy Nominations",
+      "authors": [
+        "Michelangelo Rossi",
+        "Felix Schleef"
+      ],
+      "abstract": "This study examines the unintended consequences of quality disclosures, focusing on how Academy Award nominations impact consumer satisfaction in the movie industry. Awards and certifications typically signal high quality and increase consumer expectations. Yet, if the experience falls short of the expectation, they may also lead to disappointment. Using a novel data set from MovieLens, we analyze user ratings for movies surrounding Academy Award nominations from 1995 to 2019. We first implement a difference-in-differences strategy comparing nominated and non-nominated films and then introduce",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.09016",
+      "doi": "10.1287/mnsc.2024.09016",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.09016"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.09016"
+        }
+      ],
+      "id": "p_d2f11af6436e6d",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Private Equity, Consumers, and Competition: Evidence from the Nursing Home Industry",
+      "authors": [
+        "Ashvin D. Gandhi",
+        "YoungJun Song",
+        "Prabhava Upadrashta"
+      ],
+      "abstract": "This paper studies how product market competition shapes the impact of private equity (PE) acquisitions on consumers. We examine nursing home buyouts and observe that PE-owned facilities exhibit greater competitive sensitivity: competing more aggressively when competitive incentives are strong and exploiting market power more aggressively when competitive incentives are weak. We find that PE-owned facilities are more sensitive to local market competition—even when comparing effects only across facilities purchased as part of the same acquisition—and are more responsive to a pro-competitive pol",
+      "source_url": "https://doi.org/10.1287/mnsc.2023.01486",
+      "doi": "10.1287/mnsc.2023.01486",
+      "aliases": [
+        "doi:10.1287/mnsc.2023.01486"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.01486"
+        }
+      ],
+      "id": "p_af93e15484aecc",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Measuring the Driving Forces of Predictive Performance: Application to Credit Scoring",
+      "authors": [
+        "Sullivan Hué",
+        "Christophe Hurlin",
+        "Christophe Pérignon",
+        "Sébastien Saurin"
+      ],
+      "abstract": "Because they play an increasingly important role in determining access to credit, credit scoring models are under growing scrutiny from banking supervisors and internal model validators. These authorities need to monitor the model performance and identify its key drivers. To facilitate this, we introduce the explainable performance (XPER) methodology to decompose a performance metric (e.g., area under the curve (AUC), [Formula: see text]) into specific contributions associated with the various features of a forecasting model. XPER is theoretically grounded on Shapley values and is both model-a",
+      "source_url": "https://doi.org/10.1287/mnsc.2023.02025",
+      "doi": "10.1287/mnsc.2023.02025",
+      "aliases": [
+        "doi:10.1287/mnsc.2023.02025"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "banking",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.02025"
+        }
+      ],
+      "id": "p_23a54e78548609",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "The Need for Absorptive Capacity Alleviates the Free-Rider Problem in Knowledge Production",
+      "authors": [
+        "Jerker Denrell",
+        "Jerry Luukkonen",
+        "Nick Chater",
+        "Chengwei Liu"
+      ],
+      "abstract": "Knowledge sharing is central to strategy and organizational learning, yet its effect on knowledge production remains underexplored. When knowledge diffuses too easily, individuals may free ride on others’ costly knowledge production, creating a suboptimal equilibrium in which knowledge sharing persists but the average payoff is no greater than if everyone produced knowledge independently—the so-called Rogers’ paradox. We develop a game-theoretic model to re-examine this puzzle. In our baseline model, we reproduce Rogers’ paradox; frictionless sharing does not increase performance beyond indivi",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.06471",
+      "doi": "10.1287/mnsc.2024.06471",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.06471"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.06471"
+        }
+      ],
+      "id": "p_a9bdf5b3c7b99f",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Within–Bank Holding Company Accounting Information and Internal Capital Allocation",
+      "authors": [
+        "Scott Liao",
+        "Allison Nicoletti",
+        "Barbara Su"
+      ],
+      "abstract": "We examine whether loan loss provision validity (i.e., the extent of loan loss provisions mapping into future charge offs) within the bank holding company (BHC) is associated with internal capital allocation efficiency. Exploiting the filing requirements for subsidiary banks, we find that within-BHC provision validity, our measure of internal information quality, is positively associated with internal capital market efficiency. We also find that this association is concentrated in BHCs more likely to allocate capital to take advantage of subsidiary lending opportunities and BHCs with higher in",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.05313",
+      "doi": "10.1287/mnsc.2024.05313",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.05313"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "banking",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.05313"
+        }
+      ],
+      "id": "p_a61985fa7c762f",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Exchange-Traded Funds and the Wash Sale Loophole",
+      "authors": [
+        "Michael Dambra",
+        "Andrew Glover",
+        "Charles M. C. Lee",
+        "Phillip J. Quinn"
+      ],
+      "abstract": "Tax wash sale rules prohibit the recognition of capital losses when substantially identical securities are sold and immediately repurchased within short windows. This study examines whether institutional investors use exchange-traded funds (ETFs) to circumvent wash sale rules. Consistent with tax-motivated demand for ETFs, incumbent ETFs both create more shares and experience more trading volume upon the introduction of nearly identical ETFs, particularly when recent returns are negative. We show that tax-sensitive institutions’ investment in highly correlated ETFs has proliferated in recent y",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.06944",
+      "doi": "10.1287/mnsc.2024.06944",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.06944"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.06944"
+        }
+      ],
+      "id": "p_2d0aa9bfa2349b",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Frozen-State Value Iteration: Faster Reinforcement Learning by Freezing Slow States",
+      "authors": [
+        "Yijia Wang",
+        "Daniel R. Jiang"
+      ],
+      "abstract": "We study infinite-horizon Markov decision processes (MDPs) with fast–slow structure, in which some state variables evolve rapidly (fast states), whereas others change more gradually (slow states). This structure commonly arises in practice when decisions must be made at high frequencies over long horizons and when slowly changing information still plays a critical role in determining optimal actions. Examples include inventory control under slowly changing demand indicators or dynamic pricing with gradually shifting consumer behavior. Modeling the problem at the natural decision frequency lead",
+      "source_url": "https://doi.org/10.1287/mnsc.2023.00012",
+      "doi": "10.1287/mnsc.2023.00012",
+      "aliases": [
+        "doi:10.1287/mnsc.2023.00012"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.00012"
+        }
+      ],
+      "id": "p_0c88278aeeb0c1",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Collaborative Work Management Technologies and Managerial Intensity in U.S. Corporations: An Examination",
+      "authors": [
+        "Piyush Gulati",
+        "Arianna Marchetti",
+        "Phanish Puranam"
+      ],
+      "abstract": "Do digital technologies reinforce managerial hierarchies or, instead, make them less relevant? We propose that the answer to this question depends on the nature of the technology: specifically, its relative impact on managers’ capacity to supervise and on subordinates’ need for supervision. Applying this framework to collaborative work management (CWM) technologies that facilitate real-time collaboration, communication, and task coordination, we predict that the adoption of such technologies should reduce managerial intensity and increase decentralization in organizations. To test this predict",
+      "source_url": "https://doi.org/10.1287/mnsc.2023.04127",
+      "doi": "10.1287/mnsc.2023.04127",
+      "aliases": [
+        "doi:10.1287/mnsc.2023.04127"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.04127"
+        }
+      ],
+      "id": "p_3ca2d78d03ac14",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "The Trade-Offs of Letting Local Managers Make Hiring Decisions",
+      "authors": [
+        "Hugh Xiaolong Wu",
+        "Shannon X. Liu"
+      ],
+      "abstract": "Letting managers have more authority over hiring decisions is becoming an increasingly common management practice among business chains worldwide, yet both theoretical and empirical evidence on its effects remains limited. Local manager hiring (LMH) refers to decentralizing hiring decisions to local business unit managers, rather than relying on the headquarters’ human resource department to make decisions. To assess the impacts of LMH on employee recruitment, productivity, and firm performance, we partnered with a large Chinese firm operating 111 retail stores through a twelve-month field exp",
+      "source_url": "https://doi.org/10.1287/mnsc.2020.03837",
+      "doi": "10.1287/mnsc.2020.03837",
+      "aliases": [
+        "doi:10.1287/mnsc.2020.03837"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "trade",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2020.03837"
+        }
+      ],
+      "id": "p_7fedecb782deca",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1287/mnsc.2026.eb.v72n11",
+      "doi": "10.1287/mnsc.2026.eb.v72n11",
+      "aliases": [
+        "doi:10.1287/mnsc.2026.eb.v72n11"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2026.eb.v72n11"
+        }
+      ],
+      "id": "p_9375505fc42ca6",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "The Road to Stock Market Participation",
+      "authors": [
+        "Sumit Agarwal",
+        "Meghana Ayyagari",
+        "Yuxi Cheng",
+        "Pulak Ghosh"
+      ],
+      "abstract": "This paper examines how infrastructure development affects stock market participation in India using trading data from more than 13 million individuals. Using the phased rollout of a national road construction program as a natural experiment, we find that new road connections lead to significant increases in both trading activity and the number of investors. These effects are driven primarily by new market entrants and are most pronounced in rural and intermediately developed regions as well as among male and middle-aged investors. Two main mechanisms explain these patterns. First is an inform",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.04496",
+      "doi": "10.1287/mnsc.2024.04496",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.04496"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.04496"
+        }
+      ],
+      "id": "p_896d83efd2d027",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Corporate Acquisitions and Bank Relationships",
+      "authors": [
+        "Steven Poelhekke",
+        "Razvan Vlahu",
+        "Vadym Volosovych"
+      ],
+      "abstract": "We study the dynamics of firm-bank relationships following corporate acquisitions using a novel firm-bank data set for 23 European countries over 2008–2014. Our data allows us to track changes in both firm ownership and bank relationships over time. To examine the effect of ownership change on bank relationships, we combine a difference-in-differences approach with matching. We find that the majority of acquisitions are associated with substantial changes in bank relationships of target firms. Acquiring firms actively change the composition of these relationships, incorporating banks with supe",
+      "source_url": "https://doi.org/10.1287/mnsc.2023.04231",
+      "doi": "10.1287/mnsc.2023.04231",
+      "aliases": [
+        "doi:10.1287/mnsc.2023.04231"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "banking",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.04231"
+        }
+      ],
+      "id": "p_e053ffec149d88",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "The Hidden Costs of Fairness in Platform Markets: The Dynamics of Lowering Developer Royalty Rates",
+      "authors": [
+        "Annamaria Conti",
+        "Juan Santaló"
+      ],
+      "abstract": "Multisided platforms crucially rely on indirect network effects. When trying to strengthen these effects, platform owners face a fundamental challenge, namely, designing incentives to enhance developer effort and simultaneously ensuring the release of high-quality products on the platform. This paper highlights the costs associated with lowering royalty rates to boost developer effort, as such reductions increase the relative supply of lower-quality offerings, worsening information congestion problems and amplifying the importance of visibility-enhancing investments. We leverage the quasi rand",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.05861",
+      "doi": "10.1287/mnsc.2024.05861",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.05861"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.05861"
+        }
+      ],
+      "id": "p_b6899451f2f91f",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Building Careers in Project-Based Organizations: Breadth, Fit, and the Path to Advancement",
+      "authors": [
+        "Federica De Stefano",
+        "Matthew Bidwell"
+      ],
+      "abstract": "Project-based organizations allow employees in ostensibly similar roles to acquire very different experiences by working on different kinds of projects. We study how people build careers in these contexts, examining when employees choose to diversify their experience—both in terms of project content and collaborators—and how the resulting diversification affects their career advancement. Using longitudinal project data from a services organization, our results suggest that employees initially explore different kinds of work by moving across project types, but then go on to find their fit in a ",
+      "source_url": "https://doi.org/10.1287/mnsc.2022.02622",
+      "doi": "10.1287/mnsc.2022.02622",
+      "aliases": [
+        "doi:10.1287/mnsc.2022.02622"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2022.02622"
+        }
+      ],
+      "id": "p_8c313f18cce41a",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Improving Cash-Constrained Smallholder Farmers’ Revenue: The Role of Government Loans",
+      "authors": [
+        "Jimin Park",
+        "Somya Singhvi",
+        "Yanchong Zheng"
+      ],
+      "abstract": "This paper examines how the need for immediate cash by smallholder farmers may lead to undesirable selling decisions that hurt their revenue and analyzes the efficacy of government loan policies in tackling this challenge. We develop a game-theoretic model to characterize the base scenario of no loan, uncovering the impacts of cash needs on farmers’ revenue. We then examine how a government loan, under which farmers store some of their production at government warehouses in exchange for immediate cash, may counteract these negative impacts. We analyze and optimize two types of policies: one in",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.06206",
+      "doi": "10.1287/mnsc.2024.06206",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.06206"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "public-econ",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.06206"
+        }
+      ],
+      "id": "p_9d188984d51aa8",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Asset Pricing in a World of Imperfect Foresight",
+      "authors": [
+        "Peter Bossaerts",
+        "Felix Fattinger",
+        "Frans van den Bogaerde",
+        "Wenhao Yang"
+      ],
+      "abstract": "A key assumption of dynamic asset pricing theory is that agents have perfect foresight: for all future contingencies, they correctly foresee the corresponding equilibrium prices. Is it possible for prices to still reflect perfect foresight even if agents have imperfect foresight? We answer affirmatively, provided agents exhibit a mild form of narrow framing, which we refer to as dynamic narrow framing: while accounting for future endowments, agents ignore retrading opportunities. This behavior vastly simplifies computation of optimal choices because it obviates the need to form beliefs about f",
+      "source_url": "https://doi.org/10.1287/mnsc.2025.03690",
+      "doi": "10.1287/mnsc.2025.03690",
+      "aliases": [
+        "doi:10.1287/mnsc.2025.03690"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2025.03690"
+        }
+      ],
+      "id": "p_a4daf1f644cb55",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "The Power of Two in Token Systems",
+      "authors": [
+        "Itai Ashlagi",
+        "Süleyman Kerimov",
+        "Omer Tamuz",
+        "Geng Zhao"
+      ],
+      "abstract": "In economies without monetary transfers, token systems serve as an alternative to sustain cooperation and increase efficiency. This paper studies whether a token-based economy can be effective in marketplaces with thin exogenous supply. We consider a marketplace in which at each time period one agent requests a service, one agent provides the service, and one token (artificial currency) is used to pay for service provision. The number of tokens each agent has represents the difference between the amount of service provisions and service requests by the agent. We are interested in the behavior ",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.06176",
+      "doi": "10.1287/mnsc.2024.06176",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.06176"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.06176"
+        }
+      ],
+      "id": "p_4b11e75d16806c",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "On the Quality of Cryptocurrency Markets: Centralized vs. Decentralized Exchanges",
+      "authors": [
+        "Andrea Barbon",
+        "Angelo Ranaldo"
+      ],
+      "abstract": "We analyze the market quality of centralized crypto exchanges and decentralized blockchain-based venues (DEXs) using a unique and comprehensive data set. Focusing on two fundamental aspects, transaction costs and deviations from the no-arbitrage condition, we estimate the causal effect of gas fees on DEX market quality. We show that these fixed costs impose a significant burden on relatively small trades and cause persistent arbitrage deviations. Conversely, DEXs offer more competitive transaction costs for larger trades, offering a more favorable environment for institutional investors. Furth",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.07703",
+      "doi": "10.1287/mnsc.2024.07703",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.07703"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "trade",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.07703"
+        }
+      ],
+      "id": "p_724989d21acf9a",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Choosing Outcomes-Based Reimbursement Policies: Should We Worry About Collusion?",
+      "authors": [
+        "Saša Zorc",
+        "Stephen E. Chick",
+        "Sameer Hasija"
+      ],
+      "abstract": "Outcomes-based reimbursement rewards health providers with better health outcomes with higher payments. Such reimbursement policies require several design choices, including the type of contract (e.g., capitation or fee-for-service), measure (e.g., population- or provider-level outcomes), and whether to contract with individual providers or larger groups. We explore which outcomes-based reimbursement policies may be vulnerable to potentially illegal collusion, and whether collusion issues can be averted through incentive design. We present a game-theoretic model a chronic care pathway in a two",
+      "source_url": "https://doi.org/10.1287/mnsc.2021.02283",
+      "doi": "10.1287/mnsc.2021.02283",
+      "aliases": [
+        "doi:10.1287/mnsc.2021.02283"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2021.02283"
+        }
+      ],
+      "id": "p_b8dfcc41ac1fc8",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "The Role of Physician Integration in Alternative Payment Models: The Case of the Comprehensive Joint Replacement Program",
+      "authors": [
+        "Christopher J. Chen",
+        "Kraig Delana"
+      ],
+      "abstract": "U.S. health system reform simultaneously promotes alternative payment models (APMs) and integrated provider organizations, where integration is assumed to better enable providers to coordinate and manage the risks introduced by APMs. While the interaction of these two changes has implications for both APM design and regulation of provider integration, it is not well studied. In this paper, we offer empirical evidence on the role of horizontal and vertical integration of orthopedic surgeons in driving heterogeneity in the impact of the Comprehensive Joint Replacement (CJR) APM. Using a quasi-ex",
+      "source_url": "https://doi.org/10.1287/mnsc.2022.02547",
+      "doi": "10.1287/mnsc.2022.02547",
+      "aliases": [
+        "doi:10.1287/mnsc.2022.02547"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "public-econ",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2022.02547"
+        }
+      ],
+      "id": "p_39cbc602799535",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Transportation and Inventory Planning in Serial Supply Chain with Heterogeneous Capacitated Vehicles",
+      "authors": [
+        "Kartik Kulkarni",
+        "Manish Bansal"
+      ],
+      "abstract": "We study serial supply chain problems where a product is transported from a supplier to a warehouse (inbound transportation), and then from the warehouse (outbound transportation) to a retailer such that demand for a given planning horizon is satisfied. We consider heterogeneous vehicles of varying capacities for transportation in each time period, and the objective is to plan inbound and outbound transportation along with inventory in each time period so that overall inventory and transportation costs are minimized. These problems belong to the class of two-echelon lot-sizing (2-ELS) problems",
+      "source_url": "https://doi.org/10.1287/mnsc.2022.04106",
+      "doi": "10.1287/mnsc.2022.04106",
+      "aliases": [
+        "doi:10.1287/mnsc.2022.04106"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "trade",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2022.04106"
+        }
+      ],
+      "id": "p_4c942fc8a2b8fe",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Managerial Intervention, Employee Motivation, and Collaboration",
+      "authors": [
+        "Roi Orzach",
+        "Kramer Quist"
+      ],
+      "abstract": "The economic literature on delegation focuses on the subordinate’s improved motivation when liberated from managerial intervention in decision making. However, many managers motivate employees while proactively intervening in the decision-making process. We build a principal-agent model to analyze when managerial intervention is, and is not, motivational to the agent. Although managerial intervention may demotivate the agent when leading to actions that waste employee effort, managerial intervention can also motivate the agent by incentivizing principal effort that complements the agent’s effo",
+      "source_url": "https://doi.org/10.1287/mnsc.2025.01366",
+      "doi": "10.1287/mnsc.2025.01366",
+      "aliases": [
+        "doi:10.1287/mnsc.2025.01366"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2025.01366"
+        }
+      ],
+      "id": "p_f124e6bb68812b",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Credit Rating Purchases and S&P 500 Index Membership Decisions",
+      "authors": [
+        "Kun Li",
+        "Xin Liu",
+        "Shang-Jin Wei"
+      ],
+      "abstract": "S&P 500 is commonly used in empirical finance and macroeconomics as a measure of overall capital market sentiment, and the associated VIX is taken as an indicator of economic uncertainty. While both assume that the S&P 500 index is objectively constructed, we show that its membership decisions have a nontrivial amount of discretion unexplained by its published methodology. Importantly, we show that firms’ purchases of S&P ratings appear to improve their chance of entering the index (but purchases of Moody’s ratings do not). Furthermore, openings in index membership tend to motivate firms to pu",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.08157",
+      "doi": "10.1287/mnsc.2024.08157",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.08157"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "macro",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.08157"
+        }
+      ],
+      "id": "p_391d4432b8861b",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Comment on “Regulating Gender Diversity: Evidence from California Senate Bill 826”",
+      "authors": [
+        "Daniel Greene",
+        "JiHoon Hwang",
+        "Vincent J. Intintoli",
+        "Kathleen M. Kahle"
+      ],
+      "abstract": "Prior studies draw mixed conclusions on the market response to California SB 826, the first board gender diversity mandate in the United States. We find that these discrepancies stem from two factors: confusion about the legislative process and the use of different return methodologies. We find that the response to early dates in the legislative process yields largely insignificant and sometimes conflicting results, depending on the return methodology used. This result is consistent with our finding that many of these dates generated little interest from investors. Returns are mostly negative ",
+      "source_url": "https://doi.org/10.1287/mnsc.2023.01986",
+      "doi": "10.1287/mnsc.2023.01986",
+      "aliases": [
+        "doi:10.1287/mnsc.2023.01986"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.01986"
+        }
+      ],
+      "id": "p_b1c638d078f481",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Dealer Funding and Market Liquidity",
+      "authors": [
+        "Max Bruche",
+        "John Chi-Fong Kuong"
+      ],
+      "abstract": "We analyze a model where dealers provide market liquidity by intermediating trades between clients. They exert unobservable search effort to improve intermediation profit. This moral-hazard friction limits their ability to raise external finance and compete with each other, constraining market liquidity even for safe assets and more so for those with higher search costs. Dealers mitigate this friction by using debt financing and intermediating across multiple markets, making leverage endogenous and linked to liquidity variations in otherwise unrelated markets. Capping leverage reduces dealer e",
+      "source_url": "https://doi.org/10.1287/mnsc.2022.02278",
+      "doi": "10.1287/mnsc.2022.02278",
+      "aliases": [
+        "doi:10.1287/mnsc.2022.02278"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "banking",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2022.02278"
+        }
+      ],
+      "id": "p_51f007e5d9af95",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Can Reward Uncertainty Encourage Social Referrals? Evidence from a Large-Scale Field Experiment",
+      "authors": [
+        "Andy Tao Li",
+        "Rodrigo Belo",
+        "Ting Li"
+      ],
+      "abstract": "Social referral programs, in which individuals recommend products or services within their networks in return for rewards, have been widely adopted across digital platforms. This study explores the impact of incorporating uncertainty into the rewards of such programs, focusing on how senders and recipients perceive and react to uncertain rewards. We run a randomized experiment involving more than 160,000 users of a telecommunications operator in China and examine the effectiveness of different referral reward schemes. We find that referral programs are most successful when senders are incentiv",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.05685",
+      "doi": "10.1287/mnsc.2024.05685",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.05685"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "methods",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.05685"
+        }
+      ],
+      "id": "p_064d45468000ec",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "The Effects of Generative AI on High-Skilled Work: Evidence from Three Field Experiments with Software Developers",
+      "authors": [
+        "Kevin Zheyuan Cui",
+        "Mert Demirer",
+        "Sonia Jaffe",
+        "Leon Musolff",
+        "Sida Peng",
+        "Tobias Salz"
+      ],
+      "abstract": "This study evaluates the effect of generative artificial intelligence (AI) on software developer productivity via randomized controlled trials at Microsoft, Accenture, and an anonymous Fortune 100 company. These field experiments, run by the companies as part of their ordinary course of business, provided a random subset of developers with access to an AI-based coding assistant suggesting intelligent code completions. Although each experiment is noisy and results vary across experiments, when data are combined across three experiments and 4,867 developers, our analysis reveals a 26.08% increas",
+      "source_url": "https://doi.org/10.1287/mnsc.2025.00535",
+      "doi": "10.1287/mnsc.2025.00535",
+      "aliases": [
+        "doi:10.1287/mnsc.2025.00535"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2025.00535"
+        }
+      ],
+      "id": "p_e0adba58da5863",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Dollar Dominance in FX Trading",
+      "authors": [
+        "Fabricius Somogyi"
+      ],
+      "abstract": "Over 85% of all foreign exchange (FX) transactions involve the U.S. dollar, whereas the United States accounts for a much smaller fraction of global economic activity. My paper attributes the dominance of the dollar in FX trading to strategic avoidance of price impact. Using a novel identification strategy, I show that, on average, 13% of the volume in dollar pairs arises from using the dollar as a vehicle currency to indirectly exchange two nondollar currencies. To rationalise this result, I derive three model-based conditions for dollar dominance. I empirically test these conditions and prov",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.07656",
+      "doi": "10.1287/mnsc.2024.07656",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.07656"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.07656"
+        }
+      ],
+      "id": "p_9b66bf4f4a89fb",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Does Offshoring Production Reduce Innovation? Firm-Level Evidence from Taiwan",
+      "authors": [
+        "Lee Branstetter",
+        "Jong-Rong Chen",
+        "Britta Glennon",
+        "Nikolas Zolas"
+      ],
+      "abstract": "Does the offshoring of production degrade or enhance the innovative capabilities of manufacturing firms? We contribute to this debate with causal evidence that offshoring impacts both the level and nature of innovation. Exploiting a policy shock that differentially affected the ability of Taiwanese firms to offshore production of certain goods to China, we find a decline in innovation levels and a shift from product to process innovation in the technologies directly related to product categories that could be offshored more easily after the policy shock. However, we also find evidence that the",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.04944",
+      "doi": "10.1287/mnsc.2024.04944",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.04944"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.04944"
+        }
+      ],
+      "id": "p_4ef20955af39be",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Do Carbon Emissions Affect Stock Returns? Causal Evidence from a Supreme Court Ruling",
+      "authors": [
+        "Xiaoyi Lyu",
+        "Chenyu Shan",
+        "Dragon Yongjun Tang"
+      ],
+      "abstract": "Considering the importance of corporate carbon emissions, the Supreme Court of the United States ruled against the Environmental Protection Agency (EPA) and curtailed EPA’s regulatory powers by unprecedentedly invoking the “major questions doctrine” in its judgment of West Virginia v. EPA in 2022. We find that the stock prices of firms with greater exposure to carbon risk increased relative to firms with lower exposure after the Supreme Court verdict. The results are more pronounced for firms subject to higher federal climate enforcement intensity prior to the court ruling. Long-term climate c",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.06732",
+      "doi": "10.1287/mnsc.2024.06732",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.06732"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.06732"
+        }
+      ],
+      "id": "p_1cef6dbf0b24e7",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Intangible Liabilities",
+      "authors": [
+        "Hamid Boustanifar",
+        "Arnt Verriest"
+      ],
+      "abstract": "When liabilities are deemed improbable or cannot be reliably estimated by management, they are not recorded on the balance sheet. Instead, they are disclosed qualitatively in the company’s filings. Examples include obligations related to pending or future lawsuits, product liability, environmental matters, false advertising, or patent and copyright infringements. We refer to these obligations as intangible liabilities. We construct a firm-level, text-based measure of intangible liabilities (IL). IL is positively related to firm size, volatility, and share turnover, and is negatively correlated",
+      "source_url": "https://doi.org/10.1287/mnsc.2023.03619",
+      "doi": "10.1287/mnsc.2023.03619",
+      "aliases": [
+        "doi:10.1287/mnsc.2023.03619"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.03619"
+        }
+      ],
+      "id": "p_67c110d50c50a9",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Observational Learning and Information Disclosure in Search Markets",
+      "authors": [
+        "Ziying Fan",
+        "Xi Weng",
+        "Li-An Zhou",
+        "Yiyi Zhou"
+      ],
+      "abstract": "We develop and estimate a structural model of buyers’ observational learning, search, and bidding, using unique data on in-person home viewings and transactions. We use the estimated model to quantify the welfare impact of different information disclosure rules. Our findings indicate that prohibiting the disclosure of home viewing information while permitting only the disclosure of time-on-market would extend the sale time and raise the transaction price, benefiting sellers but harming buyers on average. This paper was accepted by Raphael Thomadsen, marketing. Funding: Z. Fan gratefully acknow",
+      "source_url": "https://doi.org/10.1287/mnsc.2023.00917",
+      "doi": "10.1287/mnsc.2023.00917",
+      "aliases": [
+        "doi:10.1287/mnsc.2023.00917"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.00917"
+        }
+      ],
+      "id": "p_98be097c3cbbdd",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "The Task Space: An Integrative Framework for Team Research",
+      "authors": [
+        "Xinlan Emily Hu",
+        "Mark E. Whiting",
+        "Linnea Gandhi",
+        "Duncan J. Watts",
+        "Abdullah Almaatouq"
+      ],
+      "abstract": "Research on teams spans many contexts, but integrating knowledge from heterogeneous sources is challenging because studies typically examine different tasks that cannot be directly compared. Most investigations involve teams working on just one or a handful of tasks, and researchers lack principled ways to quantify how similar or different these tasks are from one another. We address this challenge by introducing the “Task Space,” a multidimensional space in which tasks—and the distances between them—can be represented formally, and use it to create a “Task Map” of 102 crowd-annotated tasks fr",
+      "source_url": "https://doi.org/10.1287/mnsc.2023.03544",
+      "doi": "10.1287/mnsc.2023.03544",
+      "aliases": [
+        "doi:10.1287/mnsc.2023.03544"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.03544"
+        }
+      ],
+      "id": "p_9c72ed1033dcab",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "What Do Shareholders Want? Consumer Welfare and the Objective of the Firm",
+      "authors": [
+        "Keith Marzilli Ericson"
+      ],
+      "abstract": "Shareholders want a firm’s objective function to place some weight on consumer welfare, motivated by both self-interest and altruism. Firms have a unique technology for improving consumer welfare: lowering inefficient price markups. Optimal pricing formulas can account for shareholders’ marginal rate of substitution between profits and consumer welfare. Calibrations show shareholders should place nontrivial weights on consumers. A survey experiment with a representative sample shows how shareholders would vote on resolutions giving strategic guidance to firms. Only 7% would vote for pure profi",
+      "source_url": "https://doi.org/10.1287/mnsc.2025.00094",
+      "doi": "10.1287/mnsc.2025.00094",
+      "aliases": [
+        "doi:10.1287/mnsc.2025.00094"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2025.00094"
+        }
+      ],
+      "id": "p_66e6a94c4b401f",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Capacity and Pricing Management with Demand Learning",
+      "authors": [
+        "Jian Chen",
+        "Zechao Li",
+        "Anyan Qi",
+        "Yining Wang"
+      ],
+      "abstract": "In an environment where demand is unknown to the firm, it is important to investigate how capacity adjustment and dynamic pricing can be integrated so that the firm can learn about the demand on the fly while making capacity and pricing decisions. In this paper, we design learning algorithms for the joint capacity and pricing management problem. To evaluate the performance of our algorithms, we consider a large-demand asymptotic regime where the demand and capacity are scaled up with the selling horizon T. We first establish an [Formula: see text] lower bound on the regret under any admissible",
+      "source_url": "https://doi.org/10.1287/mnsc.2023.03749",
+      "doi": "10.1287/mnsc.2023.03749",
+      "aliases": [
+        "doi:10.1287/mnsc.2023.03749"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.03749"
+        }
+      ],
+      "id": "p_3dec669c0b0694",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Firm-Level Litigation Risk: Measurement and Effects",
+      "authors": [
+        "Benjamin Bennett",
+        "Charles Ham",
+        "Todd Milbourn",
+        "Zexi Wang"
+      ],
+      "abstract": "Firms are exposed to litigation risk from various stakeholders, including investors, customers, and regulators, and prior research has shown that such risk shapes a range of corporate policies. In this study, we develop a simple and transparent measure of firm-level litigation risk by parsing SEC 10-K annual reports. This measure demonstrates strong predictability for lawsuits, even after controlling for firm characteristics, existing lawsuits, geographic factors, and various fixed effects, including firm fixed effects. This simple measure performs comparably to a more resource-intensive, AI-g",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.05821",
+      "doi": "10.1287/mnsc.2024.05821",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.05821"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.05821"
+        }
+      ],
+      "id": "p_2750c984d5b1e4",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Will the Truth Free Us from Misinformation?",
+      "authors": [
+        "David Godes"
+      ],
+      "abstract": "We study the impact of truthful revelation mechanisms, like fact checking, on the incentives for media outlets to produce misinformation. The existing literature suggests that such interventions will always reduce this incentive. In this paper, we consider a context in which consumers benefit both, and to varying degrees, from the truth contained in news reports and from sharing, discussing, and reacting to news stories that, independent of their truthful content, reinforce and enhance their social identity. In such a setting, we find that truthful revelation will not always decrease, and may ",
+      "source_url": "https://doi.org/10.1287/mnsc.2023.03896",
+      "doi": "10.1287/mnsc.2023.03896",
+      "aliases": [
+        "doi:10.1287/mnsc.2023.03896"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.03896"
+        }
+      ],
+      "id": "p_98aa46162dc98c",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Responsible Investment and Responsible Consumption",
+      "authors": [
+        "Hendrik Hakenes",
+        "Eva Schliephake"
+      ],
+      "abstract": "Should households focus on responsible investment (SRI) or responsible consumption (SRC) to mitigate externalities? Using a general equilibrium model linking product and capital markets, we show that neither strategy is efficient on its own—each shifts prices and triggers offsetting market responses. Combining SRI and SRC neutralizes these effects and maximizes impact. This complementarity holds across diverse settings, even when SRI alone would have negligible impact. The effectiveness of green finance, therefore, critically depends on households acting as both investors and consumers. This p",
+      "source_url": "https://doi.org/10.1287/mnsc.2023.03042",
+      "doi": "10.1287/mnsc.2023.03042",
+      "aliases": [
+        "doi:10.1287/mnsc.2023.03042"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.03042"
+        }
+      ],
+      "id": "p_b93e6d00c310d3",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Waiting for the Right Offer: Laboratory Evidence on How News Affects Bargaining",
+      "authors": [
+        "Tingting Ding",
+        "Steven F. Lehrer"
+      ],
+      "abstract": "We conduct a series of laboratory experiments to examine whether the gradual exogenous revelation of sellers’ private information influences the occurrence of trades in a bilateral bargaining setting with a static lemon condition. We find that, although information does not increase efficiency, it reduces the likelihood that buyers incur losses when trading with low-quality sellers. Anticipating that additional signals will arrive, buyers hesitate to finalize deals immediately and exhibit a “waiting for news” effect, making sizable offer adjustments only when sufficient positive signals have a",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.07224",
+      "doi": "10.1287/mnsc.2024.07224",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.07224"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.07224"
+        }
+      ],
+      "id": "p_f1afdcb120e035",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Sourcing with Demand Updates",
+      "authors": [
+        "Awi Federgruen",
+        "Zhe Liu",
+        "Jiaqi Lu"
+      ],
+      "abstract": "We study a two-stage newsvendor model where the initially uncertain mean demand is revealed midstream, allowing for a second, costlier order to be placed. The two-stage process is relevant to many retailers who have access to two supply options: a long-lead, low-cost option where orders need to be placed under much demand uncertainty, and a short-lead, high-cost option after a signal is revealed that updates the mean demand. We introduce a forecast evolution model that describes how the initial forecast for mean demand varies in response to the signal, which generalizes the popular additive an",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.04692",
+      "doi": "10.1287/mnsc.2024.04692",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.04692"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.04692"
+        }
+      ],
+      "id": "p_a0931a11dd2cf4",
+      "discovered_at": "2026-11-06",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-06",
+          "source_id": "ms"
+        }
+      ]
+    },
     {
       "title": "Shadow banks on the rise: Evidence across market segments",
       "authors": [
