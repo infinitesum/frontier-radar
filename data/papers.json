@@ -1,8 +1,164 @@
 {
   "schema_version": 1,
   "snapshot": "incremental-ingestion",
-  "updated_at": "2026-11-07T07:14:12+00:00",
+  "updated_at": "2026-11-08T07:26:35+00:00",
   "papers": [
+    {
+      "title": "DP22151 The Stock--Bond Covariance Puzzle",
+      "authors": [
+        "Tobias Adrian, Andres Schneider"
+      ],
+      "abstract": "The stock--bond covariance changes sign over time for two reasons: the relative importance of stock and bond shocks changes, and the degree to which shocks affect the two markets changes. Differential time-varying volatility of stocks and bonds allows identification of these two mechanisms. The equity-dominant shock has a comparatively stable response direction throughout 1990--2026, but the response of stocks to bond shocks switches sign---positive before 2002, near zero or negative in 2002--2019, and positive after 2020. Theories that match the stock--bond covariance therefore must also matc",
+      "source_url": "https://cepr.org/publications/dp22151",
+      "doi": "",
+      "aliases": [
+        "cepr:22151"
+      ],
+      "first_public_date": "2026-11-07",
+      "stage": "working-paper",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22151"
+        }
+      ],
+      "id": "p_b42a339bf62835",
+      "discovered_at": "2026-11-08",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-08",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22150 Cultural diversity of religion across and within 117 countries",
+      "authors": [
+        "Jeanet Bentzen, Anne Sofie Beck Knudsen, Lena Sperling, Ara Norenzayan"
+      ],
+      "abstract": "Humans show marked diversity in cultural values, beliefs, and preferences. We analyze survey responses from 640,110 individuals in 117 countries (representing 89% of the World's population), and 2,333 sub-national districts, surveyed in the World Values Survey and the European Values Study. Across multiple sets of comparable cultural traits, we find that religion consistently emerges as the cultural trait that exhibits the largest cross-country divergence (measured by variances or the Cultural Fixation Index, used in evolutionary psychology). For example, personal emphasis on religion varies 5",
+      "source_url": "https://cepr.org/publications/dp22150",
+      "doi": "",
+      "aliases": [
+        "cepr:22150"
+      ],
+      "first_public_date": "2026-11-07",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22150"
+        }
+      ],
+      "id": "p_675aad81f77bbb",
+      "discovered_at": "2026-11-08",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-08",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "Optimal Policy Rules in HANK",
+      "authors": [
+        "Alisdair McKay",
+        "Christian K Wolf"
+      ],
+      "abstract": "Abstract We characterize optimal policy rules in a business-cycle model with nominal rigidities and heterogeneous households. The policymaker has access to two instruments: the short-term nominal rate, and lump-sum transfer payments. A policymaker with a traditional dual mandate that targets aggregates uses the same policy rule as is optimal in the textbook New Keynesian model. We then consider a policymaker with a distributional objective. The optimal policy rule now contains an additional term, reflecting the effects of the policymaker’s instruments on consumption inequality. Since, in our m",
+      "source_url": "https://doi.org/10.1093/restud/rdag069",
+      "doi": "10.1093/restud/rdag069",
+      "aliases": [
+        "doi:10.1093/restud/rdag069"
+      ],
+      "first_public_date": "2026-11-07",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "restud",
+          "name": "The Review of Economic Studies",
+          "url": "https://doi.org/10.1093/restud/rdag069"
+        }
+      ],
+      "id": "p_6913e3db200b1b",
+      "discovered_at": "2026-11-08",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-08",
+          "source_id": "restud"
+        }
+      ]
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/s0047-2727(26)00258-6",
+      "doi": "10.1016/s0047-2727(26)00258-6",
+      "aliases": [
+        "doi:10.1016/s0047-2727(26)00258-6"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jpub",
+          "name": "Journal of Public Economics",
+          "url": "https://doi.org/10.1016/s0047-2727(26)00258-6"
+        }
+      ],
+      "id": "p_0c1f76d3d71fa9",
+      "discovered_at": "2026-11-08",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-08",
+          "source_id": "jpub"
+        }
+      ]
+    },
+    {
+      "title": "Can Pollution Monitors Work Where They Do Not Measure? Evidence from China",
+      "authors": [
+        "Dongmei Guo",
+        "Runzhe Hu",
+        "Tingting Xie"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jdeveco.2026.103963",
+      "doi": "10.1016/j.jdeveco.2026.103963",
+      "aliases": [
+        "doi:10.1016/j.jdeveco.2026.103963"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jde",
+          "name": "Journal of Development Economics",
+          "url": "https://doi.org/10.1016/j.jdeveco.2026.103963"
+        }
+      ],
+      "id": "p_a4b9f906a6458b",
+      "discovered_at": "2026-11-08",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-08",
+          "source_id": "jde"
+        }
+      ]
+    },
     {
       "title": "DP22149 Entry Deterrence with Public Signals: Revisiting the Chain-Store Paradox",
       "authors": [
