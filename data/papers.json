@@ -1,8 +1,368 @@
 {
   "schema_version": 1,
   "snapshot": "incremental-ingestion",
-  "updated_at": "2026-11-09T08:01:25+00:00",
+  "updated_at": "2026-11-10T08:29:58+00:00",
   "papers": [
+    {
+      "title": "Private debt versus bank debt in corporate borrowing",
+      "authors": [
+        "Sharjil Haque",
+        "Simon Mayer",
+        "Irina Stefanescu"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jfineco.2026.104401",
+      "doi": "10.1016/j.jfineco.2026.104401",
+      "aliases": [
+        "doi:10.1016/j.jfineco.2026.104401"
+      ],
+      "first_public_date": "2026-12",
+      "stage": "journal",
+      "discipline": "banking",
+      "sources": [
+        {
+          "id": "jfe",
+          "name": "Journal of Financial Economics",
+          "url": "https://doi.org/10.1016/j.jfineco.2026.104401"
+        }
+      ],
+      "id": "p_4d601d95f2d49a",
+      "discovered_at": "2026-11-10",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-10",
+          "source_id": "jfe"
+        }
+      ]
+    },
+    {
+      "title": "Tax evasion at the top of the income distribution",
+      "authors": [
+        "John Guyton",
+        "Patrick Langetieg",
+        "Daniel Reck",
+        "Max Risch",
+        "Gabriel Zucman"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jpubeco.2026.105812",
+      "doi": "10.1016/j.jpubeco.2026.105812",
+      "aliases": [
+        "doi:10.1016/j.jpubeco.2026.105812"
+      ],
+      "first_public_date": "2026-12",
+      "stage": "journal",
+      "discipline": "public-econ",
+      "sources": [
+        {
+          "id": "jpub",
+          "name": "Journal of Public Economics",
+          "url": "https://doi.org/10.1016/j.jpubeco.2026.105812"
+        }
+      ],
+      "id": "p_1c1c0bcd8b7ef3",
+      "discovered_at": "2026-11-10",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-10",
+          "source_id": "jpub"
+        }
+      ]
+    },
+    {
+      "title": "DP22165 Money, Power and Civil Society. Reconstructing Pablo Levín’s Interpretation of Marx’s Value-Form",
+      "authors": [
+        "Facundo Alvaredo, Pilar Piqué"
+      ],
+      "abstract": "This article reconstructs Pablo Levín’s interpretation of Marx’s derivation of the money-form in chapter 1 of Capital. Marx derives money immanently from the commodity and identifies the simple form of value as the germ of the money-form. Levín argues that this derivation contains a discovery whose theoretical implications Marx did not fully develop: power arises within the elementary commodity relation itself. The polarity between the relative and equivalent forms confers upon the equivalent commodity the power of direct and unconditional exchangeability. The significance of this discovery li",
+      "source_url": "https://cepr.org/publications/dp22165",
+      "doi": "",
+      "aliases": [
+        "cepr:22165"
+      ],
+      "first_public_date": "2026-11-10",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22165"
+        }
+      ],
+      "id": "p_93e9defc6de906",
+      "discovered_at": "2026-11-10",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-10",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22162 US Interest Rate Surprises and Currency Returns",
+      "authors": [
+        "Juan Antolín-Díaz, Gino Cenedese, Shangqi Han, Lucio Sarno"
+      ],
+      "abstract": "Currencies that are more exposed to US monetary policy yield positive average excess returns. This result holds for both monetary policy shocks and central bank information shocks that are identified via sign restrictions on intraday changes in interest rates around FOMC announcements. Currency characteristics help explain the heterogeneity of exposures to shocks across currencies and time. We build exposure indices to gauge this effect around policy announcements. Long-short trading strategies that condition on such exposure indices display positive average excess returns, which are especiall",
+      "source_url": "https://cepr.org/publications/dp22162",
+      "doi": "",
+      "aliases": [
+        "cepr:22162"
+      ],
+      "first_public_date": "2026-11-09",
+      "stage": "working-paper",
+      "discipline": "banking",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22162"
+        }
+      ],
+      "id": "p_a87c308c585a1a",
+      "discovered_at": "2026-11-10",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-10",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22163 Do Elite Journals Promote the Production and Diffusion of Breakthrough Ideas? Evidence from Economics",
+      "authors": [
+        "Nagore Iriberri, Marlene Koffi, Ricardo Serrano-Padial"
+      ],
+      "abstract": "We study the role of elite journals in the production and diffusion of breakthrough research in economics. Using publications from leading journals between 1985 and 2020, we construct and validate text-based measures identifying breakthrough papers as both novel and influential. We document three facts: top-5 journals’ prioritization of breakthroughs has weakened; the citation premium for breakthroughs has remained stable while that for top-5 publication has risen sharply; and breakthrough research has declined. A simple model highlights the dual role of elite journals: prioritizing breakthrou",
+      "source_url": "https://cepr.org/publications/dp22163",
+      "doi": "",
+      "aliases": [
+        "cepr:22163"
+      ],
+      "first_public_date": "2026-11-09",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22163"
+        }
+      ],
+      "id": "p_bd026b5a2e023d",
+      "discovered_at": "2026-11-10",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-10",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22164 Oligopoly with Mixed Bundling",
+      "authors": [
+        "Volker Nocke, Susumu Sato"
+      ],
+      "abstract": "We develop a framework for studying oligopoly with mixed bundling. We consider multinomial logit demand over product combinations and, under this demand system, allow for an arbitrary number of firms and for arbitrary product portfolios, consumer valuations, and marginal costs. Despite the high dimensionality of action spaces and strategic interactions, firms' optimal pricing has a simple structure: each firm optimally sets product prices and bundle discounts to equate the markup it earns from each trade. The primitives governing strategic interaction can be summarized by a type network that c",
+      "source_url": "https://cepr.org/publications/dp22164",
+      "doi": "",
+      "aliases": [
+        "cepr:22164"
+      ],
+      "first_public_date": "2026-11-09",
+      "stage": "working-paper",
+      "discipline": "trade",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22164"
+        }
+      ],
+      "id": "p_3826e0ea509ab0",
+      "discovered_at": "2026-11-10",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-10",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "Presidential Address: Human Finance: Incorporating Insights from the Life Sciences",
+      "authors": [
+        "ULRIKE MALMENDIER"
+      ],
+      "abstract": "ABSTRACT Many of the key determinants of human behavior identified in the life sciences, such as stress response, impulse control, and mood regulation, remain absent from standard economic and finance models. This paper illustrates how such insights can enhance economic models in the context of inflation expectations. Combining a retrospective survey that elicits personal inflation histories with an experimental intervention that induces the reexperiencing of historic inflation, I show that physiological, emotional, and cognitive stress markers predict heightened inflation expectations and sha",
+      "source_url": "https://doi.org/10.1111/jofi.70096",
+      "doi": "10.1111/jofi.70096",
+      "aliases": [
+        "doi:10.1111/jofi.70096"
+      ],
+      "first_public_date": "2026-11-09",
+      "stage": "journal",
+      "discipline": "public-econ",
+      "sources": [
+        {
+          "id": "jf",
+          "name": "The Journal of Finance",
+          "url": "https://doi.org/10.1111/jofi.70096"
+        }
+      ],
+      "id": "p_3a8fd7ef63996c",
+      "discovered_at": "2026-11-10",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-10",
+          "source_id": "jf"
+        }
+      ]
+    },
+    {
+      "title": "U.S. Banks’ Exposures to Climate Transition Risks",
+      "authors": [
+        "Hyeyoon Jung",
+        "Joao A. C. Santos",
+        "Lee Seltzer"
+      ],
+      "abstract": "Abstract We propose a new approach to estimate banks’ credit exposures to transition risks that combines sectoral effects of climate policies from general equilibrium (GE) models with historical information on loans’ default risks. At worst, estimated exposures reach 14% of bank loan portfolio values. Accounting for historic loan payoff structures reduces exposures to 0.5%–2%. Exposures can increase by 3–5 percentage points due to aggregate economic shocks. Analyses surrounding climate transition events suggest our estimates can serve as an upper bound on banks’ transition risk exposures. High",
+      "source_url": "https://doi.org/10.1017/s0022109026103226",
+      "doi": "10.1017/s0022109026103226",
+      "aliases": [
+        "doi:10.1017/s0022109026103226"
+      ],
+      "first_public_date": "2026-11-09",
+      "stage": "journal",
+      "discipline": "banking",
+      "sources": [
+        {
+          "id": "jfqa",
+          "name": "Journal of Financial and Quantitative Analysis",
+          "url": "https://doi.org/10.1017/s0022109026103226"
+        }
+      ],
+      "id": "p_0ff643a47d9fca",
+      "discovered_at": "2026-11-10",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-10",
+          "source_id": "jfqa"
+        }
+      ]
+    },
+    {
+      "title": "Countercyclical Risk Aversion: Evidence from 10 Million Auto Insurance Transactions in China",
+      "authors": [
+        "Huafeng (Jason) Chen",
+        "Yinglu Deng",
+        "Pengfei Li",
+        "Hulai Zhang",
+        "Hao Zhou"
+      ],
+      "abstract": "Abstract Whether risk aversion is time-varying and countercyclical is central to modern asset pricing, yet evidence remains limited and is based mainly on experimental, survey, or aggregate stock market data. We provide individual-level evidence from 10 million Chinese auto insurance contracts from 2011 to 2017, estimating policyholders’ risk aversion from deductible choices. We find that risk aversion is time-varying and countercyclical. The estimates are negatively related to lottery and stock trading, positively related to insurance sales and bond trading, and vary with psychological factor",
+      "source_url": "https://doi.org/10.1017/s0022109026103500",
+      "doi": "10.1017/s0022109026103500",
+      "aliases": [
+        "doi:10.1017/s0022109026103500"
+      ],
+      "first_public_date": "2026-11-09",
+      "stage": "journal",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "jfqa",
+          "name": "Journal of Financial and Quantitative Analysis",
+          "url": "https://doi.org/10.1017/s0022109026103500"
+        }
+      ],
+      "id": "p_e3c6eb71bfa4e9",
+      "discovered_at": "2026-11-10",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-10",
+          "source_id": "jfqa"
+        }
+      ]
+    },
+    {
+      "title": "Climate policy uncertainty and corporate environmental lobbying competition",
+      "authors": [
+        "Byeong-Je An",
+        "Hyun-Soo Choi",
+        "Hugh Hoikwang Kim",
+        "Paul Youngwook Kim"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jcorpfin.2026.103104",
+      "doi": "10.1016/j.jcorpfin.2026.103104",
+      "aliases": [
+        "doi:10.1016/j.jcorpfin.2026.103104"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jcf",
+          "name": "Journal of Corporate Finance",
+          "url": "https://doi.org/10.1016/j.jcorpfin.2026.103104"
+        }
+      ],
+      "id": "p_4a1b66d1a9e478",
+      "discovered_at": "2026-11-10",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-10",
+          "source_id": "jcf"
+        }
+      ]
+    },
+    {
+      "title": "The financial cost of biodiversity loss for SMEs",
+      "authors": [
+        "Lisa Schopohl",
+        "Simone Varotto",
+        "Guglielmo Alessandro Visentin",
+        "Andy Purvis",
+        "Adriana De Palma"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jcorpfin.2026.103103",
+      "doi": "10.1016/j.jcorpfin.2026.103103",
+      "aliases": [
+        "doi:10.1016/j.jcorpfin.2026.103103"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jcf",
+          "name": "Journal of Corporate Finance",
+          "url": "https://doi.org/10.1016/j.jcorpfin.2026.103103"
+        }
+      ],
+      "id": "p_442f1d45ade69e",
+      "discovered_at": "2026-11-10",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-10",
+          "source_id": "jcf"
+        }
+      ]
+    },
     {
       "title": "DP22161 Age, Education, and Occupational Gradients in Artificial Intelligence Anxiety",
       "authors": [
