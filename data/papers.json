@@ -1,8 +1,335 @@
 {
   "schema_version": 1,
   "snapshot": "incremental-ingestion",
-  "updated_at": "2026-11-10T08:29:58+00:00",
+  "updated_at": "2026-11-11T07:47:57+00:00",
   "papers": [
+    {
+      "title": "The role of financial markets in the unraveling of credit",
+      "authors": [
+        "Elena Asparouhova",
+        "Peter Bossaerts",
+        "Anh Tran"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jfineco.2026.104400",
+      "doi": "10.1016/j.jfineco.2026.104400",
+      "aliases": [
+        "doi:10.1016/j.jfineco.2026.104400"
+      ],
+      "first_public_date": "2027-01",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jfe",
+          "name": "Journal of Financial Economics",
+          "url": "https://doi.org/10.1016/j.jfineco.2026.104400"
+        }
+      ],
+      "id": "p_a2487ee9ef0706",
+      "discovered_at": "2026-11-11",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-11",
+          "source_id": "jfe"
+        }
+      ]
+    },
+    {
+      "title": "DP22166 Elastic in Cash, Inelastic in Repo: Hedge Funds in the Treasury and Repo Markets",
+      "authors": [
+        "Andrea Poinelli, Loriana Pelizzon, Davide Tomio, Benoit Nguyen, Tobias Linzert"
+      ],
+      "abstract": "The functioning of sovereign bond markets is closely intertwined with repo markets, where investors finance long positions and source bonds for short sales. We show, theoretically and empirically, how conditions in the cash bond market fundamentally shape repo rates: When demand for cash bonds exceeds available supply, arbitrageurs, notably hedge funds, step in to bridge the gap by shorting bonds and borrowing them in the repo market. These arbitrage strategies drive a wedge between monetary policy rates and repo rates, generating \"specialness\". To investigate the drivers of investors' demand ",
+      "source_url": "https://cepr.org/publications/dp22166",
+      "doi": "",
+      "aliases": [
+        "cepr:22166"
+      ],
+      "first_public_date": "2026-11-10",
+      "stage": "working-paper",
+      "discipline": "macro",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22166"
+        }
+      ],
+      "id": "p_23002b68c39edd",
+      "discovered_at": "2026-11-11",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-11",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22167 Cross-Border Infrastructure Finance for EMDEs:  Patterns, Drivers, and Regulatory Barriers",
+      "authors": [
+        "Stijn Claessens, Daniela Klingebiel, Nicolo Pastrone"
+      ],
+      "abstract": "This paper examines whether regulatory barriers, particularly Basel III, constrain commercial banks’ cross-border infrastructure finance (IF) to emerging markets and developing economies (EMDEs). Using IJGlobal deal- and tranche-level data for 2005–2025, we analyse primary financing for new, typically non-recourse project finance (PF) from banks, official-sector lenders, and bond markets. Because country risk may affect bank lending despite Basel III assigning no formal country-risk weights to IF PF, we map borrower countries to the OECD Country Risk Classification (CRC), which aligns with Bas",
+      "source_url": "https://cepr.org/publications/dp22167",
+      "doi": "",
+      "aliases": [
+        "cepr:22167"
+      ],
+      "first_public_date": "2026-11-10",
+      "stage": "working-paper",
+      "discipline": "banking",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22167"
+        }
+      ],
+      "id": "p_3f927c83857620",
+      "discovered_at": "2026-11-11",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-11",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "Channeled Attention and Stable Errors",
+      "authors": [
+        "Tristan Gagnon-Bartsch",
+        "Matthew Rabin",
+        "Joshua Schwartzstein"
+      ],
+      "abstract": "Abstract People persist in mistaken beliefs even in settings with high stakes, abundant data, and repeated opportunities to learn—settings where standard arguments imply they should correct their errors. We develop an attention-based framework for understanding why errors persist. When a person channels his attention through the lens of his potentially misspecified model, exposure to data is not the same as tracking the statistics necessary to tell him his model is wrong. A model is attentionally stable when the data the person deems relevant will, in the long run, fail to make the model look ",
+      "source_url": "https://doi.org/10.1093/qje/qjag055",
+      "doi": "10.1093/qje/qjag055",
+      "aliases": [
+        "doi:10.1093/qje/qjag055"
+      ],
+      "first_public_date": "2026-11-10",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "qje",
+          "name": "The Quarterly Journal of Economics",
+          "url": "https://doi.org/10.1093/qje/qjag055"
+        }
+      ],
+      "id": "p_6109b843e5e66b",
+      "discovered_at": "2026-11-11",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-11",
+          "source_id": "qje"
+        }
+      ]
+    },
+    {
+      "title": "When Insurers Exit: Climate Losses, Fragile Insurers, and Mortgage Markets",
+      "authors": [
+        "Parinitha Sastry",
+        "Ishita Sen",
+        "Ana-Maria Tenekedjieva"
+      ],
+      "abstract": "Abstract This paper uses a range of natural experiments to show how mispricing of climate risk in mortgages and property insurance creates large taxpayer exposures and leads to excess credit flows to risky areas. Our central finding is that the government-sponsored enterprises’ (GSEs) policies for evaluating property insurers are a crucial source of this mispricing. We assemble a comprehensive new dataset on both mortgages and insurance to analyze these dynamics in Florida from 2009-2018. We begin by documenting a breakdown in the quality of insurance provision, with new under-capitalized and ",
+      "source_url": "https://doi.org/10.1093/qje/qjag053",
+      "doi": "10.1093/qje/qjag053",
+      "aliases": [
+        "doi:10.1093/qje/qjag053"
+      ],
+      "first_public_date": "2026-11-10",
+      "stage": "journal",
+      "discipline": "public-econ",
+      "sources": [
+        {
+          "id": "qje",
+          "name": "The Quarterly Journal of Economics",
+          "url": "https://doi.org/10.1093/qje/qjag053"
+        }
+      ],
+      "id": "p_bc92c61a2a24ea",
+      "discovered_at": "2026-11-11",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-11",
+          "source_id": "qje"
+        }
+      ]
+    },
+    {
+      "title": "Fertility and Family Leave Policies in Germany: Optimal Policy Design in a Dynamic Framework",
+      "authors": [
+        "Hanna Wang"
+      ],
+      "abstract": "Abstract I develop and estimate a life-cycle discrete-choice model of fertility and female labour supply to study the optimal design of a range of child-related policies. First, I examine two German reforms that introduced wage-contingent parental leave payments and expanded access to low-cost public childcare. I find that both reforms raised completed fertility, with the parental leave reform having a particularly strong impact on highly educated women. Second, I solve for a budget-neutral optimal policy portfolio that maximizes either aggregate welfare or fertility, while ensuring that welfa",
+      "source_url": "https://doi.org/10.1093/restud/rdag124",
+      "doi": "10.1093/restud/rdag124",
+      "aliases": [
+        "doi:10.1093/restud/rdag124"
+      ],
+      "first_public_date": "2026-11-10",
+      "stage": "journal",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "restud",
+          "name": "The Review of Economic Studies",
+          "url": "https://doi.org/10.1093/restud/rdag124"
+        }
+      ],
+      "id": "p_8af8e50aaa0f1f",
+      "discovered_at": "2026-11-11",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-11",
+          "source_id": "restud"
+        }
+      ]
+    },
+    {
+      "title": "Recommender Systems Under Privacy Protection",
+      "authors": [
+        "Can Küçükgül",
+        "Özalp Özer",
+        "Shouqiang Wang"
+      ],
+      "abstract": "We examine how a profit-driven platform designs its recommender policies under varying privacy protection regimes. We demonstrate a functional equivalence between opt-out protection and unprotected privacy. Notably, granting consumers the autonomy to misrepresent personal data can compel the platform to distort recommendations, inadvertently harming both parties. When recommendations are purely informative, such privacy controls can deter personalization entirely. However, when recommendations also serve an allocative role—controlling product access—algorithmic discrimination may emerge, restr",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.05007",
+      "doi": "10.1287/mnsc.2024.05007",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.05007"
+      ],
+      "first_public_date": "2026-11-10",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.05007"
+        }
+      ],
+      "id": "p_94cecb2b221384",
+      "discovered_at": "2026-11-11",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-11",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Uncertainty Attitudes, Subjective Beliefs, and Decisions Under Uncertainty",
+      "authors": [
+        "Adeline Delavande",
+        "Jayant Ganguli",
+        "Friederike Mengel"
+      ],
+      "abstract": "We conducted survey experiments to gather new data on uncertainty attitudes and subjective beliefs. Our survey targets a general population, focusing on health and financial decisions. We collect data on (i) individual attitudes toward risk and ambiguity, including individual-specific probability weighting and loss aversion, and (ii) individual probabilistic beliefs about events related to the decisions we consider. The joint availability of individual preference parameters and subjective beliefs allows us to study heterogeneity and cross-correlations across these parameters in depth and to es",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.06232",
+      "doi": "10.1287/mnsc.2024.06232",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.06232"
+      ],
+      "first_public_date": "2026-11-10",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.06232"
+        }
+      ],
+      "id": "p_6cf5f1b28ca5f9",
+      "discovered_at": "2026-11-11",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-11",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Deadly Disease, Fear, and Ostracism in the Credit Market",
+      "authors": [
+        "Sumit Agarwal",
+        "Pengsheng Lin",
+        "Yupeng Lin",
+        "Ruichang Lu",
+        "Xiaojun Zhang"
+      ],
+      "abstract": "This paper exploits the 2014 U.S. Ebola outbreak as a natural experiment to examine how fear distorts mortgage credit allocation. We find a 3.8-percentage-point increase in mortgage denial rates for Black applicants during the outbreak, despite negligible infection risk. Approved Black borrowers have stronger credit profiles and lower default rates, yet are less likely to receive loan modifications when delinquent. These effects are absent in algorithm-driven FinTech lending and reverse quickly postoutbreak—patterns inconsistent with statistical discrimination. Robustness tests rule out altern",
+      "source_url": "https://doi.org/10.1287/mnsc.2025.01919",
+      "doi": "10.1287/mnsc.2025.01919",
+      "aliases": [
+        "doi:10.1287/mnsc.2025.01919"
+      ],
+      "first_public_date": "2026-11-10",
+      "stage": "journal",
+      "discipline": "banking",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2025.01919"
+        }
+      ],
+      "id": "p_ba4fa10c27d5cc",
+      "discovered_at": "2026-11-11",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-11",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Introduction to Special Issue: Integrating Earth Observation into Impact Studies in Agriculture and Climate Change",
+      "authors": [
+        "Ariel BenYishay",
+        "Karen Macours",
+        "Manjula Ranagalage",
+        "Kunwar K. Singh"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jdeveco.2026.103965",
+      "doi": "10.1016/j.jdeveco.2026.103965",
+      "aliases": [
+        "doi:10.1016/j.jdeveco.2026.103965"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jde",
+          "name": "Journal of Development Economics",
+          "url": "https://doi.org/10.1016/j.jdeveco.2026.103965"
+        }
+      ],
+      "id": "p_f27144a86b3295",
+      "discovered_at": "2026-11-11",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-11",
+          "source_id": "jde"
+        }
+      ]
+    },
     {
       "title": "Private debt versus bank debt in corporate borrowing",
       "authors": [
