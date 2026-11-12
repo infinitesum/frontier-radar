@@ -1,8 +1,169 @@
 {
   "schema_version": 1,
   "snapshot": "incremental-ingestion",
-  "updated_at": "2026-11-11T07:47:57+00:00",
+  "updated_at": "2026-11-12T08:23:37+00:00",
   "papers": [
+    {
+      "title": "DP22168 A Waivable Citizen Veto",
+      "authors": [
+        "Hans Gersbach"
+      ],
+      "abstract": "We propose a new democratic institution, the “waivable citizen veto”: citizens can reject a reform, approve it directly, or give elected representatives the final say. We study it in a simple theoretical model. The direct-approval option can be removed without loss to citizens, regardless of their information, if and only if representatives never reject beneficial reforms. We then examine costly investigation that citizens cannot observe. Giving representatives binding authority before they investigate reliably induces investigation whenever delegation offers citizens a better expected outcome",
+      "source_url": "https://cepr.org/publications/dp22168",
+      "doi": "",
+      "aliases": [
+        "cepr:22168"
+      ],
+      "first_public_date": "2026-11-11",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22168"
+        }
+      ],
+      "id": "p_70bd817c994844",
+      "discovered_at": "2026-11-12",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-12",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22169 When Institutions Interact: How the Effects of Unemployment Insurance are Shaped by Retirement Policies",
+      "authors": [
+        "Matthew Gudgeon, Pablo Guzman, Johannes Schmieder, Simon Trenkle, Han Ye"
+      ],
+      "abstract": "We show that the non-employment effects of unemployment insurance (UI) for older workers depend critically on retirement policy. Using German data, we document large bunching in UI inflows at the age that allows workers to claim their pension following UI expiration. Inflows respond strongly to several UI and pension reforms. We probe the implications of these behavioral responses using a dynamic model and find that Germany's UI and retirement policy changes had substantial effects on the unemployment rate of older workers. Furthermore, we calculate large fiscal externalities from extending UI",
+      "source_url": "https://cepr.org/publications/dp22169",
+      "doi": "",
+      "aliases": [
+        "cepr:22169"
+      ],
+      "first_public_date": "2026-11-11",
+      "stage": "working-paper",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22169"
+        }
+      ],
+      "id": "p_90d30a2168b8ea",
+      "discovered_at": "2026-11-12",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-12",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "Beliefs and the Incentive Effects of Preferential College Admissions: Evidence from an Experiment and a Structural Model",
+      "authors": [
+        "Michela Maria Tincani",
+        "Fabian Kosse",
+        "Enrico Miglino"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1086/744916",
+      "doi": "10.1086/744916",
+      "aliases": [
+        "doi:10.1086/744916"
+      ],
+      "first_public_date": "2026-11-11",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jpe",
+          "name": "Journal of Political Economy",
+          "url": "https://doi.org/10.1086/744916"
+        }
+      ],
+      "id": "p_e60ba1ce7be4c3",
+      "discovered_at": "2026-11-12",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-12",
+          "source_id": "jpe"
+        }
+      ]
+    },
+    {
+      "title": "Two-Sided Search in International Markets",
+      "authors": [
+        "Jonathan Eaton",
+        "David Jinkins",
+        "James Tybout",
+        "Daniel Yi Xu"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1086/744914",
+      "doi": "10.1086/744914",
+      "aliases": [
+        "doi:10.1086/744914"
+      ],
+      "first_public_date": "2026-11-11",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jpe",
+          "name": "Journal of Political Economy",
+          "url": "https://doi.org/10.1086/744914"
+        }
+      ],
+      "id": "p_e6dcca3bacc6dc",
+      "discovered_at": "2026-11-12",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-12",
+          "source_id": "jpe"
+        }
+      ]
+    },
+    {
+      "title": "Banking on jobs: Impact of a workfare program on formal credit",
+      "authors": [
+        "Mayuri Chaturvedi",
+        "Asad Rauf"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jdeveco.2026.103961",
+      "doi": "10.1016/j.jdeveco.2026.103961",
+      "aliases": [
+        "doi:10.1016/j.jdeveco.2026.103961"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "banking",
+      "sources": [
+        {
+          "id": "jde",
+          "name": "Journal of Development Economics",
+          "url": "https://doi.org/10.1016/j.jdeveco.2026.103961"
+        }
+      ],
+      "id": "p_6e1fb242fabe5f",
+      "discovered_at": "2026-11-12",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-12",
+          "source_id": "jde"
+        }
+      ]
+    },
     {
       "title": "The role of financial markets in the unraveling of credit",
       "authors": [
