@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-04",
+  "updated_at": "2026-11-13",
   "editorial_standard": "机制可迁移性优先于关键词共现；来源事实、跨主体外推、缺失前提、数据度量和可判别检验必须分栏。",
   "cases": [
     {
@@ -251,6 +251,192 @@
       "read_scope": "2026 open-access published full text, methods and results inspected; 2023 working-paper first release verified from RePEc; not a newly originated 2026 mechanism",
       "scope": "仅公开论文及独立研究设想，不包含私人未发表论文的系数或数据。",
       "crucial_distinction": "原文识别的是美国市场化VC流入与县域就业、工资、企业数量及行业间溢出的关系；并非政府引导基金返投政策的因果效应。地方投资增加不等于真实本地供应链联系增强，县域就业增加也不等于全国净就业或社会福利增加。"
+    },
+    {
+      "id": "campello-junqueira-qsbs-gp-risk-contract-2026",
+      "kind": "mechanism-bridge",
+      "title": "Tax Incentives and Venture Capital Risk-Taking: Evidence from the QSBS Program",
+      "title_zh": "税收激励如何改变VC风险承担：QSBS计划的证据",
+      "authors": [
+        "Murillo Campello",
+        "Guilherme Junqueira"
+      ],
+      "journal": "CESifo Working Paper 12776; NBER w35418",
+      "doi": "10.3386/w35418",
+      "dates": {
+        "manuscript": "2026-06-26",
+        "cesifo_posted": "2026-07-02",
+        "nber_issue": "2026-07",
+        "reviewed": "2026-11-13",
+        "note": "2026年早先公开的论文，本轮首次机制深读；并非2026年11月首次发表"
+      },
+      "evidence_level": "working-paper-sections-reviewed",
+      "read_scope": "查阅CESifo官网130页6月26日稿的摘要、引言、税收制度、样本与识别方法、主要结果及LP/GP异质性章节；未复现所有附录或NBER版本。",
+      "sources": [
+        {
+          "label": "2026-06-26 CESifo complete manuscript",
+          "url": "https://www.ifo.de/DocDL/cesifo1_wp12776.pdf",
+          "scope": "working-paper-sections-reviewed"
+        },
+        {
+          "label": "NBER w35418 July 2026, DOI",
+          "url": "https://www.nber.org/papers/w35418",
+          "scope": "official-abstract"
+        },
+        {
+          "label": "SSRN CESifo posting and version dates",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7032862",
+          "scope": "version-history"
+        }
+      ],
+      "source_fact": "决策主体是VC基金GP、天使和公司投资者；制度冲击是美国2009—2010年QSBS合格股权的资本利得税优惠提高，行业资格、投资时间及至少五年持有期构成比较维度；因变量为退出持有期、首轮投资、项目阶段、银团联合投资、失败、退出估值与专利。作者用PitchBook约3.9万投资者、3.5万企业和15.8万投资者—企业关系（2004—2022），采用五年持有期聚集检验、行业资格×政策时点DID与三重差分。税惠后VC更偏早期/首轮、有债务和非本地、陌生行业的企业，并减少联合投资；失败率升高，但高端退出估值与专利影响也改善，类似变化未见于天使/公司投资者。回归是特定美国税制结果，非GGF观察事实。",
+      "economic_primitive": "外部LP资金与GP绩效分成形成凸性收益结构，政策改变税后上行收益时，可同时改变投资门槛、联合分险需要和右尾风险；扶持规模与边际项目风险必须分开。",
+      "bridge_operations": [
+        {
+          "id": "actor",
+          "label": "转换决策主体",
+          "text": "由美国享受QSBS的VC基金GP转换为中国政府LP出资的子基金GP；保留GP代理人对收益与风险的权衡。"
+        },
+        {
+          "id": "institution",
+          "label": "制度变化",
+          "text": "由税收减免切换为政府LP收益让利、亏损分担、超额收益分成或返投条款；两类制度不同，GP是否实际获得凸性回报必须独立验证。"
+        },
+        {
+          "id": "outcome",
+          "label": "新增因变量",
+          "text": "从税惠退出时点和高风险项目选择转为政府LP基金首轮融资、同GP投资阶段、联合投资网络、跟投与退出的分布。"
+        }
+      ],
+      "new_question": "政府LP对子基金GP的超额收益让利或风险承担条款，是否改变同GP管理不同基金的早期融资、风险分担与联合投资行为？合同激励能否抵消严格返投目标对项目筛选的限制？",
+      "bridge_assumption": "公开文件须核实收益让利真正传导到GP边际报酬，且可观测基金—GP—企业对应关系；QSBS对VC税后收益的变化不等同于地理返投，更不能预设政府LP越宽容就越鼓励创新。",
+      "alternative": "观察到更多高风险首轮项目可能由地方政府产业目录、GP经验、硬科技项目结构和政策任务共同决定；若只是返投压力下被迫单独投资、缺少市场共同出资者，则联合投资减少不代表有效风险承担。",
+      "discriminating_tests": [
+        "同一GP在不同政府LP/私人LP基金中，按合同实际收益让利/风险分担条款比较首轮、预商业化、跨地区/跨行业新投资和联合投资；激励传导预测合同收益上行更凸时首轮与风险右尾同步增加，单纯返投合规预测本地投资增加但主要局限当地项目且未必有高价值退出。固定GP、行业×年份与项目阶段，并核查处理时间及合同选择。",
+        "将退出按失败、IPO/高估值退出、持有年限拆开；若仅失败多而成功右尾不升，不能把高风险认作有效创新试错。另比较GP私募基金和政策LP基金的联合投资人退出或后续市场融资，区分GP冒险与市场VC撤出。"
+      ],
+      "data_ideal": "子基金完整LP-GP协议、carry/收益让利与亏损分担、GP资本投入、逐项目真实出资和退出、市场化联合投资、备选项目池；多数非公开。",
+      "data_pilot": "3–7天从至少3家地方母基金公开GP遴选/子基金申报文件抽取收益让利、让利条件、亏损分担与返投承诺，手工匹配30–50支子基金、同GP市场基金及企业首次轮次/联合投资公告；核实合同口径与被投企业身份，输出条款与投资覆盖率。",
+      "data_feasibility": "政策申报与结果公告可部分获取，基金实际carry、出资到账、退出估值和全量投资需协议或商业库；公开样本只能进行机制可行性测试，不能直接复制美国税制的三重差分。",
+      "read_in_days": "第1天复核PDF第3–9页、QSBS条件及表格；第2–4天完成公开政府LP—GP合同条款小样本；第5–7天抽取企业首轮/联合投资、比较同GP不同基金，评估样本识别。",
+      "kill_condition": "如果看不到GP实际边际收益条款，或同GP基金无法链接投资事件，就不能声称GP激励因果效应；仅保留制度机制阅读。",
+      "recommendation_class": "直接可用",
+      "quality_gate": {
+        "fit": 5,
+        "identification_gain": 4,
+        "data_access": 3,
+        "discriminability": 5
+      },
+      "abstract_en_summary": "The authors exploit U.S. QSBS eligibility, changes in capital-gains taxation and a five-year holding threshold to compare venture capitalists with other startup investors. Tax incentives induce VCs to choose riskier early-stage firms, change syndication and exit timing, and shift the distribution of failures and successful outcomes.",
+      "abstract_en_url": "https://www.nber.org/papers/w35418",
+      "tags": [
+        "VC",
+        "GP incentives",
+        "limited partners",
+        "risk-taking",
+        "QSBS",
+        "syndication",
+        "GGF contracts",
+        "first financing"
+      ],
+      "confidentiality": "只记录公开论文学术信息及独立提出的可证伪路径，不含用户私人未发表结果。"
+    },
+    {
+      "id": "colonnelli-et-al-startups-africa-local-network-financing-2026",
+      "kind": "mechanism-bridge",
+      "title": "Startups in Africa",
+      "title_zh": "非洲创业企业：融资需求、投资者网络与资本来源",
+      "authors": [
+        "Emanuele Colonnelli",
+        "Marcio Cruz",
+        "Mariana Pereira-López",
+        "Tommaso Porzio",
+        "Chun Zhao"
+      ],
+      "journal": "NBER w35261; CEPR DP21579; BFI Working Paper 2026-77",
+      "doi": "10.3386/w35261",
+      "dates": {
+        "nber_initial": "2026-05",
+        "bfi_published": "2026-06-02",
+        "nber_revision": "2026-08",
+        "research_brief": "2026-08-27",
+        "reviewed": "2026-11-13",
+        "note": "非当周首发：5月NBER首发，8月修订；本轮为高价值旧稿补充性核查"
+      },
+      "evidence_level": "official-abstract-plus-institutional-brief",
+      "read_scope": "核实NBER 2026-08更新元数据、CEPR及BFI官方摘要、2026-08-27 BFI Research Brief对调研与融资数据库的描述；BFI 109页全文过大未读，不声称读取方法附录、因果估计或复现数据。",
+      "sources": [
+        {
+          "label": "NBER w35261 revision date and abstract",
+          "url": "https://www.nber.org/papers/w35261",
+          "scope": "official-abstract"
+        },
+        {
+          "label": "CEPR DP21579 official abstract",
+          "url": "https://cepr.org/publications/dp21579",
+          "scope": "official-abstract"
+        },
+        {
+          "label": "BFI research brief Aug 27 2026",
+          "url": "https://bfi.uchicago.edu/insights/startups-in-africa/",
+          "scope": "institutional-brief"
+        },
+        {
+          "label": "BFI working paper entry",
+          "url": "https://bfi.uchicago.edu/working-papers/startups-in-africa/",
+          "scope": "institutional-paper-index"
+        }
+      ],
+      "source_fact": "研究主体是非洲创业者、潜在股权投资者和实际VC投资人。作者将横跨51国的4,444家初创企业调查及有激励相容设计的融资偏好实验，与2010—2024年5,470家初创企业、8,751笔VC交易及创始人教育/工作经历相连（BFI研究解读的样本口径）。创业者通常偏好股权融资而非债务，并看重本地投资者支持；但约80%VC交易涉及外国投资者，获投创始人中超过六成有海外教育或职业经历。作者把现象分解为本地股权资本稀缺、可接触外资的创业者数量有限、以及本地创业者连接外国投资人的摩擦。原文识别的是非洲融资市场，不是中国GGF的因果效果。",
+      "economic_primitive": "融资供需双方的社会与职业网络形成匹配摩擦：资本即使存在，也不一定到达缺乏跨地域投资者联系的创业者；观察到的本地/外地资金流不能只归于供给方的地域偏好。",
+      "bridge_operations": [
+        {
+          "id": "actor",
+          "label": "更换主体",
+          "text": "从跨国外国VC及非洲创业者改为跨省市场VC、地方GGF子基金GP与本地创业者。"
+        },
+        {
+          "id": "outcome",
+          "label": "转换结果",
+          "text": "由是否获得外资股权融资改为首次获得异地VC融资、GGF与市场VC共同投资及未获融资企业的进入机会。"
+        },
+        {
+          "id": "institution",
+          "label": "制度差异",
+          "text": "地方财政返投、项目推荐渠道与GP网络可以补充融资匹配，也可能将资本保留给有政府关系项目；跨国资本壁垒不可直接等同中国省界。"
+        }
+      ],
+      "new_question": "地方引导基金引入外地GP究竟帮助缺乏异地投资者关系的本地创业者获得市场融资，还是优先支持已有外部教育/机构网络的成熟项目？",
+      "bridge_assumption": "需证明GP与创业者的教育/职业联系在中国跨省融资中构成真实搜索摩擦，并且政府LP基金进入能够改变投资者与企业的匹配，而非仅满足返投数量。原文调查结论不能推断中国地方资本稀缺。",
+      "alternative": "高教育经历创始人可能本来有更好项目、外语能力或创新质量；外地GP选择具有产业专长的集群城市，和网络可得性而非偏袒同时相关。",
+      "discriminating_tests": [
+        "在同城×行业×成立年份的创业企业中，将创始人是否拥有投资人所在城市教育/任职经历，与首次获得跨省市场化VC融资相连；纯网络匹配机制预测网络弱的创始人融资不足更明显，且当GGF引入外地GP后这类企业新增外部融资（尤其非政府跟投）上升。仅返投考核或偏袒机制则可能集中于已有政府/GP关系企业。",
+        "同GP跨基金比较有政府LP支持的子基金和市场基金：加入被投企业融资前专利、年龄、地理产业集聚及创始人履历；若资金只转到注册迁入项目而不增加网络弱创业者首次获资与后续市场跟投，不能称为连接外部投资人。需检验未受投资者与跨省替代资金的挤出。"
+      ],
+      "data_ideal": "完整创业项目申请/拒绝、创始人教育职业网络、GP团队历任雇主/所在地、LP-GP条款、实际投融资金额、后续跨省共同投资及真实经营地；需授权。",
+      "data_pilot": "第1–2天选两座有公开GGF引入外地GP政策及基金名单的城市；第3–5天抽样50家公开融资企业的创始人履历、投资人城市、首次融资历史和GP背景；第6–7天测试教育/职业地理联系字段的可匹配率与未融资企业可得性，不足以构造未融资对照时只做描述性网络事实。",
+      "data_feasibility": "公开GP中选名单、部分企业/创始人履历和融资公告可拿到；缺融资失败者和全量创始人履历导致强选择偏误，清科/PitchBook全量需授权，跨国调查与中国省级制度也不完全可比。",
+      "read_in_days": "先读BFI论文最新版官方索引/作者稿确认识别边界；一周内完成50企业网络字段覆盖率、同GP异LP匹配与跨省首次融资的事件顺序，无法形成比较组则降为机制参考。",
+      "kill_condition": "若公开数据只覆盖已融资企业，且无法找到未融企业基线或可信的GP引入外生变化，不开展‘政策基金降低匹配摩擦’因果回归。",
+      "recommendation_class": "可形成新题",
+      "quality_gate": {
+        "fit": 4,
+        "identification_gain": 4,
+        "data_access": 3,
+        "discriminability": 4
+      },
+      "abstract_en_summary": "Combining a multi-country founder survey, incentivized financing-choice experiment and VC transactions, this study documents demand for equity but heavy reliance on foreign investors. Cross-border founder connections and limited local capital help explain why access is uneven across founders.",
+      "abstract_en_url": "https://www.nber.org/papers/w35261",
+      "tags": [
+        "venture capital",
+        "local versus outside investors",
+        "founder networks",
+        "matching frictions",
+        "GGF",
+        "GP selection",
+        "first round financing"
+      ],
+      "confidentiality": "仅公开摘要及独立研究设想，不涉及私人未发表结果。"
     }
   ]
 }
