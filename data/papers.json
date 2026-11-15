@@ -1,8 +1,1226 @@
 {
   "schema_version": 1,
   "snapshot": "incremental-ingestion",
-  "updated_at": "2026-11-12T08:23:37+00:00",
+  "updated_at": "2026-11-15T07:54:18+00:00",
   "papers": [
+    {
+      "title": "Bond funds and credit risk",
+      "authors": [
+        "Jaewon Choi",
+        "Amil Dasgupta",
+        "Ji Yeol Jimmy Oh"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jfineco.2026.104396",
+      "doi": "10.1016/j.jfineco.2026.104396",
+      "aliases": [
+        "doi:10.1016/j.jfineco.2026.104396"
+      ],
+      "first_public_date": "2027-01",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jfe",
+          "name": "Journal of Financial Economics",
+          "url": "https://doi.org/10.1016/j.jfineco.2026.104396"
+        }
+      ],
+      "id": "p_4a898e8f6d603d",
+      "discovered_at": "2026-11-15",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-15",
+          "source_id": "jfe"
+        }
+      ]
+    },
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jfineco.2026.104410",
+      "doi": "10.1016/j.jfineco.2026.104410",
+      "aliases": [
+        "doi:10.1016/j.jfineco.2026.104410"
+      ],
+      "first_public_date": "2026-12",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jfe",
+          "name": "Journal of Financial Economics",
+          "url": "https://doi.org/10.1016/j.jfineco.2026.104410"
+        }
+      ],
+      "id": "p_dce21c2621bbf4",
+      "discovered_at": "2026-11-15",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-15",
+          "source_id": "jfe"
+        }
+      ]
+    },
+    {
+      "title": "The hinge of the golden door: Labor market impacts of immigrant exclusion",
+      "authors": [
+        "Dean Hoi"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jpubeco.2026.105826",
+      "doi": "10.1016/j.jpubeco.2026.105826",
+      "aliases": [
+        "doi:10.1016/j.jpubeco.2026.105826"
+      ],
+      "first_public_date": "2026-12",
+      "stage": "journal",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "jpub",
+          "name": "Journal of Public Economics",
+          "url": "https://doi.org/10.1016/j.jpubeco.2026.105826"
+        }
+      ],
+      "id": "p_14898346c45f6a",
+      "discovered_at": "2026-11-15",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-15",
+          "source_id": "jpub"
+        }
+      ]
+    },
+    {
+      "title": "Survival versus scale: The effects of critical access hospital designation",
+      "authors": [
+        "Ian M. McCarthy",
+        "Katie Leinenbach"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jpubeco.2026.105816",
+      "doi": "10.1016/j.jpubeco.2026.105816",
+      "aliases": [
+        "doi:10.1016/j.jpubeco.2026.105816"
+      ],
+      "first_public_date": "2026-12",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jpub",
+          "name": "Journal of Public Economics",
+          "url": "https://doi.org/10.1016/j.jpubeco.2026.105816"
+        }
+      ],
+      "id": "p_30670185cc8539",
+      "discovered_at": "2026-11-15",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-15",
+          "source_id": "jpub"
+        }
+      ]
+    },
+    {
+      "title": "Long-run impacts of school-based mentoring for at-risk youth: evidence from a randomized field experiment",
+      "authors": [
+        "Nienke Ruijs",
+        "Ilja Cornelisz",
+        "Chris van Klaveren",
+        "Marc van der Steeg",
+        "Dinand Webbink"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jpubeco.2026.105806",
+      "doi": "10.1016/j.jpubeco.2026.105806",
+      "aliases": [
+        "doi:10.1016/j.jpubeco.2026.105806"
+      ],
+      "first_public_date": "2026-12",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jpub",
+          "name": "Journal of Public Economics",
+          "url": "https://doi.org/10.1016/j.jpubeco.2026.105806"
+        }
+      ],
+      "id": "p_b157a41d9c4373",
+      "discovered_at": "2026-11-15",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-15",
+          "source_id": "jpub"
+        }
+      ]
+    },
+    {
+      "title": "DP22181 Does Peter Piper Pick Pepper Inattentively? Consumer Inattention to Package Content",
+      "authors": [
+        "Laura Grigolon, Ian Meeker, Jakob von Ditfurth"
+      ],
+      "abstract": "We study consumer inattention to product downsizing, whereby manufacturers raise unit prices by reducing package content. We develop a novel method to recover inattention within a random coefficient discrete choice framework. Applying our method to the pepper industry, where thirty downsizing episodes affected a third of category sales, we find that almost no consumers notice downsizing and that they are more sensitive to package prices than to net weight. Making downsizing salient raises consumer surplus, while banning downsizing generates only half as much consumer surplus gain because resto",
+      "source_url": "https://cepr.org/publications/dp22181",
+      "doi": "",
+      "aliases": [
+        "cepr:22181"
+      ],
+      "first_public_date": "2026-11-14",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22181"
+        }
+      ],
+      "id": "p_3cafd739d0c6e0",
+      "discovered_at": "2026-11-15",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-15",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22182 How does AI distribute the Pie?",
+      "authors": [
+        "Douglas Araujo, Harald Uhlig"
+      ],
+      "abstract": "As Large Language Models (LLMs) increasingly advise financial decisions and undertake autonomous decision-making, understanding their strategic choices is crucial. We study LLM choices in the Ultimatum Game, a setting where humans deviate from theoretical rationality. We vary stakes and opponent types (Human vs. AI) across Proposer and Responder roles. Three results emerge. First, LLM behavior is heterogeneous but predictable conditional on the stakes and agent type. Second, while rational profit-maximization and human-like choices occur, a distinct “altruistic” mode with high distribution sha",
+      "source_url": "https://cepr.org/publications/dp22182",
+      "doi": "",
+      "aliases": [
+        "cepr:22182"
+      ],
+      "first_public_date": "2026-11-14",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22182"
+        }
+      ],
+      "id": "p_abf3744b8a3c07",
+      "discovered_at": "2026-11-15",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-15",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22178 Global Shocks and Insulation: Evidence from the Middle East and North Africa",
+      "authors": [
+        "Michele Castegini, Giancarlo Corsetti, Zeina Hasna, Simon Lloyd, Nadine Yamout"
+      ],
+      "abstract": "We study the transmission of U.S. monetary policy shocks to 18 Middle East, North Africa, and Pakistan (MENAP) economies over 1990–2025, using state-dependent local projections, and find two main results. First, on its own, exchange-rate flexibility offers only limited insulation to external shocks in the short-to-medium run. Following a U.S. monetary policy shock, activity is significantly better protected in crawling regimes than under fixed pegs; but not fully flexible regimes, where activity contracts significantly. Insulation therefore appears non-monotonic in the degree of exchange-rate ",
+      "source_url": "https://cepr.org/publications/dp22178",
+      "doi": "",
+      "aliases": [
+        "cepr:22178"
+      ],
+      "first_public_date": "2026-11-13",
+      "stage": "working-paper",
+      "discipline": "macro",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22178"
+        }
+      ],
+      "id": "p_b029cc6aad9c2d",
+      "discovered_at": "2026-11-15",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-15",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22172 School Choice and Educational Inputs: Unintended Consequences of a Targeted Voucher Program",
+      "authors": [
+        "Olivier De Groote, Ana Gazmuri"
+      ],
+      "abstract": "We estimate a novel education production function on a large observational dataset in a context with school choice. Using data from Chile, we estimate heterogeneous effects of class size, teacher experience and financial inputs, while allowing for unobserved school, student, and teacher characteristics to be correlated with them. We then use this model to decompose the channels behind the increase in test scores in both private and public schools, following a voucher reform. The reform increased financial inputs but also caused many students to leave public schools, leading to a passive decrea",
+      "source_url": "https://cepr.org/publications/dp22172",
+      "doi": "",
+      "aliases": [
+        "cepr:22172"
+      ],
+      "first_public_date": "2026-11-13",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22172"
+        }
+      ],
+      "id": "p_96aa1aeebbd2ce",
+      "discovered_at": "2026-11-15",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-15",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22175 The Message or the Messenger? Scientific Evidence and Policy Misperceptions",
+      "authors": [
+        "Marco Bertoni, Paolo Falco, Luigi Guiso, Tullio Jappelli, Roberto Nisticò"
+      ],
+      "abstract": "Citizens learn about the effects of public policies mainly through news media, and their beliefs often diverge from the available scientific evidence. Using a survey experiment on a representative sample of around 5,000 Italian residents, we study whether exposure to scientific evidence corrects misperceptions about four salient and politically contested reforms, and whether belief updating depends on the political alignment between individuals and the media outlet conveying the evidence. To separate the message from the messenger, respondents see the same piece of real, non-deceptive scientif",
+      "source_url": "https://cepr.org/publications/dp22175",
+      "doi": "",
+      "aliases": [
+        "cepr:22175"
+      ],
+      "first_public_date": "2026-11-13",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22175"
+        }
+      ],
+      "id": "p_093ec6645bf190",
+      "discovered_at": "2026-11-15",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-15",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22177 The Global Fiscal Actions (GFA) Dataset",
+      "authors": [
+        "Hites Ahir, Matthieu Bellon, Maria Chiara Cavalleri, Shuvam Das, Davide Furceri, Faizaan Kisat, Aiko Mineshima, Irene Rausell Moreno, Vishal Parmar, Nikhil Patel, Adrian Peralta-Alva"
+      ],
+      "abstract": "We introduce the Global Fiscal Actions (GFA) Dataset, the first quarterly global narrative database of discretionary fiscal policy actions, covering 142 countries since 1990. GFA combines Economist Intelligence Unit country reports with large language models to systematically identify and classify tax and spending measures, together with their motivations, timing, implementation status, and supporting evidence. We validate the dataset against economists' assessments, existing narrative datasets, fiscal aggregates, and repeated AI extractions, demonstrating high accuracy and reproducibility. We",
+      "source_url": "https://cepr.org/publications/dp22177",
+      "doi": "",
+      "aliases": [
+        "cepr:22177"
+      ],
+      "first_public_date": "2026-11-13",
+      "stage": "working-paper",
+      "discipline": "public-econ",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22177"
+        }
+      ],
+      "id": "p_b768991e1485ac",
+      "discovered_at": "2026-11-15",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-15",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22174 Thin Markets, Thick Subsidies: Local Competition and the Incidence of Heat Pump Grants",
+      "authors": [
+        "Shefali Khanna, Ralf Martin, Florian Münch, Aurélien Saussay"
+      ],
+      "abstract": "We study how local supply shapes the incidence and quantity response of clean-technology subsidies. In October 2023, the UK government increased the grant for air-source heat pumps from £5,000 to £7,500 in England and Wales, while Scotland left its policy unchanged. Using 260,000 certified heat pump installation records in a difference-in-differences comparison of Northern England with Scotland, we find that the grant increase raised monthly installations by 24%, adding roughly 7,200 units over 20 post-reform months. Reported pre-grant installation costs fell by about £830, so household out-of",
+      "source_url": "https://cepr.org/publications/dp22174",
+      "doi": "",
+      "aliases": [
+        "cepr:22174"
+      ],
+      "first_public_date": "2026-11-13",
+      "stage": "working-paper",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22174"
+        }
+      ],
+      "id": "p_1173b83d423481",
+      "discovered_at": "2026-11-15",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-15",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22179 Divide and Indebt How Geoeconomic Fragmentation Affects Public Debt and Macro-Fiscal Stability",
+      "authors": [
+        "Davide Furceri, Marcos Poplawski-Ribeiro, Ervin Prifti"
+      ],
+      "abstract": "This paper quantifies the macro-fiscal consequences of geoeconomic fragmentation using the Geopolitical Fragmentation Index of Fernández Villaverde, Mineyama, and Song (2024). Using a panel of 90 economies over 1990-2022, we identify structural fragmentation shocks in a panel SVAR and trace their dynamic effects through local projections, allowing for heterogeneity across country groups. We find that a one standard deviation increase in geoeconomic fragmentation raises public debt by up to 3 percentage points of GDP in the medium term. The debt buildup reflects weaker economic activity, wider ",
+      "source_url": "https://cepr.org/publications/dp22179",
+      "doi": "",
+      "aliases": [
+        "cepr:22179"
+      ],
+      "first_public_date": "2026-11-13",
+      "stage": "working-paper",
+      "discipline": "public-econ",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22179"
+        }
+      ],
+      "id": "p_cafc55e85045cc",
+      "discovered_at": "2026-11-15",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-15",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22173 A Closely-Held View of Dividend Taxation",
+      "authors": [
+        "Laurent Bach, Antoine Bozio, Arthur Guillouzouic, Claire Leroy, Clément Malgouyres"
+      ],
+      "abstract": "This paper introduces a ``closely-held view'' of dividend taxation, departing from traditional views fitting widely-held firms. Firms' owner-managers choose between distributing and retaining profits, and rarely issue equity, such that dividend taxes affect payouts but not investment. We test this view using two French reforms that raised dividend taxes in 2013 and cut them in 2018. Exploiting matched shareholder-firm tax data, we find very large dividend tax elasticities, with most of the response coming from closely-held firms. In line with this view, investment is insensitive to dividend ta",
+      "source_url": "https://cepr.org/publications/dp22173",
+      "doi": "",
+      "aliases": [
+        "cepr:22173"
+      ],
+      "first_public_date": "2026-11-13",
+      "stage": "working-paper",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22173"
+        }
+      ],
+      "id": "p_545744bb8858c6",
+      "discovered_at": "2026-11-15",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-15",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22176 Redistribution, Institutions, and the Self-Selection of Migrants",
+      "authors": [
+        "Leoluca Villa, Giacomo Corneo, Guido Neidhofer"
+      ],
+      "abstract": "In the face of slow productivity growth, labor shortages and concerns about brain drain, welfare states seek to understand how policies influence the skill composition of migrants. Using administrative data on the universe of Italians residing abroad, this paper investigates how governmental redistribution and institutional quality shape migration decisions across 45 main destination countries. We find that higher levels of income redistribution are associated with more negative skill selection. Access to human-capital–enhancing public services and higher institutional quality are instead link",
+      "source_url": "https://cepr.org/publications/dp22176",
+      "doi": "",
+      "aliases": [
+        "cepr:22176"
+      ],
+      "first_public_date": "2026-11-13",
+      "stage": "working-paper",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22176"
+        }
+      ],
+      "id": "p_24ff7aeb958499",
+      "discovered_at": "2026-11-15",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-15",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22180 Weathering the Energy Crisis: Can Tailored Information to Local Governments and Media Spur Climate Action?",
+      "authors": [
+        "Menna Bishop, Immanuel Feld, Thiemo Fetzer, Ludovica Gazzè"
+      ],
+      "abstract": "Can evidence tailored to local public actors, that is policy makers and media, increase residential energy efficiency investments? During the 2022 energy crisis, we randomly assigned local authorities in England and Wales to an outreach treatment. Councillors, council officers, and local media in treated authorities received localized estimates of household exposure to rising energy prices and potential savings from retrofits. Treatment increased retrofit installations by 7 percent, mainly through solar photovoltaics, with no detectable change in energy consumption. Installations were concentr",
+      "source_url": "https://cepr.org/publications/dp22180",
+      "doi": "",
+      "aliases": [
+        "cepr:22180"
+      ],
+      "first_public_date": "2026-11-13",
+      "stage": "working-paper",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22180"
+        }
+      ],
+      "id": "p_7f6956ae9c5fed",
+      "discovered_at": "2026-11-15",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-15",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "Climate Risk Disclosure and Risk Sharing in Financial Markets",
+      "authors": [
+        "Kevin Smith"
+      ],
+      "abstract": "Abstract In this paper, I model how climate risk disclosure impacts climate risk sharing among investors. I show that this disclosure can improve risk sharing by helping investors identify stocks that effectively hedge climate risk, and I analyze the disclosure’s impact on investors’ equilibrium portfolio choices. I then study firms’ voluntary disclosure incentives and analyze when disclosure mandates enhance risk sharing. Finally, I demonstrate that, by facilitating risk sharing, climate risk disclosure reduces the climate risk premium among stocks held by climate-focused investors. Hence, di",
+      "source_url": "https://doi.org/10.1093/rfs/hhag009",
+      "doi": "10.1093/rfs/hhag009",
+      "aliases": [
+        "doi:10.1093/rfs/hhag009"
+      ],
+      "first_public_date": "2026-11-13",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "rfs",
+          "name": "The Review of Financial Studies",
+          "url": "https://doi.org/10.1093/rfs/hhag009"
+        }
+      ],
+      "id": "p_b20ab9d3f30bf5",
+      "discovered_at": "2026-11-15",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-15",
+          "source_id": "rfs"
+        }
+      ]
+    },
+    {
+      "title": "Government Guarantees and Dynamic Debt Runs",
+      "authors": [
+        "Jacopo Magnani",
+        "Yabin Wang"
+      ],
+      "abstract": "Abstract This study quantifies the impact of public guarantees on the stability of bank wholesale funding. We study the Chinese market for negotiable certificates of deposit (NCDs) around the first bank failure in two decades, the Baoshang event, which struck investors’ belief in government guarantees on wholesale bank debt. We document a sharp increase in NCD spreads, issuance failures, and runs, with weaker banks becoming more exposed to rollover risk after the event. Using a model of dynamic debt runs, we estimate that the perceived guarantee fell from 54% of creditor losses before the even",
+      "source_url": "https://doi.org/10.1093/rof/rfag055",
+      "doi": "10.1093/rof/rfag055",
+      "aliases": [
+        "doi:10.1093/rof/rfag055"
+      ],
+      "first_public_date": "2026-11-13",
+      "stage": "journal",
+      "discipline": "banking",
+      "sources": [
+        {
+          "id": "rof",
+          "name": "Review of Finance",
+          "url": "https://doi.org/10.1093/rof/rfag055"
+        }
+      ],
+      "id": "p_fb250c5be24a4c",
+      "discovered_at": "2026-11-15",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-15",
+          "source_id": "rof"
+        }
+      ]
+    },
+    {
+      "title": "The Welfare Effects of Price Shocks and Household Relief Packages: Evidence from an Energy Crisis",
+      "authors": [
+        "Peter Levell",
+        "Martin O'Connell",
+        "Kate Smith"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1086/744933",
+      "doi": "10.1086/744933",
+      "aliases": [
+        "doi:10.1086/744933"
+      ],
+      "first_public_date": "2026-11-13",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jpe",
+          "name": "Journal of Political Economy",
+          "url": "https://doi.org/10.1086/744933"
+        }
+      ],
+      "id": "p_351c6349708d51",
+      "discovered_at": "2026-11-15",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-15",
+          "source_id": "jpe"
+        }
+      ]
+    },
+    {
+      "title": "Noisy Global Value Chains",
+      "authors": [
+        "Ha Bui",
+        "Zhen Huo",
+        "Andrei Levchenko",
+        "Nitya Pandalai-Nayar"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1086/744936",
+      "doi": "10.1086/744936",
+      "aliases": [
+        "doi:10.1086/744936"
+      ],
+      "first_public_date": "2026-11-13",
+      "stage": "journal",
+      "discipline": "trade",
+      "sources": [
+        {
+          "id": "jpe",
+          "name": "Journal of Political Economy",
+          "url": "https://doi.org/10.1086/744936"
+        }
+      ],
+      "id": "p_3f0253c916c5e6",
+      "discovered_at": "2026-11-15",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-15",
+          "source_id": "jpe"
+        }
+      ]
+    },
+    {
+      "title": "Daddy’s Girl: Daughters, Managerial Decisions, and Gender Inequality",
+      "authors": [
+        "Maddalena Ronchi",
+        "Nina Smith"
+      ],
+      "abstract": "Abstract Using Danish registry data, we study how managers’ gender attitudes shape gender inequality in the workplace by exploiting the birth of a daughter—as opposed to a son—as a plausibly exogenous shock to male managers’ gender attitudes. Comparing within-firm changes in women’s labour outcomes depending on the gender of the manager’s newborn child, we find that women’s relative earnings and employment increase by 4.4% and 2.9%, respectively, following the birth of the manager’s first daughter. These effects are driven by an increase in managers’ propensity to substitute male hires with fe",
+      "source_url": "https://doi.org/10.1093/restud/rdag096",
+      "doi": "10.1093/restud/rdag096",
+      "aliases": [
+        "doi:10.1093/restud/rdag096"
+      ],
+      "first_public_date": "2026-11-13",
+      "stage": "journal",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "restud",
+          "name": "The Review of Economic Studies",
+          "url": "https://doi.org/10.1093/restud/rdag096"
+        }
+      ],
+      "id": "p_4326a0c87aa364",
+      "discovered_at": "2026-11-15",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-15",
+          "source_id": "restud"
+        }
+      ]
+    },
+    {
+      "title": "Aspiring to a Better Future: Can a Simple Psychological Intervention Reduce Poverty?",
+      "authors": [
+        "Kate Orkin",
+        "Robert Garlick",
+        "Mahreen Mahmud",
+        "Richard Sedlmayr",
+        "Johannes Haushofer",
+        "Stefan Dercon"
+      ],
+      "abstract": "Abstract Do higher aspirations for the future motivate people living in poverty to make long-term investments? Do their aspirations increase when economic conditions improve? To answer these questions, we run a 415-village field experiment with 8,300 women living in poverty in rural Kenya. We design an 80-minute workshop to help people set higher aspirations and plan to achieve them. We cross-randomise this with large unconditional cash transfers. The workshop substantially raises aspirations, labour supply, investment, revenue, and living standards 17 months later, relative to a placebo works",
+      "source_url": "https://doi.org/10.1093/restud/rdag100",
+      "doi": "10.1093/restud/rdag100",
+      "aliases": [
+        "doi:10.1093/restud/rdag100"
+      ],
+      "first_public_date": "2026-11-13",
+      "stage": "journal",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "restud",
+          "name": "The Review of Economic Studies",
+          "url": "https://doi.org/10.1093/restud/rdag100"
+        }
+      ],
+      "id": "p_bb1e89a06da444",
+      "discovered_at": "2026-11-15",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-15",
+          "source_id": "restud"
+        }
+      ]
+    },
+    {
+      "title": "Comparing Factor Models Under Regime Switching",
+      "authors": [
+        "Shamim Ahmed",
+        "Cesare Robotti",
+        "Daniel Tsvetanov",
+        "Xiaoxia Ye"
+      ],
+      "abstract": "We compare factor pricing models using the “test-asset irrelevance” result but under regime switching. We show that the unconditional squared Sharpe ratio measure is no longer appropriate for model comparison when returns are subject to regime shifts. However, conditional on a given regime, model comparison can be performed using the conditional squared Sharpe ratio metric. We find that the Fama-French six-factor model that employs a cash-based profitability factor, the Barillas-Shanken six-factor model, and the Stambaugh-Yuan four-factor model are jointly the best-performing models under the ",
+      "source_url": "https://doi.org/10.1287/mnsc.2025.04942",
+      "doi": "10.1287/mnsc.2025.04942",
+      "aliases": [
+        "doi:10.1287/mnsc.2025.04942"
+      ],
+      "first_public_date": "2026-11-13",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2025.04942"
+        }
+      ],
+      "id": "p_809ee4ac2f6d4f",
+      "discovered_at": "2026-11-15",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-15",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Banking on a Corporate Rebrand",
+      "authors": [
+        "Matthew Jaremski",
+        "Kris James Mitchener",
+        "Kilian Rieder"
+      ],
+      "abstract": "Firms often rebrand to counter negative shocks, but can it work? Using a historical natural experiment, we analyze a large sample of companies from the same industry (banking) that shared very similar names, but overwhelmingly decided to change them in response to a common, negative news shock. U.S. entry into World War I in 1917 created a sudden anti-German backlash against anything that invoked an association with the now enemy. The shock itself was thus orthogonal to bank fundamentals and pre-existing trends, but pushed banks to reconsider their brands. After 1917, the few German-named bank",
+      "source_url": "https://doi.org/10.1287/mnsc.2025.03635",
+      "doi": "10.1287/mnsc.2025.03635",
+      "aliases": [
+        "doi:10.1287/mnsc.2025.03635"
+      ],
+      "first_public_date": "2026-11-13",
+      "stage": "journal",
+      "discipline": "banking",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2025.03635"
+        }
+      ],
+      "id": "p_5831d6904b249a",
+      "discovered_at": "2026-11-15",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-15",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "What’s at Stake? Understanding the Role of Home Equity in Flood Insurance Demand",
+      "authors": [
+        "Yanjun (Penny) Liao",
+        "Philip Mulder"
+      ],
+      "abstract": "Changing flood insurance demand shifts climate risk across homeowners, lenders, and governments. We show that flood insurance take-up follows rising and falling home equity over the housing boom and bust across markets with different price dynamics. To isolate the causal effect of risk shifting on insurance demand, we study flood insurance policy renewals over the housing bust, exploiting granular differences in purchase timing that led policyholders to experience differential changes in skin-in-the-game exposure to flood risk for the same change in home equity. When homeowners have less equit",
+      "source_url": "https://doi.org/10.1287/mnsc.2025.01302",
+      "doi": "10.1287/mnsc.2025.01302",
+      "aliases": [
+        "doi:10.1287/mnsc.2025.01302"
+      ],
+      "first_public_date": "2026-11-13",
+      "stage": "journal",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2025.01302"
+        }
+      ],
+      "id": "p_981ffdb3bb0436",
+      "discovered_at": "2026-11-15",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-15",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Insurers’ Investments and Insurance Prices",
+      "authors": [
+        "Benjamin Knox",
+        "Jakob Ahm Sørensen"
+      ],
+      "abstract": "We develop a theory in which stable funding from insurance underwriting allows insurers to earn the liquidity premium on illiquid assets and pass part of it back to policyholders through lower prices. Consistent with the model’s predictions, we show empirically that (1) insurance prices are lower when the liquidity premium is higher, for both life insurers and property and casualty insurers. (2) In the cross-section, insurers with more stable funding earn higher expected returns and set lower prices. (3) It is specifically the part of expected returns driven by stable funding that passes throu",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.09038",
+      "doi": "10.1287/mnsc.2024.09038",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.09038"
+      ],
+      "first_public_date": "2026-11-13",
+      "stage": "journal",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.09038"
+        }
+      ],
+      "id": "p_ba761994e6e2c3",
+      "discovered_at": "2026-11-15",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-15",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Rethinking Distribution Shifts: Empirical Analysis and Modeling for Tabular Data",
+      "authors": [
+        "Tianyu Wang",
+        "Jiashuo Liu",
+        "Peng Cui",
+        "Hongseok Namkoong"
+      ],
+      "abstract": "Different distribution shifts require different interventions, and algorithms must be grounded in the specific shifts they address. However, methodological development for robust algorithms typically relies on structural assumptions that lack empirical validation. Advocating for an empirically grounded data-driven approach to algorithm development, we build an empirical testbed comprising natural shifts across 8 tabular data sets, 172 distribution pairs over 45 methods, and 90,000 method configurations encompassing empirical risk minimization and distributionally robust optimization (DRO) meth",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.08298",
+      "doi": "10.1287/mnsc.2024.08298",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.08298"
+      ],
+      "first_public_date": "2026-11-13",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.08298"
+        }
+      ],
+      "id": "p_6bdb79b28f7c94",
+      "discovered_at": "2026-11-15",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-15",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "The Data-Driven Censored Newsvendor Problem",
+      "authors": [
+        "Chamsi Hssaine",
+        "Sean R. Sinclair"
+      ],
+      "abstract": "We study a censored variant of the data-driven newsvendor problem, where the decision maker must select an ordering quantity that minimizes expected overage and underage costs based only on offline censored sales data rather than historical demand realizations. Our goal is to understand how the degree of historical demand censoring affects the performance of any learning algorithm for this problem. To isolate this impact, we adopt a distributionally robust optimization framework, evaluating policies according to their worst-case regret over an ambiguity set of distributions. This set is define",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.09021",
+      "doi": "10.1287/mnsc.2024.09021",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.09021"
+      ],
+      "first_public_date": "2026-11-13",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.09021"
+        }
+      ],
+      "id": "p_87c4808ba43a06",
+      "discovered_at": "2026-11-15",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-15",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "The Economics of Waste Valorization",
+      "authors": [
+        "Yuefeng Li",
+        "Zhongbin Wang",
+        "Shenghai Zhou"
+      ],
+      "abstract": "As the spread of waste imposes substantial environmental and economic burdens, a newer operational strategy, waste valorization, is gaining attention. This approach transforms production-generated byproduct waste into valuable, distinct products, creating intricate production and demand interdependencies that traditional strategies like remanufacturing and coproduction cannot fully capture. In this study, we examine the impacts of these interdependencies within a two-stage stochastic production decision model to determine optimal production quantities under waste valorization. Our findings rev",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.08500",
+      "doi": "10.1287/mnsc.2024.08500",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.08500"
+      ],
+      "first_public_date": "2026-11-13",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.08500"
+        }
+      ],
+      "id": "p_deba92b5afcb3f",
+      "discovered_at": "2026-11-15",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-15",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "DP22171 Asset Pricing with Heterogeneous Agents under Limited Information",
+      "authors": [
+        "Riccardo Antonio Cioffi, Samuel Hurtado, Galo Nuño"
+      ],
+      "abstract": "In this paper, we study the interaction between wealth inequality and asset prices by developing a framework featuring heterogeneous agents, endogenous portfolio choice, and aggregate risk. We solve the model globally under the assumption of limited information: agents forecast prices directly using observable aggregate variables, which makes the problem computationally tractable without sacrificing the economic mechanism. We approximate the drift and volatility of the perceived price process with neural networks and find that the volatility component is highly nonlinear. This endogenously gen",
+      "source_url": "https://cepr.org/publications/dp22171",
+      "doi": "",
+      "aliases": [
+        "cepr:22171"
+      ],
+      "first_public_date": "2026-11-12",
+      "stage": "working-paper",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22171"
+        }
+      ],
+      "id": "p_b55eba7d31c676",
+      "discovered_at": "2026-11-15",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-15",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22170 fereg: Fast high-dimensional fixed-effects regressions in Stata",
+      "authors": [
+        "Johannes Schmieder"
+      ],
+      "abstract": "Regressions with many fixed effects are central to applied research, but fitting them to large datasets can be slow. In this article, I present the commands fereg and feppml, which fit linear and Poisson pseudo-maximum-likelihood regressions with high-dimensional fixed effects. Both commands use familiar Stata syntax and pass the computation to a compiled plugin. The plugin chooses among projection, Krylov, and multigrid solvers according to the structure of the fixed effects, checks every result before posting it, and runs on several processor cores. The commands support multiple and interact",
+      "source_url": "https://cepr.org/publications/dp22170",
+      "doi": "",
+      "aliases": [
+        "cepr:22170"
+      ],
+      "first_public_date": "2026-11-12",
+      "stage": "working-paper",
+      "discipline": "public-econ",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22170"
+        }
+      ],
+      "id": "p_ce4aae721eabd1",
+      "discovered_at": "2026-11-15",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-15",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "The Horizon of Investors’ Information and Corporate Investment",
+      "authors": [
+        "Olivier Dessaint",
+        "Thierry Foucault",
+        "Laurent Frésard"
+      ],
+      "abstract": "Abstract The quality of investors’ information across different horizons has real effects. When managers care about the effect of investment on their stock price, a decline in the informativeness of investors’ signals about long-term cash flows leads firms with long-term projects to cut investment more than firms with short-term projects. Using a novel, hand-collected measure of project horizons, we confirm this hypothesis: relative to firms with short-term projects, the investment of firms with long-term projects decreases by 3.7% following a 1-standard-deviation drop in the quality of invest",
+      "source_url": "https://doi.org/10.1093/rfs/hhag097",
+      "doi": "10.1093/rfs/hhag097",
+      "aliases": [
+        "doi:10.1093/rfs/hhag097"
+      ],
+      "first_public_date": "2026-11-12",
+      "stage": "journal",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "rfs",
+          "name": "The Review of Financial Studies",
+          "url": "https://doi.org/10.1093/rfs/hhag097"
+        }
+      ],
+      "id": "p_78419ee5dba7a7",
+      "discovered_at": "2026-11-15",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-15",
+          "source_id": "rfs"
+        }
+      ]
+    },
+    {
+      "title": "Effortful vs. Opportunistic Consumption of Discretionary Time: How Time-Reporting Decisions Influence Extra-Role Effort",
+      "authors": [
+        "Sophie Maussen"
+      ],
+      "abstract": "Employees often work under incomplete contracts, performing both contracted in-role tasks and valuable but noncontracted extra-role activities. Once employees have completed in-role tasks, discretionary time remains, which they may allocate to extra-role activities or consume opportunistically. This study examines how managers’ time-reporting decisions, as a less intrusive form of control, affect subordinates’ effort-allocation decisions. I propose two opposing predictions. First, managers’ control implementations may signal distrust, resulting in more opportunism and thus less extra-role effo",
+      "source_url": "https://doi.org/10.1287/mnsc.2025.00955",
+      "doi": "10.1287/mnsc.2025.00955",
+      "aliases": [
+        "doi:10.1287/mnsc.2025.00955"
+      ],
+      "first_public_date": "2026-11-12",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2025.00955"
+        }
+      ],
+      "id": "p_91d481eb6a484c",
+      "discovered_at": "2026-11-15",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-15",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Deregulation, Market Structure, and the Evolution of U.S. Banking",
+      "authors": [
+        "Emilio Bisetti",
+        "Stephen A. Karolyi",
+        "Stefan Lewellen"
+      ],
+      "abstract": "We construct novel network-based measures of U.S. state-level bank deregulation intensity that allow us to separately identify the effects of deregulation on competition and investment opportunities. In contrast to existing studies, we find that increased competition leads to higher deposit funding costs and a reduction in banks’ net interest margins and profitability. In response, banks shift their business models and persistently increase their risk taking. Our findings resolve conflicting evidence in the literature and support theories in which reductions in bank charter values lead to high",
+      "source_url": "https://doi.org/10.1287/mnsc.2025.01128",
+      "doi": "10.1287/mnsc.2025.01128",
+      "aliases": [
+        "doi:10.1287/mnsc.2025.01128"
+      ],
+      "first_public_date": "2026-11-12",
+      "stage": "journal",
+      "discipline": "banking",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2025.01128"
+        }
+      ],
+      "id": "p_385d9f8d6d4d8b",
+      "discovered_at": "2026-11-15",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-15",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Redeploying the Jockeys: The Intermediary Role of Venture Capital in Entrepreneurial Labor Markets",
+      "authors": [
+        "Zhongchen Hu"
+      ],
+      "abstract": "This paper explores how venture capitalists (VCs) add value by examining their role as labor market intermediaries. Using novel data, I show that VCs create internal labor markets (ILMs) to facilitate entrepreneurial mobility across their portfolio firms. Survey evidence suggests that VCs leverage private information about founders’ abilities to strategically match talent to portfolio firms, creating value for the recipient companies. Consistent with this mechanism of asymmetric learning, I find that (a) former VC partners continue to influence founder mobility, (b) ILM intensity positively pr",
+      "source_url": "https://doi.org/10.1287/mnsc.2023.01626",
+      "doi": "10.1287/mnsc.2023.01626",
+      "aliases": [
+        "doi:10.1287/mnsc.2023.01626"
+      ],
+      "first_public_date": "2026-11-12",
+      "stage": "journal",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.01626"
+        }
+      ],
+      "id": "p_9d75770e215d0a",
+      "discovered_at": "2026-11-15",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-15",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Labor Market Tightness and the Reversal of Inequality Trends in Germany",
+      "authors": [
+        "Christian Dustmann",
+        "Martin Friedrich",
+        "Carl Gergs",
+        "Uta Schönberg"
+      ],
+      "abstract": "Abstract Germany experienced a sharp rise in wage inequality over the two decades leading up to the Great Recession. However, a remarkable trend reversal occurred in 2010—well before the introduction of the minimum wage in 2015—when wages at the bottom of the distribution began to grow more rapidly than those higher up. This paper attributes the reversal to an increasingly tight labor market after the Great Recession, supported by strong domestic demand, and operating through several interrelated and mutually reinforcing channels. Consistent with this hypothesis, job-to-job transition rates an",
+      "source_url": "https://doi.org/10.1093/qje/qjag057",
+      "doi": "10.1093/qje/qjag057",
+      "aliases": [
+        "doi:10.1093/qje/qjag057"
+      ],
+      "first_public_date": "2026-11-11",
+      "stage": "journal",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "qje",
+          "name": "The Quarterly Journal of Economics",
+          "url": "https://doi.org/10.1093/qje/qjag057"
+        }
+      ],
+      "id": "p_5e0164c85da902",
+      "discovered_at": "2026-11-15",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-15",
+          "source_id": "qje"
+        }
+      ]
+    },
+    {
+      "title": "Competition in Markups: A Theory of the Lerner Index in Networks and General Equilibrium",
+      "authors": [
+        "Lingxuan Wu"
+      ],
+      "abstract": "Abstract What determines demand elasticities and markups in production networks, where firms' demand and pricing are interdependent? I propose competition in markups, an equilibrium concept in which firms choose markups, taking other firms' markups as given. In partial equilibrium with vertical structures, it links upstream demand elasticities to downstream characteristics without backward induction and ties pass-through to the curvature of final demand. In general equilibrium with arbitrary industry networks, it microfounds firms' demand elasticities and markups through their within-industry ",
+      "source_url": "https://doi.org/10.1093/restud/rdag123",
+      "doi": "10.1093/restud/rdag123",
+      "aliases": [
+        "doi:10.1093/restud/rdag123"
+      ],
+      "first_public_date": "2026-11-11",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "restud",
+          "name": "The Review of Economic Studies",
+          "url": "https://doi.org/10.1093/restud/rdag123"
+        }
+      ],
+      "id": "p_721ae699548cd0",
+      "discovered_at": "2026-11-15",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-15",
+          "source_id": "restud"
+        }
+      ]
+    },
+    {
+      "title": "The Impact of Commercial Real Estate Regulations on U.S. Output",
+      "authors": [
+        "Fil Babalievsky",
+        "Kyle F Herkenhoff",
+        "Lee E Ohanian",
+        "Edward C Prescott"
+      ],
+      "abstract": "Abstract Commercial real estate accounts for about 20% of the U.S. capital stock and is highly regulated. Yet relatively little is known about how these regulations affect economic activity or consumer welfare. This paper develops a spatial general equilibrium model of the U.S. economy with commercial real estate regulations and congestion effects, the latter providing a rationale for such regulations. The model constructs a panel of commercial real estate regulation indices for major U.S. metropolitan areas by exploiting variation in the share of parcel value attributable to land versus struc",
+      "source_url": "https://doi.org/10.1093/restud/rdag121",
+      "doi": "10.1093/restud/rdag121",
+      "aliases": [
+        "doi:10.1093/restud/rdag121"
+      ],
+      "first_public_date": "2026-11-11",
+      "stage": "journal",
+      "discipline": "public-econ",
+      "sources": [
+        {
+          "id": "restud",
+          "name": "The Review of Economic Studies",
+          "url": "https://doi.org/10.1093/restud/rdag121"
+        }
+      ],
+      "id": "p_7d609bfb13b73c",
+      "discovered_at": "2026-11-15",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-15",
+          "source_id": "restud"
+        }
+      ]
+    },
     {
       "title": "DP22168 A Waivable Citizen Veto",
       "authors": [
