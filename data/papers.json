@@ -1,8 +1,355 @@
 {
   "schema_version": 1,
   "snapshot": "incremental-ingestion",
-  "updated_at": "2026-11-16T08:02:43+00:00",
+  "updated_at": "2026-11-17T09:19:19+00:00",
   "papers": [
+    {
+      "title": "DP22187 The Changing Vulnerability of the U.S. Economy to Oil Shocks",
+      "authors": [
+        "Danilo Leiva-Leon, Giovanni Olivei, Ara Patvakanian, Jenny Tang, Egon Zakrajšek"
+      ],
+      "abstract": "The United States has gone from heavy oil dependence to being a net petroleum exporter. Time-varying parameter regressions show the macroeconomic association with oil price increases has weakened, especially for employment. State-level instrumental variables local projections suggest a source: an oil supply shock raising the real oil price by 1 standard deviation lifts employment in a state at the 90th percentile of oil production intensity by about 0.2 percentage point more over two years than in a non-producing state. These relative gains, visible in non-extraction employment and house price",
+      "source_url": "https://cepr.org/publications/dp22187",
+      "doi": "",
+      "aliases": [
+        "cepr:22187"
+      ],
+      "first_public_date": "2026-11-16",
+      "stage": "working-paper",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22187"
+        }
+      ],
+      "id": "p_72dd7c00f31c8d",
+      "discovered_at": "2026-11-17",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-17",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22189 Frontier Technology in Frontier Markets? Financing Global AI Entrepreneurship",
+      "authors": [
+        "Quentin G. Hacheme, Ebehi Iyoha, Abdoulaye Ndiaye, Noureini S. Souleymane"
+      ],
+      "abstract": "Does the global diffusion of artificial intelligence (AI) extend to the creation and financing of the firms that build it? Using a novel dataset of 116,795 startups founded between 2015 and 2022 across 172 countries, we link company descriptions and financing histories to the employment and education records of founders, early employees, and potential investors. We document a stark divergence between the real and financial sides of global AI entrepreneurship. On the real side, AI startups everywhere display the hallmarks of a general-purpose technology: in every world region, they target more ",
+      "source_url": "https://cepr.org/publications/dp22189",
+      "doi": "",
+      "aliases": [
+        "cepr:22189"
+      ],
+      "first_public_date": "2026-11-16",
+      "stage": "working-paper",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22189"
+        }
+      ],
+      "id": "p_80427dab4b2abf",
+      "discovered_at": "2026-11-17",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-17",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22185 Creative Destruction with AI versus AI's Destruction of Creativity",
+      "authors": [
+        "Christian Bayer, Petr Sedláček"
+      ],
+      "abstract": "Debates about AI have largely focused on its effects on productivity within existing firms or tasks. We argue that a key question for long-run welfare is whether AI will itself generate new ideas and products. Using a model of firm entry and selection where product development is uncertain and exclusively human-led, we show that AI automation may reduce welfare, even if it also raises productivity. This happens because automation erodes private returns that help justify investment into new ideas. Therefore, higher AI-induced productivity need not increase welfare if it undermines Schumpeterian",
+      "source_url": "https://cepr.org/publications/dp22185",
+      "doi": "",
+      "aliases": [
+        "cepr:22185"
+      ],
+      "first_public_date": "2026-11-16",
+      "stage": "working-paper",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22185"
+        }
+      ],
+      "id": "p_6321b4455dfa2e",
+      "discovered_at": "2026-11-17",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-17",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22188 Remote Work and Monetary Policy",
+      "authors": [
+        "Petr Sedláček, Chenchuan Shi"
+      ],
+      "abstract": "After the pandemic, remote work surged alongside tight labor markets. We study the monetary policy implications of this pattern in a New Keynesian model with hiring frictions and optimal remote work choices. Better remote work conditions raise employment surplus and hiring, lowering the natural unemployment rate. Central banks which learn about this change gradually, misperceive the labor market as tight and run the economy cold. Estimating learning speed using FOMC projection revisions, we find that misperception costs are as large as 15 years of business cycle fluctuations. Our results suppo",
+      "source_url": "https://cepr.org/publications/dp22188",
+      "doi": "",
+      "aliases": [
+        "cepr:22188"
+      ],
+      "first_public_date": "2026-11-16",
+      "stage": "working-paper",
+      "discipline": "banking",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22188"
+        }
+      ],
+      "id": "p_422ff4a979b5b8",
+      "discovered_at": "2026-11-17",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-17",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22184 Behavioral Bias, Relative to What? Robustness and Discounting in a Bewley Economy",
+      "authors": [
+        "Lars Peter Hansen, Francesco Lippi, Thomas Sargent"
+      ],
+      "abstract": "We construct a linear-quadratic Bewley economy whose consumers differ in discount factors (patience) and concerns about misspecification (robustness). We solve in closed form for a locus on which less patience offsets more robustness, so every type’s consumption-saving rule coincides with that of a benchmark consumer who trusts his model. Any distribution of types on the locus supports the same interest rate and joint distribution of consumption, debt, and income. Quantity data do not separately identify patience and robustness, even when the endowment law is known. Types difer in worst-case f",
+      "source_url": "https://cepr.org/publications/dp22184",
+      "doi": "",
+      "aliases": [
+        "cepr:22184"
+      ],
+      "first_public_date": "2026-11-16",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22184"
+        }
+      ],
+      "id": "p_2cdfa6da47cb6f",
+      "discovered_at": "2026-11-17",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-17",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22186 Antitrust, Market Power, and U.S. Economic Outcomes",
+      "authors": [
+        "Brian Amorim Cabaco, Morten Ravn"
+      ],
+      "abstract": "We assemble a narrative record of all federal antitrust case filings by the DoJ and FTC since the mid-1950s. We document a shift from civil non-merger and criminal enforcement toward civil merger cases in the early 1980s. Non-merger and criminal filings reduce defendants' markups while increasing sales and input expenditure. We construct sector-level enforcement proxies from publicly listed defendants' stock-market reactions to filings. Increased enforcement strengthens competition, raises output, R&D capital and patenting, and improves allocative efficiency. For civil non-merger and criminal ",
+      "source_url": "https://cepr.org/publications/dp22186",
+      "doi": "",
+      "aliases": [
+        "cepr:22186"
+      ],
+      "first_public_date": "2026-11-16",
+      "stage": "working-paper",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22186"
+        }
+      ],
+      "id": "p_0bfd2099dda09b",
+      "discovered_at": "2026-11-17",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-17",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "Whiplash: Congestion Dissipation in a Disrupted Circulatory Shipping System",
+      "authors": [
+        "Ming Hu",
+        "Chaoyu Zhang"
+      ],
+      "abstract": "The (post)pandemic period was marked by numerous port disruptions, leading to delays and rising costs for shippers. We build a fluid model in transient states to investigate how a disruption at one port can affect the disrupted port and its counterpart in another country in a circulatory container shipping system, where a stream of fleets moves goods back and forth between the two ports. Port disruption leads to two types of congestion: the inbound backlogs, which occur when ships are unable to enter the port, and the outbound backlogs, which arise when goods are unable to be loaded onto ships",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.05427",
+      "doi": "10.1287/mnsc.2024.05427",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.05427"
+      ],
+      "first_public_date": "2026-11-16",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.05427"
+        }
+      ],
+      "id": "p_73f22ac72b19b5",
+      "discovered_at": "2026-11-17",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-17",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Biodiversity Risk in the Corporate Bond Market",
+      "authors": [
+        "Sevgi Soylemezgil",
+        "Cihan Uzmanoglu"
+      ],
+      "abstract": "We show that a biodiversity risk premium has emerged in the U.S. corporate bond market following the United Nations Biodiversity Conference (COP15) in October 2021. COP15 placed biodiversity on the global regulatory agenda and raised transition risks for exposed firms. After COP15, a one standard deviation increase in a firm’s biodiversity footprint is associated with a 7% increase in its secondary market yield spreads, whereas this relation is insignificant before COP15. The biodiversity effect is also present in primary bond markets, most pronounced for medium-term bonds and distinct from cl",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.07660",
+      "doi": "10.1287/mnsc.2024.07660",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.07660"
+      ],
+      "first_public_date": "2026-11-16",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.07660"
+        }
+      ],
+      "id": "p_53d89c0222ef0b",
+      "discovered_at": "2026-11-17",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-17",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Advertising by Recruiting Influencers",
+      "authors": [
+        "Maya Jalloul",
+        "Vasiliki Kostami"
+      ],
+      "abstract": "The rise of social media platforms has enabled customers to rely on influencers and peer reviews to guide their purchasing decisions. As products increasingly focus on experiences, firms are leveraging influencer marketing as a crucial tool. This paper addresses key challenges of influencer marketing by considering different types of influencers and partnership schemes alongside the impact of social learning. We introduce a two-period model wherein, in the initial period, the firm unveils a new product experience of unknown quality alongside an influencer marketing campaign. The campaign relie",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.07919",
+      "doi": "10.1287/mnsc.2024.07919",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.07919"
+      ],
+      "first_public_date": "2026-11-16",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.07919"
+        }
+      ],
+      "id": "p_d8371ee6f87d4e",
+      "discovered_at": "2026-11-17",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-17",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Do Fund Managers’ Commitments to Responsible Investing Affect Private Information Acquisition, Information Environment, and Corporate Sustainability?",
+      "authors": [
+        "Sumit Agarwal",
+        "Johan Sulaeman",
+        "Yue Zhang",
+        "Zhe Zong"
+      ],
+      "abstract": "We investigate the effects of mutual funds’ commitments to responsible investing on their information acquisition activities and the corresponding externalities for other stakeholders. After committing to responsible investing (via United Nations Principles for Responsible Investment (UNPRI)), fund managers increase private information acquisition activities, that is, corporate site visits, particularly focusing on environmental and social issues. These visits generate negligible private investment value for the visiting funds. However, the information environment at the stock level improves f",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.08443",
+      "doi": "10.1287/mnsc.2024.08443",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.08443"
+      ],
+      "first_public_date": "2026-11-16",
+      "stage": "journal",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.08443"
+        }
+      ],
+      "id": "p_0caea7a2f91bc9",
+      "discovered_at": "2026-11-17",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-17",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Living for the lineage: Ancestral beliefs and the spiritual foundations of fertility in Sub-Saharan Africa",
+      "authors": [
+        "Pablo Álvarez-Aragón"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jdeveco.2026.103966",
+      "doi": "10.1016/j.jdeveco.2026.103966",
+      "aliases": [
+        "doi:10.1016/j.jdeveco.2026.103966"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jde",
+          "name": "Journal of Development Economics",
+          "url": "https://doi.org/10.1016/j.jdeveco.2026.103966"
+        }
+      ],
+      "id": "p_c732e11b09ff3d",
+      "discovered_at": "2026-11-17",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-17",
+          "source_id": "jde"
+        }
+      ]
+    },
     {
       "title": "DP22183 Partisan Demographics",
       "authors": [
