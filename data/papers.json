@@ -1,8 +1,341 @@
 {
   "schema_version": 1,
   "snapshot": "incremental-ingestion",
-  "updated_at": "2026-11-17T09:19:19+00:00",
+  "updated_at": "2026-11-18T08:35:28+00:00",
   "papers": [
+    {
+      "title": "DP22190 Monopsonistic Search",
+      "authors": [
+        "Pietro Garibaldi, Espen Rasmus Moen, Enrico Duilio Turri"
+      ],
+      "abstract": "We develop a search-and-matching model in which firms can influence the flow of recruits by posting higher wages. Workers draw a privately observed match-specific amenity cost on contact, so the firm's recruiting probability is increasing in its own wage, giving rise to monopsony power. We show that the decentralized equilibrium is inefficient: a marginal wage increase raises aggregate welfare, and may increase employment. If amenities are drawn from a constant-elasticity distribution, the model can be calibrated using aggregate data only. Calibrated to United States data for 2022--2024, the m",
+      "source_url": "https://cepr.org/publications/dp22190",
+      "doi": "",
+      "aliases": [
+        "cepr:22190"
+      ],
+      "first_public_date": "2026-11-17",
+      "stage": "working-paper",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22190"
+        }
+      ],
+      "id": "p_9dd51e64ba808f",
+      "discovered_at": "2026-11-18",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-18",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "Earnings Instability",
+      "authors": [
+        "Peter Ganong",
+        "Pascal Noel",
+        "Christina Patterson",
+        "Joseph Vavra",
+        "Alexander Weinberg"
+      ],
+      "abstract": "Abstract This paper uses high-frequency administrative data to show that most U.S. workers experience substantial month-to-month fluctuations in pay, even within ongoing employment relationships. Monthly earnings instability is pervasive but is masked in annual data. Moreover, this instability is unequally distributed: lower-income, hourly workers face more instability than higher-income, salaried workers. Firm-driven fluctuations in hours account for a large share of this instability. Monthly earnings instability, in turn, increases spending volatility and job separations. Short-term earnings",
+      "source_url": "https://doi.org/10.1093/qje/qjag059",
+      "doi": "10.1093/qje/qjag059",
+      "aliases": [
+        "doi:10.1093/qje/qjag059"
+      ],
+      "first_public_date": "2026-11-17",
+      "stage": "journal",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "qje",
+          "name": "The Quarterly Journal of Economics",
+          "url": "https://doi.org/10.1093/qje/qjag059"
+        }
+      ],
+      "id": "p_018b6af5ea509a",
+      "discovered_at": "2026-11-18",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-18",
+          "source_id": "qje"
+        }
+      ]
+    },
+    {
+      "title": "Meritocracy and Homophily in Collegial Organizations",
+      "authors": [
+        "Paul-Henri Moisson",
+        "Jean Tirole"
+      ],
+      "abstract": "Abstract In collegial organizations, homophily jeopardizes the recruitment of the most talented (“meritocracy”). We analyze the dynamics and welfare properties of an organization whose incumbent members coopt new ones in a forward-looking manner. We identify organizations in which meritocracy is likely to give way to favoritism and entrenchment, and investigate policy interventions (such as affirmative action, quality-based or diversity-based funding, discretionary overruling of majority decisions, blind hiring processes) and their unintended consequences.",
+      "source_url": "https://doi.org/10.1093/restud/rdag122",
+      "doi": "10.1093/restud/rdag122",
+      "aliases": [
+        "doi:10.1093/restud/rdag122"
+      ],
+      "first_public_date": "2026-11-17",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "restud",
+          "name": "The Review of Economic Studies",
+          "url": "https://doi.org/10.1093/restud/rdag122"
+        }
+      ],
+      "id": "p_ccba7c4c1b40ec",
+      "discovered_at": "2026-11-18",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-18",
+          "source_id": "restud"
+        }
+      ]
+    },
+    {
+      "title": "The Asymmetry in Responsible Investing Preferences and Beliefs",
+      "authors": [
+        "Jacquelyn Humphrey",
+        "Shimon Kogan",
+        "Jacob S. Sagi",
+        "Laura T. Starks"
+      ],
+      "abstract": "Empirical stylized facts in the literature concerning “sin” versus “angel” stocks display marked asymmetries in investor behavior. Through a set of experiments, we examine whether such biases can be micro-founded via individuals’ preferences and belief formations. With respect to portfolio allocation decisions, we find that the responses to negative environmental and social externalities are several times larger in magnitude than their responses to comparable positive externalities, ceteris paribus. Negative externalities also modestly increase pessimism about future investment performance, wh",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.06826",
+      "doi": "10.1287/mnsc.2024.06826",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.06826"
+      ],
+      "first_public_date": "2026-11-17",
+      "stage": "journal",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.06826"
+        }
+      ],
+      "id": "p_026154823503d2",
+      "discovered_at": "2026-11-18",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-18",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Human Performance at Solving 0-1 Knapsack Problems: Results from a Large-Scale Field Experiment",
+      "authors": [
+        "Sumit Agarwal",
+        "Joel Goh",
+        "Wenlan Qian",
+        "Xin Zou"
+      ],
+      "abstract": "The 0-1 knapsack problem is a fundamental problem of discrete choice that permeates many diverse fields and applications, but relatively little is known about what instances human solvers find more difficult than others. This paper reports the results of the first large-scale randomized controlled field experiment investigating this question, conducted in partnership with a global mobile gaming platform. A total of 100,000 different knapsack instances were predesigned for this study and randomly assigned to each player attempt at the knapsack problem. For our base-case analysis, there were 17,",
+      "source_url": "https://doi.org/10.1287/mnsc.2023.00747",
+      "doi": "10.1287/mnsc.2023.00747",
+      "aliases": [
+        "doi:10.1287/mnsc.2023.00747"
+      ],
+      "first_public_date": "2026-11-17",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.00747"
+        }
+      ],
+      "id": "p_4df896f0188eef",
+      "discovered_at": "2026-11-18",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-18",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Opinion Trumps Fact: Entry and Competition in Online Political News",
+      "authors": [
+        "Aaron Chatterji",
+        "Sharique Hasan",
+        "William D. Miles",
+        "Dror Shvadron"
+      ],
+      "abstract": "This paper examines how new entrants influenced content strategies in the U.S. online political news business from 2014 to 2021. Using a novel measure of article opinionation that captures the extent to which an article displays editorializing and persuasive language, we provide correlational evidence that new entrants produce articles that are more opinionated than those of incumbents, even when reporting on the same event. We then show that there is an economic rationale for this content strategy: opinionated articles receive more engagement on Twitter, and this engagement translates to incr",
+      "source_url": "https://doi.org/10.1287/mnsc.2025.01487",
+      "doi": "10.1287/mnsc.2025.01487",
+      "aliases": [
+        "doi:10.1287/mnsc.2025.01487"
+      ],
+      "first_public_date": "2026-11-17",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2025.01487"
+        }
+      ],
+      "id": "p_82ecad6afa030c",
+      "discovered_at": "2026-11-18",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-18",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Corporate Contributions to Ballot Measure Campaigns: Real Effects and Valuation",
+      "authors": [
+        "Rüdiger Fahlenbrach",
+        "Alexei Ovtchinnikov",
+        "Philip Valta"
+      ],
+      "abstract": "We analyze novel data on corporate contributions to ballot initiatives at the U.S. state level. Firms make large contributions to ballot measure campaigns in favor of or against specific initiatives. They contribute significantly more to business initiatives compared with ideological initiatives. Corporate campaign spending is systematically associated with the likelihood that a ballot measure passes. Contributing firms experience changes in sales growth following the passage of important ballot measures. Following successful (failed) initiatives, all firms in affected industries exhibit signi",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.06801",
+      "doi": "10.1287/mnsc.2024.06801",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.06801"
+      ],
+      "first_public_date": "2026-11-17",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.06801"
+        }
+      ],
+      "id": "p_9544b6c2bf23ad",
+      "discovered_at": "2026-11-18",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-18",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Connectors and Influencers",
+      "authors": [
+        "Frédéric Moisan",
+        "Syngjoo Choi",
+        "Sanjeev Goyal"
+      ],
+      "abstract": "We study a setting in which personal acquisition of information is costly and maintaining personal contacts to share information socially is also costly. The theory predicts star networks, with small groups sustaining an active hub and large groups allowing in addition for an inactive hub equilibrium. Experiments with small (8 subjects) and large (50 subjects) groups show star-like networks throughout. In small groups, behavior matches the active hub prediction. In large groups, hubs are inactive or engage in activity far in excess of the active hub equilibrium depending on how much informatio",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.07308",
+      "doi": "10.1287/mnsc.2024.07308",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.07308"
+      ],
+      "first_public_date": "2026-11-17",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.07308"
+        }
+      ],
+      "id": "p_077b5aa37ad468",
+      "discovered_at": "2026-11-18",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-18",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Does Feedback Enhance Diversity in Selection Decisions?",
+      "authors": [
+        "Jose A. Cervantez",
+        "Sophia L. Pink",
+        "Linda W. Chang",
+        "Aneesh Rai",
+        "Katherine L. Milkman"
+      ],
+      "abstract": "Some organizations provide employees with feedback on the demographics of people they have chosen to spotlight, hire, and promote, hoping to spur more diverse future selections. However, it is an open question whether purely descriptive feedback accomplishes this. We theorize and show that descriptive feedback highlighting low past selection rates of women or racial minorities (e.g., “5% of previous experts interviewed were women”) triggers a motivation to respond without prejudice, increasing the subsequent selection of members of underrepresented groups. Conversely, providing descriptive fee",
+      "source_url": "https://doi.org/10.1287/mnsc.2025.01479",
+      "doi": "10.1287/mnsc.2025.01479",
+      "aliases": [
+        "doi:10.1287/mnsc.2025.01479"
+      ],
+      "first_public_date": "2026-11-17",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2025.01479"
+        }
+      ],
+      "id": "p_fe60e97fbbfcc6",
+      "discovered_at": "2026-11-18",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-18",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "The consequences of cellphone restrictions in classrooms",
+      "authors": [
+        "Ying Shi",
+        "Francisco Villarroel"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jdeveco.2026.103968",
+      "doi": "10.1016/j.jdeveco.2026.103968",
+      "aliases": [
+        "doi:10.1016/j.jdeveco.2026.103968"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jde",
+          "name": "Journal of Development Economics",
+          "url": "https://doi.org/10.1016/j.jdeveco.2026.103968"
+        }
+      ],
+      "id": "p_3a509a0d365746",
+      "discovered_at": "2026-11-18",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-18",
+          "source_id": "jde"
+        }
+      ]
+    },
     {
       "title": "DP22187 The Changing Vulnerability of the U.S. Economy to Oil Shocks",
       "authors": [
