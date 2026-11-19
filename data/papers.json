@@ -1,8 +1,711 @@
 {
   "schema_version": 1,
   "snapshot": "incremental-ingestion",
-  "updated_at": "2026-11-18T08:35:28+00:00",
+  "updated_at": "2026-11-19T08:50:46+00:00",
   "papers": [
+    {
+      "title": "DP22193 Does the Stock Market Price Operational Flexibility?",
+      "authors": [
+        "Li Li, Xiangyang Li, Steven Ongena, Yabin Wang"
+      ],
+      "abstract": "We examine whether stock markets value firms’ operational flexibility by exploiting the unexpected 2015 Tianjin Port explosion. Using pre-event shipment records, we identify exposed U.S. listed firms independently of corporate disruption announcements. Firms with broader geographic operations and supply-chain networks experience smaller losses, while China-related executive connections are associated with more modest immediate declines after the explosion. Our findings suggest that investors value operating alternatives and local knowledge already in place. The value of operational flexibility",
+      "source_url": "https://cepr.org/publications/dp22193",
+      "doi": "",
+      "aliases": [
+        "cepr:22193"
+      ],
+      "first_public_date": "2026-11-18",
+      "stage": "working-paper",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22193"
+        }
+      ],
+      "id": "p_006d839feeb939",
+      "discovered_at": "2026-11-19",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-19",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22191 Permanence and Performance: Temporary Contracts and Worker Effort",
+      "authors": [
+        "Zihan Hu, Hyejin Ku, Xuan Wang, Xinjue Yao"
+      ],
+      "abstract": "Can the prospect of permanent employment motivate worker effort under temporary contracts? We use daily production records from a Chinese garment factory where conversion to permanent contracts leaves piece rates and core tasks unchanged. Among workers who successfully convert, daily output falls by about 5 percent on average in the nine months after the conversion announcement. The decline is larger for workers with weaker outside options. A sister plant in Vietnam, where conversion was universal after two years of service, shows no comparable decline. These findings suggest that uncertainty ",
+      "source_url": "https://cepr.org/publications/dp22191",
+      "doi": "",
+      "aliases": [
+        "cepr:22191"
+      ],
+      "first_public_date": "2026-11-18",
+      "stage": "working-paper",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22191"
+        }
+      ],
+      "id": "p_2e1c828997c3ce",
+      "discovered_at": "2026-11-19",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-19",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22192 Stock Lending and Pass-Through Voting",
+      "authors": [
+        "Doron Levit, George Nurisso"
+      ],
+      "abstract": "Concerns about conflicts of interest have led to growing calls for asset managers to let fund investors cast votes directly at shareholder meetings. We study this reform, known as pass-through voting, in a model where market participants with heterogeneous preferences lend shares, trade, and vote. We show that it can move voting outcomes further away from investors’ preferences, rather than closer, for a reason that has received little attention: the fund's manager retains control over share lending and may lend more once the votes are no longer his to cast. Because the votes attached to lent ",
+      "source_url": "https://cepr.org/publications/dp22192",
+      "doi": "",
+      "aliases": [
+        "cepr:22192"
+      ],
+      "first_public_date": "2026-11-18",
+      "stage": "working-paper",
+      "discipline": "banking",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22192"
+        }
+      ],
+      "id": "p_bc958202187756",
+      "discovered_at": "2026-11-19",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-19",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22194 The Firm as a Cultivator of Internal Relationships: How Rotation Supports Favor Exchanges in Organizations",
+      "authors": [
+        "Nicholas Argyres, Giorgio Zanarone"
+      ],
+      "abstract": "In a multidivisional firm, units must frequently transfer resources to each other to address unforeseen contingencies. Yet, the organization typically lacks the information to enforce unscheduled resource transfers, and divisions lack the budgetary discretion to pay for them. We model interdivisional cooperation as a “favor-exchange” agreement in which a division’s manager may transfer resources to another division in the hope of being a receiver in the future. We show that by reassigning managers to roles over time, the organization can facilitate internal favor-exchange agreements. We derive",
+      "source_url": "https://cepr.org/publications/dp22194",
+      "doi": "",
+      "aliases": [
+        "cepr:22194"
+      ],
+      "first_public_date": "2026-11-18",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22194"
+        }
+      ],
+      "id": "p_5b4ffed7f6e0cb",
+      "discovered_at": "2026-11-19",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-19",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "From Design to Disclosure",
+      "authors": [
+        "S Nageeb Ali",
+        "Andreas Kleiner",
+        "Kun Zhang"
+      ],
+      "abstract": "Abstract We study the role of hard information in contractual and market settings in which the receiver can flexibly adjust allocations and transfers in response to the sender's disclosure. These settings include monopoly pricing, insurance contracting, and policy negotiations. Across these settings, the sender is worst off if she reveals her type completely because the receiver would then adjust the terms of trade to extract her surplus. Taking this feature as our central departure from the literature, we characterize the entire set of equilibrium payoffs in these disclosure games. We prove a",
+      "source_url": "https://doi.org/10.1093/restud/rdag125",
+      "doi": "10.1093/restud/rdag125",
+      "aliases": [
+        "doi:10.1093/restud/rdag125"
+      ],
+      "first_public_date": "2026-11-18",
+      "stage": "journal",
+      "discipline": "trade",
+      "sources": [
+        {
+          "id": "restud",
+          "name": "The Review of Economic Studies",
+          "url": "https://doi.org/10.1093/restud/rdag125"
+        }
+      ],
+      "id": "p_e3895f7feec629",
+      "discovered_at": "2026-11-19",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-19",
+          "source_id": "restud"
+        }
+      ]
+    },
+    {
+      "title": "Frontmatter of Econometrica 94 Iss. 6",
+      "authors": [],
+      "abstract": "",
+      "source_url": "https://doi.org/10.3982/ecta946fm",
+      "doi": "10.3982/ecta946fm",
+      "aliases": [
+        "doi:10.3982/ecta946fm"
+      ],
+      "first_public_date": "2026",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ectr",
+          "name": "Econometrica",
+          "url": "https://doi.org/10.3982/ecta946fm"
+        }
+      ],
+      "id": "p_8f385f54a49ba6",
+      "discovered_at": "2026-11-19",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-19",
+          "source_id": "ectr"
+        }
+      ]
+    },
+    {
+      "title": "Why Are the Wealthiest so Wealthy? New Longitudinal Empirical Evidence and Implications for Theories of Wealth Inequality",
+      "authors": [
+        "Joachim Hubmer",
+        "Elin Halvorsen",
+        "Sergio Salgado",
+        "Serdar Ozkan"
+      ],
+      "abstract": "We study the lifecycle dynamics of wealth inequality using 1993–2019 Norwegian administrative panel data on wealth and income. Employing a novel budget‐constraint approach, we decompose the excess wealth of the top 0.1% households relative to the median between ages 45 and 64 into higher saving rates (36%), inheritances (31%), returns (28%), and labor income (5%). One‐quarter of the wealthiest—the “New Money”—start with negative wealth on average but accumulate rapidly through high labor income and exceptionally high saving rates and returns. The “Old Money” inherit substantial wealth and grow",
+      "source_url": "https://doi.org/10.3982/ecta23194",
+      "doi": "10.3982/ecta23194",
+      "aliases": [
+        "doi:10.3982/ecta23194"
+      ],
+      "first_public_date": "2026",
+      "stage": "journal",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "ectr",
+          "name": "Econometrica",
+          "url": "https://doi.org/10.3982/ecta23194"
+        }
+      ],
+      "id": "p_42a54a4e2530be",
+      "discovered_at": "2026-11-19",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-19",
+          "source_id": "ectr"
+        }
+      ]
+    },
+    {
+      "title": "Correction to ‘General Equilibrium Effects of Cash Transfers: Experimental Evidence From Kenya’ by Dennis Egger, Johannes Haushofer, Edward Miguel, Paul Niehaus, and Michael Walker",
+      "authors": [
+        "Dennis Egger",
+        "Johannes Haushofer",
+        "Edward Miguel",
+        "Paul Niehaus",
+        "Michael Walker"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.3982/ecta22886",
+      "doi": "10.3982/ecta22886",
+      "aliases": [
+        "doi:10.3982/ecta22886"
+      ],
+      "first_public_date": "2026",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ectr",
+          "name": "Econometrica",
+          "url": "https://doi.org/10.3982/ecta22886"
+        }
+      ],
+      "id": "p_07c9d16d12595c",
+      "discovered_at": "2026-11-19",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-19",
+          "source_id": "ectr"
+        }
+      ]
+    },
+    {
+      "title": "Comment on ‘Selection and Comparative Advantage in Technology Adoption’ by Tavneet Suri",
+      "authors": [
+        "Emilia Tjernström",
+        "Dalia Ghanem",
+        "Aleksandr Michuda",
+        "Oscar Barriga-Cabanillas",
+        "Travis J. Lybbert",
+        "Jeffrey D. Michler"
+      ],
+      "abstract": "This paper illustrates and addresses weak identification in the correlated random coefficient (CRC) model that Suri (2011) uses to study agricultural technology adoption. Using the publicly available data set, which differs slightly from the version used in Suri (2011), we obtain different point estimates for the paper's main CRC model. To understand why these differences are as large as they are, we recast the CRC model as a more general random coefficient model in which the returns to hybrid adoption are restricted to be linear in comparative advantage. This reveals that the key structural p",
+      "source_url": "https://doi.org/10.3982/ecta21760",
+      "doi": "10.3982/ecta21760",
+      "aliases": [
+        "doi:10.3982/ecta21760"
+      ],
+      "first_public_date": "2026",
+      "stage": "journal",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "ectr",
+          "name": "Econometrica",
+          "url": "https://doi.org/10.3982/ecta21760"
+        }
+      ],
+      "id": "p_2d1719708e2594",
+      "discovered_at": "2026-11-19",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-19",
+          "source_id": "ectr"
+        }
+      ]
+    },
+    {
+      "title": "Production Function Estimation With Factor‐Augmenting Technology: An Application to Markups",
+      "authors": [
+        "Mert Demirer"
+      ],
+      "abstract": "I develop a new method for estimating production functions with labor‐augmenting technology and apply it to markup estimation. The method imposes limited parametric restrictions and generalizes prior approaches that rely on the CES production function. I first extend the canonical Olley–Pakes framework assumptions to multidimensional productivity and then develop an identification strategy based on a control variable approach and first‐order conditions. I use this method to estimate output elasticities and markups in manufacturing industries in the US and four developing countries. I find that",
+      "source_url": "https://doi.org/10.3982/ecta19299",
+      "doi": "10.3982/ecta19299",
+      "aliases": [
+        "doi:10.3982/ecta19299"
+      ],
+      "first_public_date": "2026",
+      "stage": "journal",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "ectr",
+          "name": "Econometrica",
+          "url": "https://doi.org/10.3982/ecta19299"
+        }
+      ],
+      "id": "p_53018df4a56f40",
+      "discovered_at": "2026-11-19",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-19",
+          "source_id": "ectr"
+        }
+      ]
+    },
+    {
+      "title": "Informal Redistribution Through Work",
+      "authors": [
+        "Elisa Macchi",
+        "Jeremia Stalder"
+      ],
+      "abstract": "We investigate work as informal redistribution, leveraging field experiments and firm‐level survey data from Kampala, Uganda. Employers and workers consistently choose redistribution through work over cash transfers, revealing a willingness to pay for work. By randomizing work tasks—some designed to have zero marginal product—we find that production value does not explain these choices: employers pay for zero‐value work. These patterns are also inconsistent with other relational benefits, such as social image concerns or networking. Instead, motivations are normative. Experimental evidence rev",
+      "source_url": "https://doi.org/10.3982/ecta22079",
+      "doi": "10.3982/ecta22079",
+      "aliases": [
+        "doi:10.3982/ecta22079"
+      ],
+      "first_public_date": "2026",
+      "stage": "journal",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "ectr",
+          "name": "Econometrica",
+          "url": "https://doi.org/10.3982/ecta22079"
+        }
+      ],
+      "id": "p_90de8a2f167a77",
+      "discovered_at": "2026-11-19",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-19",
+          "source_id": "ectr"
+        }
+      ]
+    },
+    {
+      "title": "Coalitions in Repeated Games",
+      "authors": [
+        "S. Nageeb Ali",
+        "Ce Liu"
+      ],
+      "abstract": "This paper proposes a framework and solution concept for repeated coalitional behavior. We model history‐dependent schemes that use continuation promises and punishments to deter coalitions from blocking. We evaluate the effectiveness of these schemes with and without transferable utility, and apply the framework to study the implications of wage transparency in labor markets.",
+      "source_url": "https://doi.org/10.3982/ecta23921",
+      "doi": "10.3982/ecta23921",
+      "aliases": [
+        "doi:10.3982/ecta23921"
+      ],
+      "first_public_date": "2026",
+      "stage": "journal",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "ectr",
+          "name": "Econometrica",
+          "url": "https://doi.org/10.3982/ecta23921"
+        }
+      ],
+      "id": "p_83aaab944f0ae2",
+      "discovered_at": "2026-11-19",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-19",
+          "source_id": "ectr"
+        }
+      ]
+    },
+    {
+      "title": "From Predictive Algorithms to the Automatic Generation of Anomalies",
+      "authors": [
+        "Sendhil Mullainathan",
+        "Ashesh Rambachan"
+      ],
+      "abstract": "How can we extract theoretical insights from machine learning algorithms? We take a familiar lesson: researchers often turn intuition into theoretical insight by constructing “anomalies”—specific examples highlighting hypothesized flaws in a theory, such as the Allais paradox. We develop procedures that replace researchers' intuitions with predictive algorithms: given a predictive algorithm and a theory, our procedures automatically generate anomalies for that theory. We illustrate our procedures by generating anomalies for expected utility theory. Based on a neural network that accurately pre",
+      "source_url": "https://doi.org/10.3982/ecta22958",
+      "doi": "10.3982/ecta22958",
+      "aliases": [
+        "doi:10.3982/ecta22958"
+      ],
+      "first_public_date": "2026",
+      "stage": "journal",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "ectr",
+          "name": "Econometrica",
+          "url": "https://doi.org/10.3982/ecta22958"
+        }
+      ],
+      "id": "p_6c1efd1cb580ff",
+      "discovered_at": "2026-11-19",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-19",
+          "source_id": "ectr"
+        }
+      ]
+    },
+    {
+      "title": "Intermediate Input Substitutability",
+      "authors": [
+        "Alessandra Peter",
+        "Cian Ruane"
+      ],
+      "abstract": "We estimate long‐run elasticities of substitution between intermediate inputs for Indian manufacturing plants. India's trade liberalization in the early 1990s provides an ideal natural policy experiment, with permanent and heterogeneous tariff reductions inducing changes in relative prices which we use for identification. We find a high degree of substitutability at the plant‐level between 8 broad categories of material inputs, significantly above the Cobb–Douglas benchmark of 1. In contrast, when considering shorter time horizons or more transitory shocks to relative prices, we find evidence ",
+      "source_url": "https://doi.org/10.3982/ecta21141",
+      "doi": "10.3982/ecta21141",
+      "aliases": [
+        "doi:10.3982/ecta21141"
+      ],
+      "first_public_date": "2026",
+      "stage": "journal",
+      "discipline": "trade",
+      "sources": [
+        {
+          "id": "ectr",
+          "name": "Econometrica",
+          "url": "https://doi.org/10.3982/ecta21141"
+        }
+      ],
+      "id": "p_a9e18f503abc8f",
+      "discovered_at": "2026-11-19",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-19",
+          "source_id": "ectr"
+        }
+      ]
+    },
+    {
+      "title": "Backmatter of Econometrica Vol. 94 Iss. 6",
+      "authors": [],
+      "abstract": "",
+      "source_url": "https://doi.org/10.3982/ecta946bm",
+      "doi": "10.3982/ecta946bm",
+      "aliases": [
+        "doi:10.3982/ecta946bm"
+      ],
+      "first_public_date": "2026",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ectr",
+          "name": "Econometrica",
+          "url": "https://doi.org/10.3982/ecta946bm"
+        }
+      ],
+      "id": "p_3845a46032393a",
+      "discovered_at": "2026-11-19",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-19",
+          "source_id": "ectr"
+        }
+      ]
+    },
+    {
+      "title": "An Exact t ‐Test",
+      "authors": [
+        "Guillaume A. Pouliot"
+      ],
+      "abstract": "Multivariate linear regression and randomization‐based inference are two essential methods in statistics and econometrics. Nevertheless, the problem of producing a randomized test for the value of a single regression coefficient that is exactly valid when errors are exchangeable, and which is asymptotically valid for the best linear predictor, has remained elusive. In this paper, we produce a test that is exactly valid with exchangeable errors and which allows for general covariate designs; covariates may be continuous as well as discrete and may be correlated. The test is asymptotically valid",
+      "source_url": "https://doi.org/10.3982/ecta22545",
+      "doi": "10.3982/ecta22545",
+      "aliases": [
+        "doi:10.3982/ecta22545"
+      ],
+      "first_public_date": "2026",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ectr",
+          "name": "Econometrica",
+          "url": "https://doi.org/10.3982/ecta22545"
+        }
+      ],
+      "id": "p_73d25354291f32",
+      "discovered_at": "2026-11-19",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-19",
+          "source_id": "ectr"
+        }
+      ]
+    },
+    {
+      "title": "Optimal Formula Instruments",
+      "authors": [
+        "Kirill Borusyak",
+        "Peter Hull"
+      ],
+      "abstract": "When estimating the effects of treatments defined by complex formulas, researchers often use simple functions of exogenous shocks as instruments. A leading example is “simulated instruments” for public policy eligibility, which capture variation in state‐level policy generosity. We show how more powerful instruments can be constructed by incorporating heterogeneous shock exposure while using a recentering procedure to avoid bias. We characterize the asymptotically efficient instruments in this class and propose an algorithm for constructing feasible approximations to them. Compared to a simula",
+      "source_url": "https://doi.org/10.3982/ecta24250",
+      "doi": "10.3982/ecta24250",
+      "aliases": [
+        "doi:10.3982/ecta24250"
+      ],
+      "first_public_date": "2026",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ectr",
+          "name": "Econometrica",
+          "url": "https://doi.org/10.3982/ecta24250"
+        }
+      ],
+      "id": "p_584a3a8e106e0a",
+      "discovered_at": "2026-11-19",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-19",
+          "source_id": "ectr"
+        }
+      ]
+    },
+    {
+      "title": "Putting the ‘Finance’ Into ‘Public Finance’: A Theory of Capital Gains Taxation",
+      "authors": [
+        "Mark Aguiar",
+        "Benjamin Moll",
+        "Florian Scheuer"
+      ],
+      "abstract": "Standard optimal capital tax theory abstracts from modeling asset prices, making it unsuitable for thinking about capital gains and wealth taxation. We study optimal redistributive taxation in an environment with asset‐price movements, adopting the modern finance view that asset prices fluctuate not only because of changing cash flows, but also due to other factors (“discount rates”). We show that a combination of realization‐based capital gains and cash flow taxes implements the optimal allocation regardless of the source of asset‐price fluctuations. Moreover, the capital gains tax avoids dis",
+      "source_url": "https://doi.org/10.3982/ecta24013",
+      "doi": "10.3982/ecta24013",
+      "aliases": [
+        "doi:10.3982/ecta24013"
+      ],
+      "first_public_date": "2026",
+      "stage": "journal",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "ectr",
+          "name": "Econometrica",
+          "url": "https://doi.org/10.3982/ecta24013"
+        }
+      ],
+      "id": "p_c56e8e545d2e8e",
+      "discovered_at": "2026-11-19",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-19",
+          "source_id": "ectr"
+        }
+      ]
+    },
+    {
+      "title": "The Social Learning Barrier",
+      "authors": [
+        "Florian Brandl"
+      ],
+      "abstract": "Long‐lived agents interact repeatedly in a social network. In each period, each agent observes a private signal, chooses an action, and then observes the actions of her neighbors. We show that the learning rate of the slowest‐learning agent is capped by a constant that depends only on the distribution of the most informative private signal, but not on the number of agents, the network structure, correlations between the private signals, or the agents' strategies. For equilibrium learning with rational agents, the same result bounds the learning rate of every agent in any equilibrium under a br",
+      "source_url": "https://doi.org/10.3982/ecta24769",
+      "doi": "10.3982/ecta24769",
+      "aliases": [
+        "doi:10.3982/ecta24769"
+      ],
+      "first_public_date": "2026",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ectr",
+          "name": "Econometrica",
+          "url": "https://doi.org/10.3982/ecta24769"
+        }
+      ],
+      "id": "p_bfeef6397b5f66",
+      "discovered_at": "2026-11-19",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-19",
+          "source_id": "ectr"
+        }
+      ]
+    },
+    {
+      "title": "Two‐Sided Markets Shaped by Platform‐Guided Search",
+      "authors": [
+        "Kwok Hao Lee",
+        "Leon Musolff"
+      ],
+      "abstract": "This paper investigates concerns that vertically integrated platforms like Amazon steer demand toward their own offers via algorithmic prominence, potentially harming consumers. On Amazon, for each product, the Buybox prominence algorithm selects one seller to feature, influencing which offers consumers consider. Using novel Amazon sales and Buybox (prominence) data, we estimate a structural model capturing the effects of such algorithmic prominence on consumer choices, seller pricing, and entry. We find that the platform can indeed steer demand as 95% of consumers consider only the Buybox off",
+      "source_url": "https://doi.org/10.3982/ecta22288",
+      "doi": "10.3982/ecta22288",
+      "aliases": [
+        "doi:10.3982/ecta22288"
+      ],
+      "first_public_date": "2026",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ectr",
+          "name": "Econometrica",
+          "url": "https://doi.org/10.3982/ecta22288"
+        }
+      ],
+      "id": "p_c9adc74fa930d2",
+      "discovered_at": "2026-11-19",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-19",
+          "source_id": "ectr"
+        }
+      ]
+    },
+    {
+      "title": "Extreme Value Theory With Heterogeneous Agents",
+      "authors": [
+        "Sephorah Mangin"
+      ],
+      "abstract": "Extreme value processes feature in any economic model in which agents receive a number of draws from some distribution of values and we examine the behavior of the maximum value in the limit as the number of draws becomes large. This paper asks: Do the average outcomes of such processes change when different agents receive a different number of draws? To answer this, we allow the number of draws an agent receives from the underlying distribution of values (e.g., productivities, ideas, or utility shocks) to be given by a search technology , which reflects heterogeneity in the expected number of",
+      "source_url": "https://doi.org/10.3982/ecta22276",
+      "doi": "10.3982/ecta22276",
+      "aliases": [
+        "doi:10.3982/ecta22276"
+      ],
+      "first_public_date": "2026",
+      "stage": "journal",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "ectr",
+          "name": "Econometrica",
+          "url": "https://doi.org/10.3982/ecta22276"
+        }
+      ],
+      "id": "p_a0952cbc15eeeb",
+      "discovered_at": "2026-11-19",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-19",
+          "source_id": "ectr"
+        }
+      ]
+    },
+    {
+      "title": "Correction to ‘Dynamic Spatial General Equilibrium’ by Benny Kleinman, Ernest Liu, and Stephen Redding",
+      "authors": [
+        "Benny Kleinman",
+        "Ernest Liu",
+        "Stephen J. Redding",
+        "Tomohiro Uchiyama"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.3982/ecta25748",
+      "doi": "10.3982/ecta25748",
+      "aliases": [
+        "doi:10.3982/ecta25748"
+      ],
+      "first_public_date": "2026",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ectr",
+          "name": "Econometrica",
+          "url": "https://doi.org/10.3982/ecta25748"
+        }
+      ],
+      "id": "p_27f966759aa575",
+      "discovered_at": "2026-11-19",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-19",
+          "source_id": "ectr"
+        }
+      ]
+    },
     {
       "title": "DP22190 Monopsonistic Search",
       "authors": [
