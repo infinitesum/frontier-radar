@@ -1,8 +1,455 @@
 {
   "schema_version": 1,
   "snapshot": "incremental-ingestion",
-  "updated_at": "2026-11-19T08:50:46+00:00",
+  "updated_at": "2026-11-20T08:36:43+00:00",
   "papers": [
+    {
+      "title": "Time-series efficient factors",
+      "authors": [
+        "Sina Ehsani",
+        "Serhiy Kozak",
+        "Juhani Linnainmaa"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jfineco.2026.104395",
+      "doi": "10.1016/j.jfineco.2026.104395",
+      "aliases": [
+        "doi:10.1016/j.jfineco.2026.104395"
+      ],
+      "first_public_date": "2027-01",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jfe",
+          "name": "Journal of Financial Economics",
+          "url": "https://doi.org/10.1016/j.jfineco.2026.104395"
+        }
+      ],
+      "id": "p_3748c3c59c9e93",
+      "discovered_at": "2026-11-20",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-20",
+          "source_id": "jfe"
+        }
+      ]
+    },
+    {
+      "title": "DP22198 Testing times: reputation for debt discipline",
+      "authors": [
+        "Anton Tsoy"
+      ],
+      "abstract": "How do countries build a reputation for debt discipline? I develop a continuous-time model in which an impatient government, whose income follows a jump-diffusion process, finances consumption by issuing long-term debt to patient investors. The opportunistic government cannot commit to future debt policies and builds reputation by mimicking a commitment type that maintains a stable debt-to-income ratio. I characterize a Markov perfect equilibrium in closed form. Reputation building is slow and confined to ``testing times,'' episodes of large negative shocks when debt reduction becomes a credib",
+      "source_url": "https://cepr.org/publications/dp22198",
+      "doi": "",
+      "aliases": [
+        "cepr:22198"
+      ],
+      "first_public_date": "2026-11-19",
+      "stage": "working-paper",
+      "discipline": "public-econ",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22198"
+        }
+      ],
+      "id": "p_70797948fb1086",
+      "discovered_at": "2026-11-20",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-20",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22201 The China Shock and Employment Concentration within Local Labor Markets",
+      "authors": [
+        "Rosario Crinò"
+      ],
+      "abstract": "This paper studies whether Chinese import penetration changed the internal geography of U.S. local labor markets. Using granular workplace employment data for 2002-2020 and the instrumental-variable design of Autor et al. (2013), I find that Chinese import penetration reduced employment concentration within commuting zones. An interquartile increase in import exposure explains about 15% of the differential decline in the Herfindahl-Hirschman index. Looking across employment nodes within commuting zones, I find that this decline reflects a disproportionate reduction in the employment shares of ",
+      "source_url": "https://cepr.org/publications/dp22201",
+      "doi": "",
+      "aliases": [
+        "cepr:22201"
+      ],
+      "first_public_date": "2026-11-19",
+      "stage": "working-paper",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22201"
+        }
+      ],
+      "id": "p_ecd9c140b97058",
+      "discovered_at": "2026-11-20",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-20",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22196 Trade Policy for National Security: Dependence, Scarcity Rents, and Capacity",
+      "authors": [
+        "Aurélien Eyquem, Gianluca Benigno"
+      ],
+      "abstract": "When a foreign economy is more efficient at producing an essential good, the domestic economy can import it cheaply but may lose access in a disruption. How much domestic productive capacity should firms install? We characterize a national-security capacity externality: anticipated emergency redistribution can prevent domestic producers from appropriating the scarcity premium when imports fail. Essentiality and disruption risk alone create no capacity distortion: with full appropriation, free trade is constrained efficient. In a small open economy, an implementing tariff can close the capacity",
+      "source_url": "https://cepr.org/publications/dp22196",
+      "doi": "",
+      "aliases": [
+        "cepr:22196"
+      ],
+      "first_public_date": "2026-11-19",
+      "stage": "working-paper",
+      "discipline": "trade",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22196"
+        }
+      ],
+      "id": "p_4d4157de9eb691",
+      "discovered_at": "2026-11-20",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-20",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22197 Valuing the Cost of Incomplete Global Markets",
+      "authors": [
+        "Karen K. Lewis, Edith Liu"
+      ],
+      "abstract": "Deviations from complete financial markets in cross-border investments generate economic welfare costs. This paper shows how to value these costs using standard theory and data based on three main results. Our first result shows how welfare valuations can be derived from a general wealth-to-dividend ratio. Next, we establish how aggregate consumption and exchange rate data can be used to uncover diversifiable goods allocations across countries. Finally, we demonstrate how asset pricing data and models can be used to value deviations from complete markets. The paper outlines a range of applicat",
+      "source_url": "https://cepr.org/publications/dp22197",
+      "doi": "",
+      "aliases": [
+        "cepr:22197"
+      ],
+      "first_public_date": "2026-11-19",
+      "stage": "working-paper",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22197"
+        }
+      ],
+      "id": "p_97eeff824bc930",
+      "discovered_at": "2026-11-20",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-20",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22200 Gender Disparities in the Welfare Effect of the Minimum Wage",
+      "authors": [
+        "Erika Deserranno, Decio Coviello, Nicola Persico"
+      ],
+      "abstract": "We study how women and men working in the same minimum-wage supported job respond to, and benefit from, a minimum wage increase. Using administrative data from a major US retailer, we find that the welfare of women increases less with the minimum wage hike than that of men, even though both attain comparable pay raises. We show that this occurs because women exert more effort in response to the minimum wage increase, driven by their greater need for job retention due to less favorable outside options. This evidence points to a generalizable mechanism whereby disparities outside the firm accoun",
+      "source_url": "https://cepr.org/publications/dp22200",
+      "doi": "",
+      "aliases": [
+        "cepr:22200"
+      ],
+      "first_public_date": "2026-11-19",
+      "stage": "working-paper",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22200"
+        }
+      ],
+      "id": "p_0605d54868b9b0",
+      "discovered_at": "2026-11-20",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-20",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22199 Last-Mile Delivery and the Future of Foreign Aid",
+      "authors": [
+        "Erika Deserranno, Andrea Guariso, Nancy Qian"
+      ],
+      "abstract": "Foreign aid seeks to provide basic services, such as health care and education, to poor and vulnerable populations. Its effectiveness depends on last-mile delivery: whether those services reach the people who need them. This article reviews evidence on two key aspects of last-mile delivery. The first concerns the growing role of non-state providers, especially NGOs, and its implications for the state’s capacity to deliver services and coordinate across providers. The second concerns the selection, motivation, and management of frontline workers who provide the services directly to beneficiarie",
+      "source_url": "https://cepr.org/publications/dp22199",
+      "doi": "",
+      "aliases": [
+        "cepr:22199"
+      ],
+      "first_public_date": "2026-11-19",
+      "stage": "working-paper",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22199"
+        }
+      ],
+      "id": "p_790090a19c00da",
+      "discovered_at": "2026-11-20",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-20",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22195 Cost Evidence and Welfare in Optimal Procurement",
+      "authors": [
+        "Patrick W. Schmitz"
+      ],
+      "abstract": "A buyer seeks to procure a good or service from one of two ex ante identical suppliers who privately know their costs and whether they possess evidence verifying those costs. We characterize profit-maximizing procurement mechanisms with and without admissible cost evidence. Allowing evidence weakly raises buyer profit but can reduce total surplus, even when procurement becomes more frequent. The optimal mechanism favors evidence holders and may select a more costly supplier. Allowing cost evidence improves welfare for sufficiently small procurement benefits and lowers it for sufficiently large",
+      "source_url": "https://cepr.org/publications/dp22195",
+      "doi": "",
+      "aliases": [
+        "cepr:22195"
+      ],
+      "first_public_date": "2026-11-19",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22195"
+        }
+      ],
+      "id": "p_07976e1edbfa4f",
+      "discovered_at": "2026-11-20",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-20",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "Prospect Theory and Currency Returns: Empirical Evidence",
+      "authors": [
+        "Qi Xu",
+        "Roman Kozhan",
+        "Mark P. Taylor"
+      ],
+      "abstract": "Abstract We empirically investigate the role of prospect theory in the foreign exchange market. A currency-level measure of prospect-theory value, constructed from the historical distribution of exchange rate returns, negatively forecasts future currency excess returns. A long–short strategy based on this measure yields approximately 5% per annum. Predictability is stronger when arbitrage is limited. Bank order flow is positively associated with prospect-theory value, with inter-dealer and proprietary trading primarily driving this relation. Funds trade against prospect-theory value, acting as",
+      "source_url": "https://doi.org/10.1017/s0022109026103469",
+      "doi": "10.1017/s0022109026103469",
+      "aliases": [
+        "doi:10.1017/s0022109026103469"
+      ],
+      "first_public_date": "2026-11-19",
+      "stage": "journal",
+      "discipline": "banking",
+      "sources": [
+        {
+          "id": "jfqa",
+          "name": "Journal of Financial and Quantitative Analysis",
+          "url": "https://doi.org/10.1017/s0022109026103469"
+        }
+      ],
+      "id": "p_9bbb5044347538",
+      "discovered_at": "2026-11-20",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-20",
+          "source_id": "jfqa"
+        }
+      ]
+    },
+    {
+      "title": "Trended Momentum",
+      "authors": [
+        "Charlie Xiaowu Cai",
+        "Peng Li",
+        "Kevin Keasey"
+      ],
+      "abstract": "Abstract Drawing on cognitive psychology and behavioral theories of pattern recognition and heuristic processing, we offer a new perspective on momentum by highlighting how clear price trends shape investor expectations. Trend clarity (TC) materially strengthens momentum returns: the highest trend-clarity quintile earns annualized returns of 12.68%, compared with 6.90% for a conventional momentum strategy. We also show that TC affects momentum trading intensity within Hong and Stein’s (1999) multiperiod return-chasing model. Additional tests indicate that trading on clear trends is a central f",
+      "source_url": "https://doi.org/10.1017/s0022109026103275",
+      "doi": "10.1017/s0022109026103275",
+      "aliases": [
+        "doi:10.1017/s0022109026103275"
+      ],
+      "first_public_date": "2026-11-19",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jfqa",
+          "name": "Journal of Financial and Quantitative Analysis",
+          "url": "https://doi.org/10.1017/s0022109026103275"
+        }
+      ],
+      "id": "p_1d729446fa36a3",
+      "discovered_at": "2026-11-20",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-20",
+          "source_id": "jfqa"
+        }
+      ]
+    },
+    {
+      "title": "Intermediate Input Prices and the Labor Share",
+      "authors": [
+        "Juanma Castro-Vincenzi",
+        "Benny Kleinman"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1086/745092",
+      "doi": "10.1086/745092",
+      "aliases": [
+        "doi:10.1086/745092"
+      ],
+      "first_public_date": "2026-11-19",
+      "stage": "journal",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "jpe",
+          "name": "Journal of Political Economy",
+          "url": "https://doi.org/10.1086/745092"
+        }
+      ],
+      "id": "p_5965863cd01eb7",
+      "discovered_at": "2026-11-20",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-20",
+          "source_id": "jpe"
+        }
+      ]
+    },
+    {
+      "title": "Unemployment Benefits and Unemployment in the Great Recession: The Role of Equilibrium Effects",
+      "authors": [
+        "Marcus Hagedorn",
+        "Fatih Karahan",
+        "Iourii Manovskii",
+        "Kurt Mitman"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1086/745090",
+      "doi": "10.1086/745090",
+      "aliases": [
+        "doi:10.1086/745090"
+      ],
+      "first_public_date": "2026-11-19",
+      "stage": "journal",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "jpe",
+          "name": "Journal of Political Economy",
+          "url": "https://doi.org/10.1086/745090"
+        }
+      ],
+      "id": "p_dc5d37fb670a84",
+      "discovered_at": "2026-11-20",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-20",
+          "source_id": "jpe"
+        }
+      ]
+    },
+    {
+      "title": "Market Response to Racial Uprisings",
+      "authors": [
+        "Bocar A. Ba",
+        "Roman Rivera",
+        "Alexander Whitefield"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1086/745094",
+      "doi": "10.1086/745094",
+      "aliases": [
+        "doi:10.1086/745094"
+      ],
+      "first_public_date": "2026-11-19",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jpe",
+          "name": "Journal of Political Economy",
+          "url": "https://doi.org/10.1086/745094"
+        }
+      ],
+      "id": "p_a1a64cd2f29cc1",
+      "discovered_at": "2026-11-20",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-20",
+          "source_id": "jpe"
+        }
+      ]
+    },
+    {
+      "title": "Sample Range as Subjective Variability and Implications for Experience-Based Decision Making",
+      "authors": [
+        "Tianwei Liu",
+        "Benjamin Scheibehenne"
+      ],
+      "abstract": "Variance and standard deviation are common metrics of statistical variability in the management and decision-making literature. In everyday contexts, however, information about sample range prevails. Range is arguably easier to comprehend and compute than variance, yet it often yields equivalent judgments about variability. Hence, we reason that decision makers often rely on range to judge variability. We test this hypothesis across four behavioral experiments (total n = 1,093). When comparing the variability of two number sets, decision makers predominantly based their judgments on sample ran",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.05050",
+      "doi": "10.1287/mnsc.2024.05050",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.05050"
+      ],
+      "first_public_date": "2026-11-19",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.05050"
+        }
+      ],
+      "id": "p_75cdafa358689b",
+      "discovered_at": "2026-11-20",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-20",
+          "source_id": "ms"
+        }
+      ]
+    },
     {
       "title": "DP22193 Does the Stock Market Price Operational Flexibility?",
       "authors": [
