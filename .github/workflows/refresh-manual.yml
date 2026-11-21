@@ -92,9 +92,13 @@ jobs:
             count="$(gh api \
               "repos/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}/artifacts?name=github-pages" \
               --jq '[.artifacts[] | select(.name == "github-pages" and .expired == false)] | length' 2>/dev/null || echo 0)"
-            if [ "$count" -ge 1 ]; then
+            if [ "$count" -eq 1 ]; then
               echo "Pages artifact available (attempt $attempt)."
               exit 0
+            fi
+            if [ "$count" -gt 1 ]; then
+              echo "::error::Multiple github-pages artifacts found in the same run."
+              exit 1
             fi
             echo "Waiting for Pages artifact metadata ($attempt/18)."
             sleep 5
