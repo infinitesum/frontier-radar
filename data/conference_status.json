@@ -5,7 +5,7 @@
       "id": "afa",
       "name": "American Finance Association",
       "url": "https://afajof.org/annual-meeting/",
-      "checked_at": "2026-11-21T16:19:12+08:00",
+      "checked_at": "2026-11-21T23:47:14+08:00",
       "status": "ok",
       "error": "",
       "fingerprint": "7dbb63299e39608b",
@@ -90,7 +90,7 @@
       "id": "wfa",
       "name": "Western Finance Association",
       "url": "https://westernfinance.org/",
-      "checked_at": "2026-11-21T16:19:12+08:00",
+      "checked_at": "2026-11-21T23:47:14+08:00",
       "status": "ok",
       "error": "",
       "fingerprint": "7960411fdd419cd3",
@@ -110,7 +110,7 @@
       "id": "efa",
       "name": "European Finance Association",
       "url": "https://www.efa-finance.org/efa-annual-meeting/",
-      "checked_at": "2026-11-21T16:19:12+08:00",
+      "checked_at": "2026-11-21T23:47:14+08:00",
       "status": "ok",
       "error": "",
       "fingerprint": "a4cab6295efc8039",
@@ -231,7 +231,7 @@
       "id": "sfs",
       "name": "SFS Cavalcade",
       "url": "https://sfs.org/",
-      "checked_at": "2026-11-21T16:19:12+08:00",
+      "checked_at": "2026-11-21T23:47:14+08:00",
       "status": "ok",
       "error": "",
       "fingerprint": "af3ef8a60143a164",
@@ -272,7 +272,7 @@
       "id": "firs",
       "name": "FIRS",
       "url": "https://firsociety.org/",
-      "checked_at": "2026-11-21T16:19:12+08:00",
+      "checked_at": "2026-11-21T23:47:14+08:00",
       "status": "ok",
       "error": "",
       "fingerprint": "0c1a7bd1b0b64e18",
@@ -288,7 +288,7 @@
       "id": "cicf",
       "name": "CICF",
       "url": "https://www.cicf-conf.org/en/index.php?c=category&id=34",
-      "checked_at": "2026-11-21T16:19:12+08:00",
+      "checked_at": "2026-11-21T23:47:14+08:00",
       "status": "ok",
       "error": "",
       "fingerprint": "1b175c545a3e3759",
@@ -316,10 +316,10 @@
       "id": "nber-si",
       "name": "NBER Summer Institute",
       "url": "https://www.nber.org/conferences/summer-institute",
-      "checked_at": "2026-11-21T16:19:12+08:00",
+      "checked_at": "2026-11-21T23:47:14+08:00",
       "status": "ok",
       "error": "",
-      "fingerprint": "e7585629f597ecff",
+      "fingerprint": "1ff2cdd8f4550ad4",
       "program_links": [
         {
           "title": "Open Calls",
@@ -343,17 +343,17 @@
         },
         {
           "title": "Summer Institute 2026",
-          "url": "https://www.nber.org/conferences/summer-institute-2026"
+          "url": "https://www.nber.org/index%2Ephp/conferences/summer-institute-2026"
         }
       ],
       "initial_snapshot_at": "2026-10-22T05:08:48+08:00",
-      "last_link_change": "2026-11-07T15:14:12+08:00"
+      "last_link_change": "2026-11-21T23:47:14+08:00"
     },
     "cfrc": {
       "id": "cfrc",
       "name": "China Financial Research Conference",
       "url": "https://cfrc.pbcsf.tsinghua.edu.cn/cfrc2026en/CONFERENCE_PROGRAM.htm",
-      "checked_at": "2026-11-21T16:19:12+08:00",
+      "checked_at": "2026-11-21T23:47:14+08:00",
       "status": "ok",
       "error": "",
       "fingerprint": "e9a7828c5729993e",
@@ -405,7 +405,7 @@
       "id": "aea",
       "name": "AEA Annual Meetings",
       "url": "https://benny.aeaweb.org/conference/",
-      "checked_at": "2026-11-21T16:19:12+08:00",
+      "checked_at": "2026-11-21T23:47:14+08:00",
       "status": "ok",
       "error": "",
       "fingerprint": "3623a8ccabe725ba",
@@ -703,7 +703,19 @@
         }
       ],
       "note": "Official landing-page links changed; actual paper titles are not verified"
+    },
+    {
+      "kind": "program-link-change",
+      "conference_id": "nber-si",
+      "date": "2026-11-21T23:47:14+08:00",
+      "new_links": [
+        {
+          "title": "Summer Institute 2026",
+          "url": "https://www.nber.org/index%2Ephp/conferences/summer-institute-2026"
+        }
+      ],
+      "note": "Official landing-page links changed; actual paper titles are not verified"
     }
   ],
-  "last_checked_at": "2026-11-21T16:19:12+08:00"
+  "last_checked_at": "2026-11-21T23:47:14+08:00"
 }
