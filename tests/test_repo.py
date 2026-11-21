@@ -10,8 +10,11 @@ class RepositoryPolicyTests(unittest.TestCase):
         deploy = (ROOT / '.github/workflows/deploy-pages.yml').read_text('utf-8')
         self.assertIn('  workflow_dispatch:', refresh)
         self.assertIn('  schedule:', refresh)
-        self.assertIn("cron: '17 9 * * *'", refresh)
-        self.assertIn("timezone: 'Asia/Shanghai'", refresh)
+        # 01:17 UTC is 09:17 Asia/Shanghai; keep a UTC cron to avoid offset drift.
+        self.assertIn("cron: '17 1 * * *'", refresh)
+        self.assertNotIn("timezone: 'Asia/Shanghai'", refresh)
+        self.assertIn('  actions: read', refresh)
+        self.assertIn('Wait for Pages artifact metadata', refresh)
         self.assertIn('BACKFILL_DAYS:', refresh)
         self.assertNotIn('  schedule:', deploy)
         self.assertNotIn('cron:', deploy)
