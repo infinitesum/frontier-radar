@@ -1,8 +1,244 @@
 {
   "schema_version": 1,
   "snapshot": "incremental-ingestion",
-  "updated_at": "2026-11-20T08:36:43+00:00",
+  "updated_at": "2026-11-21T08:19:12+00:00",
   "papers": [
+    {
+      "title": "The life-cycle dynamics of wealth mobility",
+      "authors": [
+        "Richard Audoly",
+        "Rory McGee",
+        "Sergio Ocampo",
+        "Gonzalo Paz-Pardo"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jpubeco.2026.105828",
+      "doi": "10.1016/j.jpubeco.2026.105828",
+      "aliases": [
+        "doi:10.1016/j.jpubeco.2026.105828"
+      ],
+      "first_public_date": "2026-12",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jpub",
+          "name": "Journal of Public Economics",
+          "url": "https://doi.org/10.1016/j.jpubeco.2026.105828"
+        }
+      ],
+      "id": "p_019f17af49249f",
+      "discovered_at": "2026-11-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-21",
+          "source_id": "jpub"
+        }
+      ]
+    },
+    {
+      "title": "Deterrence or Backlash? Arrests and the Dynamics of Domestic Violence",
+      "authors": [
+        "Sofia Amaral",
+        "Gordon B. Dahl",
+        "Timo Hener",
+        "Victoria Kaiser",
+        "Helmut Rainer"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1086/745091",
+      "doi": "10.1086/745091",
+      "aliases": [
+        "doi:10.1086/745091"
+      ],
+      "first_public_date": "2026-11-20",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jpe",
+          "name": "Journal of Political Economy",
+          "url": "https://doi.org/10.1086/745091"
+        }
+      ],
+      "id": "p_aac49f21c5acd4",
+      "discovered_at": "2026-11-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-21",
+          "source_id": "jpe"
+        }
+      ]
+    },
+    {
+      "title": "The supply chain of credit: Collateral-based easing and firms' trade credit provision",
+      "authors": [
+        "Shouyu Yao",
+        "Ankun Dong",
+        "Jia Li",
+        "Chunfeng Wang",
+        "Duc Khuong Nguyen"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jcorpfin.2026.103111",
+      "doi": "10.1016/j.jcorpfin.2026.103111",
+      "aliases": [
+        "doi:10.1016/j.jcorpfin.2026.103111"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "trade",
+      "sources": [
+        {
+          "id": "jcf",
+          "name": "Journal of Corporate Finance",
+          "url": "https://doi.org/10.1016/j.jcorpfin.2026.103111"
+        }
+      ],
+      "id": "p_cad17251541e06",
+      "discovered_at": "2026-11-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-21",
+          "source_id": "jcf"
+        }
+      ]
+    },
+    {
+      "title": "Good news, better credit? The role of internet media tone in trade credit financing",
+      "authors": [
+        "Lu Li",
+        "Dinh Phan",
+        "Thao Tran",
+        "Gaoping Zheng"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jcorpfin.2026.103109",
+      "doi": "10.1016/j.jcorpfin.2026.103109",
+      "aliases": [
+        "doi:10.1016/j.jcorpfin.2026.103109"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "trade",
+      "sources": [
+        {
+          "id": "jcf",
+          "name": "Journal of Corporate Finance",
+          "url": "https://doi.org/10.1016/j.jcorpfin.2026.103109"
+        }
+      ],
+      "id": "p_14d7656dda55ed",
+      "discovered_at": "2026-11-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-21",
+          "source_id": "jcf"
+        }
+      ]
+    },
+    {
+      "title": "Climate extrapolation and relative asset prices: Evidence from Bordeaux Premier Cru wine auctions",
+      "authors": [
+        "Gertjan Verdickt"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jcorpfin.2026.103110",
+      "doi": "10.1016/j.jcorpfin.2026.103110",
+      "aliases": [
+        "doi:10.1016/j.jcorpfin.2026.103110"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "jcf",
+          "name": "Journal of Corporate Finance",
+          "url": "https://doi.org/10.1016/j.jcorpfin.2026.103110"
+        }
+      ],
+      "id": "p_1af7cc0b89e8e6",
+      "discovered_at": "2026-11-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-21",
+          "source_id": "jcf"
+        }
+      ]
+    },
+    {
+      "title": "Religious rituals, livestock mobility and infectious diseases: Evidence from Eid al-Adha",
+      "authors": [
+        "Rohit Ticku",
+        "Cosimo Beverelli"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jdeveco.2026.103969",
+      "doi": "10.1016/j.jdeveco.2026.103969",
+      "aliases": [
+        "doi:10.1016/j.jdeveco.2026.103969"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jde",
+          "name": "Journal of Development Economics",
+          "url": "https://doi.org/10.1016/j.jdeveco.2026.103969"
+        }
+      ],
+      "id": "p_633aeba35f05b0",
+      "discovered_at": "2026-11-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-21",
+          "source_id": "jde"
+        }
+      ]
+    },
+    {
+      "title": "Learning through living room screens: Experimental evidence from Kenya",
+      "authors": [
+        "Jasmin Baier",
+        "Laura Barasa",
+        "Nicolas Bottan",
+        "Anushka Ghosh",
+        "Mark Millrine"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jdeveco.2026.103967",
+      "doi": "10.1016/j.jdeveco.2026.103967",
+      "aliases": [
+        "doi:10.1016/j.jdeveco.2026.103967"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jde",
+          "name": "Journal of Development Economics",
+          "url": "https://doi.org/10.1016/j.jdeveco.2026.103967"
+        }
+      ],
+      "id": "p_c7cbd133a1cb71",
+      "discovered_at": "2026-11-21",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-21",
+          "source_id": "jde"
+        }
+      ]
+    },
     {
       "title": "Time-series efficient factors",
       "authors": [
