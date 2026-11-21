@@ -1,6 +1,6 @@
 name: Refresh papers (daily + manual)
 
-# UTC+8 ingestion at 09:17; intentionally earlier than the 12:00 briefing.
+# Daily 09:17 Asia/Shanghai (01:17 UTC), ahead of the 12:00 briefing.
 # A one-off source refresh validates official conference-program link monitoring.
 # Push on changes to THIS workflow triggers initial bootstrap exactly once.
 on:
@@ -10,9 +10,9 @@ on:
       - 'scripts/ingest.py'
       - 'scripts/conference_papers.py'
       - 'config/sources.json'
+  # Use explicit UTC cron; recent runs did not honor the expected local-time offset.
   schedule:
-    - cron: '17 9 * * *'
-      timezone: 'Asia/Shanghai'
+    - cron: '17 1 * * *'
   workflow_dispatch:
     inputs:
       since_days:
@@ -30,6 +30,7 @@ on:
 
 permissions:
   contents: write
+  actions: read
   pages: write
   id-token: write
 
@@ -81,6 +82,25 @@ jobs:
       - uses: actions/upload-pages-artifact@v4
         with:
           path: dist
+      # Pages artifact metadata can lag a successful upload by several seconds.
+      - name: Wait for Pages artifact metadata
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          for attempt in $(seq 1 18); do
+            count="$(gh api \
+              "repos/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}/artifacts?name=github-pages" \
+              --jq '[.artifacts[] | select(.name == "github-pages" and .expired == false)] | length' 2>/dev/null || echo 0)"
+            if [ "$count" -ge 1 ]; then
+              echo "Pages artifact available (attempt $attempt)."
+              exit 0
+            fi
+            echo "Waiting for Pages artifact metadata ($attempt/18)."
+            sleep 5
+          done
+          echo "::error::Pages artifact metadata still unavailable after 90 seconds."
+          exit 1
       - name: Deploy refreshed site
         id: deployment
         uses: actions/deploy-pages@v4
