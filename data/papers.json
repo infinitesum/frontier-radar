@@ -1,8 +1,40 @@
 {
   "schema_version": 1,
   "snapshot": "incremental-ingestion",
-  "updated_at": "2026-11-21T15:47:14+00:00",
+  "updated_at": "2026-11-22T08:03:40+00:00",
   "papers": [
+    {
+      "title": "Populism, polarization and green investment",
+      "authors": [
+        "Anders Anderson",
+        "David T. Robinson"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jfineco.2026.104404",
+      "doi": "10.1016/j.jfineco.2026.104404",
+      "aliases": [
+        "doi:10.1016/j.jfineco.2026.104404"
+      ],
+      "first_public_date": "2027-01",
+      "stage": "journal",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "jfe",
+          "name": "Journal of Financial Economics",
+          "url": "https://doi.org/10.1016/j.jfineco.2026.104404"
+        }
+      ],
+      "id": "p_7ff97f8be694ec",
+      "discovered_at": "2026-11-22",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-22",
+          "source_id": "jfe"
+        }
+      ]
+    },
     {
       "title": "The life-cycle dynamics of wealth mobility",
       "authors": [
