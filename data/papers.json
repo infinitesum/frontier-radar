@@ -1,8 +1,948 @@
 {
   "schema_version": 1,
   "snapshot": "incremental-ingestion",
-  "updated_at": "2026-11-22T08:03:40+00:00",
+  "updated_at": "2026-11-23T09:10:58+00:00",
   "papers": [
+    {
+      "title": "DP22207 The Third Great Transition: From Human-Bound to Autonomous AI-Driven Innovation",
+      "authors": [
+        "Oded Galor"
+      ],
+      "abstract": "Why haven't advances in AI accelerated aggregate productivity growth? Could an apparently stable balanced-growth regime conceal an impending phase transition that would trigger the Third Great Transition in human history, following the Neolithic and Industrial Revolutions? This research advances the hypothesis that the AI Revolution will unleash a phase transition in which the prevailing balanced-growth regime and its gravitational pull will vanish, while a radically faster growth trajectory will emerge as a new attractor, bringing about a profound metamorphosis of the growth process. It advan",
+      "source_url": "https://cepr.org/publications/dp22207",
+      "doi": "",
+      "aliases": [
+        "cepr:22207"
+      ],
+      "first_public_date": "2026-11-23",
+      "stage": "working-paper",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22207"
+        }
+      ],
+      "id": "p_711c0a50498ae1",
+      "discovered_at": "2026-11-23",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-23",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22206 The Mechanisms of Historical Persistence",
+      "authors": [
+        "Morgan Kelly"
+      ],
+      "abstract": "What do persistence coefficients actually measure? When the underlying behavioural mechanism causes observations to evolve as a vector autoregression (VAR) it is shown that the persistence coefficient is not a structural parameter that measures “the legacy of the past.” It is instead an affine combination of the eigenvalues of the VAR matrix that is unrelated to the true persistence (spectral radius) of the system, and can be of any magnitude depending on the configuration of the initial state. (This problem extends to any cross-sectional or panel regression with a lagged dependent variable, i",
+      "source_url": "https://cepr.org/publications/dp22206",
+      "doi": "",
+      "aliases": [
+        "cepr:22206"
+      ],
+      "first_public_date": "2026-11-23",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22206"
+        }
+      ],
+      "id": "p_e20c5b2c126db4",
+      "discovered_at": "2026-11-23",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-23",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22203 Postal Votes",
+      "authors": [
+        "Torun Dewan, Kfir Eliaz"
+      ],
+      "abstract": "Postal voting lowers participation costs but can make votes purchasable. We study competing parties offering enforceable payments to voters whose preferences and voting costs are private. Uncertainty about allegiance and preference intensity limits vote buying, since offers may reward supporters or fail to persuade opponents. We derive sufficient conditions under which postal voting increases sincere turnout, the share of citizens voting for their preferred party, despite active purchases and preference reversals. More precise allegiance signals need not increase reversals. Under a sufficient ",
+      "source_url": "https://cepr.org/publications/dp22203",
+      "doi": "",
+      "aliases": [
+        "cepr:22203"
+      ],
+      "first_public_date": "2026-11-22",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22203"
+        }
+      ],
+      "id": "p_7048962ffbec58",
+      "discovered_at": "2026-11-23",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-23",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22205 The Limits of Behavioral Simulation with AI",
+      "authors": [
+        "Thomas Graeber, Christopher Roth"
+      ],
+      "abstract": "How well can we simulate human behavior with AI? We review over 100 studies to ask what the evidence means for credible use cases. First, how accurate are simulations where they have been checked against human data? Accuracy falls with specificity: simulations often get the direction and ranking of well-documented effects right but are far less reliable about effect sizes when simulating respondents, and about response distributions, subgroup differences, and individual choices. Second, does accuracy measured in one setting transfer to new settings, where simulation is most useful but cannot b",
+      "source_url": "https://cepr.org/publications/dp22205",
+      "doi": "",
+      "aliases": [
+        "cepr:22205"
+      ],
+      "first_public_date": "2026-11-22",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22205"
+        }
+      ],
+      "id": "p_c0fe94d64bd7e2",
+      "discovered_at": "2026-11-23",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-23",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22204 Economic Literacy: Measurement, Expectations, and Policy Views",
+      "authors": [
+        "Raphael Brade, Henning Hermes, Tim Kaiser, Sarah Necker, Anke Windisch, Ludger Woessmann"
+      ],
+      "abstract": "How important is economic literacy – the understanding of basic economic concepts – for the formation of economic expectations and policy views? We design, implement, and psychometrically validate a survey module to measure economic literacy in a representative adult population. Economic literacy is associated with education and intelligence but captures a distinct skill. While unrelated to ideological orientation, individuals with higher economic literacy (1) hold better-anchored economic expectations, (2) are more responsive to experimentally provided information on policy trade-offs, and (3",
+      "source_url": "https://cepr.org/publications/dp22204",
+      "doi": "",
+      "aliases": [
+        "cepr:22204"
+      ],
+      "first_public_date": "2026-11-22",
+      "stage": "working-paper",
+      "discipline": "trade",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22204"
+        }
+      ],
+      "id": "p_2d19f28575232b",
+      "discovered_at": "2026-11-23",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-23",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22202 Intermediaries, Quality Incentives, and Upgrading along Supply Chains",
+      "authors": [
+        "Jie Bai, Lauren Falcao Bergquist, Ameet Morjaria, Russell Morton, Yulu Tang"
+      ],
+      "abstract": "Many low-income countries remain concentrated in low-quality production despite substantial quality premiums in world markets. We study how domestic intermediaries connecting producers to these markets shape incentives for quality upgrading and where it occurs along supply chains. In Uganda’s coffee industry, we collect transaction-level prices and lab-based quality measures along the chain. We document that the quality premium falls by roughly half from the export gate to the farm gate. We develop a model in which intermediaries' buyer power and their own upgrading can both compress the premi",
+      "source_url": "https://cepr.org/publications/dp22202",
+      "doi": "",
+      "aliases": [
+        "cepr:22202"
+      ],
+      "first_public_date": "2026-11-22",
+      "stage": "working-paper",
+      "discipline": "trade",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22202"
+        }
+      ],
+      "id": "p_1e64f82d65e2fd",
+      "discovered_at": "2026-11-23",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-23",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "Inflation, debt overhang and corporate investment",
+      "authors": [
+        "Biao Chen",
+        "Feng Jiao",
+        "Junjie Liu",
+        "Chuanqian Zhang"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jcorpfin.2026.103114",
+      "doi": "10.1016/j.jcorpfin.2026.103114",
+      "aliases": [
+        "doi:10.1016/j.jcorpfin.2026.103114"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "jcf",
+          "name": "Journal of Corporate Finance",
+          "url": "https://doi.org/10.1016/j.jcorpfin.2026.103114"
+        }
+      ],
+      "id": "p_85c143bfb7c1be",
+      "discovered_at": "2026-11-23",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-23",
+          "source_id": "jcf"
+        }
+      ]
+    },
+    {
+      "title": "Designing Low Emission Zones: Theory and Evidence -- by Nano Barahona, Natalia Fabra, Imelda, Juan-Pablo Montero",
+      "authors": [],
+      "abstract": "Low Emission Zones (LEZs), which exclude polluting vehicles from parts of a city, are spreading. Yet how their design affects welfare is poorly understood. Unlike price instruments, LEZs ration access inefficiently, imposing costs on inframarginal drivers of restricted vehicles. In our model, welfare is quasi-convex in LEZ size, yielding bang-bang principles: LEZs should be as large as possible or not implemented at all; cleaner vehicles (e.g., hybrids) could be exempt as transition technologies but later restricted, which may require planner commitment. Using new-car purchases, we find Madrid",
+      "source_url": "https://www.nber.org/papers/w36037#fromrss",
+      "doi": "10.3386/w36037",
+      "aliases": [
+        "doi:10.3386/w36037",
+        "nber:w36037"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w36037#fromrss"
+        }
+      ],
+      "id": "p_2da2371fb87461",
+      "discovered_at": "2026-11-23",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-23",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Five Facts About Stablecoins -- by Lin William Cong, Gordon Y. Liao, Eswar S. Prasad, Tony Zhang",
+      "authors": [],
+      "abstract": "We document five facts about payment stablecoins using wallet-level blockchain data from 2020 to 2025. First, stablecoins serve as a transaction currency: onchain volume exceeds Bitcoin’s despite a much smaller supply, velocity has risen sharply, and transactions have shifted toward low-value transfers. Second, using transaction timing to refine exchange-based attribution, we find activity spread across the Americas, Europe, and Asia and fewer cross-regional flows than the standard method implies. Third, we estimate a structural cash-management model on the holdings data and find that the cost",
+      "source_url": "https://www.nber.org/papers/w36038#fromrss",
+      "doi": "10.3386/w36038",
+      "aliases": [
+        "doi:10.3386/w36038",
+        "nber:w36038"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w36038#fromrss"
+        }
+      ],
+      "id": "p_9fc22eded7e882",
+      "discovered_at": "2026-11-23",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-23",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Democratizing Venture Capital: Tax Incentives and the Geographic Expansion of Startup Investing -- by Murillo Campello, Guilherme Junqueira",
+      "authors": [],
+      "abstract": "Can tax subsidies expand the geographic reach of startup investing? Despite decades of growth, venture capital (VC) remains concentrated in a handful of metropolitan areas, leaving most of the country with limited access to startup financing. We study the 2009–2010 enhancement of the Qualified Small Business Stock (QSBS) program, which eliminated federal capital gains taxes on investments in qualifying startups. By raising the payoff to success, the reform made riskier investments more attractive, including entry into unfamiliar markets. This incentive is especially strong for VC funds. Relati",
+      "source_url": "https://www.nber.org/papers/w36039#fromrss",
+      "doi": "10.3386/w36039",
+      "aliases": [
+        "doi:10.3386/w36039",
+        "nber:w36039"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w36039#fromrss"
+        }
+      ],
+      "id": "p_fc42334e67bb59",
+      "discovered_at": "2026-11-23",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-23",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "The Emergence of a National Capital Market,1870–1940 -- by Pawel Janas",
+      "authors": [],
+      "abstract": "This article documents the integration of the American capital market with the first long-run, geolocated, firm-level record of the asset holdings of large institutional investors: over 100,000 holdings of life insurers, 1870–1940. Between 1880 and 1890 the mean distance of insurers’ bonds from home more than doubled and their home-state share fell from over half to under a quarter. The shift occurred within firms, across bond classes and charters. Mortgage lending was national wherever state law permitted it. Integration was largely complete by 1890.",
+      "source_url": "https://www.nber.org/papers/w36040#fromrss",
+      "doi": "10.3386/w36040",
+      "aliases": [
+        "doi:10.3386/w36040",
+        "nber:w36040"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "banking",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w36040#fromrss"
+        }
+      ],
+      "id": "p_2dc4a1b2f66fdd",
+      "discovered_at": "2026-11-23",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-23",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Does Treating Addiction Rebuild Lives? Evidence from Buprenorphine -- by Sarah Eichmeyer, Aljoscha Janssen, Jonathan Zhang",
+      "authors": [],
+      "abstract": "Does treating addiction improve economic circumstances as well as health? Using two decades of Veterans Health Administration records on over 140,000 patients with opioid use disorder and consumer credit data, we exploit staggered facility-level buprenorphine adoption and quasi-random emergency physician assignment. A five-percentage-point increase in the share of clinicians with buprenorphine prescribing experience doubles overdose survivors’ long-term medication use and reduces two-year mortality by an estimated 3.7 percentage points. Instrumenting receipt yields a 22 percent credit score ga",
+      "source_url": "https://www.nber.org/papers/w36041#fromrss",
+      "doi": "10.3386/w36041",
+      "aliases": [
+        "doi:10.3386/w36041",
+        "nber:w36041"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w36041#fromrss"
+        }
+      ],
+      "id": "p_7faf59b71a2276",
+      "discovered_at": "2026-11-23",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-23",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "The Effects of Private Plan Subsidies on Enrollment: Evidence from Medicare Advantage -- by Paul D. Jacobs, Timothy J. Layton",
+      "authors": [],
+      "abstract": "Some social insurance programs, including the Medicare program in the United States, allow beneficiaries to choose between public and private insurance firms. In these types of programs, the government will often provide a voucher to those who opt for private firms. A key policy decision is the level of this voucher, and a key input to that decision is the elasticity of enrollment in the public versus the private option with respect to the size of the voucher. We estimate this elasticity in the Medicare program, where recent work has provided remarkably little evidence on how Medicare Advantag",
+      "source_url": "https://www.nber.org/papers/w36042#fromrss",
+      "doi": "10.3386/w36042",
+      "aliases": [
+        "doi:10.3386/w36042",
+        "nber:w36042"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "public-econ",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w36042#fromrss"
+        }
+      ],
+      "id": "p_cf65d586b8ee45",
+      "discovered_at": "2026-11-23",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-23",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Mental Models of Fiscal Policy -- by Francesco Bianchi, Era Dabla-Norris, Radhika Goyal, Victoria Haver, Salma Khalid",
+      "authors": [],
+      "abstract": "We study how individuals form expectations about fiscal adjustment. Using survey data from more than 27,000 respondents across 13 countries, we jointly elicit beliefs about current fiscal conditions, expectations of tax increases and spending cuts, and open-ended explanations for those expectations. We classify these explanations into economic mental models, political narratives, and experience-based heuristics. Respondents reporting similar fiscal conditions nevertheless form systematically different expectations of adjustment. Economic mental models are associated with stronger expectations ",
+      "source_url": "https://www.nber.org/papers/w36043#fromrss",
+      "doi": "10.3386/w36043",
+      "aliases": [
+        "doi:10.3386/w36043",
+        "nber:w36043"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "public-econ",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w36043#fromrss"
+        }
+      ],
+      "id": "p_bcbbf20a08b35c",
+      "discovered_at": "2026-11-23",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-23",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Beyond Publication Bias: Characterizing and Understanding Missing Results in Economics -- by Fernando Hoces de la Guardia, Edward Miguel, Gufran Pathan, Akash Shaji, Viviane Helena Silva da Rocha, Erik Ø. Sørensen, Bertil Tungodden",
+      "authors": [],
+      "abstract": "What scientists choose not to publish can be as important as what they do publish. We measure missing research results at the hypothesis level and use this approach to study under-reporting in economics. Across 5,057 pre-registered hypotheses from 317 studies registered on the American Economic Association RCT Registry between 2015 and 2017, only 42% have publicly available results eight to nine years after pre-registration. Among the available results, 64% are null, and we find little evidence that null results are disproportionately missing. In an RCT, direct engagement with authors increase",
+      "source_url": "https://www.nber.org/papers/w36044#fromrss",
+      "doi": "10.3386/w36044",
+      "aliases": [
+        "doi:10.3386/w36044",
+        "nber:w36044"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w36044#fromrss"
+        }
+      ],
+      "id": "p_bb0d604262adea",
+      "discovered_at": "2026-11-23",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-23",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "How AI Impacts the Quest for Knowledge: Evidence from AlphaFold2 -- by Myra Mohnen, Joshua S. Gans",
+      "authors": [],
+      "abstract": "Scientists can respond to artificial intelligence by pushing the frontier of science and asking new questions, or by deepening their understanding of questions already studied. We study how AI shapes this choice in structural biology, where experiments examine a protein's three-dimensional structure and its function. AlphaFold2, released in 2021, predicts the structure of almost every known protein, with a confidence that varies across proteins. Linking 530,471 proteins to the experiments run on them between 2017 and 2025, we compare how experimental activity changed after 2021 across proteins",
+      "source_url": "https://www.nber.org/papers/w36045#fromrss",
+      "doi": "10.3386/w36045",
+      "aliases": [
+        "doi:10.3386/w36045",
+        "nber:w36045"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w36045#fromrss"
+        }
+      ],
+      "id": "p_8f67fe903d779d",
+      "discovered_at": "2026-11-23",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-23",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Valuing the Cost of Incomplete Global Markets -- by Karen K. Lewis, Edith X. Liu",
+      "authors": [],
+      "abstract": "Deviations from complete financial markets in cross-border investments generate economic welfare costs. This paper shows how to value these costs using standard theory and data based on three main results. Our first result shows how welfare valuations can be derived from a general wealth-to-dividend ratio. Next, we establish how aggregate consumption and exchange rate data can be used to uncover diversifiable goods allocations across countries. Finally, we demonstrate how asset pricing data and models can be used to value deviations from complete markets. The paper outlines a range of applicat",
+      "source_url": "https://www.nber.org/papers/w36046#fromrss",
+      "doi": "10.3386/w36046",
+      "aliases": [
+        "doi:10.3386/w36046",
+        "nber:w36046"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w36046#fromrss"
+        }
+      ],
+      "id": "p_51f7951487afc5",
+      "discovered_at": "2026-11-23",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-23",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Regret, Survival Beliefs, and Retirement Recommendations -- by Abigail Hurwitz, Olivia S. Mitchell",
+      "authors": [],
+      "abstract": "We examine how information about others’ retirement regret affects annuitization and savings recommendations. In a survey experiment, participants received information about regret over not purchasing annuities or not saving enough for retirement. Responses were concentrated among individuals who underestimated their survival probabilities relative to population benchmarks, consistent with a survival belief-updating mechanism. Among underestimators, annuity regret information increased annuitization recommendations by 16.9 percentage points (approximately 38%), while savings regret information",
+      "source_url": "https://www.nber.org/papers/w36047#fromrss",
+      "doi": "10.3386/w36047",
+      "aliases": [
+        "doi:10.3386/w36047",
+        "nber:w36047"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w36047#fromrss"
+        }
+      ],
+      "id": "p_d2af8bb6e1be5d",
+      "discovered_at": "2026-11-23",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-23",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Are Revealed Preferences All You Need for AI Alignment? -- by Joshua S. Gans, Richard T. Holden",
+      "authors": [],
+      "abstract": "AI agents learn what principals want from what principals choose. We offer a criterion for when a principal's decisions, at every belief an AI might hold, are all the AI needs. For acting, they are. Cautious actions, such as deferring to a person, typically divide the principal's actions into blocks, and for choosing costless evidence, decisions are enough exactly when the same evidence is best in every block. Otherwise, the AI acts as its principal would yet can gather the wrong evidence, and greater capability can turn that error into incorrect actions. Choices between two mistakes reveal wh",
+      "source_url": "https://www.nber.org/papers/w36048#fromrss",
+      "doi": "10.3386/w36048",
+      "aliases": [
+        "doi:10.3386/w36048",
+        "nber:w36048"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w36048#fromrss"
+        }
+      ],
+      "id": "p_d0599270045d86",
+      "discovered_at": "2026-11-23",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-23",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Bureaucratic Rigidity and Battle Outcomes: Evidence from Military Logistics in the Ming Dynasty -- by Jingjing Chen, Jianlei Han, Shing-Yi Wang, Yongxiang Wang",
+      "authors": [],
+      "abstract": "Bureaucratic rules meant to improve accountability can undermine state effectiveness. We study a 1492 Ming dynasty reform that shifted military grain delivery from salt merchants to a state relay system with prefecture-to-prefecture handovers and fixed routes. Afterward, court records document more supply shortages at formerly merchant-supplied garrisons than at state-supplied ones. Using 406 defensive battles against foreign invaders, we find the reform reduced victory rates near these garrisons. Declines were largest where resupply mattered most (longer wars, walled-city defenses) and where ",
+      "source_url": "https://www.nber.org/papers/w36049#fromrss",
+      "doi": "10.3386/w36049",
+      "aliases": [
+        "doi:10.3386/w36049",
+        "nber:w36049"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w36049#fromrss"
+        }
+      ],
+      "id": "p_146bdc2ec4dbda",
+      "discovered_at": "2026-11-23",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-23",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Past Automation and Future AI: How Weak Links Tame the Growth Explosion -- by Charles I. Jones, Christopher Tonetti",
+      "authors": [],
+      "abstract": "How much past growth is due to automation, and what does this imply for the future of AI? We perform task-based growth accounting and show that capital task productivity has grown about 5 percentage points per year faster than labor task productivity in the U.S. economy. The main benefit of automation is using rapidly improving machines instead of slowly-improving humans on more tasks. With these historical measures, we calibrate a growth model in which the production of goods and ideas is endogenously automated. Growth accelerates and can explode. However, the acceleration is slowed by \"weak ",
+      "source_url": "https://www.nber.org/papers/w36050#fromrss",
+      "doi": "10.3386/w36050",
+      "aliases": [
+        "doi:10.3386/w36050",
+        "nber:w36050"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w36050#fromrss"
+        }
+      ],
+      "id": "p_7c54ba16b01803",
+      "discovered_at": "2026-11-23",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-23",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Climate Risk, Real Estate, and Property Insurance -- by Benjamin L. Collier, Benjamin J. Keys, Philip Mulder",
+      "authors": [],
+      "abstract": "Growing climate risk threatens long-lived, fixed physical assets like real estate. To navigate this risk, homeowners and prospective buyers rely on market signals, including property values and insurance costs. The effectiveness of these market signals depends on whether standard economic assumptions hold. In this review, we assess whether housing and insurance markets accurately reflect climate risk, and whether market participants receive and respond to those signals. A rapidly growing literature documents substantial frictions in each part of the chain from climate risk to prices, with down",
+      "source_url": "https://www.nber.org/papers/w36051#fromrss",
+      "doi": "10.3386/w36051",
+      "aliases": [
+        "doi:10.3386/w36051",
+        "nber:w36051"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w36051#fromrss"
+        }
+      ],
+      "id": "p_abcf0c630a30e4",
+      "discovered_at": "2026-11-23",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-23",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Long-run Uncovered Interest Parity in Emerging Markets -- by Alessandro Rebucci, Sinem Yagmur Toraman, Giorgio Valente, Nicolò Capirone",
+      "authors": [],
+      "abstract": "Uncovered interest parity (UIP) tends to hold at long horizons for advanced-economy currencies. Whether it holds in emerging markets remains a more open question. We show it does not, and that sovereign credit risk can explain the failure. Using monthly zero-coupon local-currency yield curves for all emerging market currencies for which they are available from 2000 to 2025, we find that the slope of long-horizon UIP regressions is well below one at the five-year maturity for emerging market currencies, while unity cannot be rejected for G10 currencies. However, when we augment these regression",
+      "source_url": "https://www.nber.org/papers/w36052#fromrss",
+      "doi": "10.3386/w36052",
+      "aliases": [
+        "doi:10.3386/w36052",
+        "nber:w36052"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w36052#fromrss"
+        }
+      ],
+      "id": "p_f317a51dfd0d78",
+      "discovered_at": "2026-11-23",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-23",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Shrink Responsibly: Empirical Bayes in Economics -- by Peter Hull, Michal Kolesár",
+      "authors": [],
+      "abstract": "Empirical researchers are often interested in the relative causal impact of individuals or institutions such as teachers, schools, hospitals, or neighborhoods. Regression-based estimates of such unit-specific parameters are often noisy; empirical Bayes (eB) methods can help isolate the signal from the estimation noise. This article provides an overview of eB methodology, showing how eB shrinkage can improve compound decisions—such as selecting individuals with the highest causal impacts—even when the working model motivating the shrinkage is misspecified. Not all analyses benefit from eB shrin",
+      "source_url": "https://www.nber.org/papers/w36053#fromrss",
+      "doi": "10.3386/w36053",
+      "aliases": [
+        "doi:10.3386/w36053",
+        "nber:w36053"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "methods",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w36053#fromrss"
+        }
+      ],
+      "id": "p_48e5261651e2dc",
+      "discovered_at": "2026-11-23",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-23",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Mortality Effects of the 2025 US Aid Freeze: Evidence from Zambia -- by Torsten Figueiredo Walter, Dean Karlan, Niclas Moneke, Ana Radu, Khozya Zyambo",
+      "authors": [],
+      "abstract": "We study the impact of the 2025 sudden freeze then subsequent thaw of US foreign aid on HIV prevention, treatment, infection, and death. In Zambia, HIV-related aid was administered through two agencies. Activities under one were disrupted for several months, and those under the other much less. Comprehensive data from all Zambian health facilities reveal immediate differential reductions in preventive HIV measures that mostly later recovered, followed by more HIV-positive pregnant women, more HIV-exposed births, more opportunistic infections, and more recorded deaths. For example, after one ye",
+      "source_url": "https://www.nber.org/papers/w36054#fromrss",
+      "doi": "10.3386/w36054",
+      "aliases": [
+        "doi:10.3386/w36054",
+        "nber:w36054"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w36054#fromrss"
+        }
+      ],
+      "id": "p_76edb7cae26c36",
+      "discovered_at": "2026-11-23",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-23",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Are Republicans and Democrats Different Taxpayers? Evidence From Property Tax Appeals -- by Brad C. Nathan, Ricardo Perez-Truglia, Alejandro Zentner",
+      "authors": [],
+      "abstract": "Democrats and Republicans express some sharply different views about tax policy, but whether these ideological divisions translate into partisan differences in taxpayer behavior is far less clear. We study this question in the context of a common form of tax avoidance: property tax appeals. In a survey, we find that Americans, on average, believe Republican homeowners are more likely to appeal their property taxes than Democratic homeowners with similarly valued homes. Yet linking administrative property tax records from Dallas County with voting records reveals that this stereotype is not bor",
+      "source_url": "https://www.nber.org/papers/w36055#fromrss",
+      "doi": "10.3386/w36055",
+      "aliases": [
+        "doi:10.3386/w36055",
+        "nber:w36055"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "public-econ",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w36055#fromrss"
+        }
+      ],
+      "id": "p_0d4044a593d80d",
+      "discovered_at": "2026-11-23",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-23",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Chips & Tokens at the Fault Lines: Two Stacks in One Fragmenting World -- by Fabio Natalucci, Alessandro Rebucci",
+      "authors": [],
+      "abstract": "The United States and China have each built the capacity to inflict serious economic damage on each other. This paper argues that the resulting mutual vulnerability now constrains both sides and prevents further economic decoupling. The paper maps this contest across two stacks: the real economy stack of computing, semiconductors and rare earths, and the financial stack of dollar dominance and digital finance. On the real side, an analysis of global earnings call reports, run through large language models, suggests that this mutual vulnerability was already shaping the global corporate narrati",
+      "source_url": "https://www.nber.org/papers/w36056#fromrss",
+      "doi": "10.3386/w36056",
+      "aliases": [
+        "doi:10.3386/w36056",
+        "nber:w36056"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w36056#fromrss"
+        }
+      ],
+      "id": "p_cff309fb467d48",
+      "discovered_at": "2026-11-23",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-23",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "CFOs Meet LLMs -- by John R. Graham, Campbell R. Harvey, Manish Jha",
+      "authors": [],
+      "abstract": "Business sentiment is closely watched, but measurement is slow and costly: surveys reach a limited number of firms, arrive periodically, and take time to field and compile. We show that large language models hold the potential to address some of these shortcomings. We prompt an LLM to role-play as the CFO of a specific company on a specific date, for every public-company CFO who responded to the Duke–Federal Reserve CFO Survey from 2002- 2025. We find that LLM-generated forecasts reasonably match the cross-section of CFO expectations, with accuracy increasing with the amount of information pro",
+      "source_url": "https://www.nber.org/papers/w36057#fromrss",
+      "doi": "10.3386/w36057",
+      "aliases": [
+        "doi:10.3386/w36057",
+        "nber:w36057"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w36057#fromrss"
+        }
+      ],
+      "id": "p_b050243a10a145",
+      "discovered_at": "2026-11-23",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-23",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Beyond the First Best: Welfare and OPEC Market Power -- by John Asker, Allan Collard-Wexler, Charlotte De Cannière, Jan De Loecker",
+      "authors": [],
+      "abstract": "We introduce an empirical framework to quantify the welfare impact of market power, through coordinated production decisions by a cartel, while allowing for other distortions. We contrast two novel concepts – the marginal and the infra-marginal welfare loss – to a naive approach that fails to recognize the existence of other distortions operating alongside market power. We apply the framework to measure the impact of market power of OPEC in the global crude oil market. We leverage unique micro data on cost and production to quantify the deadweight loss and productive inefficiency due to the OP",
+      "source_url": "https://www.nber.org/papers/w36058#fromrss",
+      "doi": "10.3386/w36058",
+      "aliases": [
+        "doi:10.3386/w36058",
+        "nber:w36058"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w36058#fromrss"
+        }
+      ],
+      "id": "p_ed1a7bc2085fd0",
+      "discovered_at": "2026-11-23",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-23",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Supply-Side Drivers of Long-Acting Reversible Contraceptives: Evidence from Medicaid Beneficiaries -- by Maya Rossin-Slater, Natalia Serna, Lin-Tung Tsai",
+      "authors": [],
+      "abstract": "U.S. federal law mandates that most insurers offer contraceptives for free to patients, yet nearly one in three women of reproductive age still report inadequate access to contraceptive services. With demand-side affordability barriers largely removed, supply-side factors—the actions of healthcare facilities and providers—may be critical in explaining this unmet need. This paper examines supply-side determinants of long-acting reversible contraceptive (LARC) use among Medicaid beneficiaries, a population for whom both LARCs and oral contraceptives (OCs) are covered at zero out-of-pocket cost. ",
+      "source_url": "https://www.nber.org/papers/w36059#fromrss",
+      "doi": "10.3386/w36059",
+      "aliases": [
+        "doi:10.3386/w36059",
+        "nber:w36059"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w36059#fromrss"
+        }
+      ],
+      "id": "p_a6b5a6724e35ef",
+      "discovered_at": "2026-11-23",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-23",
+          "source_id": "nber"
+        }
+      ]
+    },
+    {
+      "title": "Light Pollution: Effects on Sleep, Work, and Mental Health -- by Joan Costa-i-Font, Janet Currie, Soodeh Saberian",
+      "authors": [],
+      "abstract": "This study examines the impact of artificial streetlights on sleep, as well as downstream effects on mental health, absenteeism, and physical activity. We exploit variation resulting from the replacement of traditional sodium streetlights with light-emitting diode (LED) lights in Burnaby, British Columbia, Canada. Using data from the Canadian Community Health Survey, we examine discontinuities in difficulty sleeping at the municipal border with Vancouver, which did not adopt new lighting. We also estimate a within-Burnaby model exploiting the rollout of LED lights across neighborhoods, and a d",
+      "source_url": "https://www.nber.org/papers/w36060#fromrss",
+      "doi": "10.3386/w36060",
+      "aliases": [
+        "doi:10.3386/w36060",
+        "nber:w36060"
+      ],
+      "first_public_date": "",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "nber",
+          "name": "NBER Working Papers",
+          "url": "https://www.nber.org/papers/w36060#fromrss"
+        }
+      ],
+      "id": "p_96fa1079fc3302",
+      "discovered_at": "2026-11-23",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-23",
+          "source_id": "nber"
+        }
+      ]
+    },
     {
       "title": "Populism, polarization and green investment",
       "authors": [
