@@ -28,6 +28,7 @@ on:
 
 permissions:
   contents: write
+  actions: read
   pages: write
   id-token: write
 
@@ -40,7 +41,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url || steps.deployment_retry.outputs.page_url || steps.deployment_final.outputs.page_url }}
     steps:
       - uses: actions/checkout@v6
         with:
@@ -76,6 +77,41 @@ jobs:
       - uses: actions/upload-pages-artifact@v4
         with:
           path: dist
+      # The GitHub artifact service can take several seconds after a successful upload
+      # to expose the artifact through the REST API. Wait for it instead of failing Pages.
+      - name: Wait for Pages artifact visibility
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for attempt in $(seq 1 12); do
+            count="$(gh api "repos/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}/artifacts" --jq '[.artifacts[] | select(.name == "github-pages" and .expired == false)] | length' 2>/dev/null || true)"
+            if [ "$count" = "1" ]; then
+              echo "Pages artifact is visible (attempt ${attempt})"
+              exit 0
+            fi
+            echo "Pages artifact not visible yet (attempt ${attempt}/12)"
+            sleep 5
+          done
+          echo "::error::Pages artifact not visible through the GitHub Actions API after 60 seconds"
+          exit 1
+      # Retry deployment, not the upload: rerunning uploads can create duplicate
+      # github-pages artifacts and make deploy-pages fail deterministically.
       - name: Deploy updated research briefings
         id: deployment
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+      - name: Delay before Pages deployment retry
+        if: steps.deployment.outcome == 'failure'
+        run: sleep 15
+      - name: Retry Pages deployment
+        id: deployment_retry
+        if: steps.deployment.outcome == 'failure'
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+      - name: Delay before final Pages deployment attempt
+        if: steps.deployment.outcome == 'failure' && steps.deployment_retry.outcome == 'failure'
+        run: sleep 30
+      - name: Final Pages deployment attempt
+        id: deployment_final
+        if: steps.deployment.outcome == 'failure' && steps.deployment_retry.outcome == 'failure'
         uses: actions/deploy-pages@v4
