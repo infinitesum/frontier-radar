@@ -1,8 +1,500 @@
 {
   "schema_version": 1,
   "snapshot": "incremental-ingestion",
-  "updated_at": "2026-11-23T09:10:58+00:00",
+  "updated_at": "2026-11-24T11:00:23+00:00",
   "papers": [
+    {
+      "title": "Keep calm and bank on: Bank run risks and the role of public communication",
+      "authors": [
+        "Damiano Sandri",
+        "Francesco Grigoli",
+        "Yuriy Gorodnichenko",
+        "Olivier Coibion"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jfineco.2026.104417",
+      "doi": "10.1016/j.jfineco.2026.104417",
+      "aliases": [
+        "doi:10.1016/j.jfineco.2026.104417"
+      ],
+      "first_public_date": "2027-01",
+      "stage": "journal",
+      "discipline": "banking",
+      "sources": [
+        {
+          "id": "jfe",
+          "name": "Journal of Financial Economics",
+          "url": "https://doi.org/10.1016/j.jfineco.2026.104417"
+        }
+      ],
+      "id": "p_7d400bffb6d5e3",
+      "discovered_at": "2026-11-24",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-24",
+          "source_id": "jfe"
+        }
+      ]
+    },
+    {
+      "title": "DP22209 Beyond the First-Best: Welfare and OPEC Market Power",
+      "authors": [
+        "Jan De Loecker, John Asker, Allan Collard-Wexler, Charlotte De Cannière"
+      ],
+      "abstract": "We introduce an empirical framework to quantify the welfare impact of market power, through coordinated production decisions by a cartel, while allowing for other distortions. We contrast two novel concepts – the marginal and the infra-marginal welfare loss – to a naive approach that fails to recognize the existence of other distortions operating alongside market power. We apply the framework to measure the impact of market power of OPEC in the global crude oil market. We leverage unique micro data on cost and production to quantify the deadweight loss and productive inefficiency due to the OP",
+      "source_url": "https://cepr.org/publications/dp22209",
+      "doi": "",
+      "aliases": [
+        "cepr:22209"
+      ],
+      "first_public_date": "2026-11-23",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22209"
+        }
+      ],
+      "id": "p_5d00c23b894f61",
+      "discovered_at": "2026-11-24",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-24",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22208 Inference from Outcomes in the Market for Lemons",
+      "authors": [
+        "Francesc Dilme, Nenad Kos"
+      ],
+      "abstract": "This paper studies inference from equilibrium outcomes in a market for lemons. A monopsonist posts a price to sellers who privately observe the quality of their goods. An analyst knows preferences and observes the price and quantity traded. Combining the observed quantity with the optimality of the price, we characterize rationalizable outcomes and derive sharp bounds on the quality distribution, producer surplus, con- sumer surplus, total welfare, and deadweight loss. Comparing two buyer valuation functions, we show that a pointwise higher valuation shrinks the set of rationalizable outcomes ",
+      "source_url": "https://cepr.org/publications/dp22208",
+      "doi": "",
+      "aliases": [
+        "cepr:22208"
+      ],
+      "first_public_date": "2026-11-23",
+      "stage": "working-paper",
+      "discipline": "trade",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22208"
+        }
+      ],
+      "id": "p_52fc6b73395e11",
+      "discovered_at": "2026-11-24",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-24",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "Collateral Demand in Wholesale Funding Markets",
+      "authors": [
+        "Jamie Coen",
+        "Patrick Coen",
+        "Anne-Caroline Hüser"
+      ],
+      "abstract": "Abstract Repo markets are systemically important funding markets, but are also used by firms to obtain the assets provided as collateral. We build and structurally estimate a model of trade between heterogeneous firms in the sterling gilt repo market, and show that this collateral demand depresses repo market activity and can impede the transmission of monetary policy. We quantify how well-designed central bank repo facilities can improve outcomes: if the central bank were to lend out the assets on its balance sheet following quantitative easing, transmission and total firm surplus would impro",
+      "source_url": "https://doi.org/10.1093/rfs/hhag099",
+      "doi": "10.1093/rfs/hhag099",
+      "aliases": [
+        "doi:10.1093/rfs/hhag099"
+      ],
+      "first_public_date": "2026-11-23",
+      "stage": "journal",
+      "discipline": "banking",
+      "sources": [
+        {
+          "id": "rfs",
+          "name": "The Review of Financial Studies",
+          "url": "https://doi.org/10.1093/rfs/hhag099"
+        }
+      ],
+      "id": "p_31ac0e69e50030",
+      "discovered_at": "2026-11-24",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-24",
+          "source_id": "rfs"
+        }
+      ]
+    },
+    {
+      "title": "CHILE",
+      "authors": [
+        "Efstathios Avdis",
+        "Sergei Glebkin"
+      ],
+      "abstract": "Abstract We introduce CHILE, an asset-pricing framework with asymmetric information, general utility functions, and arbitrary payoffs. It features a large economy (LE) with continuous-and-heterogeneous information (CHI). The defining feature of this information structure is that the total amount of information stays finite as the economy grows large. We use the framework to study how concentration—the presence of market participants of different sizes—affects market quality, namely liquidity and information efficiency. Greater concentration proves a double-edged sword: it raises liquidity but ",
+      "source_url": "https://doi.org/10.1093/rfs/hhag100",
+      "doi": "10.1093/rfs/hhag100",
+      "aliases": [
+        "doi:10.1093/rfs/hhag100"
+      ],
+      "first_public_date": "2026-11-23",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "rfs",
+          "name": "The Review of Financial Studies",
+          "url": "https://doi.org/10.1093/rfs/hhag100"
+        }
+      ],
+      "id": "p_03713d5bef5fc2",
+      "discovered_at": "2026-11-24",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-24",
+          "source_id": "rfs"
+        }
+      ]
+    },
+    {
+      "title": "Hedging by Giving: Spiritual Insurance and Religious Donations",
+      "authors": [
+        "Yu-Jane Liu",
+        "Juanjuan Meng",
+        "Dalin Sheng",
+        "Guangxin Yang",
+        "Yu Zhang"
+      ],
+      "abstract": "Abstract We investigate “spiritual insurance”—a mental strategy for coping with risk, where individuals engage in good deeds, including donations, in exchange for perceived blessings and protection. Using bank transactional data, we show that higher income uncertainty and health shocks lead to increased donations, particularly to religious charities. Moreover, individuals who donate to religious charities tend to reduce insurance expenditures. In a field experiment on millions of potential donors through an online platform, we find that spiritual insurance narratives increase giving, providing",
+      "source_url": "https://doi.org/10.1017/s0022109026103482",
+      "doi": "10.1017/s0022109026103482",
+      "aliases": [
+        "doi:10.1017/s0022109026103482"
+      ],
+      "first_public_date": "2026-11-23",
+      "stage": "journal",
+      "discipline": "banking",
+      "sources": [
+        {
+          "id": "jfqa",
+          "name": "Journal of Financial and Quantitative Analysis",
+          "url": "https://doi.org/10.1017/s0022109026103482"
+        }
+      ],
+      "id": "p_678181dcf73b55",
+      "discovered_at": "2026-11-24",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-24",
+          "source_id": "jfqa"
+        }
+      ]
+    },
+    {
+      "title": "Limits of Disclosure in Search Markets",
+      "authors": [
+        "Raphael Boleslavsky",
+        "Silvana Krasteva"
+      ],
+      "abstract": "Abstract This paper examines competitive information disclosure in search markets with a mix of selective consumers, who search costlessly, and casual consumers, who incur positive search costs. Selective consumers incentivize truthful disclosure; casual consumers, concealment. With both types, the equilibrium features partial disclosure, which persists despite intense competition. Casual consumers may search actively, but only in small markets. While selective consumers benefit from increased competition, casual consumers may be harmed. Changes in search costs have non-monotone effects: the e",
+      "source_url": "https://doi.org/10.1093/restud/rdag129",
+      "doi": "10.1093/restud/rdag129",
+      "aliases": [
+        "doi:10.1093/restud/rdag129"
+      ],
+      "first_public_date": "2026-11-23",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "restud",
+          "name": "The Review of Economic Studies",
+          "url": "https://doi.org/10.1093/restud/rdag129"
+        }
+      ],
+      "id": "p_8fb7b8471aa7b9",
+      "discovered_at": "2026-11-24",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-24",
+          "source_id": "restud"
+        }
+      ]
+    },
+    {
+      "title": "Taxing Homeowners Who Can't or Won't Borrow",
+      "authors": [
+        "Francis Wong"
+      ],
+      "abstract": "Abstract Using high-frequency administrative data covering millions of US homeowners, I document three novel facts about homeowner responses to property tax increases driven by rising home values. First, non-migrating homeowners cut consumption, exhibit financial distress, and do not borrow against their higher home values. Second, heterogeneity analysis shows that consumption responses do not vary by liquidity, consistent with savings target behavior. In contrast, distress responses are concentrated among liquidity-constrained homeowners. Many homeowners report being debt averse and therefore",
+      "source_url": "https://doi.org/10.1093/restud/rdag127",
+      "doi": "10.1093/restud/rdag127",
+      "aliases": [
+        "doi:10.1093/restud/rdag127"
+      ],
+      "first_public_date": "2026-11-23",
+      "stage": "journal",
+      "discipline": "public-econ",
+      "sources": [
+        {
+          "id": "restud",
+          "name": "The Review of Economic Studies",
+          "url": "https://doi.org/10.1093/restud/rdag127"
+        }
+      ],
+      "id": "p_5e2e94258e5f0e",
+      "discovered_at": "2026-11-24",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-24",
+          "source_id": "restud"
+        }
+      ]
+    },
+    {
+      "title": "Information Design with Supplemental Investment",
+      "authors": [
+        "Lin Nan",
+        "Lin Qiu",
+        "Xiaoyan Wen",
+        "Ronghuo Zheng"
+      ],
+      "abstract": "This paper features a setting with two-dimensional information asymmetry on a firm’s fundamental (good or bad type) and the nature of its supplemental investment (improving upside potential, or mitigating downside risk). We examine the firm’s optimal design of the information system when the system can only address the dimension of fundamental. We show that, with only single-dimensional information asymmetry regarding the firm’s fundamental, greater informativeness on the firm’s fundamental type always improves efficiency. However, with two-dimensional information asymmetry, increasing informa",
+      "source_url": "https://doi.org/10.1287/mnsc.2025.00524",
+      "doi": "10.1287/mnsc.2025.00524",
+      "aliases": [
+        "doi:10.1287/mnsc.2025.00524"
+      ],
+      "first_public_date": "2026-11-23",
+      "stage": "journal",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2025.00524"
+        }
+      ],
+      "id": "p_f6c760ea003fb0",
+      "discovered_at": "2026-11-24",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-24",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Learning from a Biased Sample",
+      "authors": [
+        "Roshni Sahoo",
+        "Lihua Lei",
+        "Stefan Wager"
+      ],
+      "abstract": "The empirical risk minimization approach to data-driven decision making requires access to training data drawn under the same conditions as those that will be faced when the decision rule is deployed. However, we may be concerned that our training sample is biased in the sense that some groups (characterized by either observable or unobservable attributes) may be under- or over-represented relative to the general population; and in this setting, empirical risk minimization over the training set may fail to yield rules that perform well at deployment. We propose a model of sampling bias called ",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.08073",
+      "doi": "10.1287/mnsc.2024.08073",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.08073"
+      ],
+      "first_public_date": "2026-11-23",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.08073"
+        }
+      ],
+      "id": "p_48390f0c135f36",
+      "discovered_at": "2026-11-24",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-24",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Stockouts and the Success of New Products",
+      "authors": [
+        "Diego Aparicio",
+        "Duncan I. Simester"
+      ],
+      "abstract": "We investigate how stockouts of existing products influence the success of new product introductions. Our findings reveal that stockouts on incumbent items at the time a new product is launched are associated with higher sales of the new product for at least six months. This positive spillover is specific to new products and is most potent at the start of the product life cycle. To establish causality, we use instrumental variables based on historical stockouts and contemporaneous stockouts in other stores. Analysis of individual-level transaction data corroborates a trial-and-adoption mechani",
+      "source_url": "https://doi.org/10.1287/mnsc.2023.02602",
+      "doi": "10.1287/mnsc.2023.02602",
+      "aliases": [
+        "doi:10.1287/mnsc.2023.02602"
+      ],
+      "first_public_date": "2026-11-23",
+      "stage": "journal",
+      "discipline": "methods",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.02602"
+        }
+      ],
+      "id": "p_a4c2e558181618",
+      "discovered_at": "2026-11-24",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-24",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Optimal Incentive Design for Decentralized Dynamic Matching Markets",
+      "authors": [
+        "Chen Chen",
+        "Pengyu Qian",
+        "Jingwei Zhang"
+      ],
+      "abstract": "In decentralized dynamic matching markets, agents can benefit from sharing resources, but they will collaborate only if properly incentivized. Motivated by applications such as multihospital kidney exchanges and job-hunting markets, this paper proposes novel monetary and nonmonetary mechanisms to incentivize collaboration in such decentralized dynamic markets. We study a model in which multiple self-interested agents manage local multiway dynamic matching problems. Jobs of different types arrive stochastically at each agent, expire after a limited time, and yield rewards when matched. An agent",
+      "source_url": "https://doi.org/10.1287/mnsc.2025.01346",
+      "doi": "10.1287/mnsc.2025.01346",
+      "aliases": [
+        "doi:10.1287/mnsc.2025.01346"
+      ],
+      "first_public_date": "2026-11-23",
+      "stage": "journal",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2025.01346"
+        }
+      ],
+      "id": "p_86fbfe249e2e85",
+      "discovered_at": "2026-11-24",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-24",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Proximity-Based Delivery Policies: Efficiency, Coverage, and Fairness",
+      "authors": [
+        "Zhongbin Wang",
+        "Shiliang Cui",
+        "Yongjian Li",
+        "Qian Zhang"
+      ],
+      "abstract": "The growing demand for rapid food and grocery delivery has prompted many restaurants and retailers to develop their own on-demand delivery services. Although hiring additional couriers can expand delivery capacity, it is often prohibitively costly. As a cost-effective alternative, we propose a proximity-based delivery (PBD) policy that prioritizes the delivery of orders from customers located closer to the vendor, in contrast to the traditional first-come-first-served (FCFS) approach. We show that PBD can substantially reduce average delivery delays without requiring additional couriers; howev",
+      "source_url": "https://doi.org/10.1287/mnsc.2025.02206",
+      "doi": "10.1287/mnsc.2025.02206",
+      "aliases": [
+        "doi:10.1287/mnsc.2025.02206"
+      ],
+      "first_public_date": "2026-11-23",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2025.02206"
+        }
+      ],
+      "id": "p_75bb1a951b4a4d",
+      "discovered_at": "2026-11-24",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-24",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Deep Tangency Portfolio",
+      "authors": [
+        "Guanhao Feng",
+        "Liang Jiang",
+        "Junye Li",
+        "Yizhi Song",
+        "Yuanzhi Wang"
+      ],
+      "abstract": "We develop a deep learning framework to directly estimate tangency portfolio weights by augmenting benchmark factors with a long-short deep factor derived from high-dimensional characteristics. Guided by a Sharpe ratio maximization objective, the deep factor plays two key roles: (i) providing a natural hedge against benchmark risks and (ii) capturing multimarket signals to enhance the performance of the benchmark. In an empirical application to U.S. corporate bonds using 132 firm-level bond, equity, and option characteristics, the deep factor achieves an out-of-sample Sharpe ratio exceeding on",
+      "source_url": "https://doi.org/10.1287/mnsc.2023.03136",
+      "doi": "10.1287/mnsc.2023.03136",
+      "aliases": [
+        "doi:10.1287/mnsc.2023.03136"
+      ],
+      "first_public_date": "2026-11-23",
+      "stage": "journal",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.03136"
+        }
+      ],
+      "id": "p_867dc34b07a7f8",
+      "discovered_at": "2026-11-24",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-24",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Trade Liberalisation and Intergenerational Educational Mobility in India",
+      "authors": [
+        "Subhasish Dey",
+        "Aslesha Pathapati"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jdeveco.2026.103974",
+      "doi": "10.1016/j.jdeveco.2026.103974",
+      "aliases": [
+        "doi:10.1016/j.jdeveco.2026.103974"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "trade",
+      "sources": [
+        {
+          "id": "jde",
+          "name": "Journal of Development Economics",
+          "url": "https://doi.org/10.1016/j.jdeveco.2026.103974"
+        }
+      ],
+      "id": "p_133bca714af157",
+      "discovered_at": "2026-11-24",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-24",
+          "source_id": "jde"
+        }
+      ]
+    },
     {
       "title": "DP22207 The Third Great Transition: From Human-Bound to Autonomous AI-Driven Innovation",
       "authors": [
