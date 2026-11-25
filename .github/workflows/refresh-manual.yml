@@ -2,7 +2,7 @@ name: Refresh papers (daily + manual)
 
 # Daily 09:17 Asia/Shanghai (01:17 UTC), ahead of the 12:00 briefing.
 # A one-off source refresh validates official conference-program link monitoring.
-# Push on changes to THIS workflow triggers initial bootstrap exactly once.
+# Push changes run an incremental validation; use workflow_dispatch for explicit backfills.
 on:
   push:
     paths:
@@ -39,11 +39,11 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  refresh-and-deploy:
+  refresh-and-build:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+    outputs:
+      artifact_name: ${{ steps.artifact_name.outputs.name }}
+      source_health: ${{ steps.source_health.outcome }}
     steps:
       - uses: actions/checkout@v6
         with:
@@ -56,7 +56,7 @@ jobs:
           RADAR_CONTACT_EMAIL: ${{ vars.RADAR_CONTACT_EMAIL }}
           SINCE_DAYS: ${{ inputs.since_days || '21' }}
           MAX_PER_SOURCE: ${{ inputs.max_per_source || '250' }}
-          BACKFILL_DAYS: ${{ inputs.backfill_days || (github.event_name == 'push' && '90' || '0') }}
+          BACKFILL_DAYS: ${{ inputs.backfill_days || '0' }}
         run: python scripts/ingest.py --since-days "$SINCE_DAYS" --backfill-days "$BACKFILL_DAYS" --max-per-source "$MAX_PER_SOURCE"
       - name: Monitor official conference-program links
         run: python scripts/conference_watch.py
@@ -78,35 +78,92 @@ jobs:
           fi
       - name: Build static site
         run: python scripts/build_site.py
+      - name: Verify source completeness
+        id: source_health
+        # Retain and publish a partial bibliography; report a hard health failure after deployment.
+        continue-on-error: true
+        run: python scripts/source_health.py
       - uses: actions/configure-pages@v5
+      - name: Choose attempt-specific Pages artifact name
+        id: artifact_name
+        run: echo "name=github-pages-${GITHUB_RUN_ATTEMPT}" >> "$GITHUB_OUTPUT"
       - uses: actions/upload-pages-artifact@v4
         with:
+          name: ${{ steps.artifact_name.outputs.name }}
           path: dist
-      # Pages artifact metadata can lag a successful upload by several seconds.
-      - name: Wait for Pages artifact metadata
+          retention-days: 3
+
+  deploy:
+    needs: refresh-and-build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url || steps.deployment_retry.outputs.page_url || steps.deployment_retry_2.outputs.page_url || steps.deployment_final.outputs.page_url }}
+    steps:
+      # A successful REST lookup does not guarantee deploy-pages can see the same artifact.
+      - name: Wait for Pages artifact metadata to stabilize
         env:
           GH_TOKEN: ${{ github.token }}
+          ARTIFACT_NAME: ${{ needs.refresh-and-build.outputs.artifact_name }}
         run: |
           set -euo pipefail
-          for attempt in $(seq 1 18); do
-            count="$(gh api \
-              "repos/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}/artifacts?name=github-pages" \
-              --jq '[.artifacts[] | select(.name == "github-pages" and .expired == false)] | length' 2>/dev/null || echo 0)"
-            if [ "$count" -eq 1 ]; then
-              echo "Pages artifact available (attempt $attempt)."
-              exit 0
-            fi
-            if [ "$count" -gt 1 ]; then
-              echo "::error::Multiple github-pages artifacts found in the same run."
+          : "${ARTIFACT_NAME:?Missing build artifact name}"
+          consecutive=0
+          for attempt in $(seq 1 12); do
+            count="$(gh api "repos/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}/artifacts?name=${ARTIFACT_NAME}" --jq '[.artifacts[] | select(.expired == false)] | length' 2>/dev/null || echo 0)"
+            if [ "$count" = 1 ]; then
+              consecutive=$((consecutive + 1))
+              if [ "$consecutive" -ge 2 ]; then
+                echo "Pages artifact visible on two consecutive checks."
+                exit 0
+              fi
+            elif [ "$count" -gt 1 ]; then
+              echo "::error::Multiple artifacts with the attempt-specific name."
               exit 1
+            else
+              consecutive=0
             fi
-            echo "Waiting for Pages artifact metadata ($attempt/18)."
-            sleep 5
+            sleep 10
           done
-          echo "::error::Pages artifact metadata still unavailable after 90 seconds."
-          exit 1
+          echo "::warning::Artifact metadata not consistently visible; attempting bounded Pages deployment retries."
+      # Retry only deployment, not ingestion or upload. The final failure remains a real job failure.
       - name: Deploy refreshed site
         id: deployment
         uses: actions/deploy-pages@v4
-      - name: Verify source completeness
-        run: python scripts/source_health.py
+        continue-on-error: true
+        with:
+          artifact_name: ${{ needs.refresh-and-build.outputs.artifact_name }}
+      - name: Delay before deployment attempt 2
+        if: steps.deployment.outcome == 'failure'
+        run: sleep 15
+      - name: Retry Pages deployment
+        id: deployment_retry
+        if: steps.deployment.outcome == 'failure'
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+        with:
+          artifact_name: ${{ needs.refresh-and-build.outputs.artifact_name }}
+      - name: Delay before deployment attempt 3
+        if: steps.deployment.outcome == 'failure' && steps.deployment_retry.outcome == 'failure'
+        run: sleep 30
+      - name: Retry Pages deployment again
+        id: deployment_retry_2
+        if: steps.deployment.outcome == 'failure' && steps.deployment_retry.outcome == 'failure'
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+        with:
+          artifact_name: ${{ needs.refresh-and-build.outputs.artifact_name }}
+      - name: Delay before deployment attempt 4
+        if: steps.deployment.outcome == 'failure' && steps.deployment_retry.outcome == 'failure' && steps.deployment_retry_2.outcome == 'failure'
+        run: sleep 60
+      - name: Final Pages deployment attempt
+        id: deployment_final
+        if: steps.deployment.outcome == 'failure' && steps.deployment_retry.outcome == 'failure' && steps.deployment_retry_2.outcome == 'failure'
+        uses: actions/deploy-pages@v4
+        with:
+          artifact_name: ${{ needs.refresh-and-build.outputs.artifact_name }}
+      - name: Report hard source completeness failure
+        if: always() && needs.refresh-and-build.outputs.source_health != 'success'
+        run: |
+          echo "::error::Source completeness check failed; see refresh-and-build logs."
+          exit 1
