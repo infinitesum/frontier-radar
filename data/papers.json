@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "snapshot": "incremental-ingestion",
-  "updated_at": "2026-11-25T09:54:46+00:00",
+  "updated_at": "2026-11-25T16:16:31+00:00",
   "papers": [
     {
       "title": "Carbon home bias",
@@ -188,6 +188,385 @@
           "kind": "discovered",
           "date": "2026-11-25",
           "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22218 Under Pressure? Experimental Evidence of Parental and Peer Observability on Students’ Occupational Aspirations Maximilian",
+      "authors": [
+        "Christina Felfe, Lea Cassar, Denise Feigl, Maximilian Mueller"
+      ],
+      "abstract": "We provide causal evidence on how perceived social pressure shapes students’ occupational aspirations, tracing when such influences first emerge across school years. In a randomized control trial with 2,840 secondary school students, we vary the observability of stated occupational aspirations to parents or peers. Making aspirations visible reinforces stereotypical choices, increasing the STEM gender gap by 76% under parental and by 39% under peer observability, with effects already emerging in sixth grade. Notably, beliefs about occupations shift after aspirations were elicited under parental",
+      "source_url": "https://cepr.org/publications/dp22218",
+      "doi": "",
+      "aliases": [
+        "cepr:22218"
+      ],
+      "first_public_date": "2026-11-25",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22218"
+        }
+      ],
+      "id": "p_19c0614c6c3481",
+      "discovered_at": "2026-11-25",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-25",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22220 The Value of Life across Generations: Fertility and Parental Investment",
+      "authors": [
+        "Youngsoo Jang, Minchul Yum"
+      ],
+      "abstract": "We study survival valuation in a quantitative dynastic life-cycle model of heterogeneous agents choosing fertility and parental investment. Calibrated to the pre-baby-boom United States, the model generates a substantial dynastic premium over own-life valuation, amplified by parental investments. Removing earnings risk raises fertility more when descendants also benefit. Holding current fertility fixed, the premium likewise responds more strongly to risk removal across generations. Declining maternal mortality and improved old-age survival both raise fertility. The premium changes little under",
+      "source_url": "https://cepr.org/publications/dp22220",
+      "doi": "",
+      "aliases": [
+        "cepr:22220"
+      ],
+      "first_public_date": "2026-11-25",
+      "stage": "working-paper",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22220"
+        }
+      ],
+      "id": "p_231e9e39e4a5bb",
+      "discovered_at": "2026-11-25",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-25",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22219 Exposure to Inequality, Human Capital Investment, and Labor Market Outcomes",
+      "authors": [
+        "Jan Bietenbeck, Matthew Collins, Petter Lundborg, Kaveh Majlesi, Adrián Nieto"
+      ],
+      "abstract": "We estimate the effects of exposure to economic inequality among school peers, measured using parental income and wealth, on long-term educational and labor-market outcomes in Sweden and the United States. Using detailed Swedish register data covering all students completing compulsory education between 1989 and 2013, we construct measures of inequality among students’ school-cohort peers and exploit variation between cohorts within schools to identify plausibly causal effects. We find no evidence that exposure to peer inequality affects GPA, high school graduation, university enrollment, univ",
+      "source_url": "https://cepr.org/publications/dp22219",
+      "doi": "",
+      "aliases": [
+        "cepr:22219"
+      ],
+      "first_public_date": "2026-11-25",
+      "stage": "working-paper",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22219"
+        }
+      ],
+      "id": "p_5c890025adb719",
+      "discovered_at": "2026-11-25",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-25",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22217 When Discoveries Count More: Incentives and the Credibility of Experimental Evidence",
+      "authors": [
+        "Isabelle Brocas"
+      ],
+      "abstract": "The evidential value of an experimental finding depends not only on its reported statistic but also on the decisions that produced it. This paper develops a common framework for analyzing how hidden attempts, analytic discretion, participant exclusion, optional stopping, design search, and mismatches between design and inference affect experimental evidence. It also examines unanticipated discoveries, the sequential interpretation of results, replication, and refereeing. Eleven propositions and simulations establish several results. A discovery selected from an unknown number of attempts can c",
+      "source_url": "https://cepr.org/publications/dp22217",
+      "doi": "",
+      "aliases": [
+        "cepr:22217"
+      ],
+      "first_public_date": "2026-11-25",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22217"
+        }
+      ],
+      "id": "p_b02d1c0cbf9f38",
+      "discovered_at": "2026-11-25",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-25",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22216 Signal Extraction in Centralized Assignment: Evidence from Teacher Recruiting",
+      "authors": [
+        "Matteo Bobba, Gianmarco Leon-Ciliotta, Tim Ederer, Christopher Neilson, Marco Nieddu"
+      ],
+      "abstract": "We study the design of decentralized signal extraction in centralized assignment. Using data on Peru’s nationwide teacher allocation mechanism, we estimate a rich model of applicants’ behavior, teacher effectiveness and schools’ discretionary screening accounting for heterogeneity in schools’ preferences and signal-extraction ability. Decentralized screening improves the effectiveness of selected teachers on average relative to test-based hiring, but its returns vary substantially across schools. We find that efficiently allocating screening capacity according to schools’ signal extraction abi",
+      "source_url": "https://cepr.org/publications/dp22216",
+      "doi": "",
+      "aliases": [
+        "cepr:22216"
+      ],
+      "first_public_date": "2026-11-25",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22216"
+        }
+      ],
+      "id": "p_9a9c8f20c632ab",
+      "discovered_at": "2026-11-25",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-25",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22215 Uncertainty Shocks and Macroeconomic Effects: Insights from Volatility Term Structures",
+      "authors": [
+        "Tatevik Sekhposyan, Seongjin Kim, Dakyung Seong, Melissa Song"
+      ],
+      "abstract": "Conventional measures such as the VIX capture uncertainty over a single, short horizon, obscuring whether markets expect it to fade or persist. We use the VIX futures term structure to measure uncertainty shocks as within-month shifts in the curve, capturing both their size and how they vary across maturities. These differences matter for macroeconomic outcomes: shocks concentrated at short maturities produce sharp but temporary contractions, those at medium maturities produce the most persistent rise in unemployment, and shocks that raise uncertainty uniformly produce a smaller, delayed decli",
+      "source_url": "https://cepr.org/publications/dp22215",
+      "doi": "",
+      "aliases": [
+        "cepr:22215"
+      ],
+      "first_public_date": "2026-11-25",
+      "stage": "working-paper",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22215"
+        }
+      ],
+      "id": "p_36ad46fa36a9f0",
+      "discovered_at": "2026-11-25",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-25",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "International Power",
+      "authors": [
+        "Ernest Liu",
+        "David Y Yang"
+      ],
+      "abstract": "Abstract An interconnected world increases economic efficiency while giving certain countries leverage over others. We aim to describe and understand international power stemming from trade. Using an illustrative model of trade with possibilities of bilateral disputes and ex-post hold-ups, we highlight that bilateral asymmetry in import dependence can be a source of power towards one another. We construct the model-implied measure of international power — asymmetric bilateral import dependence, weighted inversely by sectoral trade elasticities — across country pairs over the past 20 years. Com",
+      "source_url": "https://doi.org/10.1093/qje/qjag061",
+      "doi": "10.1093/qje/qjag061",
+      "aliases": [
+        "doi:10.1093/qje/qjag061"
+      ],
+      "first_public_date": "2026-11-25",
+      "stage": "journal",
+      "discipline": "trade",
+      "sources": [
+        {
+          "id": "qje",
+          "name": "The Quarterly Journal of Economics",
+          "url": "https://doi.org/10.1093/qje/qjag061"
+        }
+      ],
+      "id": "p_8ef1f998470043",
+      "discovered_at": "2026-11-25",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-25",
+          "source_id": "qje"
+        }
+      ]
+    },
+    {
+      "title": "The Labor Demand and Labor Supply Channels of Monetary Policy",
+      "authors": [
+        "Sebastian Graves",
+        "Christopher Huckfeldt",
+        "Eric T Swanson"
+      ],
+      "abstract": "Abstract Monetary policy is typically understood to affect employment through labor demand, with the role of labor supply receiving less consideration. We estimate the response of labor market flows to high-frequency changes in interest rates around FOMC announcements and Fed Chair speeches, and find that a contractionary monetary policy shock leads to a significant increase in labor supply: workers reduce the rate at which they quit jobs to nonemployment, and non-employed individuals increase their job-seeking behavior. These effects are quantitatively important: holding supply-driven labor m",
+      "source_url": "https://doi.org/10.1093/restud/rdag132",
+      "doi": "10.1093/restud/rdag132",
+      "aliases": [
+        "doi:10.1093/restud/rdag132"
+      ],
+      "first_public_date": "2026-11-25",
+      "stage": "journal",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "restud",
+          "name": "The Review of Economic Studies",
+          "url": "https://doi.org/10.1093/restud/rdag132"
+        }
+      ],
+      "id": "p_afcb3780693393",
+      "discovered_at": "2026-11-25",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-25",
+          "source_id": "restud"
+        }
+      ]
+    },
+    {
+      "title": "Scalable Just-in-Time Price Elasticity Estimation",
+      "authors": [
+        "Jingbo Wang",
+        "Yufeng Huang"
+      ],
+      "abstract": "This paper presents a scalable, nonparametric approach to estimating point-wise price elasticities designed for real-time pricing decisions. A key challenge in these settings is correcting for price endogeneity while remaining computationally efficient. We address this by leveraging nonparametric control functions to decompose the identification of causal elasticities into a sequence of scalable intermediate prediction tasks. We implement this framework with bootstrap averaged (bagged) nearest neighbors, which admits a closed-form representation that enables scalable, real-time implementation.",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.04791",
+      "doi": "10.1287/mnsc.2024.04791",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.04791"
+      ],
+      "first_public_date": "2026-11-25",
+      "stage": "journal",
+      "discipline": "methods",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.04791"
+        }
+      ],
+      "id": "p_73f1645523a41e",
+      "discovered_at": "2026-11-25",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-25",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "When GenAI Increases Inequality: Evidence from a University Debating Competition",
+      "authors": [
+        "Antonio Roldán-Monés"
+      ],
+      "abstract": "Research on Generative AI (GenAI) and work reports both productivity-compressing and inequality-expanding effects, leaving open a central question for organizations: Who benefits from GenAI and on which specific tasks? I address this question through a randomized controlled trial in competitive university debating, where participants are randomly assigned access to GenAI. Although most previous experimental work examines the impact of GenAI on written activities and across individuals, this setting allows me to study the impact of GenAI on a knowledge-intensive spoken activity and to identify ",
+      "source_url": "https://doi.org/10.1287/mnsc.2025.01063",
+      "doi": "10.1287/mnsc.2025.01063",
+      "aliases": [
+        "doi:10.1287/mnsc.2025.01063"
+      ],
+      "first_public_date": "2026-11-25",
+      "stage": "journal",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2025.01063"
+        }
+      ],
+      "id": "p_122498baee5b87",
+      "discovered_at": "2026-11-25",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-25",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Online Job Selection: Reward Rate vs. Remaining Value",
+      "authors": [
+        "Mohammad Reza Aminian",
+        "Will Ma",
+        "Linwei Xin"
+      ],
+      "abstract": "High-throughput systems, such as cloud spot markets, adaptive large language model inference, and order consolidation in logistics, operate under capacity constraints. In these settings, decision makers must allocate fixed resources among a stream of requests with heterogeneous reward rates and service durations. A critical tension arises when capacity is saturated; the system must decide whether to continue serving an active job to harvest its remaining value or to preempt it in favor of a new arrival. This trade-off is especially subtle when a new job offers a lower immediate reward rate but",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.09109",
+      "doi": "10.1287/mnsc.2024.09109",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.09109"
+      ],
+      "first_public_date": "2026-11-25",
+      "stage": "journal",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.09109"
+        }
+      ],
+      "id": "p_62e5df45c53d7d",
+      "discovered_at": "2026-11-25",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-25",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Machine Learning Vast Dynamic Conditional Covariance Matrices: The Spirit of “Divide and Conquer”",
+      "authors": [
+        "Zhoufan Zhu",
+        "Ke Zhu"
+      ],
+      "abstract": "Large-scale portfolio selection requires accurate forecasts of high-dimensional dynamic conditional covariance matrices (CCMs). This task is challenging because the number of covariance elements grows quickly with the number of assets, whereas the available time-series observations are limited and noisy. In this paper, we propose a novel graph-based quantiled (GRAND) CCM estimator in the spirit of “divide and conquer.” By extracting information from the extensive asset features, the GRAND method leverages a new graph-based deep learning network, called the self-grouping autoencoder (SGA), to l",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.08930",
+      "doi": "10.1287/mnsc.2024.08930",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.08930"
+      ],
+      "first_public_date": "2026-11-25",
+      "stage": "journal",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.08930"
+        }
+      ],
+      "id": "p_aa0eb87a58430b",
+      "discovered_at": "2026-11-25",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-25",
+          "source_id": "ms"
         }
       ]
     },
