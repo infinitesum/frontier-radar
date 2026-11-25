@@ -5,7 +5,7 @@
       "id": "afa",
       "name": "American Finance Association",
       "url": "https://afajof.org/annual-meeting/",
-      "checked_at": "2026-11-24T19:00:24+08:00",
+      "checked_at": "2026-11-25T17:54:46+08:00",
       "status": "ok",
       "error": "",
       "fingerprint": "7dbb63299e39608b",
@@ -90,7 +90,7 @@
       "id": "wfa",
       "name": "Western Finance Association",
       "url": "https://westernfinance.org/",
-      "checked_at": "2026-11-24T19:00:24+08:00",
+      "checked_at": "2026-11-25T17:54:46+08:00",
       "status": "ok",
       "error": "",
       "fingerprint": "7960411fdd419cd3",
@@ -110,7 +110,7 @@
       "id": "efa",
       "name": "European Finance Association",
       "url": "https://www.efa-finance.org/efa-annual-meeting/",
-      "checked_at": "2026-11-24T19:00:24+08:00",
+      "checked_at": "2026-11-25T17:54:46+08:00",
       "status": "ok",
       "error": "",
       "fingerprint": "a4cab6295efc8039",
@@ -231,10 +231,10 @@
       "id": "sfs",
       "name": "SFS Cavalcade",
       "url": "https://sfs.org/",
-      "checked_at": "2026-11-24T19:00:24+08:00",
+      "checked_at": "2026-11-25T17:54:46+08:00",
       "status": "ok",
       "error": "",
-      "fingerprint": "4e8f4c52c37f4ce4",
+      "fingerprint": "af3ef8a60143a164",
       "program_links": [
         {
           "title": "Submit a Paper",
@@ -259,16 +259,20 @@
         {
           "title": "Submit a Paper",
           "url": "https://sfs.org/review-of-corporate-finance-studies/submit-a-paper/"
+        },
+        {
+          "title": "RCFS Winter Conference 2027",
+          "url": "https://sfs.org/rcfs-winter-conference-2027/"
         }
       ],
       "initial_snapshot_at": "2026-10-22T05:08:48+08:00",
-      "last_link_change": "2026-11-19T16:50:47+08:00"
+      "last_link_change": "2026-11-25T17:54:46+08:00"
     },
     "firs": {
       "id": "firs",
       "name": "FIRS",
       "url": "https://firsociety.org/",
-      "checked_at": "2026-11-24T19:00:24+08:00",
+      "checked_at": "2026-11-25T17:54:46+08:00",
       "status": "ok",
       "error": "",
       "fingerprint": "0c1a7bd1b0b64e18",
@@ -284,7 +288,7 @@
       "id": "cicf",
       "name": "CICF",
       "url": "https://www.cicf-conf.org/en/index.php?c=category&id=34",
-      "checked_at": "2026-11-24T19:00:24+08:00",
+      "checked_at": "2026-11-25T17:54:46+08:00",
       "status": "ok",
       "error": "",
       "fingerprint": "1b175c545a3e3759",
@@ -312,7 +316,7 @@
       "id": "nber-si",
       "name": "NBER Summer Institute",
       "url": "https://www.nber.org/conferences/summer-institute",
-      "checked_at": "2026-11-24T19:00:24+08:00",
+      "checked_at": "2026-11-25T17:54:46+08:00",
       "status": "ok",
       "error": "",
       "fingerprint": "e7585629f597ecff",
@@ -349,7 +353,7 @@
       "id": "cfrc",
       "name": "China Financial Research Conference",
       "url": "https://cfrc.pbcsf.tsinghua.edu.cn/cfrc2026en/CONFERENCE_PROGRAM.htm",
-      "checked_at": "2026-11-24T19:00:24+08:00",
+      "checked_at": "2026-11-25T17:54:46+08:00",
       "status": "ok",
       "error": "",
       "fingerprint": "7e427879b3b4b65b",
@@ -406,7 +410,7 @@
       "id": "aea",
       "name": "AEA Annual Meetings",
       "url": "https://benny.aeaweb.org/conference/",
-      "checked_at": "2026-11-24T19:00:24+08:00",
+      "checked_at": "2026-11-25T17:54:46+08:00",
       "status": "ok",
       "error": "",
       "fingerprint": "3623a8ccabe725ba",
@@ -744,7 +748,19 @@
         }
       ],
       "note": "Official landing-page links changed; actual paper titles are not verified"
+    },
+    {
+      "kind": "program-link-change",
+      "conference_id": "sfs",
+      "date": "2026-11-25T17:54:46+08:00",
+      "new_links": [
+        {
+          "title": "RCFS Winter Conference 2027",
+          "url": "https://sfs.org/rcfs-winter-conference-2027/"
+        }
+      ],
+      "note": "Official landing-page links changed; actual paper titles are not verified"
     }
   ],
-  "last_checked_at": "2026-11-24T19:00:24+08:00"
+  "last_checked_at": "2026-11-25T17:54:46+08:00"
 }

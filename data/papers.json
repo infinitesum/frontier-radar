@@ -1,8 +1,422 @@
 {
   "schema_version": 1,
   "snapshot": "incremental-ingestion",
-  "updated_at": "2026-11-24T11:00:23+00:00",
+  "updated_at": "2026-11-25T09:54:46+00:00",
   "papers": [
+    {
+      "title": "Carbon home bias",
+      "authors": [
+        "Patrick Bolton",
+        "Marc Eskildsen",
+        "Marcin Kacperczyk"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jfineco.2026.104402",
+      "doi": "10.1016/j.jfineco.2026.104402",
+      "aliases": [
+        "doi:10.1016/j.jfineco.2026.104402"
+      ],
+      "first_public_date": "2027-01",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jfe",
+          "name": "Journal of Financial Economics",
+          "url": "https://doi.org/10.1016/j.jfineco.2026.104402"
+        }
+      ],
+      "id": "p_d4bde09b04d954",
+      "discovered_at": "2026-11-25",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-25",
+          "source_id": "jfe"
+        }
+      ]
+    },
+    {
+      "title": "DP22212 What Would Jeeves Do? Inflation Expectations, AI Advice, and Household Spending",
+      "authors": [
+        "Yuriy Gorodnichenko, Philipp Heil"
+      ],
+      "abstract": "Using a large survey, we provide new evidence on how households use generative AI for macroeconomic information and advice. In a randomized controlled trial, we generate exogenous variation in inflation expectations and in access to a conversation with an AI assistant, allowing us to study how interactions with AI shape behavioral responses to expectations. Respondents mostly ask about their household budgets, and the AI generally recommends cutting back on expenditures. We show that this advice changes how expectations translate into planned and actual spending, so the pass-through from belie",
+      "source_url": "https://cepr.org/publications/dp22212",
+      "doi": "",
+      "aliases": [
+        "cepr:22212"
+      ],
+      "first_public_date": "2026-11-25",
+      "stage": "working-paper",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22212"
+        }
+      ],
+      "id": "p_67f2ea93ae9e3f",
+      "discovered_at": "2026-11-25",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-25",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22214 Growth effects of changes in social security  contribution rates in Germany",
+      "authors": [
+        "Balint Tatar, Volker Wieland"
+      ],
+      "abstract": "The German economy has been in stagnation for some time while the government is faced with high and rising costs of the social security system, defence and interest on debt. Structural reforms are needed to stabilize the social system and to strengthen potential growth. The recent reform package proposed by the German Pensions Commission represents an important step forward. Among other changes, it introduces a capital-funded element, which will help stabilize the existing pay-as-you-go statutory pension system. However, this will be financed by an increase of social security contributions on ",
+      "source_url": "https://cepr.org/publications/dp22214",
+      "doi": "",
+      "aliases": [
+        "cepr:22214"
+      ],
+      "first_public_date": "2026-11-25",
+      "stage": "working-paper",
+      "discipline": "public-econ",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22214"
+        }
+      ],
+      "id": "p_7c33eddd78993f",
+      "discovered_at": "2026-11-25",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-25",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22210 The Effect of Market Power on the Risk-free Rate",
+      "authors": [
+        "Shubhdeep Deb, Jan Eeckhout, Jose Lores-Diz"
+      ],
+      "abstract": "We study how market power affects the risk-free rate when monopoly profits are capitalized into risky equity. Our key contribution is to show that the risk of capitalized profits is crucial for the effect of market power on interest rates. We develop a continuous-time model in which heterogeneous households face labor-income and equity-return risk and allocate wealth between safe debt and risky equity. Higher markups reduce exposure to labor-income risk but increase exposure to equity risk, generating opposing effects on precautionary demand for safe assets. We quantify the model to match key ",
+      "source_url": "https://cepr.org/publications/dp22210",
+      "doi": "",
+      "aliases": [
+        "cepr:22210"
+      ],
+      "first_public_date": "2026-11-25",
+      "stage": "working-paper",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22210"
+        }
+      ],
+      "id": "p_7113054dbee5af",
+      "discovered_at": "2026-11-25",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-25",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22211 The Macroeconomics of Market Power",
+      "authors": [
+        "Jan De Loecker, Jan Eeckhout"
+      ],
+      "abstract": "This review article surveys the literature on the macroeconomics of market power. Since 1980, various aggregate measures of market power, such as markups, profit rates and market capitalization, have increased, in the US and around the globe. We discuss the challenges of measuring economy-wide market power, as well as a few leading likely determinants of this change. We find that the rise of aggregate markups is due in large part to the reallocation of market shares, as well as the rise of the inverse expenditure share on variable inputs. Instead, output elasticities have not risen. We then an",
+      "source_url": "https://cepr.org/publications/dp22211",
+      "doi": "",
+      "aliases": [
+        "cepr:22211"
+      ],
+      "first_public_date": "2026-11-25",
+      "stage": "working-paper",
+      "discipline": "macro",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22211"
+        }
+      ],
+      "id": "p_f77f356f1628b3",
+      "discovered_at": "2026-11-25",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-25",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22213 High-Frequency Identification",
+      "authors": [
+        "Refet S. Gürkaynak, Eric T. Swanson, Jonathan Wright"
+      ],
+      "abstract": "In macroeconomics and finance, it is very difficult to estimate causal effects with quarterly, monthly or similar lower frequency data because the relevant variables all tend to respond to each other. By contrast, in half-hour observation windows even monetary policy can be regarded as predetermined, which allows establishing causality. We discuss how this high-frequency identification idea is implemented for financial market event studies and macroeconomic vector autoregressions (VARs) and local projections (LPs), addressing finer points of data and measurement as well as conceptual issues an",
+      "source_url": "https://cepr.org/publications/dp22213",
+      "doi": "",
+      "aliases": [
+        "cepr:22213"
+      ],
+      "first_public_date": "2026-11-25",
+      "stage": "working-paper",
+      "discipline": "macro",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22213"
+        }
+      ],
+      "id": "p_ca3637b96cabbd",
+      "discovered_at": "2026-11-25",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-25",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "Fintech Expansion",
+      "authors": [
+        "Jing Huang"
+      ],
+      "abstract": "Abstract I study credit market outcomes with different competing lending technologies: a fintech lender that learns from data and can seize on-platform sales, and a banking sector that relies on physical collateral. Despite flexible information acquisition technology, endogenous fintech learning is surprisingly coarse, with a single threshold that screens out low-quality borrowers. As fintech lending technology improves, better enforcement harms, while better information technology benefits traditional banking sector profits. Big data technology enables the fintech to leverage data from its ea",
+      "source_url": "https://doi.org/10.1093/rfs/hhag101",
+      "doi": "10.1093/rfs/hhag101",
+      "aliases": [
+        "doi:10.1093/rfs/hhag101"
+      ],
+      "first_public_date": "2026-11-24",
+      "stage": "journal",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "rfs",
+          "name": "The Review of Financial Studies",
+          "url": "https://doi.org/10.1093/rfs/hhag101"
+        }
+      ],
+      "id": "p_e7a558f974ff15",
+      "discovered_at": "2026-11-25",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-25",
+          "source_id": "rfs"
+        }
+      ]
+    },
+    {
+      "title": "Generative AI And Creative Goods: Market Expansion, Crowd-Out, and Copyright",
+      "authors": [
+        "Samuel G Goldberg",
+        "H Tai Lam"
+      ],
+      "abstract": "Abstract We study how generative artificial intelligence (GenAI) affects creative goods markets using data from a large stock images marketplace. In December 2022, the platform announced it would allow artists to sell GenAI-produced images, subject to two conditions: all GenAI images must be labeled, and GenAI would be prohibited in certain markets. We exploit this policy variation using a difference-in-differences design. We estimate a 136% increase in image production and 47% increase in active artists, accompanied by a 15% decline in non-GenAI production and 29% decline in non-GenAI active ",
+      "source_url": "https://doi.org/10.1093/qje/qjag058",
+      "doi": "10.1093/qje/qjag058",
+      "aliases": [
+        "doi:10.1093/qje/qjag058"
+      ],
+      "first_public_date": "2026-11-24",
+      "stage": "journal",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "qje",
+          "name": "The Quarterly Journal of Economics",
+          "url": "https://doi.org/10.1093/qje/qjag058"
+        }
+      ],
+      "id": "p_6c1e9b82696054",
+      "discovered_at": "2026-11-25",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-25",
+          "source_id": "qje"
+        }
+      ]
+    },
+    {
+      "title": "Determinants of Norm Compliance: Moral Similarity and Group Identification",
+      "authors": [
+        "Alexander Schneeberger",
+        "Erin Krupka"
+      ],
+      "abstract": "What determines whether someone complies with a social norm? The social identity approach offers a mechanism for norm compliance: A person who feels similar to a group identifies more with that group and, in turn, complies with the group’s norms. Using an experiment, we test whether similarity in values increases identification and adherence to a group rule. To do so, we varied the similarity/dissimilarity between the values of an individual and members of a social group and measured group identification and rule compliance. We find that moral similarity in progressivism increases group identi",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.08000",
+      "doi": "10.1287/mnsc.2024.08000",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.08000"
+      ],
+      "first_public_date": "2026-11-24",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.08000"
+        }
+      ],
+      "id": "p_e57dd01ead98b4",
+      "discovered_at": "2026-11-25",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-25",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Screening, Investment Incentives, and the Welfare Trade-Offs of Privacy",
+      "authors": [
+        "Anastasios Dosis",
+        "Casey Rothschild"
+      ],
+      "abstract": "This paper studies how information disclosure affects investment incentives and contracting efficiency. We analyze a class of principal-agent models in which information helps the principal screen the agent but also facilitates surplus appropriation, thereby weakening the agent’s incentive to invest before contracting. Efficient privacy regimes balance these two forces. Along the frontier of efficient information policies, more privacy is associated with stronger investment incentives and higher agent payoff. We characterize conditions under which full privacy, full disclosure, or intermediate",
+      "source_url": "https://doi.org/10.1287/mnsc.2025.01507",
+      "doi": "10.1287/mnsc.2025.01507",
+      "aliases": [
+        "doi:10.1287/mnsc.2025.01507"
+      ],
+      "first_public_date": "2026-11-24",
+      "stage": "journal",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2025.01507"
+        }
+      ],
+      "id": "p_557e1113fb8444",
+      "discovered_at": "2026-11-25",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-25",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Gatekeepers and Kingmakers: Do Superplatforms Distort Digital Competition?",
+      "authors": [
+        "Umit G. Gurun",
+        "Zheng Liu",
+        "Steven Chong Xiao"
+      ],
+      "abstract": "The rising dominance of superplatforms raises concerns about conflicts of interest and externalities on innovation, because they act as both marketplace gatekeepers and strategic investors. Studying Google’s dual role via Google Ventures (GV) and the Android marketplace, we find Google-backed startups receive 115% more reviews, 12% higher ratings, and 77% fewer bug complaints than their iOS counterparts—despite no major app updates. These gains are consistent with selective review removal and platform promotion. Using a difference-in-differences approach with iOS versions as controls, we isola",
+      "source_url": "https://doi.org/10.1287/mnsc.2025.03354",
+      "doi": "10.1287/mnsc.2025.03354",
+      "aliases": [
+        "doi:10.1287/mnsc.2025.03354"
+      ],
+      "first_public_date": "2026-11-24",
+      "stage": "journal",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2025.03354"
+        }
+      ],
+      "id": "p_8b0e1e26ef7e33",
+      "discovered_at": "2026-11-25",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-25",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Widely Used Measures of Overconfidence Are Confounded with Ability",
+      "authors": [
+        "Stephen A. Spiller"
+      ],
+      "abstract": "Measures of overconfidence are used both to assess biases in people’s beliefs regarding their own abilities and to identify correlates of those biases. Proposed correlates of overconfidence include narcissism, social status, (low) task anxiety, savings, planning, and many more. Research on these correlates typically explicitly or implicitly claims that the associations with overconfidence are not attributable to ability (i.e., latent inputs enabling successful task performance, including inputs that vary across people, states, or contexts). I argue that several typical approaches used to measu",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.05184",
+      "doi": "10.1287/mnsc.2024.05184",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.05184"
+      ],
+      "first_public_date": "2026-11-24",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.05184"
+        }
+      ],
+      "id": "p_0c7620d5a4801c",
+      "discovered_at": "2026-11-25",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-25",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "The limits of commitment: Who benefits from illiquid savings products?",
+      "authors": [
+        "Niklas Buehren",
+        "Markus Goldstein",
+        "Leora Klapper",
+        "Tricia Koroknay-Palicz",
+        "Simone Schaner"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jdeveco.2026.103902",
+      "doi": "10.1016/j.jdeveco.2026.103902",
+      "aliases": [
+        "doi:10.1016/j.jdeveco.2026.103902"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jde",
+          "name": "Journal of Development Economics",
+          "url": "https://doi.org/10.1016/j.jdeveco.2026.103902"
+        }
+      ],
+      "id": "p_ed3e0e410cf2c0",
+      "discovered_at": "2026-11-25",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-25",
+          "source_id": "jde"
+        }
+      ]
+    },
     {
       "title": "Keep calm and bank on: Bank run risks and the role of public communication",
       "authors": [
