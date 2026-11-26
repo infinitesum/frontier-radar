@@ -1,8 +1,230 @@
 {
   "schema_version": 1,
   "snapshot": "incremental-ingestion",
-  "updated_at": "2026-11-25T16:16:31+00:00",
+  "updated_at": "2026-11-26T09:36:27+00:00",
   "papers": [
+    {
+      "title": "SALT cap workarounds",
+      "authors": [
+        "Matthew Comey",
+        "Brian Gallagher",
+        "William Gorman"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jpubeco.2026.105829",
+      "doi": "10.1016/j.jpubeco.2026.105829",
+      "aliases": [
+        "doi:10.1016/j.jpubeco.2026.105829"
+      ],
+      "first_public_date": "2026-12",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jpub",
+          "name": "Journal of Public Economics",
+          "url": "https://doi.org/10.1016/j.jpubeco.2026.105829"
+        }
+      ],
+      "id": "p_56aac9cf543fd8",
+      "discovered_at": "2026-11-26",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-26",
+          "source_id": "jpub"
+        }
+      ]
+    },
+    {
+      "title": "DP22223 The International Transmission of Commodity Supply Shocks and Inflation: High-Frequency Evidence from Interwar Futures Markets",
+      "authors": [
+        "Burçin Kısacıkoğlu, Sang Seok Lee, Kevin O'Rourke"
+      ],
+      "abstract": "Estimating the impact of commodity supply shocks on inflation is difficult since commodity prices are endogenous. In this paper, we directly measure quantity shocks to expected commodity supply, and estimate their impact on commodity prices and inflation. The context is the interwar cotton market, one of the most informationally and commercially integrated commodity markets at the time. Using a survey-based measure of US cotton supply shocks and high-frequency data on cotton spot and futures transactions from major cotton exchanges across countries–including tick-level futures data–we conduct ",
+      "source_url": "https://cepr.org/publications/dp22223",
+      "doi": "",
+      "aliases": [
+        "cepr:22223"
+      ],
+      "first_public_date": "2026-11-26",
+      "stage": "working-paper",
+      "discipline": "macro",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22223"
+        }
+      ],
+      "id": "p_d6457f6bd960a1",
+      "discovered_at": "2026-11-26",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-26",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22222 Good money in bad times: indirect issuance of banknotes in China, 1905-1936",
+      "authors": [
+        "Nuno Palma, Xin Dong, Dehua Li, Debin Ma, Meng Wu"
+      ],
+      "abstract": "China pioneered paper money yet entered the twentieth century without a unified national banknote. From 1905 to 1936, amid war, political fragmentation, and no effective central bank, its money supply expanded fourfold while prices rose only moderately. We highlight a neglected mechanism: indirect issuance, whereby non-issuing banks deposited reserves with authorized issuers to obtain their notes. Using newly digitized yearbooks, contracts, and archives, we show it accounted for 10-40% of annual issuance. Issuing banks supplied credibility; locally embedded receiving banks supplied reach. Born",
+      "source_url": "https://cepr.org/publications/dp22222",
+      "doi": "",
+      "aliases": [
+        "cepr:22222"
+      ],
+      "first_public_date": "2026-11-26",
+      "stage": "working-paper",
+      "discipline": "banking",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22222"
+        }
+      ],
+      "id": "p_2ba52dc884d8be",
+      "discovered_at": "2026-11-26",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-26",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "Juking the Stats: Policing, Misreporting, and Policy Evaluation",
+      "authors": [
+        "Michael Gibilisco",
+        "Carlo M Horz"
+      ],
+      "abstract": "Abstract We analyze a game-theoretic model of crime and crime reporting to study the quality of crime statistics. An offender potentially engages in illicit behavior; an enforcer chooses effort and how to report outcomes. Because of signaling concerns, the enforcer may misreport. We show that multiple equilibria can exist and characterize when crime is under- or overreported. Increasing the enforcer’s costs of data manipulation can backfire, increasing misreporting in crime statistics. When calculating treatment effects of parameter changes, the effect on reported statistics will not equal the",
+      "source_url": "https://doi.org/10.1093/restud/rdag130",
+      "doi": "10.1093/restud/rdag130",
+      "aliases": [
+        "doi:10.1093/restud/rdag130"
+      ],
+      "first_public_date": "2026-11-26",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "restud",
+          "name": "The Review of Economic Studies",
+          "url": "https://doi.org/10.1093/restud/rdag130"
+        }
+      ],
+      "id": "p_b848cc0b7b5457",
+      "discovered_at": "2026-11-26",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-26",
+          "source_id": "restud"
+        }
+      ]
+    },
+    {
+      "title": "DP22221 Timing and Targeting in Network Games",
+      "authors": [
+        "Arthur Campbell, Alireza Mohammadi Sepahvand, Yves Zenou"
+      ],
+      "abstract": "We study how the timing of intervention affects optimal targeting in network games with strategic complementarities and incomplete information. Individuals differ in their number of connections and choose effort before knowing who their neighbors will be. A social planner allocates a fixed enforcement budget across degree classes to minimize total surviving activity. When enforcement and effort are chosen simultaneously, the unique equilibrium targets the most connected individuals and equalizes effort across targeted classes, without fully eliminating any class. When the planner can commit to",
+      "source_url": "https://cepr.org/publications/dp22221",
+      "doi": "",
+      "aliases": [
+        "cepr:22221"
+      ],
+      "first_public_date": "2026-11-25",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22221"
+        }
+      ],
+      "id": "p_e214033871b906",
+      "discovered_at": "2026-11-26",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-26",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "Fine Stratification of Survey Experiments",
+      "authors": [
+        "Max Cytrynbaum"
+      ],
+      "abstract": "Abstract This paper studies a two-stage model of experimentation, where the researcher first samples representative experimental participants from an eligible pool, then assigns each sampled unit to treatment or control, using matched k-tuples randomization at both stages. To implement such designs, we develop a fast algorithm for matching units into k-tuples for any k ≥ 2 and any dimension of covariates. By surveying 200 recent experimental working papers, we estimate that our algorithm newly enables multivariate fine stratification with provable match quality guarantees in about 48% of recen",
+      "source_url": "https://doi.org/10.1093/restud/rdag131",
+      "doi": "10.1093/restud/rdag131",
+      "aliases": [
+        "doi:10.1093/restud/rdag131"
+      ],
+      "first_public_date": "2026-11-25",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "restud",
+          "name": "The Review of Economic Studies",
+          "url": "https://doi.org/10.1093/restud/rdag131"
+        }
+      ],
+      "id": "p_51b789828b6321",
+      "discovered_at": "2026-11-26",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-26",
+          "source_id": "restud"
+        }
+      ]
+    },
+    {
+      "title": "Strengthening pledgee rights and stock price crash risk",
+      "authors": [
+        "Chinmoy Ghosh",
+        "R. Shruti",
+        "M. Thenmozhi"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jcorpfin.2026.103116",
+      "doi": "10.1016/j.jcorpfin.2026.103116",
+      "aliases": [
+        "doi:10.1016/j.jcorpfin.2026.103116"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jcf",
+          "name": "Journal of Corporate Finance",
+          "url": "https://doi.org/10.1016/j.jcorpfin.2026.103116"
+        }
+      ],
+      "id": "p_dd93f514338c8f",
+      "discovered_at": "2026-11-26",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-26",
+          "source_id": "jcf"
+        }
+      ]
+    },
     {
       "title": "Carbon home bias",
       "authors": [
