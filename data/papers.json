@@ -1,8 +1,294 @@
 {
   "schema_version": 1,
   "snapshot": "incremental-ingestion",
-  "updated_at": "2026-11-26T09:36:27+00:00",
+  "updated_at": "2026-11-27T09:43:12+00:00",
   "papers": [
+    {
+      "title": "Editorial Board",
+      "authors": [],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/s0304-3878(26)00261-0",
+      "doi": "10.1016/s0304-3878(26)00261-0",
+      "aliases": [
+        "doi:10.1016/s0304-3878(26)00261-0"
+      ],
+      "first_public_date": "2027-02",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jde",
+          "name": "Journal of Development Economics",
+          "url": "https://doi.org/10.1016/s0304-3878(26)00261-0"
+        }
+      ],
+      "id": "p_c24156aa78fb84",
+      "discovered_at": "2026-11-27",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-27",
+          "source_id": "jde"
+        }
+      ]
+    },
+    {
+      "title": "Improving VAT compliance by switching who remits the tax: Evidence from construction firms",
+      "authors": [
+        "Juho Junttila",
+        "Aliisa Koivisto",
+        "Annika Nivala"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jpubeco.2026.105831",
+      "doi": "10.1016/j.jpubeco.2026.105831",
+      "aliases": [
+        "doi:10.1016/j.jpubeco.2026.105831"
+      ],
+      "first_public_date": "2026-12",
+      "stage": "journal",
+      "discipline": "public-econ",
+      "sources": [
+        {
+          "id": "jpub",
+          "name": "Journal of Public Economics",
+          "url": "https://doi.org/10.1016/j.jpubeco.2026.105831"
+        }
+      ],
+      "id": "p_f31b418037f015",
+      "discovered_at": "2026-11-27",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-27",
+          "source_id": "jpub"
+        }
+      ]
+    },
+    {
+      "title": "DP22224 Idea Rents and Firm Growth",
+      "authors": [
+        "Timo Boppart, Peter J. Klenow, Reiko Laski, Huiyu Li"
+      ],
+      "abstract": "Which firms drive aggregate productivity growth? We document that firms with high price-earnings ratios tend to see increases in their subsequent earnings relative to sales, which we interpret as rents from ideas (innovation). We construct an endogenous growth model with shocks to firm innovation step-sizes and R&D efficiency and calibrate it to match patterns in the data. The model implies that growth would be much lower, even with the same innovative effort, if firms had the same step sizes. The model can be used to infer expected growth contributions of individual firms (such as members of ",
+      "source_url": "https://cepr.org/publications/dp22224",
+      "doi": "",
+      "aliases": [
+        "cepr:22224"
+      ],
+      "first_public_date": "2026-11-27",
+      "stage": "working-paper",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22224"
+        }
+      ],
+      "id": "p_09d1927085fbdf",
+      "discovered_at": "2026-11-27",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-27",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "Programmable Repayment: Risk-Sharing and Enforcement Through the Payment Platform",
+      "authors": [
+        "Kumar Rishabh",
+        "Alessandro Di Stefano"
+      ],
+      "abstract": "Abstract Payment platforms increasingly offer merchants loans with programmable repayment, deducting a share of merchants’ platform sales toward repayment. The contract transfers part of merchants’ cash-flow risk to the lender and automates collection, but merchants partly control which sales the platform processes. This puts risk-sharing in tension with enforcement. At a major Indian payment platform, merchants accept offers more often when sales are volatile or outside debts are overdue. After disbursal, borrowers’ platform sales fall 12 percent relative to matched controls. Declines are lar",
+      "source_url": "https://doi.org/10.1093/rof/rfag056",
+      "doi": "10.1093/rof/rfag056",
+      "aliases": [
+        "doi:10.1093/rof/rfag056"
+      ],
+      "first_public_date": "2026-11-26",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "rof",
+          "name": "Review of Finance",
+          "url": "https://doi.org/10.1093/rof/rfag056"
+        }
+      ],
+      "id": "p_0e948585ac62aa",
+      "discovered_at": "2026-11-27",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-27",
+          "source_id": "rof"
+        }
+      ]
+    },
+    {
+      "title": "Firms’ Perceived Cost of Capital",
+      "authors": [
+        "Niels Joachim Gormsen",
+        "Kilian Huber"
+      ],
+      "abstract": "Abstract We analyze firms’ perceptions of their cost of capital using hand-collected data. The perceived cost of capital is associated with the allocation of capital across firms. In a model with inefficient financial markets, firms can maximize their current market value by setting their perceived cost of capital equal to the expected returns on their debt and equity. In the data, little variation in firms’ perceived cost of capital can be justified by variation in expected returns, suggesting that firms do not follow this market-value maximization benchmark. Alternatively, firms may aim to m",
+      "source_url": "https://doi.org/10.1093/qje/qjag056",
+      "doi": "10.1093/qje/qjag056",
+      "aliases": [
+        "doi:10.1093/qje/qjag056"
+      ],
+      "first_public_date": "2026-11-26",
+      "stage": "journal",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "qje",
+          "name": "The Quarterly Journal of Economics",
+          "url": "https://doi.org/10.1093/qje/qjag056"
+        }
+      ],
+      "id": "p_bead84f256ff46",
+      "discovered_at": "2026-11-27",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-27",
+          "source_id": "qje"
+        }
+      ]
+    },
+    {
+      "title": "Correcting the Unobserved Textual Confounding Factors in Regression by BERT and Partially Linear Regression",
+      "authors": [
+        "Mengke Qiao",
+        "Ke-Wei Huang"
+      ],
+      "abstract": "In the last decade, there has been a surge of text-mining applications in the information systems literature. In these applications, researchers typically construct independent variables from documents by various text-mining techniques. The most prominent example could be using online review sentiments to investigate online word-of-mouth issues. Typically, most documents contain information richer than the independent variable, and researchers may construct control variables from the same documents to alleviate endogeneity issues. However, researchers need to manually craft these variables, an",
+      "source_url": "https://doi.org/10.1287/mnsc.2024.04758",
+      "doi": "10.1287/mnsc.2024.04758",
+      "aliases": [
+        "doi:10.1287/mnsc.2024.04758"
+      ],
+      "first_public_date": "2026-11-26",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2024.04758"
+        }
+      ],
+      "id": "p_33c2c067c42cc1",
+      "discovered_at": "2026-11-27",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-27",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Reducing Risk Through Trade Credit: Theory and Evidence from Dual-Channel Suppliers",
+      "authors": [
+        "Jie Ning",
+        "Sammi Y. Tang",
+        "Jing Wu",
+        "Jiaqi Zhu"
+      ],
+      "abstract": "Trade credit is traditionally viewed as increasing supplier risk, because delayed payments expose suppliers to buyer uncertainties. Using a stylized game-theoretic model, we show that this conventional wisdom can be overturned when a supplier is dual channel: operating a direct channel that sells to end customers in addition to an indirect channel that sells to an industry peer who serves the same market. Compared with zero trade credit provision where the supplier requires cash on delivery (COD), we observe empirically that high trade credit provision can lead to lower risk for the dual-chann",
+      "source_url": "https://doi.org/10.1287/mnsc.2025.03142",
+      "doi": "10.1287/mnsc.2025.03142",
+      "aliases": [
+        "doi:10.1287/mnsc.2025.03142"
+      ],
+      "first_public_date": "2026-11-26",
+      "stage": "journal",
+      "discipline": "trade",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2025.03142"
+        }
+      ],
+      "id": "p_3806cddd6213cc",
+      "discovered_at": "2026-11-27",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-27",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Inferential Theory for Pricing Errors with Latent Factors and Firm Characteristics",
+      "authors": [
+        "Jungjun Choi",
+        "Ming Yuan"
+      ],
+      "abstract": "We study factor models that combine latent factors with firm characteristics and propose a new framework for modeling, estimating, and inferring pricing errors. Following Zhang (2024), our approach decomposes mispricing into two distinct components: inside alpha, explained by firm characteristics but orthogonal to factor exposures, and outside alpha, orthogonal to both factors and characteristics. Our model generalizes those developed recently such as Kelly et al. (2019) and Zhang (2024), resolving issues of orthogonality, basis dependence, and unit sensitivity. Methodologically, we develop es",
+      "source_url": "https://doi.org/10.1287/mnsc.2025.04971",
+      "doi": "10.1287/mnsc.2025.04971",
+      "aliases": [
+        "doi:10.1287/mnsc.2025.04971"
+      ],
+      "first_public_date": "2026-11-26",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2025.04971"
+        }
+      ],
+      "id": "p_7311c671054ac5",
+      "discovered_at": "2026-11-27",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-27",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Echoes of Discord: The Effects of Global Conflicts and Disputes on Entrepreneurship",
+      "authors": [
+        "Astrid Marinoni"
+      ],
+      "abstract": "Mixed-nationality founding teams bring together heterogeneous, hard-to-replicate bundles of human capital and country-specific ties through their cross-national networks, providing a distinctive foundation for building successful ventures. Yet these connections may be vulnerable to nonmarket shocks. This study examines whether geopolitical conflicts and disputes between the countries of origin of immigrant founders affect the formation of new ventures. Leveraging data on the founders of start-ups established in Great Britain and global information on conflicts and disputes, I find that such te",
+      "source_url": "https://doi.org/10.1287/mnsc.2025.04559",
+      "doi": "10.1287/mnsc.2025.04559",
+      "aliases": [
+        "doi:10.1287/mnsc.2025.04559"
+      ],
+      "first_public_date": "2026-11-26",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2025.04559"
+        }
+      ],
+      "id": "p_c1ff75b0f59818",
+      "discovered_at": "2026-11-27",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-27",
+          "source_id": "ms"
+        }
+      ]
+    },
     {
       "title": "SALT cap workarounds",
       "authors": [
