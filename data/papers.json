@@ -1,8 +1,229 @@
 {
   "schema_version": 1,
   "snapshot": "incremental-ingestion",
-  "updated_at": "2026-11-27T09:43:12+00:00",
+  "updated_at": "2026-11-28T08:57:07+00:00",
   "papers": [
+    {
+      "title": "DP22228 Scientific reasoning as a meta-skill: Evidence from “superjumpers” in labor markets",
+      "authors": [
+        "Matteo Devigili, Alessandro Sforza"
+      ],
+      "abstract": "Technological change reshapes the skills jobs require, yet we know little about which skills help workers adapt. We study superjumpers: workers who move into better-paid occupations whose skill requirements differ sharply from those of their previous jobs. Succeeding in such a move requires gaining proficiency in new skills, so we interpret the skills that are associated with it as meta-skills. We use career histories, occupational skill profiles and compensation data for 47,298 master’s graduates of ten selective U.S. universities, and compare workers within the same school, field and graduat",
+      "source_url": "https://cepr.org/publications/dp22228",
+      "doi": "",
+      "aliases": [
+        "cepr:22228"
+      ],
+      "first_public_date": "2026-11-28",
+      "stage": "working-paper",
+      "discipline": "labor",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22228"
+        }
+      ],
+      "id": "p_b7da82046f37ff",
+      "discovered_at": "2026-11-28",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-28",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22226 AI and Cybersecurity: an Equilibrium Approach",
+      "authors": [
+        "Alexandre de Cornière, Doh-Shin Jeon"
+      ],
+      "abstract": "Generative AI can help attackers discover and exploit vulnerabilities, but it can also help defenders discover and fix them. We study this dual-use problem in a model where an attacker and a defender choose costly search efforts to discover vulnerabilities, and AI makes this search more productive. Better AI-enabled search has non-monotonic effects on breach risk and can make some targets safer while leaving others more exposed. These effects depend on attackers’ gains, defenders’ potential losses, and the speed of exploitation relative to remediation. We then introduce a monopolist AI provide",
+      "source_url": "https://cepr.org/publications/dp22226",
+      "doi": "",
+      "aliases": [
+        "cepr:22226"
+      ],
+      "first_public_date": "2026-11-27",
+      "stage": "working-paper",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22226"
+        }
+      ],
+      "id": "p_8a2ed8ac2f9aa5",
+      "discovered_at": "2026-11-28",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-28",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22227 Preference Disclosure, Product Design and Pricing",
+      "authors": [
+        "Nenad Kos, Goonj Mohan"
+      ],
+      "abstract": "This paper analyzes voluntary cheap-talk disclosure of consumer tastes to a seller that personalizes product design and pricing. Disclosure improves product matching but allows the seller to extract a larger share of the surplus through more precise price personalization. When the taste density is log-concave, a greedy partition, or a generalization of it, supports an equilibrium that maximizes ex ante consumer surplus. The partition is constructed by successively selecting the most profitable segment from the remaining consumers. In this equilibrium, all consumers purchase, but those with nic",
+      "source_url": "https://cepr.org/publications/dp22227",
+      "doi": "",
+      "aliases": [
+        "cepr:22227"
+      ],
+      "first_public_date": "2026-11-27",
+      "stage": "working-paper",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22227"
+        }
+      ],
+      "id": "p_496a6536ad6bb9",
+      "discovered_at": "2026-11-28",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-28",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "DP22225 Letting the Market Shape the Endpoint:   Long-Run Rate Expectations, Term Premia and Debt Sustainability",
+      "authors": [
+        "Ana Beatriz Galvão, Jamie Rush, Simon Lloyd"
+      ],
+      "abstract": "Term premia on government bonds are typically estimated using affine term-structure models in which short rates revert to an unconditional mean, making long-run expectations sensitive to the estimation sample. We propose a market-based, time-varying endpoint model in which a medium-horizon OIS forward enters as an unspanned factor shifting long-run rate expectations. Applied to US, German and UK yields, the model implies that about half the variation in the swap forward passes through to long-horizon short-rate expectations, while 30-year term premia are half as volatile as under a standard mo",
+      "source_url": "https://cepr.org/publications/dp22225",
+      "doi": "",
+      "aliases": [
+        "cepr:22225"
+      ],
+      "first_public_date": "2026-11-27",
+      "stage": "working-paper",
+      "discipline": "public-econ",
+      "sources": [
+        {
+          "id": "cepr",
+          "name": "CEPR Discussion Papers",
+          "url": "https://cepr.org/publications/dp22225"
+        }
+      ],
+      "id": "p_35c3cf08cb4714",
+      "discovered_at": "2026-11-28",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-28",
+          "source_id": "cepr"
+        }
+      ]
+    },
+    {
+      "title": "Payout Taxes Matter: The Financing R&D Mechanism",
+      "authors": [
+        "James R. Brown",
+        "Gustav Martinsson"
+      ],
+      "abstract": "Higher taxes on corporate payouts increase the cost of financing with stock issues. As a result, corporate investments that rely on external equity financing should be particularly sensitive to payout tax rates. A large literature shows that firms rely extensively on stock issues to fund research and development (R&D), suggesting that the financing of R&D is a potentially important microlevel mechanism linking payout taxation with real corporate activity. We document a robust negative association between dividend tax rates and firm R&D investment in a broad sample of developed countries betwee",
+      "source_url": "https://doi.org/10.1287/mnsc.2023.03394",
+      "doi": "10.1287/mnsc.2023.03394",
+      "aliases": [
+        "doi:10.1287/mnsc.2023.03394"
+      ],
+      "first_public_date": "2026-11-27",
+      "stage": "journal",
+      "discipline": "finance",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.03394"
+        }
+      ],
+      "id": "p_3a8f534a9aa652",
+      "discovered_at": "2026-11-28",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-28",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Does FinTech Innovation Improve Traditional Banks’ Operating Efficiency and Risk? Empirical Evidence from Patent Filings",
+      "authors": [
+        "Libing Fang",
+        "Xindan Li",
+        "Avanidhar Subrahmanyam",
+        "Ke Zhang"
+      ],
+      "abstract": "We empirically examine the link between bank-specific innovations in financial technology (FinTech) and traditional banks’ fundamentals. We propose a new measure for FinTech innovation as the textual similarity of banks’ patent filings to standard FinTech policy documents. We show that FinTech innovation implies enhanced efficiency, profitability, and operating capacity (e.g., cost management, funding and lending activity). FinTech also ameliorates banks’ risk measures, including overall risk (Z-score), the liquidity, and nonperforming loan ratios. Our heterogeneity analysis suggests that bank",
+      "source_url": "https://doi.org/10.1287/mnsc.2025.03691",
+      "doi": "10.1287/mnsc.2025.03691",
+      "aliases": [
+        "doi:10.1287/mnsc.2025.03691"
+      ],
+      "first_public_date": "2026-11-27",
+      "stage": "journal",
+      "discipline": "ai-technology",
+      "sources": [
+        {
+          "id": "ms",
+          "name": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2025.03691"
+        }
+      ],
+      "id": "p_e52bb3171a65a2",
+      "discovered_at": "2026-11-28",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-28",
+          "source_id": "ms"
+        }
+      ]
+    },
+    {
+      "title": "Constraints on children’s education: Enrollment, effort, and work decisions in Mexico",
+      "authors": [
+        "Gabrielle Vasey"
+      ],
+      "abstract": "",
+      "source_url": "https://doi.org/10.1016/j.jdeveco.2026.103971",
+      "doi": "10.1016/j.jdeveco.2026.103971",
+      "aliases": [
+        "doi:10.1016/j.jdeveco.2026.103971"
+      ],
+      "first_public_date": "2026-11",
+      "stage": "journal",
+      "discipline": "other",
+      "sources": [
+        {
+          "id": "jde",
+          "name": "Journal of Development Economics",
+          "url": "https://doi.org/10.1016/j.jdeveco.2026.103971"
+        }
+      ],
+      "id": "p_3ce76896d9968e",
+      "discovered_at": "2026-11-28",
+      "events": [
+        {
+          "kind": "discovered",
+          "date": "2026-11-28",
+          "source_id": "jde"
+        }
+      ]
+    },
     {
       "title": "Editorial Board",
       "authors": [],
